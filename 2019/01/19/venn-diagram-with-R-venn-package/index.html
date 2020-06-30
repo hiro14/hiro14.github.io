@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-ema.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-ema.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-ema.ico">
+  <link rel="mask-icon" href="/images/logo-ema.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/css?family=Lato:300,300italic,400,400italic,700,700italic|Amatic SC:300,300italic,400,400italic,700,700italic|Noto Serif SC:300,300italic,400,400italic,700,700italic|Lora:300,300italic,400,400italic,700,700italic|Ubuntu Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"hiro14.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言 如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。 需求 我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查">
+<meta property="og:type" content="article">
+<meta property="og:title" content="简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图">
+<meta property="og:url" content="hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/index.html">
+<meta property="og:site_name" content="Nachtzug">
+<meta property="og:description" content="前言 如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。 需求 我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.imgur.com/fxeidw1.png">
+<meta property="og:image" content="https://i.imgur.com/EF6bcVv.png">
+<meta property="og:image" content="https://i.imgur.com/cM2VIaz.png">
+<meta property="article:published_time" content="2019-01-19T08:49:55.000Z">
+<meta property="article:modified_time" content="2019-01-19T16:54:40.000Z">
+<meta property="article:author" content="シズル">
+<meta property="article:tag" content="R">
+<meta property="article:tag" content="venn diagram">
+<meta property="article:tag" content="practice">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/fxeidw1.png">
+
+<link rel="canonical" href="hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图 | Nachtzug</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="Nachtzug" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Nachtzug</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">「夜行列車」</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="シズル">
+      <meta itemprop="description" content="これでいいんだよ。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nachtzug">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-01-19 16:49:55" itemprop="dateCreated datePublished" datetime="2019-01-19T16:49:55+08:00">2019-01-19</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="前言">前言</h2>
+<p>如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
+<h2 id="需求">需求</h2>
+<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
+<h2 id="准备">准备</h2>
+<p>一个用 Python 做了预处理的文件，格式大致如下：</p>
+<table>
+<thead>
+<tr class="header">
+<th>groupname</th>
+<th>groupvalue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>g1</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>g1</td>
+<td>B</td>
+</tr>
+<tr class="odd">
+<td>g2</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td>g5</td>
+<td>C</td>
+</tr>
+<tr class="even">
+<td>g5</td>
+<td>D</td>
+</tr>
+</tbody>
+</table>
+<p>其中第一列是组别，有五组，第二列是组别各自对应的数值，彼此有相同的部分。当然可以用 R 做数据预处理，不过这里省略基础部分，直接从成熟的数据开始处理。</p>
+<p>参考网上的教程，包括：</p>
+<p><a href="https://www.cnblogs.com/xianghang123/archive/2013/03/25/2980623.html" target="_blank" rel="noopener">【R作图】在R中绘制韦恩图的几种方法 和 一些漂亮的venn图</a></p>
+<p><a href="https://qiubio.com/archives/2603" target="_blank" rel="noopener">R绘图基础（五）文氏图vennDiagram</a></p>
+<p><a href="http://blog.biochen.com/archives/520" target="_blank" rel="noopener">使用VennDiagram包绘制韦恩图</a></p>
+<p>以及一个貌似是利用自己写的代码配合 matplotlib 绘图的库 <a href="https://github.com/tctianchi/pyvenn" target="_blank" rel="noopener">tctianchi/pyvenn</a></p>
+<p>方法包括 R 里面的 limma::vennDiagram, gplot::venn, venneuler, VennDiagram 和 python 里面的 pyvenn库，以及一些在线工具。</p>
+<p>其中 limma 和 venneuler 只能画三组数据,不符合我的要求，另外大佬们的文章似乎有点过时，我看现在有些包应该没那么弱了吧。至于我为什么不用 python 的库，没有为什么，就像我今晚突然不想吃我爱吃的肥宅快乐餐一样。</p>
+<p>然后发现了独立的 venn 包，上面的文章里提到2012年的时候找不到 venn 包了，但是我误打误撞在 google 首页就翻到了 venn 1.7 的文档，一看时间发布于2018年七月底<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，就感觉很迷。研究了一会，感觉看进去了，那好吧就用它了！</p>
+<h2 id="操作">操作</h2>
+<h3 id="基础入门三步走">基础入门三步走</h3>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">install.packages(<span class="string">"venn"</span>) <span class="comment">#安装</span></span><br><span class="line"><span class="keyword">library</span>(venn) <span class="comment">#导入</span></span><br><span class="line">?venn <span class="comment">#查看文档</span></span><br></pre></td></tr></table></figure>
+<p>前面文档说了一堆，跳过了，直奔主题看五组数据怎么画。没错我就是这么功利而不求甚解。</p>
+<h3 id="直接看-usage-里的-arguments">直接看 Usage 里的 arguments</h3>
+<blockquote>
+<p>x - 单个数字（集合）或元模型公式，或包含设置值的<strong>列表</strong>，或包含布尔值的数据集。 <code>关键词，可以扔 list 进去</code></p>
+<p>snames - 包含每个集名称的可选参数。</p>
+<p>ilabels - 打印每个交叉点的标签。 <code>TRUE 是打印， FALSE 为否</code></p>
+<p>counts - 每组交集的计数的数字向量。</p>
+<p>ellipse - 尽可能将形状强制为椭圆。 <code>TRUE 是把区域变成椭圆， FALSE 为否</code></p>
+<p>zcolor - 自定义区域的颜色矢量，或“样式”的预定义颜色</p>
+<p>opacity - 就是用数值调不透明度</p>
+<p>size - 就是用数值调整绘图大小，以厘米为单位。</p>
+<p>cexil - 就是用数值调整每个交集区域数值标签的字体大小免得看不清</p>
+<p>cexsn - 就是用数值调整集合名称标签的字体大小</p>
+<p>borders - 绘制所有交叉点边界 <code>看不出来效果</code></p>
+</blockquote>
+<p>(对不起，上面是我机翻+脑补的，因为实在懒得打字)</p>
+<h3 id="数据导入及基本作图">数据导入及基本作图</h3>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">datasets &lt;- read.table(<span class="string">"/path/to/your/data.txt"</span>, header = <span class="literal">TRUE</span>, sep = <span class="string">'\t'</span>) <span class="comment">#导入数据，数据格式见前文，路径自己填，数据包含表头， Tab 分隔</span></span><br><span class="line">g1 = datasets$groupvalue[datasets$groupname == <span class="string">'g1'</span>] <span class="comment">#把同 groupname 的 groupvalue 们归类到一个 factor 中，下略</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">x = list(g1,g2,g3,g4,g5) <span class="comment">#将五组数据也就是五个 factor 放入一个 list 中</span></span><br><span class="line">venn(x) <span class="comment">#文氏图飞来！</span></span><br></pre></td></tr></table></figure>
+<p>出图。</p>
+<p><img src="https://i.imgur.com/fxeidw1.png" /></p>
+<h3 id="太单调来点高级的">太单调？来点高级的。</h3>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#指定集合名称，设置默认的颜色风格，把交集区域数值标签字体改大到1，集合名称标签字体改成0.8</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/EF6bcVv.png" /></p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, ellipse = <span class="literal">TRUE</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#诸君，我喜欢椭圆</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/cM2VIaz.png" /></p>
+<h2 id="后记">后记</h2>
+<p>以上就是此次玩弄 venn 包的过程，我自己的目的已经达到了，可以进行下一步的研究了。内容非常简单，我不写你们也能学会，希望大家不要因为我写的这堆乱七八糟的东西，反而看不懂了。对这个包有更深兴趣的朋友可以自行查阅文档里其他功能的介绍。</p>
+<p>venn 包支持最高七组数据的文氏图绘制，你们可以 <code>venn(7)</code> 简单看看效果。</p>
+<p><strong>参考</strong></p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/32350930" target="_blank" rel="noopener">7维韦恩图 7-set Venn Diagram | 知乎专栏</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><a href="https://cran.r-project.org/web/packages/venn/venn.pdf" target="_blank" rel="noopener">Package ‘venn’</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>シズル
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="/hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/" title="简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图">hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/R/" rel="tag"># R</a>
+              <a href="/tags/venn-diagram/" rel="tag"># venn diagram</a>
+              <a href="/tags/practice/" rel="tag"># practice</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2018/12/31/hello-2019/" rel="prev" title="说要写2018年末总结其实是骗人的">
+      <i class="fa fa-chevron-left"></i> 说要写2018年末总结其实是骗人的
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2019/03/06/2019-03-06/" rel="next" title="停滞">
+      停滞 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需求"><span class="nav-number">2.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备"><span class="nav-number">3.</span> <span class="nav-text">准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作"><span class="nav-number">4.</span> <span class="nav-text">操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#基础入门三步走"><span class="nav-number">4.1.</span> <span class="nav-text">基础入门三步走</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#直接看-usage-里的-arguments"><span class="nav-number">4.2.</span> <span class="nav-text">直接看 Usage 里的 arguments</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据导入及基本作图"><span class="nav-number">4.3.</span> <span class="nav-text">数据导入及基本作图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#太单调来点高级的"><span class="nav-number">4.4.</span> <span class="nav-text">太单调？来点高级的。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后记"><span class="nav-number">5.</span> <span class="nav-text">后记</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="シズル"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">シズル</p>
+  <div class="site-description" itemprop="description">これでいいんだよ。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">53</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:shizuru.koiwai@gmail.com" title="E-Mail → mailto:shizuru.koiwai@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://nebula.moe/@shizuru" title="Mastodon → https:&#x2F;&#x2F;nebula.moe&#x2F;@shizuru" rel="noopener" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://sanmeiji.github.io/" title="https:&#x2F;&#x2F;sanmeiji.github.io&#x2F;" rel="noopener" target="_blank">人生的意义在于摸鱼</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://desvl.xyz/" title="https:&#x2F;&#x2F;desvl.xyz&#x2F;" rel="noopener" target="_blank">Desvl's Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://m1dor1.github.io/9.75/" title="https:&#x2F;&#x2F;m1dor1.github.io&#x2F;9.75&#x2F;" rel="noopener" target="_blank">Platform 9.75</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://hweining.online/" title="https:&#x2F;&#x2F;hweining.online&#x2F;" rel="noopener" target="_blank">hweining's garden</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://blog.lycheeee.top/" title="https:&#x2F;&#x2F;blog.lycheeee.top&#x2F;" rel="noopener" target="_blank">Lychee's Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://miyehn.me/blog/" title="https:&#x2F;&#x2F;miyehn.me&#x2F;blog&#x2F;" rel="noopener" target="_blank">槽</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://co5.me/" title="https:&#x2F;&#x2F;co5.me&#x2F;" rel="noopener" target="_blank">†少女癌†</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://boe301.wordpress.com/" title="https:&#x2F;&#x2F;boe301.wordpress.com&#x2F;" rel="noopener" target="_blank">伏波的个站</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://i.nebula.moe/" title="https:&#x2F;&#x2F;i.nebula.moe&#x2F;" rel="noopener" target="_blank">奇想齋</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.starryvoid.com/" title="https:&#x2F;&#x2F;www.starryvoid.com&#x2F;" rel="noopener" target="_blank">StarryVoid</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://ioover.net/" title="https:&#x2F;&#x2F;ioover.net&#x2F;" rel="noopener" target="_blank">读写终子</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.ogura.io/" title="https:&#x2F;&#x2F;www.ogura.io&#x2F;" rel="noopener" target="_blank">xiaocang</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://lanssshelf.home.blog/" title="https:&#x2F;&#x2F;lanssshelf.home.blog&#x2F;" rel="noopener" target="_blank">lanshome</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2016 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-pizza-slice"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"><a rel="me noopener" href="https://nebula.moe/@shizuru" target="_blank">シズル</a></span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
