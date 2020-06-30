@@ -36,6 +36,17 @@
       </tags>
   </entry>
   <entry>
+    <title>Predicted protein interactome for T.reesei integration of interaction data</title>
+    <url>/2016/02/29/2016-02-29-PRIN-3/</url>
+    <content><![CDATA[<p>今天是2月29日呢，需不需要特别纪念一下呢。好吧也没啥大不了的。</p>
+<p>虽然标题写着今天要做什么但是我对具体步骤毫无头绪。是缺乏这方面的才能吗，还是因为拖延和害怕失败而驻足不前呢。</p>
+<p>还有另外两项头疼的事情在干扰我。痛苦。先做那两件事吧。</p>
+]]></content>
+      <tags>
+        <tag>Project</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Predicted protein interactome for T.reesei</title>
     <url>/2016/02/27/2016-02-27-PRIN/</url>
     <content><![CDATA[<p>好的，现在稍作休息。 实在是拖得不能再拖了，手里的PRIN项目不赶快结束掉，不但今后自己的研究之路会被毁掉，在实验室也会没有立足之地。 逐渐觉得自己的注意力在不断的下降后，对自己坚持做一件事情越来越没有信心，将工作效率的下降简单归咎于外界干扰，实际上是懦夫的行为。 但是我真的很难在用心隔绝一切外借骚扰。</p>
@@ -64,34 +75,9 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>Predicted protein interactome for T.reesei integration of interaction data</title>
-    <url>/2016/02/29/2016-02-29-PRIN-3/</url>
-    <content><![CDATA[<p>今天是2月29日呢，需不需要特别纪念一下呢。好吧也没啥大不了的。</p>
-<p>虽然标题写着今天要做什么但是我对具体步骤毫无头绪。是缺乏这方面的才能吗，还是因为拖延和害怕失败而驻足不前呢。</p>
-<p>还有另外两项头疼的事情在干扰我。痛苦。先做那两件事吧。</p>
-]]></content>
-      <tags>
-        <tag>Project</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello March</title>
     <url>/2016/03/01/2016-03-01-Hello-March/</url>
     <content><![CDATA[<p>Tweetdeck真乃提升阅读体验和效率的神器。</p>
-]]></content>
-      <tags>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>强力拖延</title>
-    <url>/2016/03/02/2016-03-02-Procrastination/</url>
-    <content><![CDATA[<p>从昨天算起已经荒废了一天半的时间。</p>
-<p>昨天写了biopeptidedb的introduction，但是没写完，因为有一段需要参考很多文献。</p>
-<p>PRIN那块没有碰，因为看到人类的数据没跑好就没有心情，而且我的脑子里同时想着到底是先处理同源映射呢还是先处理互作数据的整合，还是做别的事情？</p>
-<p>于是就在这种纠结的心情中浪费了大量的时间，空坐在电脑前。我对自己很不满意。</p>
-<p>我因为各种各样的理由推脱，逃避，然而还是走到了今天，这一切都是因为有太多人在包容我。</p>
-<p>不再快点做些什么的话……</p>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -112,6 +98,20 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
+    <title>强力拖延</title>
+    <url>/2016/03/02/2016-03-02-Procrastination/</url>
+    <content><![CDATA[<p>从昨天算起已经荒废了一天半的时间。</p>
+<p>昨天写了biopeptidedb的introduction，但是没写完，因为有一段需要参考很多文献。</p>
+<p>PRIN那块没有碰，因为看到人类的数据没跑好就没有心情，而且我的脑子里同时想着到底是先处理同源映射呢还是先处理互作数据的整合，还是做别的事情？</p>
+<p>于是就在这种纠结的心情中浪费了大量的时间，空坐在电脑前。我对自己很不满意。</p>
+<p>我因为各种各样的理由推脱，逃避，然而还是走到了今天，这一切都是因为有太多人在包容我。</p>
+<p>不再快点做些什么的话……</p>
+]]></content>
+      <tags>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>南非签证与机票都搞定了</title>
     <url>/2016/03/03/2016-03-03-Heading-for-Cape-Town/</url>
     <content><![CDATA[<p>今天得知南非的签证已经办下来了，想想这两个月各种折腾也值了。随即定了机票，3.14从杭州途径香港去开普敦，3.18原路返回。</p>
@@ -120,22 +120,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>昨晚得知高中时代一直关注的网球文字直播员癌症去世的消息，极为震惊。年轻的生命就这样凋谢，实在可惜。感谢Eric让我能更好地了解网球，爱上网球。</p>
 <p>今天还有什么事……啊，今天还是专注于PRIN的构建。昨晚写了一部分iCelLoc的后台脚本，可惜工作效率不是很高，写出来的程序算法也不太好，预计要运行很长时间。</p>
 <p>加油。</p>
-]]></content>
-      <tags>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>If you find me crying in the dark, please call my name&#39; from the heart.</title>
-    <url>/2016/03/06/2016-03-06-no-title/</url>
-    <content><![CDATA[<p>写了两天的基金了。完全没有意识到是这么令人头大的事。</p>
-<p>在DigitalOcean上安装R失败。</p>
-<p>南非的报告幻灯片还压根没动。</p>
-<p>手里还有四个任务要同时做。</p>
-<p>今天iPod不能开机一次，Home+电源键才恢复。就这一个星期使用iOS的体验，我觉得还是比较满意的。</p>
-<p>98站务组开会达成了新的目标。新的一年98会如何发展呢，真期待啊。</p>
-<p>这几天的新闻报道都比较敏感，某些人简直草木皆兵。生活在这个国家的窒息感越来越重了。</p>
-<p>我必须要坚持下去，把握自己的原则，追求自己想要的东西，一刻不停地向往自由。</p>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -162,6 +146,41 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>天气不错，心情也好。虽然早上起来发现Travian里的三村被隔壁老外给夷平了，不过游戏嘛，认真就输了。</p>
 <p>感觉自己有思路，希望午饭前后能把内容憋出来。</p>
 <p>加油！</p>
+]]></content>
+      <tags>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>If you find me crying in the dark, please call my name&#39; from the heart.</title>
+    <url>/2016/03/06/2016-03-06-no-title/</url>
+    <content><![CDATA[<p>写了两天的基金了。完全没有意识到是这么令人头大的事。</p>
+<p>在DigitalOcean上安装R失败。</p>
+<p>南非的报告幻灯片还压根没动。</p>
+<p>手里还有四个任务要同时做。</p>
+<p>今天iPod不能开机一次，Home+电源键才恢复。就这一个星期使用iOS的体验，我觉得还是比较满意的。</p>
+<p>98站务组开会达成了新的目标。新的一年98会如何发展呢，真期待啊。</p>
+<p>这几天的新闻报道都比较敏感，某些人简直草木皆兵。生活在这个国家的窒息感越来越重了。</p>
+<p>我必须要坚持下去，把握自己的原则，追求自己想要的东西，一刻不停地向往自由。</p>
+]]></content>
+      <tags>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从周三忙到周三</title>
+    <url>/2016/03/09/2016-03-09-last-chance/</url>
+    <content><![CDATA[<p>这一周的前三天眼睁睁地浪费掉了。原因是给导师写永无止境的基金申请书。几乎全实验室都被动员起来，写完正文写摘要，又是画图又是翻译，校内校外到处跑。看着时间从手里流失是一件非常痛苦的事，然而我非常清楚其实有很多琐碎的时间都能拿来完成一些事情，所以这不应该只考虑外因。但是由于个人心理方面的因素，这几个月对碎片化的时间利用率非常低，唯一考虑做的事情就是吸取信息，于是总是会无所事事地看看推特看看微博做点记录，对于自己的实际发展的作用很有限。我们都明白不把一件事赶快搞定就没法安心做另一件事，所以谁都是表面上毫无怨言地撑下去，默默地无可奈何地把“别人的任务”搞定。我个人相对来说比较欠缺多线程工作的能力，所以碰到二月中旬以来的这种状况，自觉比较吃亏。要是没有这么一个地方让我做记录，我都无法明白地控制自己一天做了什么要做什么。</p>
+<p>麻烦事看起来在今天中午告一段落了。这连轴转的几个星期，论苦劳我做的并不如其他伙伴多，论功劳也没什么实际的成就。但是总是觉得自己很忙，内部压力很大，心理调节也不如几年前。但是终究是放下了一个担子，眼下的任务只剩下在两天之内飞快地做出一个能在国外大学展示的20min幻灯片。</p>
+<p>FUCK.</p>
+<p>我并不打算放弃积极的生活态度。一如既往，过去是怎么对应deadline的，这次照着做就好了。而且目前为止战胜deadline的概率可以达到99.5%吧（笑）</p>
+<p>今天卸载了Limbo（因为通关了），安装了The Room 3（AppStore限时12元），还没开始玩。</p>
+<p>推送更新了棉花糖，Z5变得如丝般顺滑。</p>
+<p>堕落街的杨国福麻辣烫越来越难吃了，而且还挤。</p>
+<p>同源映射预测蛋白互作的项目坑了好几天了，懒得管。</p>
+<p>刚刚写好了幻灯片的大纲，仅仅是大纲（12个单词，每页一个）。</p>
+<p>今天有一件大事就是人工智能AlphaGO围棋挑战李世石吧，吸引了许多人的目光，结果第一战人类认输。干得好，人工智能。</p>
+<p>好几天没看动画了，已饥荒。</p>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -206,57 +225,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 ]]></content>
       <tags>
         <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从周三忙到周三</title>
-    <url>/2016/03/09/2016-03-09-last-chance/</url>
-    <content><![CDATA[<p>这一周的前三天眼睁睁地浪费掉了。原因是给导师写永无止境的基金申请书。几乎全实验室都被动员起来，写完正文写摘要，又是画图又是翻译，校内校外到处跑。看着时间从手里流失是一件非常痛苦的事，然而我非常清楚其实有很多琐碎的时间都能拿来完成一些事情，所以这不应该只考虑外因。但是由于个人心理方面的因素，这几个月对碎片化的时间利用率非常低，唯一考虑做的事情就是吸取信息，于是总是会无所事事地看看推特看看微博做点记录，对于自己的实际发展的作用很有限。我们都明白不把一件事赶快搞定就没法安心做另一件事，所以谁都是表面上毫无怨言地撑下去，默默地无可奈何地把“别人的任务”搞定。我个人相对来说比较欠缺多线程工作的能力，所以碰到二月中旬以来的这种状况，自觉比较吃亏。要是没有这么一个地方让我做记录，我都无法明白地控制自己一天做了什么要做什么。</p>
-<p>麻烦事看起来在今天中午告一段落了。这连轴转的几个星期，论苦劳我做的并不如其他伙伴多，论功劳也没什么实际的成就。但是总是觉得自己很忙，内部压力很大，心理调节也不如几年前。但是终究是放下了一个担子，眼下的任务只剩下在两天之内飞快地做出一个能在国外大学展示的20min幻灯片。</p>
-<p>FUCK.</p>
-<p>我并不打算放弃积极的生活态度。一如既往，过去是怎么对应deadline的，这次照着做就好了。而且目前为止战胜deadline的概率可以达到99.5%吧（笑）</p>
-<p>今天卸载了Limbo（因为通关了），安装了The Room 3（AppStore限时12元），还没开始玩。</p>
-<p>推送更新了棉花糖，Z5变得如丝般顺滑。</p>
-<p>堕落街的杨国福麻辣烫越来越难吃了，而且还挤。</p>
-<p>同源映射预测蛋白互作的项目坑了好几天了，懒得管。</p>
-<p>刚刚写好了幻灯片的大纲，仅仅是大纲（12个单词，每页一个）。</p>
-<p>今天有一件大事就是人工智能AlphaGO围棋挑战李世石吧，吸引了许多人的目光，结果第一战人类认输。干得好，人工智能。</p>
-<p>好几天没看动画了，已饥荒。</p>
-]]></content>
-      <tags>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>A spider on Expasy Peptide Cutter, by Python</title>
-    <url>/2016/03/24/2016-03-24-peptidecutter_spider/</url>
-    <content><![CDATA[<p>因为工作需要，写了一个爬虫爬取Expasy的peptidecutter页面。peptidecutter是一个模拟蛋白质水解的工具，本身使用Perl写成。</p>
-<p>本来的计划是自己用Python写，参照它的蛋白水解酶酶切规则，实现序列的读入，模拟水解，输出结果的功能。然而时间有限，涉及的酶实在太多，不管是字典还是正则都很麻烦，为了快点实现功能，就猥琐一点，直接写爬虫请求pepcutter的页面就好了，反正用同样的算法，输入相同的序列，返回的值肯定是一样的。</p>
-<p>于是开工。</p>
-<p>用到的关键模块不外乎这几个：re, urllib, urllib2。</p>
-<p>访问的url是： <a href="http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl" target="_blank" rel="noopener">http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl</a> 。</p>
-<p>需要post的value通过浏览器F12获取。</p>
-<p>写一个request header模拟浏览器。</p>
-<p>此外还有读取文件的部分，从文件中读取序列的部分。</p>
-<p>本爬虫的亮点应该就在于可以提交多序列，fasta格式，而如果对多序列没有需求，上传的是普通氨基酸序列的话，建议还是直接通过它自己网站预测水解吧，速度会快一点。</p>
-<p>然后是对抓取内容的解读，需要把水解位点和对应的酶的名称抓下来。</p>
-<p>写的时候遇到一点问题。某一个Proline-endopeptidase所在行的html代码和其他酶不一样，而且水解结果另起一行。于是不得不专门对这个酶写一个正则表达式。</p>
-<p>然后要抓的内容分六种类型：</p>
-<p>1.一般的酶，有水解，多酶切位点</p>
-<p>2.一般的酶，有水解，单酶切位点</p>
-<p>3.Proline-endopeptidase，有水解，多酶切位点</p>
-<p>4.Proline-endopeptidase，有水解，单酶切位点</p>
-<p>5.一般的酶，无水解</p>
-<p>6.Proline-endopeptidase，无水解</p>
-<p>time out属于例外。然后写if语句的时候花了不少力气，不停报错，最后写了个不是很简洁的方案，也懒得改了。</p>
-<p>最后将结果输出。运行，成功！</p>
-<p>这个程序还是有不少瑕疵的，比如条件语句太复杂，抓取的内容是纯复制（本来我的目标是根据抓取的内容高亮酶切片段的，因为最终目的是找到酶切片段中有生物活性的肽段。），缩进不够整齐等（两个空格和编辑器自动补全四个空格的混用）。希望能找个时间好好改进一下。</p>
-<p>就这样吧。</p>
-<p>以下是代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding=utf-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line">TEXT = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#.+'</span>)</span><br><span class="line">TEXT2 = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#Pro\"\&gt;.+\n.+'</span>)</span><br><span class="line">target_file = sys.argv[<span class="number">1</span>]</span><br><span class="line">out_file = <span class="string">"result.txt"</span></span><br><span class="line">out = open(out_file,<span class="string">'w'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">  infile = open(target_file,<span class="string">'r'</span>)</span><br><span class="line"><span class="keyword">except</span> IOError:</span><br><span class="line">  sys.stderr.write(<span class="string">"Cannot open fasta format sequence file %s\n"</span>% target_file)</span><br><span class="line">  sys.exit(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">ID = <span class="number">0</span></span><br><span class="line">seq_store = &#123;&#125;</span><br><span class="line">header_map = &#123;&#125; <span class="comment">#store the header</span></span><br><span class="line">seq = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> infile :</span><br><span class="line">  <span class="keyword">if</span> line[<span class="number">0</span>] == <span class="string">'&gt;'</span> :</span><br><span class="line">    header = line.split(<span class="string">"|"</span>)[<span class="number">1</span>]</span><br><span class="line">    header_map[ID] = header</span><br><span class="line">    <span class="keyword">if</span> seq != <span class="literal">None</span> :</span><br><span class="line">      seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line">    seq = <span class="string">""</span></span><br><span class="line">    ID += <span class="number">1</span></span><br><span class="line">  <span class="keyword">else</span> :</span><br><span class="line">    seq = seq + line</span><br><span class="line"></span><br><span class="line">seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(seq_store)):</span><br><span class="line">  header = header_map[i]</span><br><span class="line">  seq = seq_store[i]</span><br><span class="line">  <span class="keyword">if</span> len(seq_store[i]) &lt; <span class="number">9</span> :</span><br><span class="line">     out.write(header_map[i] + <span class="string">"\t\n"</span>)</span><br><span class="line">     <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">  req_header = &#123;<span class="string">'User-Agent'</span>:<span class="string">'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'</span>,</span><br><span class="line">  <span class="string">'Accept'</span>:<span class="string">'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'</span>,</span><br><span class="line">  <span class="string">'Accept-Charset'</span>:<span class="string">'ISO-8859-1,utf-8;q=0.7,*;q=0.3'</span>,<span class="string">'Accept-Encoding'</span>:<span class="string">'gzip, deflate'</span>,</span><br><span class="line">  <span class="string">'Connection'</span>:<span class="string">'keep-alive'</span>,</span><br><span class="line">  <span class="string">'Referer'</span>:<span class="string">'http://web.expasy.org/peptide_cutter/'</span></span><br><span class="line">              &#125;</span><br><span class="line">  req_timeout = <span class="number">500</span></span><br><span class="line"></span><br><span class="line">  url = <span class="string">'http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl'</span></span><br><span class="line">  values =  &#123;<span class="string">'protein'</span>:seq_store[i],<span class="string">'enzyme_number'</span>:<span class="string">'all_enzymes'</span>,<span class="string">'special_enzyme'</span>:<span class="string">'Chym'</span>,<span class="string">'min_prob'</span>:<span class="string">''</span>,<span class="string">'cleavage_map'</span>:<span class="string">'cleavage_map'</span>,<span class="string">'block_size'</span>:<span class="string">'60'</span>,<span class="string">'alphtable'</span>:<span class="string">'alphtable'</span>,<span class="string">'cleave_number'</span>:<span class="string">'all'</span>,<span class="string">'cleave_exactly'</span>:<span class="string">''</span>,<span class="string">'cleave_range_min'</span>:<span class="string">''</span>,<span class="string">'cleave_range_max'</span>:<span class="string">''</span>&#125;</span><br><span class="line">  data = urllib.urlencode(values)</span><br><span class="line">  req = urllib2.Request(url, data, req_header)</span><br><span class="line"></span><br><span class="line">  <span class="keyword">try</span> :</span><br><span class="line">    resp = urllib2.urlopen(req,<span class="literal">None</span>,req_timeout)</span><br><span class="line">    html = resp.read()</span><br><span class="line">    enzymeset = TEXT.findall(html)</span><br><span class="line">    pro = TEXT2.findall(html)</span><br><span class="line">    results = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(enzymeset)):</span><br><span class="line">        firstsplit = enzymeset[i].split(<span class="string">'&lt;/A&gt;&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">        <span class="keyword">print</span> firstsplit</span><br><span class="line">        <span class="keyword">if</span> len(firstsplit) &gt; <span class="number">1</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            cleave_numbers = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">            <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                sites = <span class="string">','</span>.join(firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                sites = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">            <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">            results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">print</span> enzyme</span><br><span class="line">            <span class="keyword">if</span> enzyme == <span class="string">'Proline-endopeptidase&lt;/A&gt; &lt;A HREF="#[*] pro_note'</span>:</span><br><span class="line">                <span class="keyword">print</span> pro</span><br><span class="line">                enzyme = <span class="string">'Proline-endopeptidase'</span></span><br><span class="line">                secondsplit = pro[<span class="number">0</span>].split(<span class="string">'&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">                <span class="keyword">if</span> len(secondsplit) &gt; <span class="number">1</span>:</span><br><span class="line">                    cleave_numbers = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">                    <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                        sites = <span class="string">','</span>.join(secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">                    <span class="keyword">else</span>:</span><br><span class="line">                        sites = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    sites = <span class="string">'not cut'</span></span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/A&gt; &lt;/td&gt;&lt;tr&gt;'</span>)</span><br><span class="line">                sites = <span class="string">'not cut'</span></span><br><span class="line">                results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">  <span class="keyword">except</span> :</span><br><span class="line">    enzyme = <span class="string">'time_out'</span></span><br><span class="line">    sites = <span class="string">''</span></span><br><span class="line">    <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">    results.append(enzyme+<span class="string">': '</span>+sites)</span><br><span class="line">  result = <span class="string">'\n'</span>.join(results[<span class="number">1</span>:])</span><br><span class="line">  <span class="keyword">print</span> result</span><br><span class="line">  out.write(<span class="string">'&gt;'</span>+header+<span class="string">'\n'</span>+seq+<span class="string">'\n'</span>+result+<span class="string">"\n"</span>)</span><br><span class="line"></span><br><span class="line">out.close()</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Project</tag>
       </tags>
   </entry>
   <entry>
@@ -356,6 +324,38 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
+    <title>A spider on Expasy Peptide Cutter, by Python</title>
+    <url>/2016/03/24/2016-03-24-peptidecutter_spider/</url>
+    <content><![CDATA[<p>因为工作需要，写了一个爬虫爬取Expasy的peptidecutter页面。peptidecutter是一个模拟蛋白质水解的工具，本身使用Perl写成。</p>
+<p>本来的计划是自己用Python写，参照它的蛋白水解酶酶切规则，实现序列的读入，模拟水解，输出结果的功能。然而时间有限，涉及的酶实在太多，不管是字典还是正则都很麻烦，为了快点实现功能，就猥琐一点，直接写爬虫请求pepcutter的页面就好了，反正用同样的算法，输入相同的序列，返回的值肯定是一样的。</p>
+<p>于是开工。</p>
+<p>用到的关键模块不外乎这几个：re, urllib, urllib2。</p>
+<p>访问的url是： <a href="http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl" target="_blank" rel="noopener">http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl</a> 。</p>
+<p>需要post的value通过浏览器F12获取。</p>
+<p>写一个request header模拟浏览器。</p>
+<p>此外还有读取文件的部分，从文件中读取序列的部分。</p>
+<p>本爬虫的亮点应该就在于可以提交多序列，fasta格式，而如果对多序列没有需求，上传的是普通氨基酸序列的话，建议还是直接通过它自己网站预测水解吧，速度会快一点。</p>
+<p>然后是对抓取内容的解读，需要把水解位点和对应的酶的名称抓下来。</p>
+<p>写的时候遇到一点问题。某一个Proline-endopeptidase所在行的html代码和其他酶不一样，而且水解结果另起一行。于是不得不专门对这个酶写一个正则表达式。</p>
+<p>然后要抓的内容分六种类型：</p>
+<p>1.一般的酶，有水解，多酶切位点</p>
+<p>2.一般的酶，有水解，单酶切位点</p>
+<p>3.Proline-endopeptidase，有水解，多酶切位点</p>
+<p>4.Proline-endopeptidase，有水解，单酶切位点</p>
+<p>5.一般的酶，无水解</p>
+<p>6.Proline-endopeptidase，无水解</p>
+<p>time out属于例外。然后写if语句的时候花了不少力气，不停报错，最后写了个不是很简洁的方案，也懒得改了。</p>
+<p>最后将结果输出。运行，成功！</p>
+<p>这个程序还是有不少瑕疵的，比如条件语句太复杂，抓取的内容是纯复制（本来我的目标是根据抓取的内容高亮酶切片段的，因为最终目的是找到酶切片段中有生物活性的肽段。），缩进不够整齐等（两个空格和编辑器自动补全四个空格的混用）。希望能找个时间好好改进一下。</p>
+<p>就这样吧。</p>
+<p>以下是代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding=utf-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line">TEXT = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#.+'</span>)</span><br><span class="line">TEXT2 = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#Pro\"\&gt;.+\n.+'</span>)</span><br><span class="line">target_file = sys.argv[<span class="number">1</span>]</span><br><span class="line">out_file = <span class="string">"result.txt"</span></span><br><span class="line">out = open(out_file,<span class="string">'w'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">  infile = open(target_file,<span class="string">'r'</span>)</span><br><span class="line"><span class="keyword">except</span> IOError:</span><br><span class="line">  sys.stderr.write(<span class="string">"Cannot open fasta format sequence file %s\n"</span>% target_file)</span><br><span class="line">  sys.exit(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">ID = <span class="number">0</span></span><br><span class="line">seq_store = &#123;&#125;</span><br><span class="line">header_map = &#123;&#125; <span class="comment">#store the header</span></span><br><span class="line">seq = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> infile :</span><br><span class="line">  <span class="keyword">if</span> line[<span class="number">0</span>] == <span class="string">'&gt;'</span> :</span><br><span class="line">    header = line.split(<span class="string">"|"</span>)[<span class="number">1</span>]</span><br><span class="line">    header_map[ID] = header</span><br><span class="line">    <span class="keyword">if</span> seq != <span class="literal">None</span> :</span><br><span class="line">      seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line">    seq = <span class="string">""</span></span><br><span class="line">    ID += <span class="number">1</span></span><br><span class="line">  <span class="keyword">else</span> :</span><br><span class="line">    seq = seq + line</span><br><span class="line"></span><br><span class="line">seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(seq_store)):</span><br><span class="line">  header = header_map[i]</span><br><span class="line">  seq = seq_store[i]</span><br><span class="line">  <span class="keyword">if</span> len(seq_store[i]) &lt; <span class="number">9</span> :</span><br><span class="line">     out.write(header_map[i] + <span class="string">"\t\n"</span>)</span><br><span class="line">     <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">  req_header = &#123;<span class="string">'User-Agent'</span>:<span class="string">'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'</span>,</span><br><span class="line">  <span class="string">'Accept'</span>:<span class="string">'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'</span>,</span><br><span class="line">  <span class="string">'Accept-Charset'</span>:<span class="string">'ISO-8859-1,utf-8;q=0.7,*;q=0.3'</span>,<span class="string">'Accept-Encoding'</span>:<span class="string">'gzip, deflate'</span>,</span><br><span class="line">  <span class="string">'Connection'</span>:<span class="string">'keep-alive'</span>,</span><br><span class="line">  <span class="string">'Referer'</span>:<span class="string">'http://web.expasy.org/peptide_cutter/'</span></span><br><span class="line">              &#125;</span><br><span class="line">  req_timeout = <span class="number">500</span></span><br><span class="line"></span><br><span class="line">  url = <span class="string">'http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl'</span></span><br><span class="line">  values =  &#123;<span class="string">'protein'</span>:seq_store[i],<span class="string">'enzyme_number'</span>:<span class="string">'all_enzymes'</span>,<span class="string">'special_enzyme'</span>:<span class="string">'Chym'</span>,<span class="string">'min_prob'</span>:<span class="string">''</span>,<span class="string">'cleavage_map'</span>:<span class="string">'cleavage_map'</span>,<span class="string">'block_size'</span>:<span class="string">'60'</span>,<span class="string">'alphtable'</span>:<span class="string">'alphtable'</span>,<span class="string">'cleave_number'</span>:<span class="string">'all'</span>,<span class="string">'cleave_exactly'</span>:<span class="string">''</span>,<span class="string">'cleave_range_min'</span>:<span class="string">''</span>,<span class="string">'cleave_range_max'</span>:<span class="string">''</span>&#125;</span><br><span class="line">  data = urllib.urlencode(values)</span><br><span class="line">  req = urllib2.Request(url, data, req_header)</span><br><span class="line"></span><br><span class="line">  <span class="keyword">try</span> :</span><br><span class="line">    resp = urllib2.urlopen(req,<span class="literal">None</span>,req_timeout)</span><br><span class="line">    html = resp.read()</span><br><span class="line">    enzymeset = TEXT.findall(html)</span><br><span class="line">    pro = TEXT2.findall(html)</span><br><span class="line">    results = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(enzymeset)):</span><br><span class="line">        firstsplit = enzymeset[i].split(<span class="string">'&lt;/A&gt;&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">        <span class="keyword">print</span> firstsplit</span><br><span class="line">        <span class="keyword">if</span> len(firstsplit) &gt; <span class="number">1</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            cleave_numbers = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">            <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                sites = <span class="string">','</span>.join(firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                sites = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">            <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">            results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">print</span> enzyme</span><br><span class="line">            <span class="keyword">if</span> enzyme == <span class="string">'Proline-endopeptidase&lt;/A&gt; &lt;A HREF="#[*] pro_note'</span>:</span><br><span class="line">                <span class="keyword">print</span> pro</span><br><span class="line">                enzyme = <span class="string">'Proline-endopeptidase'</span></span><br><span class="line">                secondsplit = pro[<span class="number">0</span>].split(<span class="string">'&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">                <span class="keyword">if</span> len(secondsplit) &gt; <span class="number">1</span>:</span><br><span class="line">                    cleave_numbers = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">                    <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                        sites = <span class="string">','</span>.join(secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">                    <span class="keyword">else</span>:</span><br><span class="line">                        sites = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    sites = <span class="string">'not cut'</span></span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/A&gt; &lt;/td&gt;&lt;tr&gt;'</span>)</span><br><span class="line">                sites = <span class="string">'not cut'</span></span><br><span class="line">                results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">  <span class="keyword">except</span> :</span><br><span class="line">    enzyme = <span class="string">'time_out'</span></span><br><span class="line">    sites = <span class="string">''</span></span><br><span class="line">    <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">    results.append(enzyme+<span class="string">': '</span>+sites)</span><br><span class="line">  result = <span class="string">'\n'</span>.join(results[<span class="number">1</span>:])</span><br><span class="line">  <span class="keyword">print</span> result</span><br><span class="line">  out.write(<span class="string">'&gt;'</span>+header+<span class="string">'\n'</span>+seq+<span class="string">'\n'</span>+result+<span class="string">"\n"</span>)</span><br><span class="line"></span><br><span class="line">out.close()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Project</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>报告</title>
     <url>/2016/09/18/2016-09-18-back-to-hangzhou/</url>
     <content><![CDATA[<p>今天回到学校继续开始工作。</p>
@@ -371,15 +371,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 ]]></content>
       <tags>
         <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最近的目标</title>
-    <url>/2016/10/04/2016-10-4-future-research-on-RNA-in-neurodegenerative-diseases/</url>
-    <content><![CDATA[<p>前几天读了一些神经退行性疾病与RNA相关的研究性文章，感觉这一块待发掘的东西不少。</p>
-]]></content>
-      <tags>
-        <tag>Project</tag>
       </tags>
   </entry>
   <entry>
@@ -433,36 +424,12 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>小事三则</title>
-    <url>/2017/10/30/2017-10-30-kyou-no-kiji/</url>
-    <content><![CDATA[<h6 id="油腻肥大与恶臭">&gt; 油腻、肥大、与恶臭</h6>
-<p>其实诸位如果有较强的把握流行话题的能力，在这件事上的熟知程度应该远胜于我。然而很可惜，我既不熟悉也不在意这件事情，甚至是被迫了解有关 <em>油腻中年男、肥大中年女和恶臭男孩女孩</em> 的故事。</p>
-<p>起初我甚至没时间也没兴趣去查阅这件事的发起人是谁，但是为了明白大家讨论的对象，还是稍稍搜索了关键词，结果发现关键词之一已经跑上了国内社交网络的热搜，目瞪口呆。</p>
-<p>如果说始作俑者的总结是微微嘲讽的幽默，那后来者们牵强附会的发挥可以说是充满恶意的泄愤了。其实发出鄙视的人应该注意到他们的鄙视标准在另一群人的世界中并不重要，而他们本身也有与被鄙视者相似的特性，而被另一群人所津津乐道。</p>
-<p>人和人都是有些许差异的，但是从整体上看，任何人都差不多。符合人类公义的，对恶人的道德谴责应该成为社会风尚，但是把注意力放在嘲讽别人一些你不同的特质、生理缺陷、生活方式，用自己的价值观和偏见干预他人的，是一种无异于浪费时间的社交偏见表演。</p>
-<h6 id="出柜">&gt; 出柜</h6>
-<p>其实这件事也没什么值得讨论的，对于大众来说，在一个中心化的环境下把注意力聚集在知名的一方，再正常不过了。那么这件事到底有哪里稍微不对劲呢？</p>
-<ol type="1">
-<li><p>出柜本来就不是一件需要特殊看待的事情，但是在2017年末，它仍然成为了一个新闻热点。</p></li>
-<li><p>掀起波澜的人不是有名的一方，但是仿佛没有人关注他。</p></li>
-</ol>
-<p>这个故事是怎么样的呢？</p>
-<blockquote>
-<p>A：曾经B试图性骚扰我，那时我14岁。</p>
-<p>B：我忘了，对不起，我宣布出柜。</p>
-<p>观众：卧槽，B出柜了？！</p>
-</blockquote>
-<p>稍微理一理逻辑，应该可以看出这是两个故事。但是媒体的渲染、社会的保守态度和两位主角的地位差距造成了这两个故事变成了一体，而大家只关注了这一团乱麻中最重要的部分：B出柜了。</p>
-<p>这就是讲故事的技巧。</p>
-<h6 id="强制力">&gt; 强制力</h6>
-<p>在微博上看到好友转发了一条消息说的是某手机应用市场在下架盗版国产游戏后重新上架的事。他的转发评论是：“不太懂，这种经过审核获准在大陆地区出版的游戏被侵权不能通过大陆法律的强制力解决么”。</p>
-<p>我当时也是闲了，随手回了一句：“很多案件在呼唤法律强制力的时候都会发现，强制力并不存在”。回完后觉得这句话颇有轻描淡写不负责任的意味，于是继续补充：“不负责任地推测，（强制力）可能都用来维稳了。前几天我看一个女孩被家人跟踪骚扰的<a href="https://www.zhihu.com/question/66102458" target="_blank" rel="noopener" title="怎么看李格婷被家人虐打20年又被跟踪3年血泪史？">案件</a>，第一感想也是：<strong>卧槽警察不能依法强制阻止她家人吗？</strong> 游戏市场这块，我觉得也是这样。缺乏明确的（法律）依据，就没有强制规范的必要，毕竟管理也是要成本的。”</p>
-<p>然而我没有跟他讨论的内容是，在中国有很大一部分人，平日里大肆谴责公权力和暴力机关干预普通人的自由，一旦自身利益被侵犯时就开始哭天喊地说有关部门办事不力社会黑暗云云。我很害怕一说出口，我们就互相取关乃至绝交了，因为其实我们中任何一方都很有可能变成这样。</p>
-<p>实在是，哭笑不得。</p>
+    <title>最近的目标</title>
+    <url>/2016/10/04/2016-10-4-future-research-on-RNA-in-neurodegenerative-diseases/</url>
+    <content><![CDATA[<p>前几天读了一些神经退行性疾病与RNA相关的研究性文章，感觉这一块待发掘的东西不少。</p>
 ]]></content>
       <tags>
-        <tag>Diary</tag>
-        <tag>Society</tag>
+        <tag>Project</tag>
       </tags>
   </entry>
   <entry>
@@ -512,137 +479,36 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>Cytoscape 基础（文字初版）</title>
-    <url>/2017/10/31/2017-10-31-cytoscape-basic/</url>
-    <content><![CDATA[<blockquote>
-<p>此文内容为未发布的教材章节，含原创部分，请勿转载。</p>
-<p>从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 <a href="https://en.wikipedia.org/wiki/Cytoscape" target="_blank" rel="noopener">Wikipedia: Cytoscape</a> 和 <a href="http://cytoscape.org/manual/Cytoscape3_4_0Manual.pdf" target="_blank" rel="noopener">User Manual</a></p>
-</blockquote>
-<h4 id="cytoscape-概要">Cytoscape 概要</h4>
-<p>Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用于分子互作网络可视化和复杂网络分析。目前软件的最新版本是3.5.1。 Cytoscape 可以运行在各种操作系统平台上。官方网址： <a href="http://cytoscape.org/" target="_blank" rel="noopener">http://cytoscape.org/</a>。</p>
-<h4 id="cytoscape-安装">Cytoscape 安装</h4>
-<p>Cytoscape 需要在 Java 运行环境的支持下使用，因此在安装 Cytoscape 之前，用户的计算机应具备 Java （官方网址： <a href="https://java.com" target="_blank" rel="noopener">https://java.com</a>）。 Cytoscape 提供了不同操作系统平台的安装包下载，你可以按照自己操作系统的配置选择对应版本下载安装。</p>
-<h4 id="cytoscape-和其他软件的比较">Cytoscape 和其他软件的比较</h4>
-<p>相比于其他网络可视化软件， Cytoscape 的优势体现在：操作丰富，包含大量插件，支持多种格式的导入与导出，并且能良好支持生物数据专用的文件格式（如 SBML）。Cytoscape 在系统生物学领域的应用尤为突出，并且可以应用于生物学之外的领域，它还提供了官方 JavaScript 库用于网页开发。而同样有类似特性的软件包括 R 和 Gelphi. 但是它们相对于 Cytoscape 的不足在于： R 主要面向统计计算，要进行网络分析和可视化，需要安装一些第三方的软件包，并且它完全由命令行输入代码操作，需要使用者有一定编程基础；而 Gelphi 并非针对生物学网络开发的软件，相对于 Cytoscape 功能较少，开发成熟程度也较差。</p>
-<p>相比之下， R 同样具有丰富的软件包和精细的图像导出预设，熟练使用后可以实现更加复杂的互作网络生成和分析，在学术研究领域也是比较好的选择; Gelphi 更加轻便、简化，适合生物学互作关系网络研究的初学者，此外它具备更加美观的预设和内建的统计分析模块。</p>
-<p>由于 Cytoscape 是开源软件，由核心开发团队和众多开发者共同开发维护，随着软件版本的更新，相信 Cytoscape 的功能会越来越丰富与强劲。</p>
-<h4 id="cytoscape-基本操作">Cytoscape 基本操作</h4>
-<h5 id="一认识界面">一、认识界面</h5>
-<p><a href="">Figure 1. Cytoscape 主界面</a></p>
-<p>Cytoscape 在2013年发布3.0版本后，发生了较大的变化。以3.5.1为例，目前 Cytoscape 软件的界面更加模块化。界面顶端是菜单和工具栏，用于执行各种对网络和文件的操作。占据界面左侧的是控制台，可以管理、调整并筛选网络中的节点和连线。界面最突出的区域是可视化区域，用于展示和移动网络可视化。可视化区域的下方是数据栏，以列表的形式展现网络中节点与连线的具体信息。</p>
-<h5 id="二基本网络操作">二、基本网络操作</h5>
-<h6 id="节点和连线的操作">节点和连线的操作</h6>
-<p>在可视化区域右键点击唤出快捷菜单，实现节点和连线的创建 <code>Add</code>，在可视化区域中实现节点的移动（左键拖动），节点和连线的删除或剪切（<code>Delete</code> 键或 <code>Ctrl + X</code>）视图的放大缩小（鼠标滚轮）。</p>
-<p><a href="">Figure 2. 添加节点和连线的操作</a></p>
-<h6 id="节点和连线的样式改变">节点和连线的样式改变</h6>
-<p>在可视化区域右键点击唤出快捷菜单，对选中节点和连线的样式进行单独设置。在控制面板的 Style 栏中实现网络全局、映射调整和对选中节点和连线的样式进行单独设置。</p>
-<p><a href="">Figure 3. 设置选中节点样式的操作</a></p>
-<h6 id="网络分析">网络分析</h6>
-<p>在菜单栏中选择 NetworkAnalyzer，运行网络分析，在数据栏生成新的列展示网络节点和连线的具体属性，计算节点的度与连线的加权。</p>
-<p><a href="">Figure 4. 运行网络分析</a></p>
-<h6 id="子网络的构建">子网络的构建</h6>
-<p>选择感兴趣的节点，使用菜单栏或工具栏的选项构建子网络，选择相应层级的邻接节点构建多层子网络。</p>
-<p><a href="">Figure 5. 构建子网络的操作</a></p>
-<h5 id="三文件操作">三、文件操作</h5>
-<h6 id="导入网络文件">导入网络文件</h6>
-<p>通过菜单栏或工具栏导入文件，选择文件位置，选择数据格式和属性，导入网络视图。在导入网络的过程中，你可以通过对话框与 Cytoscape 交互，调整输入数据的分隔格式。 Cytoscape 对不同文件的格式有良好的适应性，可以到入用各种符号分隔的数据表。</p>
-<p><a href="">Figure 6. 导入网络文件</a></p>
-<h6 id="导入表格">导入表格</h6>
-<p>通过菜单栏或工具栏导入表格文件，这些表格文件多为网络节点或者连线的属性注释。选择文件位置，选择数据格式和属性，导入数据栏，用于后续操作。同样，你也可以用与导入网络过程中类似的对话框与 Cytoscape 交互，调整输入数据的分隔格式。</p>
-<p><a href="">Figure 7. 导入表格</a></p>
-<h6 id="导出网络图像">导出网络图像</h6>
-<p>将所需导出的网络视图调整为适当大小，确保不超出可视化区域边缘。利用菜单栏或工具栏导出图像，选择文件导出位置和图像格式（支持 JPEG、 PDF、 PNG 等格式）。</p>
-<p><a href="">Figure 8. 将网络导出为图像</a></p>
-<h4 id="cytoscape-实现互作网络可视化">Cytoscape 实现互作网络可视化</h4>
-<p>我们使用 Cytoscape 安装目录中的示例数据构建一个简单的蛋白质互作网络。在 <code>sampleData/</code> 目录中找到 <code>galFiltered.sif</code>，在 Cytoscape 中使用“导入网络”操作。点击顺序为：<code>File → Import → Network → File</code>. 观察数据栏可知该文件表示酵母蛋白的两两互作。</p>
-<p><a href="">Figure 9. 导入示例数据 galFiltered.sif</a></p>
-<p>在可视化界面即可查看导入的网络，使用菜单栏的 “Layouts” 菜单调整网络布局。使用控制面板 “Style” 页面对网络的节点、连线及整体进行手动调整。</p>
-<p>也可以使用“导入表格”操作加入附加表格文件，作为网络的属性，映射到对应的节点或连线上。在弹出的对话框中完成正确的映射后，观察 Cytoscape 下方数据栏，即可找到增加的节点或连线属性，可以根据此在控制面板的 “Style” 页面对网络的节点、连线及整体进行批量调整。</p>
-<p>如果没有附加表格，也可以直接通过网络分析工具创建网络的基本统计属性。点击顺序为： <code>Tools → Network Analyzer → Network Analysis → Analyze Network</code>. 增加基本统计属性后也可以此为参数设置网络的 Style.</p>
-<p><a href="">Figure 10. 对 galFiltered 进行网络分析</a></p>
-<p>完成上述工作后，再手动对网络的节点位置进行微调，移开重叠的节点。</p>
-<p>也可以参照视频教程，结合 <code>此处打码</code> 中的数据进行较大规模网络的构建。</p>
-<h4 id="cytoscape-插件">Cytoscape 插件</h4>
-<p>Cytoscape 具备丰富的插件支持，例如，用于 GO 富集分析的 BiNGO，用于文献挖掘的 Agilent Literature Search.</p>
-<p>可以在菜单中打开插件管理器，搜索所需的插件进行下载安装，也可以通过来自网络或其他位置的 jar 文件安装，安装后即可在菜单栏插件列表中点击运行。Cytoscape 在丰富的插件支持下，功能变得更加强大，也更受多个领域的研究人员的青睐。</p>
-<p><a href="">Figure 11. 插件管理器</a></p>
-]]></content>
-      <tags>
-        <tag>bioinformatics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>School to home to school</title>
-    <url>/2017/11/12/2017-11-12-School-to-home-to-school/</url>
-    <content><![CDATA[<p>春节之后就一直呆在学校，正巧父亲来杭开会，便趁着周五和他一起乘车回家。</p>
-<p>在杭州东站看见了应该是认识的女生，但是她身边的男生不是我认识的那一个，所以并不确定，只是远远看着。一回头他们就走了，于是不再关心。</p>
-<p>到家已是晚上十点，然而我还是和父母交流了一下这段时间以来的体会和问题，直至深夜。但是并没有什么实质性结果，他们也没有在我的实验室呆过，自然没有处理我遇到的事情的经验。值得学习的仅仅是他们在处理职场人际关系方面的做法。</p>
-<p>在家总算可以静心整理最近完成和将要开展的工作了。稍稍感觉到有些跟不上进度，而十一月也快过去一半。读了两篇文献，写了几个小脚本用于处理数据，却大概因为 Windows 系统字符编码的原因没有运行成功。</p>
-<p>掏出了尘封五年的旧笔记本电脑，开机后确认了一番有没有遗漏的数据。一无所获。我本来是想找有没有早期的微博和 Twitter 备份的。</p>
-<p>下午继续读文献，整理数据，晚些时候去商场买衣服。正逢双十一，商业街也比往常热闹许多，清冷的深秋的寒风也弱了不少。</p>
-<p>晚上收拾了一下东西，看了下书柜里有什么书可以带走。这辈子第一次看见有本属于我的书发霉了，一时哑口无言，难以接受。</p>
-<p>小区路面施工已经有几个月了，楼外满地泥泞一片狼藉。希望下次回来的时候能看到新的变化。</p>
-]]></content>
-      <tags>
-        <tag>diary</tag>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我对摆脱父母控制的一点浅见</title>
-    <url>/2017/11/20/2017-11-20-I-love-you-and-you-are-free/</url>
-    <content><![CDATA[<p>在 <a href="https://twitter.com/momocj/status/932481835329757189" target="_blank" rel="noopener">Twitter</a> 上看到</p>
+    <title>小事三则</title>
+    <url>/2017/10/30/2017-10-30-kyou-no-kiji/</url>
+    <content><![CDATA[<h6 id="油腻肥大与恶臭">&gt; 油腻、肥大、与恶臭</h6>
+<p>其实诸位如果有较强的把握流行话题的能力，在这件事上的熟知程度应该远胜于我。然而很可惜，我既不熟悉也不在意这件事情，甚至是被迫了解有关 <em>油腻中年男、肥大中年女和恶臭男孩女孩</em> 的故事。</p>
+<p>起初我甚至没时间也没兴趣去查阅这件事的发起人是谁，但是为了明白大家讨论的对象，还是稍稍搜索了关键词，结果发现关键词之一已经跑上了国内社交网络的热搜，目瞪口呆。</p>
+<p>如果说始作俑者的总结是微微嘲讽的幽默，那后来者们牵强附会的发挥可以说是充满恶意的泄愤了。其实发出鄙视的人应该注意到他们的鄙视标准在另一群人的世界中并不重要，而他们本身也有与被鄙视者相似的特性，而被另一群人所津津乐道。</p>
+<p>人和人都是有些许差异的，但是从整体上看，任何人都差不多。符合人类公义的，对恶人的道德谴责应该成为社会风尚，但是把注意力放在嘲讽别人一些你不同的特质、生理缺陷、生活方式，用自己的价值观和偏见干预他人的，是一种无异于浪费时间的社交偏见表演。</p>
+<h6 id="出柜">&gt; 出柜</h6>
+<p>其实这件事也没什么值得讨论的，对于大众来说，在一个中心化的环境下把注意力聚集在知名的一方，再正常不过了。那么这件事到底有哪里稍微不对劲呢？</p>
+<ol type="1">
+<li><p>出柜本来就不是一件需要特殊看待的事情，但是在2017年末，它仍然成为了一个新闻热点。</p></li>
+<li><p>掀起波澜的人不是有名的一方，但是仿佛没有人关注他。</p></li>
+</ol>
+<p>这个故事是怎么样的呢？</p>
 <blockquote>
-<p><em><strong><span class="citation" data-cites="momocj">@momocj</span> 说：</strong></em></p>
-<p>自以为是地对某人「好」，插手他人生活，很有可能是自我感动，而对方完全不领情。</p>
-<p><a href="">#怎么让我妈领悟到这点</a></p>
+<p>A：曾经B试图性骚扰我，那时我14岁。</p>
+<p>B：我忘了，对不起，我宣布出柜。</p>
+<p>观众：卧槽，B出柜了？！</p>
 </blockquote>
-<p>有所感触，虽然我家长只要我制止了他们便不再继续干涉我，但是我对与如何根本解决这种问题也没有什么经验。感想太长了于是写在这里吧。</p>
-<p>家家有难念的经，所以以下妄言多有冒犯。如果阿默觉得有价值的话可以看看。</p>
-<p><strong>大前提：迁就与控制，只有一步之遥。</strong></p>
-<p>为自己的人生负责不是自私，为他人的人生做决定才是自私。</p>
-<p>相信你们还是爱对方的。然而“为你好”不是爱，这种借口只是绑架对方的藤蔓，让控制与被控制双方都不自由。</p>
-<p>你不自由就不快乐。而你的母亲，实在不好意思，我想她很可能在那种被控制的环境下成长，在她的思想中连对自由的体验都没有，她可能就无法理解你的一部分不快乐的来源就是她。</p>
-<p>她说“在家没事干”就是最好的证明。她不在自己身上找原因，却要靠控制他人来充实自己。</p>
-<p>你要理解并反抗。</p>
-<p>让她从“把人生价值寄托在她关心的人身上”的这种束缚中脱离出来，去做自己的事，去自在地活着。</p>
-<p>你已经独立了，可以与任何人平等地沟通。</p>
-<p>我觉得最重要的还是，你有自己的立场，把态度表达明确。让她换位思考，有必要的话你就小爆发一下，让她意识到她“为你好”对你，对她自己，对她试图关心的人没有任何好处。</p>
-<p>从节能主义的角度出发，你也只需尽到自身义务就够了。对她的干预与情绪压迫要坚决抵制。实在不行的话就从捍卫自己领域的角度出发强制和她拉开距离吧。</p>
-<p>相对的，要是你觉得“让她领悟到这点”更重要的话，恕我直言，我觉得你的潜意识已经受到了控制欲的影响。</p>
+<p>稍微理一理逻辑，应该可以看出这是两个故事。但是媒体的渲染、社会的保守态度和两位主角的地位差距造成了这两个故事变成了一体，而大家只关注了这一团乱麻中最重要的部分：B出柜了。</p>
+<p>这就是讲故事的技巧。</p>
+<h6 id="强制力">&gt; 强制力</h6>
+<p>在微博上看到好友转发了一条消息说的是某手机应用市场在下架盗版国产游戏后重新上架的事。他的转发评论是：“不太懂，这种经过审核获准在大陆地区出版的游戏被侵权不能通过大陆法律的强制力解决么”。</p>
+<p>我当时也是闲了，随手回了一句：“很多案件在呼唤法律强制力的时候都会发现，强制力并不存在”。回完后觉得这句话颇有轻描淡写不负责任的意味，于是继续补充：“不负责任地推测，（强制力）可能都用来维稳了。前几天我看一个女孩被家人跟踪骚扰的<a href="https://www.zhihu.com/question/66102458" target="_blank" rel="noopener" title="怎么看李格婷被家人虐打20年又被跟踪3年血泪史？">案件</a>，第一感想也是：<strong>卧槽警察不能依法强制阻止她家人吗？</strong> 游戏市场这块，我觉得也是这样。缺乏明确的（法律）依据，就没有强制规范的必要，毕竟管理也是要成本的。”</p>
+<p>然而我没有跟他讨论的内容是，在中国有很大一部分人，平日里大肆谴责公权力和暴力机关干预普通人的自由，一旦自身利益被侵犯时就开始哭天喊地说有关部门办事不力社会黑暗云云。我很害怕一说出口，我们就互相取关乃至绝交了，因为其实我们中任何一方都很有可能变成这样。</p>
+<p>实在是，哭笑不得。</p>
 ]]></content>
       <tags>
-        <tag>life</tag>
-        <tag>family</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Article reading briefings, Nov 3rd-6th 2017</title>
-    <url>/2017/11/06/2017-11-06-Nov-2017-reading-report/</url>
-    <content><![CDATA[<p>Hi there! I'm here to share some articles I read recently. They mainly focus on protein sequence-based functional annotations and protein interaction analysis or prediction. Although not all of them are the latest, the articles are no older than one year. I wish I could study from them and apply their methods in my future work.</p>
-<h5 id="protein-interaction-perturbation-profiling-at-amid-acid-resolution">Protein interaction perturbation profiling at amid-acid resolution</h5>
-<p><em>doi:10.1038/nmeth.4464</em></p>
-<p>The research presented a sensitive yeast two-hybrid-based pipeline for positive selection of interaction-disruptive variants by developing Int-Seq, a scalable method that can dissect binary PPI at individual amino-acid resolution.</p>
-<p>BBSome interaction Network was drawn.</p>
-<p>It seems that this method can identify protein interaction change when an amino acid altered.</p>
-<p>I think the most interesting part of this job is that it can characterize residues involved in maintaining interaction.</p>
-<p>Didn't find the figures valuable.</p>
-<h5 id="prediction-of-protein-protein-interactions-by-evidence-combining-methods">Prediction of Protein-Protein Interactions by Evidence Combining Methods</h5>
-<p><em>doi:10.3390/ijms17111946</em></p>
-<p>This review introduced something I'm familiar with. Boring. But it is a nice collection. It's worth reading when I want to search for useful tools and algorithms.</p>
-<h5 id="sequence-based-prediction-of-protein-protein-interactions-using-weighted-sparse-representation-model-combined-with-global-encoding">Sequence-based prediction of protein-protein interactions using weighted sparse representation model combined with global encoding</h5>
-<p><em>doi:10.1186/s12859-016-1035-4</em></p>
-<p>A novel prediction model for PPI was developed by combining weighted sparse representation based classifier and global encoding representation of proteins. The figures are convincing but can be improved. It's a standard research article presenting a method. Not exciting. This article included comparison with SVM and other methods, and pointed out the weakness of methods based on homology and structure.</p>
-<h5 id="deepgo-predicting-protein-functions-from-sequence-and-interactions-using-a-deep-ontology-aware-classifier">DeepGO: predicting protein functions from sequence and interactions using a deep ontology-aware classifier</h5>
-<p><em>doi:10.1093/bioinformatics/btx624</em></p>
-<p>I should have realized the exact name of this tool before starting reading. The article represented a novel method with deep learning to predict protein GO annotation based on sequence. The web server is available <a href="http://deepgo.bio2vec.net/deepgo/" target="_blank" rel="noopener">here</a>.</p>
-<p>Just put this article down, take a deep breath and switch to your own job.</p>
-<p>That's all about it.</p>
-]]></content>
-      <tags>
-        <tag>research</tag>
-        <tag>protein</tag>
-        <tag>article reading</tag>
+        <tag>Diary</tag>
+        <tag>Society</tag>
       </tags>
   </entry>
   <entry>
@@ -706,44 +572,137 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>消失之日</title>
-    <url>/2017/12/18/2017-12-18-day-of-disappearance/</url>
+    <title>Cytoscape 基础（文字初版）</title>
+    <url>/2017/10/31/2017-10-31-cytoscape-basic/</url>
     <content><![CDATA[<blockquote>
-<p>总之就是懒。</p>
+<p>此文内容为未发布的教材章节，含原创部分，请勿转载。</p>
+<p>从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 <a href="https://en.wikipedia.org/wiki/Cytoscape" target="_blank" rel="noopener">Wikipedia: Cytoscape</a> 和 <a href="http://cytoscape.org/manual/Cytoscape3_4_0Manual.pdf" target="_blank" rel="noopener">User Manual</a></p>
 </blockquote>
-<p><strong>一转眼</strong>十二月也过去一半多了，完成了很多工作，但是也有很多任务远没有达到自己的预期。</p>
-<p>眼看着日期一页页翻过而我却无动于衷，尤其这半个月来我仿佛被什么干扰打断，几乎静止。</p>
-<p>其实干扰是不存在的。我心里明白是自己在主动拒绝。</p>
-<p>为此有必要对于目前进行的工作任务做一个梳理。</p>
-<p>十二月以来，为重点专项的课题年度进展报告收了个尾——项目内容与我的研究课题直接相关，也不能随便。</p>
-<p>十二月上旬，整理了这半年来的个人进度汇报，就目前研究进展与远在俄罗斯的老师进行交流。尽管我个人对目前展开任务的期待不是太高，但是老师意外地提出了不少看法，之后也发来邮件进行了指点。</p>
-<p>联系上两个本科生，他们在生物信息学方面还是小白。我交代了一些任务，但还不是特别放心能把他们带起来。但是这个机会还是很宝贵的，应该好好把握，目前就先让他们看相关的文章和方法拖住他们。</p>
-<p>终于跑通了我自己依照自己的需求写的互作网络整合程序，感觉各方面都没有优化，在计算服务器上跑了一天才出结果。</p>
-<p>和一段时间没见的本科室友聚在一起吃了饭，互相交换情报，谈了谈以后的出路。有一个室友可能这次之后就远隔重洋很难再见了。</p>
-<p>还没做的事情有一个其他学校委托的抗原抗体结合预测，数据已经发到邮箱里，我下载后还没仔细看，对方的态度还是很诚恳的，但是不知怎么的就是无暇顾及了<del>， 希望有个人来接盘吧</del>。</p>
-<p>读了一定数量的文献，近三年经典的和最新的都有，感觉还是有一点收获。</p>
-<hr />
-<p><strong>十一月</strong>中旬定下的短期计划还挂着，接下来做什么还是很明确的。</p>
-<ul>
-<li>完成跟我研究的互作网络分析相关的文章写作和投稿，这不是拍着脑袋就能出来的工作，但是还是得拍着自己去做。</li>
-<li>努力在别人挖的坑里贡献一点点，然后脱离出来。再陷在那些不是我主导的工作里，就是死路一条。</li>
-<li>一定要把日语捡起来</li>
-</ul>
-<p>首先明天要约谈两个本科生，他们虽然声称只有周二周四有空，但是还是能把他们拉住干一些事情，趁明天讨论把具体任务安排下去。</p>
-<p>还是要早点睡，有段时间手环没电了我都懒得管，那段时间的睡眠自然已经失控，最近几天通过强行调整起床时间，好像有一点点正常的趋势。每天都力不从心，感觉熬出什么毛病我自己都不清楚。</p>
-<hr />
-<p><strong>半个月</strong>来整体生活也过得特别丧。</p>
-<p>无视气温的下降，重复着几套衣物的更换；动画更新也拖了好几周没看，有些喜欢的新番都完结了；朝九晚十一地两点一线外卖成为常态，看到不顺眼的杂乱都没脾气去收拾；上了秤莫名其妙又多出来一些重量；谢绝了网球等剧烈运动的邀约因为换衣服很麻烦……</p>
-<p>终于在这个冷得还能继续冷下去的<strong>消失之日</strong>，这个名义上的纪念日给了我一点点改变的动力。</p>
-<figure>
-<img src="http://haruhi.tv/img/1312181630.jpg" alt="" /><figcaption>消失の日</figcaption>
-</figure>
-<p><strong>YUKI. N&gt; READY?</strong></p>
+<h4 id="cytoscape-概要">Cytoscape 概要</h4>
+<p>Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用于分子互作网络可视化和复杂网络分析。目前软件的最新版本是3.5.1。 Cytoscape 可以运行在各种操作系统平台上。官方网址： <a href="http://cytoscape.org/" target="_blank" rel="noopener">http://cytoscape.org/</a>。</p>
+<h4 id="cytoscape-安装">Cytoscape 安装</h4>
+<p>Cytoscape 需要在 Java 运行环境的支持下使用，因此在安装 Cytoscape 之前，用户的计算机应具备 Java （官方网址： <a href="https://java.com" target="_blank" rel="noopener">https://java.com</a>）。 Cytoscape 提供了不同操作系统平台的安装包下载，你可以按照自己操作系统的配置选择对应版本下载安装。</p>
+<h4 id="cytoscape-和其他软件的比较">Cytoscape 和其他软件的比较</h4>
+<p>相比于其他网络可视化软件， Cytoscape 的优势体现在：操作丰富，包含大量插件，支持多种格式的导入与导出，并且能良好支持生物数据专用的文件格式（如 SBML）。Cytoscape 在系统生物学领域的应用尤为突出，并且可以应用于生物学之外的领域，它还提供了官方 JavaScript 库用于网页开发。而同样有类似特性的软件包括 R 和 Gelphi. 但是它们相对于 Cytoscape 的不足在于： R 主要面向统计计算，要进行网络分析和可视化，需要安装一些第三方的软件包，并且它完全由命令行输入代码操作，需要使用者有一定编程基础；而 Gelphi 并非针对生物学网络开发的软件，相对于 Cytoscape 功能较少，开发成熟程度也较差。</p>
+<p>相比之下， R 同样具有丰富的软件包和精细的图像导出预设，熟练使用后可以实现更加复杂的互作网络生成和分析，在学术研究领域也是比较好的选择; Gelphi 更加轻便、简化，适合生物学互作关系网络研究的初学者，此外它具备更加美观的预设和内建的统计分析模块。</p>
+<p>由于 Cytoscape 是开源软件，由核心开发团队和众多开发者共同开发维护，随着软件版本的更新，相信 Cytoscape 的功能会越来越丰富与强劲。</p>
+<h4 id="cytoscape-基本操作">Cytoscape 基本操作</h4>
+<h5 id="一认识界面">一、认识界面</h5>
+<p><a href="">Figure 1. Cytoscape 主界面</a></p>
+<p>Cytoscape 在2013年发布3.0版本后，发生了较大的变化。以3.5.1为例，目前 Cytoscape 软件的界面更加模块化。界面顶端是菜单和工具栏，用于执行各种对网络和文件的操作。占据界面左侧的是控制台，可以管理、调整并筛选网络中的节点和连线。界面最突出的区域是可视化区域，用于展示和移动网络可视化。可视化区域的下方是数据栏，以列表的形式展现网络中节点与连线的具体信息。</p>
+<h5 id="二基本网络操作">二、基本网络操作</h5>
+<h6 id="节点和连线的操作">节点和连线的操作</h6>
+<p>在可视化区域右键点击唤出快捷菜单，实现节点和连线的创建 <code>Add</code>，在可视化区域中实现节点的移动（左键拖动），节点和连线的删除或剪切（<code>Delete</code> 键或 <code>Ctrl + X</code>）视图的放大缩小（鼠标滚轮）。</p>
+<p><a href="">Figure 2. 添加节点和连线的操作</a></p>
+<h6 id="节点和连线的样式改变">节点和连线的样式改变</h6>
+<p>在可视化区域右键点击唤出快捷菜单，对选中节点和连线的样式进行单独设置。在控制面板的 Style 栏中实现网络全局、映射调整和对选中节点和连线的样式进行单独设置。</p>
+<p><a href="">Figure 3. 设置选中节点样式的操作</a></p>
+<h6 id="网络分析">网络分析</h6>
+<p>在菜单栏中选择 NetworkAnalyzer，运行网络分析，在数据栏生成新的列展示网络节点和连线的具体属性，计算节点的度与连线的加权。</p>
+<p><a href="">Figure 4. 运行网络分析</a></p>
+<h6 id="子网络的构建">子网络的构建</h6>
+<p>选择感兴趣的节点，使用菜单栏或工具栏的选项构建子网络，选择相应层级的邻接节点构建多层子网络。</p>
+<p><a href="">Figure 5. 构建子网络的操作</a></p>
+<h5 id="三文件操作">三、文件操作</h5>
+<h6 id="导入网络文件">导入网络文件</h6>
+<p>通过菜单栏或工具栏导入文件，选择文件位置，选择数据格式和属性，导入网络视图。在导入网络的过程中，你可以通过对话框与 Cytoscape 交互，调整输入数据的分隔格式。 Cytoscape 对不同文件的格式有良好的适应性，可以到入用各种符号分隔的数据表。</p>
+<p><a href="">Figure 6. 导入网络文件</a></p>
+<h6 id="导入表格">导入表格</h6>
+<p>通过菜单栏或工具栏导入表格文件，这些表格文件多为网络节点或者连线的属性注释。选择文件位置，选择数据格式和属性，导入数据栏，用于后续操作。同样，你也可以用与导入网络过程中类似的对话框与 Cytoscape 交互，调整输入数据的分隔格式。</p>
+<p><a href="">Figure 7. 导入表格</a></p>
+<h6 id="导出网络图像">导出网络图像</h6>
+<p>将所需导出的网络视图调整为适当大小，确保不超出可视化区域边缘。利用菜单栏或工具栏导出图像，选择文件导出位置和图像格式（支持 JPEG、 PDF、 PNG 等格式）。</p>
+<p><a href="">Figure 8. 将网络导出为图像</a></p>
+<h4 id="cytoscape-实现互作网络可视化">Cytoscape 实现互作网络可视化</h4>
+<p>我们使用 Cytoscape 安装目录中的示例数据构建一个简单的蛋白质互作网络。在 <code>sampleData/</code> 目录中找到 <code>galFiltered.sif</code>，在 Cytoscape 中使用“导入网络”操作。点击顺序为：<code>File → Import → Network → File</code>. 观察数据栏可知该文件表示酵母蛋白的两两互作。</p>
+<p><a href="">Figure 9. 导入示例数据 galFiltered.sif</a></p>
+<p>在可视化界面即可查看导入的网络，使用菜单栏的 “Layouts” 菜单调整网络布局。使用控制面板 “Style” 页面对网络的节点、连线及整体进行手动调整。</p>
+<p>也可以使用“导入表格”操作加入附加表格文件，作为网络的属性，映射到对应的节点或连线上。在弹出的对话框中完成正确的映射后，观察 Cytoscape 下方数据栏，即可找到增加的节点或连线属性，可以根据此在控制面板的 “Style” 页面对网络的节点、连线及整体进行批量调整。</p>
+<p>如果没有附加表格，也可以直接通过网络分析工具创建网络的基本统计属性。点击顺序为： <code>Tools → Network Analyzer → Network Analysis → Analyze Network</code>. 增加基本统计属性后也可以此为参数设置网络的 Style.</p>
+<p><a href="">Figure 10. 对 galFiltered 进行网络分析</a></p>
+<p>完成上述工作后，再手动对网络的节点位置进行微调，移开重叠的节点。</p>
+<p>也可以参照视频教程，结合 <code>此处打码</code> 中的数据进行较大规模网络的构建。</p>
+<h4 id="cytoscape-插件">Cytoscape 插件</h4>
+<p>Cytoscape 具备丰富的插件支持，例如，用于 GO 富集分析的 BiNGO，用于文献挖掘的 Agilent Literature Search.</p>
+<p>可以在菜单中打开插件管理器，搜索所需的插件进行下载安装，也可以通过来自网络或其他位置的 jar 文件安装，安装后即可在菜单栏插件列表中点击运行。Cytoscape 在丰富的插件支持下，功能变得更加强大，也更受多个领域的研究人员的青睐。</p>
+<p><a href="">Figure 11. 插件管理器</a></p>
+]]></content>
+      <tags>
+        <tag>bioinformatics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Article reading briefings, Nov 3rd-6th 2017</title>
+    <url>/2017/11/06/2017-11-06-Nov-2017-reading-report/</url>
+    <content><![CDATA[<p>Hi there! I'm here to share some articles I read recently. They mainly focus on protein sequence-based functional annotations and protein interaction analysis or prediction. Although not all of them are the latest, the articles are no older than one year. I wish I could study from them and apply their methods in my future work.</p>
+<h5 id="protein-interaction-perturbation-profiling-at-amid-acid-resolution">Protein interaction perturbation profiling at amid-acid resolution</h5>
+<p><em>doi:10.1038/nmeth.4464</em></p>
+<p>The research presented a sensitive yeast two-hybrid-based pipeline for positive selection of interaction-disruptive variants by developing Int-Seq, a scalable method that can dissect binary PPI at individual amino-acid resolution.</p>
+<p>BBSome interaction Network was drawn.</p>
+<p>It seems that this method can identify protein interaction change when an amino acid altered.</p>
+<p>I think the most interesting part of this job is that it can characterize residues involved in maintaining interaction.</p>
+<p>Didn't find the figures valuable.</p>
+<h5 id="prediction-of-protein-protein-interactions-by-evidence-combining-methods">Prediction of Protein-Protein Interactions by Evidence Combining Methods</h5>
+<p><em>doi:10.3390/ijms17111946</em></p>
+<p>This review introduced something I'm familiar with. Boring. But it is a nice collection. It's worth reading when I want to search for useful tools and algorithms.</p>
+<h5 id="sequence-based-prediction-of-protein-protein-interactions-using-weighted-sparse-representation-model-combined-with-global-encoding">Sequence-based prediction of protein-protein interactions using weighted sparse representation model combined with global encoding</h5>
+<p><em>doi:10.1186/s12859-016-1035-4</em></p>
+<p>A novel prediction model for PPI was developed by combining weighted sparse representation based classifier and global encoding representation of proteins. The figures are convincing but can be improved. It's a standard research article presenting a method. Not exciting. This article included comparison with SVM and other methods, and pointed out the weakness of methods based on homology and structure.</p>
+<h5 id="deepgo-predicting-protein-functions-from-sequence-and-interactions-using-a-deep-ontology-aware-classifier">DeepGO: predicting protein functions from sequence and interactions using a deep ontology-aware classifier</h5>
+<p><em>doi:10.1093/bioinformatics/btx624</em></p>
+<p>I should have realized the exact name of this tool before starting reading. The article represented a novel method with deep learning to predict protein GO annotation based on sequence. The web server is available <a href="http://deepgo.bio2vec.net/deepgo/" target="_blank" rel="noopener">here</a>.</p>
+<p>Just put this article down, take a deep breath and switch to your own job.</p>
+<p>That's all about it.</p>
+]]></content>
+      <tags>
+        <tag>research</tag>
+        <tag>protein</tag>
+        <tag>article reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>School to home to school</title>
+    <url>/2017/11/12/2017-11-12-School-to-home-to-school/</url>
+    <content><![CDATA[<p>春节之后就一直呆在学校，正巧父亲来杭开会，便趁着周五和他一起乘车回家。</p>
+<p>在杭州东站看见了应该是认识的女生，但是她身边的男生不是我认识的那一个，所以并不确定，只是远远看着。一回头他们就走了，于是不再关心。</p>
+<p>到家已是晚上十点，然而我还是和父母交流了一下这段时间以来的体会和问题，直至深夜。但是并没有什么实质性结果，他们也没有在我的实验室呆过，自然没有处理我遇到的事情的经验。值得学习的仅仅是他们在处理职场人际关系方面的做法。</p>
+<p>在家总算可以静心整理最近完成和将要开展的工作了。稍稍感觉到有些跟不上进度，而十一月也快过去一半。读了两篇文献，写了几个小脚本用于处理数据，却大概因为 Windows 系统字符编码的原因没有运行成功。</p>
+<p>掏出了尘封五年的旧笔记本电脑，开机后确认了一番有没有遗漏的数据。一无所获。我本来是想找有没有早期的微博和 Twitter 备份的。</p>
+<p>下午继续读文献，整理数据，晚些时候去商场买衣服。正逢双十一，商业街也比往常热闹许多，清冷的深秋的寒风也弱了不少。</p>
+<p>晚上收拾了一下东西，看了下书柜里有什么书可以带走。这辈子第一次看见有本属于我的书发霉了，一时哑口无言，难以接受。</p>
+<p>小区路面施工已经有几个月了，楼外满地泥泞一片狼藉。希望下次回来的时候能看到新的变化。</p>
 ]]></content>
       <tags>
         <tag>diary</tag>
         <tag>life</tag>
-        <tag>research</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我对摆脱父母控制的一点浅见</title>
+    <url>/2017/11/20/2017-11-20-I-love-you-and-you-are-free/</url>
+    <content><![CDATA[<p>在 <a href="https://twitter.com/momocj/status/932481835329757189" target="_blank" rel="noopener">Twitter</a> 上看到</p>
+<blockquote>
+<p><em><strong><span class="citation" data-cites="momocj">@momocj</span> 说：</strong></em></p>
+<p>自以为是地对某人「好」，插手他人生活，很有可能是自我感动，而对方完全不领情。</p>
+<p><a href="">#怎么让我妈领悟到这点</a></p>
+</blockquote>
+<p>有所感触，虽然我家长只要我制止了他们便不再继续干涉我，但是我对与如何根本解决这种问题也没有什么经验。感想太长了于是写在这里吧。</p>
+<p>家家有难念的经，所以以下妄言多有冒犯。如果阿默觉得有价值的话可以看看。</p>
+<p><strong>大前提：迁就与控制，只有一步之遥。</strong></p>
+<p>为自己的人生负责不是自私，为他人的人生做决定才是自私。</p>
+<p>相信你们还是爱对方的。然而“为你好”不是爱，这种借口只是绑架对方的藤蔓，让控制与被控制双方都不自由。</p>
+<p>你不自由就不快乐。而你的母亲，实在不好意思，我想她很可能在那种被控制的环境下成长，在她的思想中连对自由的体验都没有，她可能就无法理解你的一部分不快乐的来源就是她。</p>
+<p>她说“在家没事干”就是最好的证明。她不在自己身上找原因，却要靠控制他人来充实自己。</p>
+<p>你要理解并反抗。</p>
+<p>让她从“把人生价值寄托在她关心的人身上”的这种束缚中脱离出来，去做自己的事，去自在地活着。</p>
+<p>你已经独立了，可以与任何人平等地沟通。</p>
+<p>我觉得最重要的还是，你有自己的立场，把态度表达明确。让她换位思考，有必要的话你就小爆发一下，让她意识到她“为你好”对你，对她自己，对她试图关心的人没有任何好处。</p>
+<p>从节能主义的角度出发，你也只需尽到自身义务就够了。对她的干预与情绪压迫要坚决抵制。实在不行的话就从捍卫自己领域的角度出发强制和她拉开距离吧。</p>
+<p>相对的，要是你觉得“让她领悟到这点”更重要的话，恕我直言，我觉得你的潜意识已经受到了控制欲的影响。</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+        <tag>family</tag>
       </tags>
   </entry>
   <entry>
@@ -823,21 +782,44 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>最近看的一些電影</title>
-    <url>/2018/10/29/2018oct-zaji/</url>
-    <content><![CDATA[<h4 id="重返十七歲">重返十七歲</h4>
-<p>最近看了這部電影。設定和日本動畫“重返十七歲”（ReLIFE）類似，都是 <del>被坑吃了黑衣組織小藥丸</del> 變回十七歲的樣子去再上一遍高中。只不過日本動畫的劇情更嚴肅，人設也更青春，美國的高中那種浪勁兒我還是不適應。儘管講了個完整的故事，演員的顏值和演技也在線，魔戒梗更是讓人激動不已，最後也好好地告訴你人生道理，但是鑑於劇情結構有太多經不起推敲的部分，還是不推薦要求高的朋友去看了，閒時看一遍放鬆一下就好。</p>
-<h4 id="綠燈俠">綠燈俠</h4>
-<p>還看了這部電影。好失敗的起源故事，我很慶幸不是在死侍之前看這部電影，不然我可能痛苦好多年。至少看完之後好多天都難忘那抹鮮豔的綠色。前幾天華納祝賀瑞安·雷诺兹生日快樂的時候似乎還用了這部電影的圖？應該是高級黑。</p>
-<h4 id="無敵破壞王">無敵破壞王</h4>
-<p>從致敬老遊戲，對遊戲反派角色進行人文關懷的角度，是一部很棒的電影，故事很溫馨很簡單，充滿着各種令人感動的元素。角色個性迥異獨具特色，也非常吸引我。片尾曲有一首是 AKB48 唱的，我聽的時候並不知道，突然聽出了日語感到非常驚訝。</p>
-<h4 id="朝花夕誓">朝花夕誓</h4>
-<p>等不到國內影院上映了，不過一旦成功定檔還是會去支持的。昨晚剛補完的作品。岡媽出手的劇場版，劇本稍嫌短，也有好多突兀的轉折，但是仍有很棒的演出表現力，另外畫面的精美程度令我無語凝咽，淚流滿面。只關注兩位主要人物的話，是非常感人的親情故事（雖然很有可能走向母子變兄妹變愛人變祖孫的背德路線但是對大衆來說那樣的展開還是太衝擊了，所以僅供妄想），最後的結局在我看來是一個圓滿收尾，也忍不住流淚。不過有得有失。首先篇幅的限制不知道是刻意對劇本做了刪減，還是因爲畫面太燒錢而不得不卡時間，總之我覺得這個故事裏的支線劇情是令人莫名其妙的，不好好理解猜測的話根本不明白配角的行動邏輯。雖然整體的發展在情理之中，但是單薄的背景人物就像是被主角的故事帶着走，而不是以自身的故事來爲主角陪襯。本來女二的故事完全可以變成另一條有關母親的大戲，但是可能就算是岡媽在這個劇本裏也沒法得心應手地同時駕馭兩條線而不讓主題分散。總之讓茅野愛衣配音的女二經歷這麼大委屈卻沒什麼表現的機會，我私心看來也是很可惜的。女主的石見舞菜香的高音聲線趕得上當年的茅野愛衣，不愧是一脈相承的後輩，她在 NEW GAME!! 和泥鯨之子裏的表現也給我留下了一些印象。總之這部片子我還是很愛吃的，畢竟是岡媽的作品，希望她以後能寫出更優秀的故事。</p>
-<h4 id="少數派報告">少數派報告</h4>
-<p>忘記寫上這一部了，隔了一段時間記性就不怎麼好真遺憾。菲利普·迪克原作，斯皮爾伯格改編，質量上乘，阿湯哥和科林法瑞爾顏值比拼，我兩個都喜歡。其實個人覺得菲利普·迪克的一些作品其實不是很豐滿的科幻，而是科幻骨架單薄的人文劇情向小說。同樣，以一部科幻片的眼光去看這部改編電影也是很可惜的。其實故事講得很不錯，和原作的差異因爲我也記不清楚，所以不比較。對於相關作品的觀看順序，我是 PSYCHO-PASS -&gt; 原作 -&gt; 電影，也是非常不講究先來後到了。在這種世界觀設定下，有獨立意志的個人該如何行動，是我更關注的內容，所以演員的演技是大於畫面效果的展現的。這裏的重要角色，只有科林法瑞爾的角色是個很傻很天真的外行，以一個傳統偵探的思路去判斷，輕信權威，慘遭老狐狸滅口。影片後半程還是有很多硬傷，體現出好萊塢的無腦爽片氣質，不過是少數，瑕不掩瑜。而我比較想吐槽的一個場景就是，科林法瑞爾死前，居然把案發現場找到的手槍不退膛不上保險也不裝塑膠袋，就這麼帶着實彈遞給老狐狸，簡直就是明晃晃的死亡 flag 立起了。這種不合規範的搜查操作，換成我一定是把子彈全退掉，這樣你拿另一把槍殺我我也認了。結局什麼的其實還好。關於先知系統的思考。其實在看 PSYCHO-PASS 的時候我是堅定反對類似系統實用的，因爲很容易被濫用，並且造成個人自由的喪失。近幾年各種社會危害事件頻發的情況和有關部門出臺的政策卻令我對相關的機制有了另一方面的看法。是否真的有必要實施先知機制？如果沒有必要，是否當局仍然強行推行類似政策，也是無可奈何的？也許再過五年就能看到答案了。</p>
+    <title>消失之日</title>
+    <url>/2017/12/18/2017-12-18-day-of-disappearance/</url>
+    <content><![CDATA[<blockquote>
+<p>总之就是懒。</p>
+</blockquote>
+<p><strong>一转眼</strong>十二月也过去一半多了，完成了很多工作，但是也有很多任务远没有达到自己的预期。</p>
+<p>眼看着日期一页页翻过而我却无动于衷，尤其这半个月来我仿佛被什么干扰打断，几乎静止。</p>
+<p>其实干扰是不存在的。我心里明白是自己在主动拒绝。</p>
+<p>为此有必要对于目前进行的工作任务做一个梳理。</p>
+<p>十二月以来，为重点专项的课题年度进展报告收了个尾——项目内容与我的研究课题直接相关，也不能随便。</p>
+<p>十二月上旬，整理了这半年来的个人进度汇报，就目前研究进展与远在俄罗斯的老师进行交流。尽管我个人对目前展开任务的期待不是太高，但是老师意外地提出了不少看法，之后也发来邮件进行了指点。</p>
+<p>联系上两个本科生，他们在生物信息学方面还是小白。我交代了一些任务，但还不是特别放心能把他们带起来。但是这个机会还是很宝贵的，应该好好把握，目前就先让他们看相关的文章和方法拖住他们。</p>
+<p>终于跑通了我自己依照自己的需求写的互作网络整合程序，感觉各方面都没有优化，在计算服务器上跑了一天才出结果。</p>
+<p>和一段时间没见的本科室友聚在一起吃了饭，互相交换情报，谈了谈以后的出路。有一个室友可能这次之后就远隔重洋很难再见了。</p>
+<p>还没做的事情有一个其他学校委托的抗原抗体结合预测，数据已经发到邮箱里，我下载后还没仔细看，对方的态度还是很诚恳的，但是不知怎么的就是无暇顾及了<del>， 希望有个人来接盘吧</del>。</p>
+<p>读了一定数量的文献，近三年经典的和最新的都有，感觉还是有一点收获。</p>
+<hr />
+<p><strong>十一月</strong>中旬定下的短期计划还挂着，接下来做什么还是很明确的。</p>
+<ul>
+<li>完成跟我研究的互作网络分析相关的文章写作和投稿，这不是拍着脑袋就能出来的工作，但是还是得拍着自己去做。</li>
+<li>努力在别人挖的坑里贡献一点点，然后脱离出来。再陷在那些不是我主导的工作里，就是死路一条。</li>
+<li>一定要把日语捡起来</li>
+</ul>
+<p>首先明天要约谈两个本科生，他们虽然声称只有周二周四有空，但是还是能把他们拉住干一些事情，趁明天讨论把具体任务安排下去。</p>
+<p>还是要早点睡，有段时间手环没电了我都懒得管，那段时间的睡眠自然已经失控，最近几天通过强行调整起床时间，好像有一点点正常的趋势。每天都力不从心，感觉熬出什么毛病我自己都不清楚。</p>
+<hr />
+<p><strong>半个月</strong>来整体生活也过得特别丧。</p>
+<p>无视气温的下降，重复着几套衣物的更换；动画更新也拖了好几周没看，有些喜欢的新番都完结了；朝九晚十一地两点一线外卖成为常态，看到不顺眼的杂乱都没脾气去收拾；上了秤莫名其妙又多出来一些重量；谢绝了网球等剧烈运动的邀约因为换衣服很麻烦……</p>
+<p>终于在这个冷得还能继续冷下去的<strong>消失之日</strong>，这个名义上的纪念日给了我一点点改变的动力。</p>
+<figure>
+<img src="http://haruhi.tv/img/1312181630.jpg" alt="" /><figcaption>消失の日</figcaption>
+</figure>
+<p><strong>YUKI. N&gt; READY?</strong></p>
 ]]></content>
       <tags>
-        <tag>movie</tag>
+        <tag>research</tag>
+        <tag>diary</tag>
+        <tag>life</tag>
       </tags>
   </entry>
   <entry>
@@ -889,46 +871,21 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>避疫杂记</title>
-    <url>/2020/02/01/2020-at-home/</url>
-    <content><![CDATA[<p>腊月廿九当日凌晨，因为准备收拾东西回家，索性不睡觉，一边打包一边上网，直到刷出武汉封城的消息，不禁愕然，从未想过情况会如此恶化。</p>
-<p>前几日，市民还无安全意识，上街购物的人中鲜见戴口罩的，我在超市货架前踌躇，只拿了一包五只装的普通口罩，现在回想起来还是有些后悔。第二天，线下门店口罩便抢购一空，网上也缺货了。</p>
-<p>回家后吃年夜饭，正月初一上午回乡下老家祭祖，草草解决一顿聚餐后便径直回家，连初二的拜年大作战都取消，就一直闭关在家直至今日。</p>
-<p>打我记事起，正月初一至初五至少有三天要同父母出门，余下几天可以自由安排。读博后把全年假期压缩到了春节期间的七天之内，有时候初五便回实验室。今年这种长期在家还哪儿都没法去的状况，恐怕是空前绝后。</p>
-<p>在回家的火车上，用最快的速度摘下口罩，啃掉当早饭的金拱门，处理残渣，然后戴回口罩。坐在我右边的男性没有戴口罩，左边过道另一边坐着的女性则跟我一样吃了早饭并戴好口罩。就连这吃饭的三分钟也是小心翼翼，生怕那些反正我也看不到的飞沫跑进嘴里。</p>
-<p>回家就是洗脸洗手换衣服，享受家里的饭菜和自己的床。</p>
-<hr />
-<p><strong>大年三十</strong>在家吃了一顿简朴的年夜饭。</p>
-<p>确诊人数 <code>1287</code></p>
-<p><strong>正月初一</strong>下大雨，带着口罩去祖坟祭拜，四叔最担心疫情于是饭都没吃就带着家人离开了，我们也只是和其他叔叔家聚了个餐，不多寒暄便回城。</p>
-<p>确诊人数 <code>1975</code></p>
-<p><strong>正月初二</strong>在家，整理文件，远程回实验室干活，刷 Steam，看新闻，看网球，看电影。</p>
-<p>确诊人数 <code>2744</code></p>
-<p><strong>正月初三</strong>醒来惯例刷疫情实时动态，却看到科比去世消息，以为自己终于混淆梦和现实、新闻和笑话，结果是真的。</p>
-<p>接到有关不可提前回校的零散消息，等正式确认，其他省份已经出台了推迟复工和开学的通知。</p>
-<p>刷了会 Steam 扫了一眼库里的游戏，终究没有打开一款。</p>
-<p>接到正式通知，大约真的要放一个睽违多年的大长假了，退了重买的票，还得再退一次。</p>
-<p>亲戚送来特产直接放我家门口，连门都不敲就走了。</p>
-<p>看纳达尔和克耶高斯的比赛，克耶高斯在赛前穿了科比8号球衣，纳达尔最终赢了。</p>
-<p>在微信上和一些人聊天交换情报。</p>
-<p>看新闻1+1了解疫情。</p>
-<p>确诊人数 <code>4515</code></p>
-<p><strong>正月初四</strong>重复在家练习挥拍，看澳网，统计疫情通报数据看曲线，干活，翻家里的垃圾寻宝。</p>
-<p>确诊人数 <code>5974</code></p>
-<p><strong>正月初五</strong>难得开太阳的好天气，在 Google Earth 里逛街，一直从莵道高等学校走到了大吉山顶。 翻出小学的日记本，没找到关于非典的记录，却重温了02世界杯中国对阵哥斯达黎加的回忆。在电视上看了澳网蒂姆击败纳达尔的后两盘，新老交替的一战居然如此硬核与胶着。</p>
-<p>打了会 Ravenfield.</p>
-<p>确诊人数 <code>7711</code></p>
-<p><strong>正月初六</strong>持续晴好，学了会儿外语，重复前几天做过的事，陪父母吃吃喝喝。楼下的大叔大妈开始讨论小区里有从武汉来的人员不遵守隔离规定的事情。</p>
-<p>确诊人数 <code>9692</code></p>
-<p><strong>正月初七</strong>也是个好天气，处理了一下工作环境，写写邮件，打电话聊天。</p>
-<p>确诊人数 <code>11791</code></p>
-<hr />
-<p>SARS肆虐的时候，我也就是个按时上课，放学回家前志愿在教室喷醋，一直猜测学校什么时候开始隔离的小孩子而已。对当时的世界的了解也很局限，就连接触互联网的机会都很少。因此并没有积累太多经验，面对这次疫情爆发表现十分被动，也没有提醒自己关心的人要提早准备。</p>
-<p>估计大家在家都闲得慌，互联网上出现各种各样的声音，没想到只过去七天，大家就输出了这么多观点，在各种媒体的推动和发酵下，共同造成了诸多混乱局面。未来七天不知道会如何发展，至少我觉得更重要的还是得继续自己的人生。</p>
-<p>只能趁这个机会好好整理一下生活节奏。一年后，下个十年，接下来二十年，还有好多未确定的事情，得尽快找到方向和决定才行。</p>
+    <title>最近看的一些電影</title>
+    <url>/2018/10/29/2018oct-zaji/</url>
+    <content><![CDATA[<h4 id="重返十七歲">重返十七歲</h4>
+<p>最近看了這部電影。設定和日本動畫“重返十七歲”（ReLIFE）類似，都是 <del>被坑吃了黑衣組織小藥丸</del> 變回十七歲的樣子去再上一遍高中。只不過日本動畫的劇情更嚴肅，人設也更青春，美國的高中那種浪勁兒我還是不適應。儘管講了個完整的故事，演員的顏值和演技也在線，魔戒梗更是讓人激動不已，最後也好好地告訴你人生道理，但是鑑於劇情結構有太多經不起推敲的部分，還是不推薦要求高的朋友去看了，閒時看一遍放鬆一下就好。</p>
+<h4 id="綠燈俠">綠燈俠</h4>
+<p>還看了這部電影。好失敗的起源故事，我很慶幸不是在死侍之前看這部電影，不然我可能痛苦好多年。至少看完之後好多天都難忘那抹鮮豔的綠色。前幾天華納祝賀瑞安·雷诺兹生日快樂的時候似乎還用了這部電影的圖？應該是高級黑。</p>
+<h4 id="無敵破壞王">無敵破壞王</h4>
+<p>從致敬老遊戲，對遊戲反派角色進行人文關懷的角度，是一部很棒的電影，故事很溫馨很簡單，充滿着各種令人感動的元素。角色個性迥異獨具特色，也非常吸引我。片尾曲有一首是 AKB48 唱的，我聽的時候並不知道，突然聽出了日語感到非常驚訝。</p>
+<h4 id="朝花夕誓">朝花夕誓</h4>
+<p>等不到國內影院上映了，不過一旦成功定檔還是會去支持的。昨晚剛補完的作品。岡媽出手的劇場版，劇本稍嫌短，也有好多突兀的轉折，但是仍有很棒的演出表現力，另外畫面的精美程度令我無語凝咽，淚流滿面。只關注兩位主要人物的話，是非常感人的親情故事（雖然很有可能走向母子變兄妹變愛人變祖孫的背德路線但是對大衆來說那樣的展開還是太衝擊了，所以僅供妄想），最後的結局在我看來是一個圓滿收尾，也忍不住流淚。不過有得有失。首先篇幅的限制不知道是刻意對劇本做了刪減，還是因爲畫面太燒錢而不得不卡時間，總之我覺得這個故事裏的支線劇情是令人莫名其妙的，不好好理解猜測的話根本不明白配角的行動邏輯。雖然整體的發展在情理之中，但是單薄的背景人物就像是被主角的故事帶着走，而不是以自身的故事來爲主角陪襯。本來女二的故事完全可以變成另一條有關母親的大戲，但是可能就算是岡媽在這個劇本裏也沒法得心應手地同時駕馭兩條線而不讓主題分散。總之讓茅野愛衣配音的女二經歷這麼大委屈卻沒什麼表現的機會，我私心看來也是很可惜的。女主的石見舞菜香的高音聲線趕得上當年的茅野愛衣，不愧是一脈相承的後輩，她在 NEW GAME!! 和泥鯨之子裏的表現也給我留下了一些印象。總之這部片子我還是很愛吃的，畢竟是岡媽的作品，希望她以後能寫出更優秀的故事。</p>
+<h4 id="少數派報告">少數派報告</h4>
+<p>忘記寫上這一部了，隔了一段時間記性就不怎麼好真遺憾。菲利普·迪克原作，斯皮爾伯格改編，質量上乘，阿湯哥和科林法瑞爾顏值比拼，我兩個都喜歡。其實個人覺得菲利普·迪克的一些作品其實不是很豐滿的科幻，而是科幻骨架單薄的人文劇情向小說。同樣，以一部科幻片的眼光去看這部改編電影也是很可惜的。其實故事講得很不錯，和原作的差異因爲我也記不清楚，所以不比較。對於相關作品的觀看順序，我是 PSYCHO-PASS -&gt; 原作 -&gt; 電影，也是非常不講究先來後到了。在這種世界觀設定下，有獨立意志的個人該如何行動，是我更關注的內容，所以演員的演技是大於畫面效果的展現的。這裏的重要角色，只有科林法瑞爾的角色是個很傻很天真的外行，以一個傳統偵探的思路去判斷，輕信權威，慘遭老狐狸滅口。影片後半程還是有很多硬傷，體現出好萊塢的無腦爽片氣質，不過是少數，瑕不掩瑜。而我比較想吐槽的一個場景就是，科林法瑞爾死前，居然把案發現場找到的手槍不退膛不上保險也不裝塑膠袋，就這麼帶着實彈遞給老狐狸，簡直就是明晃晃的死亡 flag 立起了。這種不合規範的搜查操作，換成我一定是把子彈全退掉，這樣你拿另一把槍殺我我也認了。結局什麼的其實還好。關於先知系統的思考。其實在看 PSYCHO-PASS 的時候我是堅定反對類似系統實用的，因爲很容易被濫用，並且造成個人自由的喪失。近幾年各種社會危害事件頻發的情況和有關部門出臺的政策卻令我對相關的機制有了另一方面的看法。是否真的有必要實施先知機制？如果沒有必要，是否當局仍然強行推行類似政策，也是無可奈何的？也許再過五年就能看到答案了。</p>
 ]]></content>
       <tags>
-        <tag>life</tag>
+        <tag>movie</tag>
       </tags>
   </entry>
   <entry>
@@ -1023,6 +980,49 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>被遗弃的小猫应该是流浪猫所生育的，而流浪猫是被人类创造出来的。没有责任和经验的人，不应该去同情路边的其他物种。生死是自然规律，破坏这种规律的人，要负起更多的责任，而不成熟的关怀会让一切努力白费。</p>
 <hr />
 <p>最后我悲哀地发现一个事实：我会习惯性祝福我见到的大部分事物和人，尽管不一定有效。但是当我选择不祝福的时候，总是发现厄运在它们身上降临得特别灵验。</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>避疫杂记</title>
+    <url>/2020/02/01/2020-at-home/</url>
+    <content><![CDATA[<p>腊月廿九当日凌晨，因为准备收拾东西回家，索性不睡觉，一边打包一边上网，直到刷出武汉封城的消息，不禁愕然，从未想过情况会如此恶化。</p>
+<p>前几日，市民还无安全意识，上街购物的人中鲜见戴口罩的，我在超市货架前踌躇，只拿了一包五只装的普通口罩，现在回想起来还是有些后悔。第二天，线下门店口罩便抢购一空，网上也缺货了。</p>
+<p>回家后吃年夜饭，正月初一上午回乡下老家祭祖，草草解决一顿聚餐后便径直回家，连初二的拜年大作战都取消，就一直闭关在家直至今日。</p>
+<p>打我记事起，正月初一至初五至少有三天要同父母出门，余下几天可以自由安排。读博后把全年假期压缩到了春节期间的七天之内，有时候初五便回实验室。今年这种长期在家还哪儿都没法去的状况，恐怕是空前绝后。</p>
+<p>在回家的火车上，用最快的速度摘下口罩，啃掉当早饭的金拱门，处理残渣，然后戴回口罩。坐在我右边的男性没有戴口罩，左边过道另一边坐着的女性则跟我一样吃了早饭并戴好口罩。就连这吃饭的三分钟也是小心翼翼，生怕那些反正我也看不到的飞沫跑进嘴里。</p>
+<p>回家就是洗脸洗手换衣服，享受家里的饭菜和自己的床。</p>
+<hr />
+<p><strong>大年三十</strong>在家吃了一顿简朴的年夜饭。</p>
+<p>确诊人数 <code>1287</code></p>
+<p><strong>正月初一</strong>下大雨，带着口罩去祖坟祭拜，四叔最担心疫情于是饭都没吃就带着家人离开了，我们也只是和其他叔叔家聚了个餐，不多寒暄便回城。</p>
+<p>确诊人数 <code>1975</code></p>
+<p><strong>正月初二</strong>在家，整理文件，远程回实验室干活，刷 Steam，看新闻，看网球，看电影。</p>
+<p>确诊人数 <code>2744</code></p>
+<p><strong>正月初三</strong>醒来惯例刷疫情实时动态，却看到科比去世消息，以为自己终于混淆梦和现实、新闻和笑话，结果是真的。</p>
+<p>接到有关不可提前回校的零散消息，等正式确认，其他省份已经出台了推迟复工和开学的通知。</p>
+<p>刷了会 Steam 扫了一眼库里的游戏，终究没有打开一款。</p>
+<p>接到正式通知，大约真的要放一个睽违多年的大长假了，退了重买的票，还得再退一次。</p>
+<p>亲戚送来特产直接放我家门口，连门都不敲就走了。</p>
+<p>看纳达尔和克耶高斯的比赛，克耶高斯在赛前穿了科比8号球衣，纳达尔最终赢了。</p>
+<p>在微信上和一些人聊天交换情报。</p>
+<p>看新闻1+1了解疫情。</p>
+<p>确诊人数 <code>4515</code></p>
+<p><strong>正月初四</strong>重复在家练习挥拍，看澳网，统计疫情通报数据看曲线，干活，翻家里的垃圾寻宝。</p>
+<p>确诊人数 <code>5974</code></p>
+<p><strong>正月初五</strong>难得开太阳的好天气，在 Google Earth 里逛街，一直从莵道高等学校走到了大吉山顶。 翻出小学的日记本，没找到关于非典的记录，却重温了02世界杯中国对阵哥斯达黎加的回忆。在电视上看了澳网蒂姆击败纳达尔的后两盘，新老交替的一战居然如此硬核与胶着。</p>
+<p>打了会 Ravenfield.</p>
+<p>确诊人数 <code>7711</code></p>
+<p><strong>正月初六</strong>持续晴好，学了会儿外语，重复前几天做过的事，陪父母吃吃喝喝。楼下的大叔大妈开始讨论小区里有从武汉来的人员不遵守隔离规定的事情。</p>
+<p>确诊人数 <code>9692</code></p>
+<p><strong>正月初七</strong>也是个好天气，处理了一下工作环境，写写邮件，打电话聊天。</p>
+<p>确诊人数 <code>11791</code></p>
+<hr />
+<p>SARS肆虐的时候，我也就是个按时上课，放学回家前志愿在教室喷醋，一直猜测学校什么时候开始隔离的小孩子而已。对当时的世界的了解也很局限，就连接触互联网的机会都很少。因此并没有积累太多经验，面对这次疫情爆发表现十分被动，也没有提醒自己关心的人要提早准备。</p>
+<p>估计大家在家都闲得慌，互联网上出现各种各样的声音，没想到只过去七天，大家就输出了这么多观点，在各种媒体的推动和发酵下，共同造成了诸多混乱局面。未来七天不知道会如何发展，至少我觉得更重要的还是得继续自己的人生。</p>
+<p>只能趁这个机会好好整理一下生活节奏。一年后，下个十年，接下来二十年，还有好多未确定的事情，得尽快找到方向和决定才行。</p>
 ]]></content>
       <tags>
         <tag>life</tag>
@@ -1136,6 +1136,20 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
+    <title>投胎</title>
+    <url>/2018/11/03/first-day/</url>
+    <content><![CDATA[<p>我还记得自己第一次真正意义上，有自主意识的看世界的情景。反正不是在跑动中或是在列车上突然对这个世界有感应的，而是相当庸俗的从床上醒来。那是个夏天的午后，室外晴朗，不过并不是很炎热。一个阿姨带着忧色把我摇醒，问我为什么那么久都醒不过来。我不认识她，于是不言不语的下了床，赤足站在磨的同镜子一般的水泥地板上，一丝凉意沁上心头。</p>
+<p>发现自己落了单，我回头望一群小孩，已经自得其乐的扎在大堆的玩具里，嬉闹着。我奔过去，意识到他们会是我人生中第一群伙伴，尽管我一个也不认识。那时我还不懂得认脸。唯一的印象就是一个扎羊角辫的女孩额头上包着染红的纱布。红色，我见到的第一种鲜艳的颜色。</p>
+<p>于是我开始认识颜色，红色是触目惊心的危险的颜色，也是我内心某一片邪念热爱的颜色。白色是天空中悠然飘浮的云的颜色，蓝色是静谧的天空的颜色，也是我一直最喜欢的颜色。绿色是沙沙作响的树叶的颜色。灰色是我脚下水泥地的颜色。黄色是我皮肤的本色。我觉得颜色很有趣，所以在漫长的童年里，颜色超过音符的作用支配着我的行动。</p>
+<p>我只是漫不经心的在那房间里来回走着，仿佛并没有意识到“外面”是什么，就像多年后我在看书时没有意识到宇宙“外面”是什么一样。我只是观察。有一个穿着白色连衣裙的女孩，就那么一言不发地站在一张小板凳上，眺望着窗外，许久都不眨一下眼，而我后来才发现自己也习惯不眨眼睛，让爸妈惊讶了好久。也许她在和飞鸟交流吧，我这样想，尽管并不知道什么是飞鸟。我觉得无聊，于是走到另一个角落，听到不寻常的哭闹。只见一个穿黄色短袖的男孩以一种奇怪的姿势跪在衣柜前，我仔细看发现他把头卡进衣柜底了。他的脸上挂着泪珠，耳朵和双颊红得像喝了烈酒一样，尽管我并不知道什么是烈酒。阿姨试图让他平静，伙伴们则徒劳的扯着他的衣服，不过看他们好像并没有担心或是紧张的什么表情。我心里叹道，这样是不对的。可是这么想想也是无聊，所以打算走开了。过了一会，没有哭声了，挂着泪的男孩高高兴兴的去玩了。我凝视着他，完全没有预料到几年后我会遭遇类似的情况。我也完全没想到，没过多久这里的一切，看护阿姨，孩子们，厂房，就全部在我的生命中消失得一干二净，现在只是空旷的平地，甚至在父母的交流中也找不出多少信息。他们就这样不留痕迹的匆匆走过。</p>
+<p>厂区的下班铃响了。一群穿着朴素的人走进这个房间。孩子们欢呼着向那几个高大的人影奔去。我不明白是怎么回事，但是不由自主的跟了过去。当时我妈还是服装厂女工。尽管当时我还不认识她，但是既然她一脸笑意的向我走来，给我清凉的绿豆汤，帮我擦脸，我就明白她是人类中的母亲角色吧，而且承受体是我。我很高兴接下来就应该是见到我爸的时刻，并且明白了：自此往后，原本混沌之中的灵魂要在这个躯体中待上很长一段时间，于是就放心的说出了全世界婴儿开口的第一个词——“妈妈”。</p>
+<p>诶，是谁教我这么说的？</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>告别一个孟加拉人</title>
     <url>/2018/07/24/farewell-to-the-bengali/</url>
     <content><![CDATA[<p>实验室刚毕业的孟加拉博士马上就要回国了。</p>
@@ -1161,87 +1175,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 ]]></content>
       <tags>
         <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>说要写2018年末总结其实是骗人的</title>
-    <url>/2018/12/31/hello-2019/</url>
-    <content><![CDATA[<h2 id="记录2018">记录2018</h2>
-<ul>
-<li><p>看了几部2018年出品的动画 <code>27</code></p></li>
-<li><p>看过几部新上映的真人电影 <code>7</code></p></li>
-<li><p>新游戏 <code>3</code></p></li>
-<li><p>记下了几场梦 <code>54</code></p></li>
-<li><p>参加的婚礼 <code>1</code></p></li>
-<li><p>拍过几部 vlog <code>3</code></p></li>
-<li><p>写过的坑 <code>3</code></p></li>
-<li><p>公开的坑 <code>1</code></p></li>
-<li><p>完成的坑 <code>0</code></p></li>
-</ul>
-<p>去年大概有以上这些内容值得纪念，具体就不展开了。</p>
-<h2 id="展望2019">展望2019</h2>
-<ul>
-<li><p>把坑填完</p></li>
-<li><p>把白色相簿2剩下几条线推完</p></li>
-<li><p>挣到很多钱</p></li>
-<li><p>惯例的，希望早日实现不老不死不灭</p></li>
-<li><p>顺便获得几种超能力就更好了</p></li>
-<li><p>多学几门语言</p></li>
-</ul>
-<h2 id="想说的话">想说的话</h2>
-<p>感谢关照过我的人，给你们添麻烦了。</p>
-<p>感谢我照顾过的人，让我能保持人性。</p>
-<p>感谢拓展我视野的你们，感谢分享快乐的你们，感谢为这个世界带来美丽的事物的你们。</p>
-<p>接下来的一年我也会努力接近你们的轨迹，争取让自己变得更优秀。</p>
-<p>希望有一天我能大声呼喊出心灵的话语。</p>
-]]></content>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>投胎</title>
-    <url>/2018/11/03/first-day/</url>
-    <content><![CDATA[<p>我还记得自己第一次真正意义上，有自主意识的看世界的情景。反正不是在跑动中或是在列车上突然对这个世界有感应的，而是相当庸俗的从床上醒来。那是个夏天的午后，室外晴朗，不过并不是很炎热。一个阿姨带着忧色把我摇醒，问我为什么那么久都醒不过来。我不认识她，于是不言不语的下了床，赤足站在磨的同镜子一般的水泥地板上，一丝凉意沁上心头。</p>
-<p>发现自己落了单，我回头望一群小孩，已经自得其乐的扎在大堆的玩具里，嬉闹着。我奔过去，意识到他们会是我人生中第一群伙伴，尽管我一个也不认识。那时我还不懂得认脸。唯一的印象就是一个扎羊角辫的女孩额头上包着染红的纱布。红色，我见到的第一种鲜艳的颜色。</p>
-<p>于是我开始认识颜色，红色是触目惊心的危险的颜色，也是我内心某一片邪念热爱的颜色。白色是天空中悠然飘浮的云的颜色，蓝色是静谧的天空的颜色，也是我一直最喜欢的颜色。绿色是沙沙作响的树叶的颜色。灰色是我脚下水泥地的颜色。黄色是我皮肤的本色。我觉得颜色很有趣，所以在漫长的童年里，颜色超过音符的作用支配着我的行动。</p>
-<p>我只是漫不经心的在那房间里来回走着，仿佛并没有意识到“外面”是什么，就像多年后我在看书时没有意识到宇宙“外面”是什么一样。我只是观察。有一个穿着白色连衣裙的女孩，就那么一言不发地站在一张小板凳上，眺望着窗外，许久都不眨一下眼，而我后来才发现自己也习惯不眨眼睛，让爸妈惊讶了好久。也许她在和飞鸟交流吧，我这样想，尽管并不知道什么是飞鸟。我觉得无聊，于是走到另一个角落，听到不寻常的哭闹。只见一个穿黄色短袖的男孩以一种奇怪的姿势跪在衣柜前，我仔细看发现他把头卡进衣柜底了。他的脸上挂着泪珠，耳朵和双颊红得像喝了烈酒一样，尽管我并不知道什么是烈酒。阿姨试图让他平静，伙伴们则徒劳的扯着他的衣服，不过看他们好像并没有担心或是紧张的什么表情。我心里叹道，这样是不对的。可是这么想想也是无聊，所以打算走开了。过了一会，没有哭声了，挂着泪的男孩高高兴兴的去玩了。我凝视着他，完全没有预料到几年后我会遭遇类似的情况。我也完全没想到，没过多久这里的一切，看护阿姨，孩子们，厂房，就全部在我的生命中消失得一干二净，现在只是空旷的平地，甚至在父母的交流中也找不出多少信息。他们就这样不留痕迹的匆匆走过。</p>
-<p>厂区的下班铃响了。一群穿着朴素的人走进这个房间。孩子们欢呼着向那几个高大的人影奔去。我不明白是怎么回事，但是不由自主的跟了过去。当时我妈还是服装厂女工。尽管当时我还不认识她，但是既然她一脸笑意的向我走来，给我清凉的绿豆汤，帮我擦脸，我就明白她是人类中的母亲角色吧，而且承受体是我。我很高兴接下来就应该是见到我爸的时刻，并且明白了：自此往后，原本混沌之中的灵魂要在这个躯体中待上很长一段时间，于是就放心的说出了全世界婴儿开口的第一个词——“妈妈”。</p>
-<p>诶，是谁教我这么说的？</p>
-]]></content>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人生的限制器</title>
-    <url>/2020/05/13/life-limits/</url>
-    <content><![CDATA[<ul>
-<li><p>时间</p></li>
-<li><p>空间</p></li>
-<li><p>社会关系</p></li>
-<li><p>需求</p></li>
-<li><p>智慧</p></li>
-</ul>
-<p>且不谈成功和自由，我觉得自己要是被这五项全部束缚住的话，起码是不能获得幸福的，所以至少要抛弃一项。</p>
-<p>当然，有些人能得心应手地统御这五项，他们很优秀。</p>
-<h2 id="时间">时间</h2>
-<p>生命是有限的，要在活着的时候做时间管理，还要尽可能长寿；如果像蜉蝣那样在须臾间结束，如果人能倒转时间，时间也就不是问题。</p>
-<h2 id="空间">空间</h2>
-<p>人没法随意到达世界的任何角落，但又不习惯漂泊，喜欢宽敞的环境，却不一定适应野外，因此需要交通工具和房子。如果人能够在宇宙空间中生存，或者掌握瞬间移动的妙法，空间也就不是问题。</p>
-<h2 id="社会关系">社会关系</h2>
-<p>人与人之间的关系是人类社群网络的基本成分。家庭、集体、社会、国家、现实、虚拟，形形色色的相遇与相知，喜欢与讨厌。为了这些关系，多少还是要有些牺牲的。人与人的边界是不会消失的，所以社会关系是人生在世永远需要面对的问题，除非人选择做回动物。</p>
-<h2 id="需求">需求</h2>
-<p>需求是最复杂的一项，按照马斯洛的需求层次理论，人的需求其实可以涵盖本文提到的其他四项。只是用需求来概括人生的限制，未免太过笼统。想要玩乐、想要物质、想要征服、想要毁灭，个人的需求会与其他四项、他人的意志产生冲突，如果你什么都不想要，那么需求的确也不是问题。</p>
-<h2 id="智慧">智慧</h2>
-<p>智慧倒是可以分为纯粹知识和真理的获取、世界本质的洞察以及系统的处事方法。其实智慧可以并入需求一项，单独提出来只是因为我个人觉得对于纯粹知识的获取很重要而已。应该只有少数人能突破人脑能力的极限，即使这样，他们也无法穷尽知识。至于真理，最好的状态也只是是无限接近而遥不可及。而这一方面的瓶颈是一些人痛苦的根源。如果甘愿当疯子或傻子，那么智慧倒显得不那么重要。</p>
-<p>从情感上说，我愿意抛弃这五项中的一项来达到人生的平静与幸福。但是以理性的角度思考，其中任何一项都可以分解成生活中多种实际的因素，缺少了这些实际因素的辅助，其他四项的实现还是会碰到困难。</p>
-<p>比方说，如果抛弃麻烦的社会关系，我有可能失去提升智慧与满足需求的资源，甚至被社会排斥而成为流落荒野的独狼；而反过来，要是为了社会关系处心积虑的话，我的时间、空间、生活与学习的需求都会被挤占，就得放弃自己的愿望。</p>
-<p>在这五项之间无法好好取舍而迷茫，这就是被束缚的凡人的悲哀吧。</p>
-<p>对我来说，成功、自由、幸福，都是统合而复杂的概念，不是简简单单能触及的东西。</p>
-]]></content>
-      <tags>
-        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -1436,6 +1369,201 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
+    <title>说要写2018年末总结其实是骗人的</title>
+    <url>/2018/12/31/hello-2019/</url>
+    <content><![CDATA[<h2 id="记录2018">记录2018</h2>
+<ul>
+<li><p>看了几部2018年出品的动画 <code>27</code></p></li>
+<li><p>看过几部新上映的真人电影 <code>7</code></p></li>
+<li><p>新游戏 <code>3</code></p></li>
+<li><p>记下了几场梦 <code>54</code></p></li>
+<li><p>参加的婚礼 <code>1</code></p></li>
+<li><p>拍过几部 vlog <code>3</code></p></li>
+<li><p>写过的坑 <code>3</code></p></li>
+<li><p>公开的坑 <code>1</code></p></li>
+<li><p>完成的坑 <code>0</code></p></li>
+</ul>
+<p>去年大概有以上这些内容值得纪念，具体就不展开了。</p>
+<h2 id="展望2019">展望2019</h2>
+<ul>
+<li><p>把坑填完</p></li>
+<li><p>把白色相簿2剩下几条线推完</p></li>
+<li><p>挣到很多钱</p></li>
+<li><p>惯例的，希望早日实现不老不死不灭</p></li>
+<li><p>顺便获得几种超能力就更好了</p></li>
+<li><p>多学几门语言</p></li>
+</ul>
+<h2 id="想说的话">想说的话</h2>
+<p>感谢关照过我的人，给你们添麻烦了。</p>
+<p>感谢我照顾过的人，让我能保持人性。</p>
+<p>感谢拓展我视野的你们，感谢分享快乐的你们，感谢为这个世界带来美丽的事物的你们。</p>
+<p>接下来的一年我也会努力接近你们的轨迹，争取让自己变得更优秀。</p>
+<p>希望有一天我能大声呼喊出心灵的话语。</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>人生的限制器</title>
+    <url>/2020/05/13/life-limits/</url>
+    <content><![CDATA[<ul>
+<li><p>时间</p></li>
+<li><p>空间</p></li>
+<li><p>社会关系</p></li>
+<li><p>需求</p></li>
+<li><p>智慧</p></li>
+</ul>
+<p>且不谈成功和自由，我觉得自己要是被这五项全部束缚住的话，起码是不能获得幸福的，所以至少要抛弃一项。</p>
+<p>当然，有些人能得心应手地统御这五项，他们很优秀。</p>
+<h2 id="时间">时间</h2>
+<p>生命是有限的，要在活着的时候做时间管理，还要尽可能长寿；如果像蜉蝣那样在须臾间结束，如果人能倒转时间，时间也就不是问题。</p>
+<h2 id="空间">空间</h2>
+<p>人没法随意到达世界的任何角落，但又不习惯漂泊，喜欢宽敞的环境，却不一定适应野外，因此需要交通工具和房子。如果人能够在宇宙空间中生存，或者掌握瞬间移动的妙法，空间也就不是问题。</p>
+<h2 id="社会关系">社会关系</h2>
+<p>人与人之间的关系是人类社群网络的基本成分。家庭、集体、社会、国家、现实、虚拟，形形色色的相遇与相知，喜欢与讨厌。为了这些关系，多少还是要有些牺牲的。人与人的边界是不会消失的，所以社会关系是人生在世永远需要面对的问题，除非人选择做回动物。</p>
+<h2 id="需求">需求</h2>
+<p>需求是最复杂的一项，按照马斯洛的需求层次理论，人的需求其实可以涵盖本文提到的其他四项。只是用需求来概括人生的限制，未免太过笼统。想要玩乐、想要物质、想要征服、想要毁灭，个人的需求会与其他四项、他人的意志产生冲突，如果你什么都不想要，那么需求的确也不是问题。</p>
+<h2 id="智慧">智慧</h2>
+<p>智慧倒是可以分为纯粹知识和真理的获取、世界本质的洞察以及系统的处事方法。其实智慧可以并入需求一项，单独提出来只是因为我个人觉得对于纯粹知识的获取很重要而已。应该只有少数人能突破人脑能力的极限，即使这样，他们也无法穷尽知识。至于真理，最好的状态也只是是无限接近而遥不可及。而这一方面的瓶颈是一些人痛苦的根源。如果甘愿当疯子或傻子，那么智慧倒显得不那么重要。</p>
+<p>从情感上说，我愿意抛弃这五项中的一项来达到人生的平静与幸福。但是以理性的角度思考，其中任何一项都可以分解成生活中多种实际的因素，缺少了这些实际因素的辅助，其他四项的实现还是会碰到困难。</p>
+<p>比方说，如果抛弃麻烦的社会关系，我有可能失去提升智慧与满足需求的资源，甚至被社会排斥而成为流落荒野的独狼；而反过来，要是为了社会关系处心积虑的话，我的时间、空间、生活与学习的需求都会被挤占，就得放弃自己的愿望。</p>
+<p>在这五项之间无法好好取舍而迷茫，这就是被束缚的凡人的悲哀吧。</p>
+<p>对我来说，成功、自由、幸福，都是统合而复杂的概念，不是简简单单能触及的东西。</p>
+]]></content>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>救世界名画还是救猫？</title>
+    <url>/2019/11/11/painting-or-cat-dilemma/</url>
+    <content><![CDATA[<p>我躺在床上，病房没有开灯，十分昏暗，我单侧的视野中只有熟悉到吐的天花板。门外，女人的讲话声慢慢地远去。</p>
+<p>口好渴。我试图呼唤别人来帮我喂水，但是肿胀的喉咙只能发出低微的嘶鸣。身边没有一个人在照看我，没有人知道我的情况。我感到绝望和焦虑，这么一想身上越发难受起来，但实际又感觉不到什么，我的身体就像被厚厚的胶皮包裹着，阻碍了触觉和痛觉。屁股下面空荡荡的，这么一想，原来右腿已经坏死得太厉害，做了截肢手术啊。</p>
+<p>真是悲哀的人生啊。我在心中无奈地叹息。病房角落的的暗影中好像有一个熟悉的轮廓，但是我实在是有点累，便懒得去注意它，闭上了眼睛。</p>
+<p>落得这步田地，也是当时自己选的，好歹我也成了英雄不是吗？</p>
+<p>一切都要从那场震惊世界的美术馆火灾说起。</p>
+<p>那一天，我参加市政厅主办，美术馆布置的展览。因为午餐喝了冷掉的咖啡，我在展览中就感到不适，只得去了厕所。</p>
+<p>不去不要紧。当我走出厕所时，发生了不得了的事情。美术馆陷入火海，其他人早已撤离，而我因为厕所广播线路损坏没有维修而完美地错过了火灾警报。</p>
+<p>我回忆起各种逃生注意事项，尝试找到出口。烟雾太浓，我只好凭本能判断方向。</p>
+<p>结果，我被熊熊大火包围了，无路可逃。吾命休矣！一想到自己的人生就这样结束，我不禁仰天长叹。这时我才发现，背后的墙上正好挂着本次展览最珍贵的世界名画。刚才急着去厕所还没参观，现在才看到它，我一边庆幸自己能一睹名画风采，一边惋惜初次见面就要和它一起葬身火海。</p>
+<p>画面在烈火的熏燎下依然清晰，名画的内容是一对男女在机场深情拥吻，而男子的身后站着另一位沉默的少女。这时我也顾不得即将烈焰焚身了，完全沉浸在画作的情景之中。</p>
+<p>将我拉回现实的是脚边柔软的触感，我低头一看，发现不知哪里跑来的小猫在蹭着我的小腿。原来除我以外还有别的生命困在火海！一股强烈的求生欲从心头激起，我决定同小猫一起找到出口！</p>
+<p>回头看了一眼世界名画，我还是忍不住小心翼翼地把它从墙上摘下来。</p>
+<p>动物的本能果然强大，在小猫的带领下，我发现出口近在咫尺。正当我向前冲刺的时候，楼板塌陷了，我脚下一沉，身体开始下落，在掉下去前，我拼尽全力将世界名画向出口甩去，并伸手悬挂在残留的木板上，小猫落到了地下一层，冲我喵喵地叫着。</p>
+<p>太糟糕了，是把那幅画放着不管，和小猫一起再找出路呢，还是任凭小猫自生自灭，我爬上去带着画逃生？我陷入了两难的境地。</p>
+<p>一番心理斗争后，我沉默着，用力支撑起身体，在木板即将烧断时，一跃而起，抱住了世界名画。喵喵的叫声很快被崩塌的建筑所掩埋，我忍着悲痛的心情，拾起画，坚决地向门外走去，就像电影里的主角，不再回头。</p>
+<p>室外的光非常刺眼，正当我以为安全而放下心来时，我的身后发立刻生了爆炸。我不知道自己怎么来得及反应过来转过头去看的，但我昏迷前最后见到的，是向我冲来的一团巨大的猫形火球。</p>
+<p>随后的情节就像主旋律影片一样按部就班地发生。世界名画完好无损，我被送医院急救，度过了危险期，保住了性命。我以为自己很坚强，总能站起来，但是这一次我在病床上等了太久，也没有站起来。我对文艺作品的热爱与保护和其体现的崇高精神感动了市民、媒体和政府。我的病房一度摆满了鲜花，电视新闻滚动播放我的事迹，而政府部门多次派人员前来慰问，并向我的家人承诺，不但会给我颁发市民荣誉，还将用一大笔奖金和日常的补贴来负担起我的生活和医疗费。</p>
+<p>等我意识完全清醒时，周围的喧闹也不复。医生和护士例行公事，定期来检查我的状况。妻子一般会在病房照顾我，但是最近也不常来。因为我的喉咙受伤，我们无法顺利地交流，我只能用单侧的视野观察她，她并没有好好地回应我。她的表情越来越僵硬了。</p>
+<p>一种似曾相识的被抛弃的感觉持续占据了我的内心。我默默地承受着不安，等待着变化的发生。我时不时会想起美术馆里的那只小猫。就连梦里，它楚楚可怜的样子都让我难受得喘不过气。它到底有没有活下来呢？我的选择是正确的吗？就这样一直纠结着，时间慢慢流逝，我将以这副模样度过余生。</p>
+<p>我睁开眼，只见病房角落的暗影中的轮廓晃动了一下。</p>
+<p>我又眨了一下眼睛，那个物体不知怎么地瞬间移动到我的身边，假如我的喉咙没有损坏的话，我一定会放声尖叫。但我现在只想晕过去，我太累了。</p>
+<p>是一只猫！我没能如愿晕过去，它让我一个激灵清醒过来。</p>
+<p>“现在后悔吗？当时选择了这条路。”猫开口说话了。</p>
+<p>被问到这个问题，我彻底崩溃了。心跳急促起来，泪水慢慢从眼角滑落，滴在枕头上。</p>
+<p>“你的时间不多了。</p>
+<p>“你能活下来，绝不是万幸，毕竟这一切都是剧本的安排，剧本是不会让你这样窝囊地死去的。</p>
+<p>“你明明读过剧本，却忘记了自己的使命，被区区一幅世界名画蒙蔽了心灵。你这样还能算正义的伙伴吗？</p>
+<p>“你搞砸了，丧失了宝贵的机会，现在基本无法挽回。来吧，告诉我，剧本是怎么说的？”</p>
+<p>剧本……</p>
+<p>想起来了。</p>
+<p>我的角色是正义的伙伴，我在人类世界的重要使命就是拯救猫。</p>
+<p>不论猫的品种是什么，状况有多么危险，造成的副作用有多么严重，我必须救下在我眼前受到伤害的任何一只猫。</p>
+<p>哪怕是付出自己的生命，救猫。二选一的紧急情况下，救猫。把一只猫和一架飞机上的旅客放在天平的两头，救猫。</p>
+<p>这一切都是因为某一只猫对这个世界的意义非常重大。如果没有救下那一只，世界就会完蛋。</p>
+<p>问题在于剧本也无法确定具体是哪只猫，只知道那只猫必定出现在我面前。而只要能救下那只猫，其他的一切都可以牺牲。</p>
+<p>原来，那只猫是联系这个世界与另一侧的名为“薛定谔的猫娘宇宙”的传送使者。因为身份不明，它可能是任何一只猫。薛定谔的猫娘宇宙是我们所在宇宙的镜像宇宙的异构体。那一侧的智慧生命全是猫娘。如果你没有见过猫娘的话，建议你查一下互联网 <a href="https://zh.moegirl.org/zh-hans/%E7%8C%AB%E5%A8%98" target="_blank" rel="noopener">猫娘</a>。不过互联网五十年前就已经崩溃了，所以查了也是白查。</p>
+<p>薛定谔的猫娘宇宙本来和我们的世界隔绝，相安无事。但是有一天，跨次元侵略者塔努基大魔王和它的军团选择了侵略薛定谔的猫娘宇宙。猫娘们并没有足够的力量抵抗，因此，薛定谔的猫娘宇宙陷落成为了塔努基殖民地，民不聊生。塔努基大魔王甚至不断扩张它的势力范围，它的跨次元力量终于影响到了我们的世界。七十年前，它们灭绝了所有北美浣熊，在美国人短暂的快乐之后迅速取代了浣熊的生态位，造成了更严重的破坏。五十年前，全球重要的几个互联网数据节点沦陷了，所有网站媒体资源和用户数据都被替换成了塔努基的迷因素材。没过多久，世界就回到了彼此隔绝的落后状态。</p>
+<p>三十年前，也就是我出生的那一年，人类和猫娘在各自的宇宙同时出土了一块泥板，上面刻有解除塔努基危机的剧本。剧本说猫娘只有通过从我们这个世界召唤正义的伙伴，打败塔努基大魔王，一切才能恢复如初。</p>
+<p>而和泥板同年同月同日问世的我，就这样悄然成为了正义的伙伴人选，并时刻铭记剧本的指导。</p>
+<p>然而故事并不圆满。我救下了许多猫，最终被召唤到薛定谔的猫娘宇宙。在那里我没能打败塔努基大魔王，直接被塔努基的爪子拍成了灰。在猫娘们的嘘声中我的灵魂穿过莫比乌斯环，重新回归到刚出生的我身上。原来这是一种循环，我必须通过不断轮回的试炼，才能累积经验，找到打败塔努基大魔王的方法。</p>
+<p>不知道从哪一次轮回开始，我不禁想要逃避。既然注定会见到传送使者猫，那只要尽量降低日常生活中见到猫的频率，就能省去很多麻烦。然而这样也没有让打败塔努基的效率变得更高，一切在循环往复中持续着。而世人并不理解我经历的一切，只认为我是一个因为猫而惹麻烦的怪人。</p>
+<p>然后在这一次轮回，我应该也读过剧本。剧本上说这次极有可能成功，打败塔努基大魔王，让世界恢复和平。剧本上也说这次的挑战主要在人世，并叮嘱我一定要万事谨慎。但是轮回的次数太多，过往的记忆残片影响了我现在的记忆。面对世界名画，我松懈了，退缩了，选择做普通的人。结果我刚好错失了救下传送使者的机会。</p>
+<p>“按照剧本，你这次本应该在大火中救下那只猫，你的死状会很惨烈，但那不是真正的死亡。你救下的那只猫应该正是这次轮回的传送使者，它很快会让你在薛定谔的猫娘世界转生，让你再次成为勇者，彻底打败塔努基大魔王。然后，你和猫娘们可以继续展开惊心动魄的冒险，在那个宇宙度过幸福的一生。</p>
+<p>“但是你选择了另一条路。你拯救了那幅画，你活了下来，但是身受重伤，只能领着政府的补贴躺在病床上度过余生。你的妻子对你的感情并没有你以为的那样深厚，她会悄悄挥霍你的奖金，并私自将补贴挪用到其他地方。她想等你断气，但是发现你一直顽强地坚持着。最终她感到守着你也没意义，于是同你离婚了。你除了一个人类文明的守护者的称号，什么也没有得到，也无法再成就事业，只能麻木地迎接世界的终结。</p>
+<p>“而我现在则不得不同你告别，因为最后的时刻已经来到，我再也帮不了你了，大雄。我是薛定谔的猫娘宇宙2000年以后的科技结晶，穿过莫比乌斯环来到你的世界，从小陪伴你，照顾你，监督你成为正义的伙伴。现在的你再也无法拯救薛定谔的猫娘宇宙，这注定了薛定谔的猫娘宇宙未来创造的我也不复存在。另外，我刚刚得知，传送使者猫也是我的直系祖先。因为悖论，我在这个时代的一切信息应该被抹消，只不过我自从你出事后就一直低调行事，只在黑暗中行动，只要不被任何人观察到，我就能维持现在这个样子，直到悖论完全发挥效果。”</p>
+<p>猫娘说完了，月光倾泻进房间，微微照亮了她蓝色的布偶头套。我忍受着痛苦，想呼唤她的名字。</p>
+<p>“哆……”</p>
+<p>“别叫那个名字！”她立刻激动地打断了我。“这不光是侵权的问题了。你只要喊出我的名字，我就会立即被悖论抹消。”</p>
+<p>现在该怎么办？</p>
+<p>“怎么办？”猫娘冷笑道。“大雄，你总是这样。每次出了岔子，你除了朝我哭诉怎么办，一点儿也不会思考，只知道逃避，也难为你这样的人被选为正义的伙伴。静香虽然和我们一起长大，但是成年后也忍不住怀疑我们的关系，这也是你们夫妻嫌隙的矛盾点之一，这方面我也有错。说起来，我已经受够了从四次元短裙下帮你掏出神奇工具了。受到悖论的影响，现在大多数工具都无法运作，不过我最近倒是在公园和一个小伙伴搭上了话，它是一团很可爱的黑泥，它说只要扔出一把菜刀就能解决世界上的所有问题……看吧，大雄，这把菜刀就是它送给我的，你要不要试一试呀……”</p>
+<p>猫娘逐渐变得邪恶的声音慢慢地听不见了，我如坠冰窟，感觉不到周围。已经完蛋了。若不是因为那幅画，我怎么会付出这么大的代价！</p>
+<p>“喂，大雄，你别睡过去了，振作一点！喂！”猫娘的喊声再次把我拉回现实。我怒上心头，恶狠狠地瞪着她，艰难地挤出一句话：“你不让我活，也不让我死。”</p>
+<p>猫娘被我的气势吓住了，她怔怔地回答：“但是世界需要你。”</p>
+<p>我冷哼了一声，继续沙哑地说：“那需不需要你呢？哆啦……”</p>
+<p>“等等等等等别叫那个名字，求求你了！”猫娘慌了神，吓得连身体都快变透明了，于是赶紧制止我。“我只是想教训一下你，不是来真的。解决方法还是有的，但我只希望你能有自己的想法，独立做决定。”</p>
+<p>我平息了心情，缓慢地从床边的小推车上拾起一枚硬币。硬币的两面分别刻着“九磅”和“十五便士”。这是一枚神奇的错版硬币，我受伤住院以后它突然就在我病房的小推车上出现了。我把它当作我人生的新希望，珍藏起来。我决定用它来做决策。</p>
+<p>“省省吧，大雄……”猫娘用有气无力的声音制止我。“就算再怎么像那个人，他也只是烧掉了半边脸，而你是全身只剩下半边脸了，而且抛硬币这个梗也很没创意。我是要你独立做决定！”</p>
+<p>就这样度过余生？还是去救猫？</p>
+<p>当然是救猫啦！什么世界名画，什么守护人类文明的英雄，这稀巴烂的世界，我再也不想管了！让我去猫娘宇宙吧！</p>
+<p>“非常好。”猫娘终于露出了满意的神色，并把手里的菜刀丢在一边。</p>
+<p>“你通过了试炼，为了奖励你，我会帮你重新开放时光机。但是受到悖论的影响，时光机已经不能前往任何想去的时间了，它只有你观测到传送使者猫那个时刻之后的存档。因此，你会直接回到火灾现场，再度做出选择。这段旅程依然充满危险，但只要达成目标，你就能改变命运。去吧，大雄，成为出色的正义的伙伴！</p>
+<p>“要记住，那幅世界名画会对你产生极大的诱惑。但说到底，如果不是互联网崩溃，只剩下这幅图画没有被塔努基篡改，它本来并没有成为世界名画的资格。毕竟过去在互联网上，这幅图到处都是，它的迷因素材过于泛滥，甚至超过了作品的本质。因此，只要你修复了世界，就没必要再拯救这样一幅无聊的世界名画了。”</p>
+<p>猫娘的话更加坚定了我的信念。我的灵魂逐渐离开了残破的肉体，朝着过去移动。只要能成功，我就能拯救这个世界，并在异世界开始新的生活。</p>
+<p>“再见了，大雄，希望这是最后一次在这个世界同你相见。”猫娘的身影消失了。</p>
+<p>我眼含泪水，与她告别。</p>
+<p>这一次，一定要让猫娘们幸福。</p>
+]]></content>
+      <tags>
+        <tag>fiction</tag>
+        <tag>writing</tag>
+        <tag>original</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>0202年在 Pixel C 刷魔趣ROM</title>
+    <url>/2020/03/28/pixel-c-mokee-magisk/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>Pixel C 又开始电量尿崩了，放着不管一天多电就能跑光， timerfd 疯狂唤醒，就算清除 Google 数据都没用。那就一鼓作气 root 并且直接刷魔趣ROM上 Android 10 吧！</p>
+<h2 id="准备工作">准备工作</h2>
+<p>阅读资料，下载资源</p>
+<p>https://www.mokeedev.com/guide/getting_started.html</p>
+<p>https://download.mokeedev.com/dragon.html</p>
+<p>https://flash.mokeedev.com/ （其实没用，只是帮你完成一些步骤）</p>
+<ul>
+<li>Magisk-v20.4.zip</li>
+<li>MK100.0-dragon-202003280436-NIGHTLY.zip</li>
+<li>open_gapps-arm64-10.0-nano-20200325.zip</li>
+<li>twrp-3.3.1-2-dragon.img</li>
+</ul>
+<p>把指定资源放进目标文件夹，再打开计算机的终端进入该文件夹。</p>
+<h2 id="刷机">刷机</h2>
+<h3 id="解锁设备">解锁设备</h3>
+<p>进入设置-开发者选项-允许 oem 解锁</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br></pre></td></tr></table></figure>
+<p>设备重启并显示 waiting for fastboot command….</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">fastboot oem unlock</span><br></pre></td></tr></table></figure>
+<p>按电源键确认，设备发出一声“滴”然后重启，显示“正在清空”（为什么是中文？）</p>
+<p>有点慢……</p>
+<p>为了确保正常，重启试试（没问题，恢复出厂了，跳过激活设置重新打开 usb 调试）</p>
+<h3 id="刷入-recovery">刷入 recovery</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br><span class="line">fastboot flash recovery .\twrp-3.3.1-2-dragon.img</span><br></pre></td></tr></table></figure>
+<p>进入重启循环无法进入 recovery？</p>
+<p>改成 <code>fastboot boot .\twrp-3.3.1-2-dragon.img</code> , 好了</p>
+<p>选择 <code>格式化 data 分区</code></p>
+<p>在高级选项中选中 adb sideload，读条时刷入 mokee magisk opengapps</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb sideload xxx.zip #每执行一次成功后再在 TWRP 中选 adb sideload</span><br></pre></td></tr></table></figure>
+<p>重启</p>
+<p>卡在 Google 标志了？！</p>
+<p>为了保险，重新线刷了一次，这次终于出现 mokee logo （后来发现，卡在 Google 标志，可能多重启几次会好，大概是 nightly 不够稳定）</p>
+<p>妈的，这logo丑哭了</p>
+<h2 id="开机后设置">开机后设置</h2>
+<p>像一个正常 google 设备一样设置，从 Google 云拖回设备备份，更新应用……</p>
+<p>Magisk Manager 有了，但是 safetynet 检查不通过，ctsProfile: false. 不行，这样装不了 Netflix.</p>
+<p>安装 <code>magiskhide props config</code> 和 <code>busybox</code> 模块</p>
+<p>顺便一说这个魔趣 ROM 自带终端，帮助我迅速解决 safetynet 问题，不用临时下一个 termux 了。直接在终端里操作：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">su</span><br><span class="line">props</span><br><span class="line">1 # edit device fingerprint</span><br><span class="line">f # Pick a certified fingerprint</span><br><span class="line"><span class="meta">#</span><span class="bash"> 找到品牌 设备 系统版本</span></span><br></pre></td></tr></table></figure>
+<p>然后就是安装其他 magisk 模块……</p>
+<p>全剧终</p>
+<h2 id="后记">后记</h2>
+<p>上一篇博客提到可能是2020年最后一篇博客，不过这篇就是打上一篇的脸。其实我是不太喜欢记录这些杂碎的技术笔记的，毕竟2020年还要折腾 Pixel C 这种设备，实在是过时了。顺便一说为了搞个纯写作环境，我自己的创作会集中放在另一个分站上 https://utsk.wordpress.com/ ，而这边的博客还是保持想到啥写啥的碎碎念状态，文字质量不会太高。</p>
+]]></content>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro</title>
     <url>/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/</url>
     <content><![CDATA[<h2 id="准备工作">准备工作</h2>
@@ -1622,175 +1750,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>救世界名画还是救猫？</title>
-    <url>/2019/11/11/painting-or-cat-dilemma/</url>
-    <content><![CDATA[<p>我躺在床上，病房没有开灯，十分昏暗，我单侧的视野中只有熟悉到吐的天花板。门外，女人的讲话声慢慢地远去。</p>
-<p>口好渴。我试图呼唤别人来帮我喂水，但是肿胀的喉咙只能发出低微的嘶鸣。身边没有一个人在照看我，没有人知道我的情况。我感到绝望和焦虑，这么一想身上越发难受起来，但实际又感觉不到什么，我的身体就像被厚厚的胶皮包裹着，阻碍了触觉和痛觉。屁股下面空荡荡的，这么一想，原来右腿已经坏死得太厉害，做了截肢手术啊。</p>
-<p>真是悲哀的人生啊。我在心中无奈地叹息。病房角落的的暗影中好像有一个熟悉的轮廓，但是我实在是有点累，便懒得去注意它，闭上了眼睛。</p>
-<p>落得这步田地，也是当时自己选的，好歹我也成了英雄不是吗？</p>
-<p>一切都要从那场震惊世界的美术馆火灾说起。</p>
-<p>那一天，我参加市政厅主办，美术馆布置的展览。因为午餐喝了冷掉的咖啡，我在展览中就感到不适，只得去了厕所。</p>
-<p>不去不要紧。当我走出厕所时，发生了不得了的事情。美术馆陷入火海，其他人早已撤离，而我因为厕所广播线路损坏没有维修而完美地错过了火灾警报。</p>
-<p>我回忆起各种逃生注意事项，尝试找到出口。烟雾太浓，我只好凭本能判断方向。</p>
-<p>结果，我被熊熊大火包围了，无路可逃。吾命休矣！一想到自己的人生就这样结束，我不禁仰天长叹。这时我才发现，背后的墙上正好挂着本次展览最珍贵的世界名画。刚才急着去厕所还没参观，现在才看到它，我一边庆幸自己能一睹名画风采，一边惋惜初次见面就要和它一起葬身火海。</p>
-<p>画面在烈火的熏燎下依然清晰，名画的内容是一对男女在机场深情拥吻，而男子的身后站着另一位沉默的少女。这时我也顾不得即将烈焰焚身了，完全沉浸在画作的情景之中。</p>
-<p>将我拉回现实的是脚边柔软的触感，我低头一看，发现不知哪里跑来的小猫在蹭着我的小腿。原来除我以外还有别的生命困在火海！一股强烈的求生欲从心头激起，我决定同小猫一起找到出口！</p>
-<p>回头看了一眼世界名画，我还是忍不住小心翼翼地把它从墙上摘下来。</p>
-<p>动物的本能果然强大，在小猫的带领下，我发现出口近在咫尺。正当我向前冲刺的时候，楼板塌陷了，我脚下一沉，身体开始下落，在掉下去前，我拼尽全力将世界名画向出口甩去，并伸手悬挂在残留的木板上，小猫落到了地下一层，冲我喵喵地叫着。</p>
-<p>太糟糕了，是把那幅画放着不管，和小猫一起再找出路呢，还是任凭小猫自生自灭，我爬上去带着画逃生？我陷入了两难的境地。</p>
-<p>一番心理斗争后，我沉默着，用力支撑起身体，在木板即将烧断时，一跃而起，抱住了世界名画。喵喵的叫声很快被崩塌的建筑所掩埋，我忍着悲痛的心情，拾起画，坚决地向门外走去，就像电影里的主角，不再回头。</p>
-<p>室外的光非常刺眼，正当我以为安全而放下心来时，我的身后发立刻生了爆炸。我不知道自己怎么来得及反应过来转过头去看的，但我昏迷前最后见到的，是向我冲来的一团巨大的猫形火球。</p>
-<p>随后的情节就像主旋律影片一样按部就班地发生。世界名画完好无损，我被送医院急救，度过了危险期，保住了性命。我以为自己很坚强，总能站起来，但是这一次我在病床上等了太久，也没有站起来。我对文艺作品的热爱与保护和其体现的崇高精神感动了市民、媒体和政府。我的病房一度摆满了鲜花，电视新闻滚动播放我的事迹，而政府部门多次派人员前来慰问，并向我的家人承诺，不但会给我颁发市民荣誉，还将用一大笔奖金和日常的补贴来负担起我的生活和医疗费。</p>
-<p>等我意识完全清醒时，周围的喧闹也不复。医生和护士例行公事，定期来检查我的状况。妻子一般会在病房照顾我，但是最近也不常来。因为我的喉咙受伤，我们无法顺利地交流，我只能用单侧的视野观察她，她并没有好好地回应我。她的表情越来越僵硬了。</p>
-<p>一种似曾相识的被抛弃的感觉持续占据了我的内心。我默默地承受着不安，等待着变化的发生。我时不时会想起美术馆里的那只小猫。就连梦里，它楚楚可怜的样子都让我难受得喘不过气。它到底有没有活下来呢？我的选择是正确的吗？就这样一直纠结着，时间慢慢流逝，我将以这副模样度过余生。</p>
-<p>我睁开眼，只见病房角落的暗影中的轮廓晃动了一下。</p>
-<p>我又眨了一下眼睛，那个物体不知怎么地瞬间移动到我的身边，假如我的喉咙没有损坏的话，我一定会放声尖叫。但我现在只想晕过去，我太累了。</p>
-<p>是一只猫！我没能如愿晕过去，它让我一个激灵清醒过来。</p>
-<p>“现在后悔吗？当时选择了这条路。”猫开口说话了。</p>
-<p>被问到这个问题，我彻底崩溃了。心跳急促起来，泪水慢慢从眼角滑落，滴在枕头上。</p>
-<p>“你的时间不多了。</p>
-<p>“你能活下来，绝不是万幸，毕竟这一切都是剧本的安排，剧本是不会让你这样窝囊地死去的。</p>
-<p>“你明明读过剧本，却忘记了自己的使命，被区区一幅世界名画蒙蔽了心灵。你这样还能算正义的伙伴吗？</p>
-<p>“你搞砸了，丧失了宝贵的机会，现在基本无法挽回。来吧，告诉我，剧本是怎么说的？”</p>
-<p>剧本……</p>
-<p>想起来了。</p>
-<p>我的角色是正义的伙伴，我在人类世界的重要使命就是拯救猫。</p>
-<p>不论猫的品种是什么，状况有多么危险，造成的副作用有多么严重，我必须救下在我眼前受到伤害的任何一只猫。</p>
-<p>哪怕是付出自己的生命，救猫。二选一的紧急情况下，救猫。把一只猫和一架飞机上的旅客放在天平的两头，救猫。</p>
-<p>这一切都是因为某一只猫对这个世界的意义非常重大。如果没有救下那一只，世界就会完蛋。</p>
-<p>问题在于剧本也无法确定具体是哪只猫，只知道那只猫必定出现在我面前。而只要能救下那只猫，其他的一切都可以牺牲。</p>
-<p>原来，那只猫是联系这个世界与另一侧的名为“薛定谔的猫娘宇宙”的传送使者。因为身份不明，它可能是任何一只猫。薛定谔的猫娘宇宙是我们所在宇宙的镜像宇宙的异构体。那一侧的智慧生命全是猫娘。如果你没有见过猫娘的话，建议你查一下互联网 <a href="https://zh.moegirl.org/zh-hans/%E7%8C%AB%E5%A8%98" target="_blank" rel="noopener">猫娘</a>。不过互联网五十年前就已经崩溃了，所以查了也是白查。</p>
-<p>薛定谔的猫娘宇宙本来和我们的世界隔绝，相安无事。但是有一天，跨次元侵略者塔努基大魔王和它的军团选择了侵略薛定谔的猫娘宇宙。猫娘们并没有足够的力量抵抗，因此，薛定谔的猫娘宇宙陷落成为了塔努基殖民地，民不聊生。塔努基大魔王甚至不断扩张它的势力范围，它的跨次元力量终于影响到了我们的世界。七十年前，它们灭绝了所有北美浣熊，在美国人短暂的快乐之后迅速取代了浣熊的生态位，造成了更严重的破坏。五十年前，全球重要的几个互联网数据节点沦陷了，所有网站媒体资源和用户数据都被替换成了塔努基的迷因素材。没过多久，世界就回到了彼此隔绝的落后状态。</p>
-<p>三十年前，也就是我出生的那一年，人类和猫娘在各自的宇宙同时出土了一块泥板，上面刻有解除塔努基危机的剧本。剧本说猫娘只有通过从我们这个世界召唤正义的伙伴，打败塔努基大魔王，一切才能恢复如初。</p>
-<p>而和泥板同年同月同日问世的我，就这样悄然成为了正义的伙伴人选，并时刻铭记剧本的指导。</p>
-<p>然而故事并不圆满。我救下了许多猫，最终被召唤到薛定谔的猫娘宇宙。在那里我没能打败塔努基大魔王，直接被塔努基的爪子拍成了灰。在猫娘们的嘘声中我的灵魂穿过莫比乌斯环，重新回归到刚出生的我身上。原来这是一种循环，我必须通过不断轮回的试炼，才能累积经验，找到打败塔努基大魔王的方法。</p>
-<p>不知道从哪一次轮回开始，我不禁想要逃避。既然注定会见到传送使者猫，那只要尽量降低日常生活中见到猫的频率，就能省去很多麻烦。然而这样也没有让打败塔努基的效率变得更高，一切在循环往复中持续着。而世人并不理解我经历的一切，只认为我是一个因为猫而惹麻烦的怪人。</p>
-<p>然后在这一次轮回，我应该也读过剧本。剧本上说这次极有可能成功，打败塔努基大魔王，让世界恢复和平。剧本上也说这次的挑战主要在人世，并叮嘱我一定要万事谨慎。但是轮回的次数太多，过往的记忆残片影响了我现在的记忆。面对世界名画，我松懈了，退缩了，选择做普通的人。结果我刚好错失了救下传送使者的机会。</p>
-<p>“按照剧本，你这次本应该在大火中救下那只猫，你的死状会很惨烈，但那不是真正的死亡。你救下的那只猫应该正是这次轮回的传送使者，它很快会让你在薛定谔的猫娘世界转生，让你再次成为勇者，彻底打败塔努基大魔王。然后，你和猫娘们可以继续展开惊心动魄的冒险，在那个宇宙度过幸福的一生。</p>
-<p>“但是你选择了另一条路。你拯救了那幅画，你活了下来，但是身受重伤，只能领着政府的补贴躺在病床上度过余生。你的妻子对你的感情并没有你以为的那样深厚，她会悄悄挥霍你的奖金，并私自将补贴挪用到其他地方。她想等你断气，但是发现你一直顽强地坚持着。最终她感到守着你也没意义，于是同你离婚了。你除了一个人类文明的守护者的称号，什么也没有得到，也无法再成就事业，只能麻木地迎接世界的终结。</p>
-<p>“而我现在则不得不同你告别，因为最后的时刻已经来到，我再也帮不了你了，大雄。我是薛定谔的猫娘宇宙2000年以后的科技结晶，穿过莫比乌斯环来到你的世界，从小陪伴你，照顾你，监督你成为正义的伙伴。现在的你再也无法拯救薛定谔的猫娘宇宙，这注定了薛定谔的猫娘宇宙未来创造的我也不复存在。另外，我刚刚得知，传送使者猫也是我的直系祖先。因为悖论，我在这个时代的一切信息应该被抹消，只不过我自从你出事后就一直低调行事，只在黑暗中行动，只要不被任何人观察到，我就能维持现在这个样子，直到悖论完全发挥效果。”</p>
-<p>猫娘说完了，月光倾泻进房间，微微照亮了她蓝色的布偶头套。我忍受着痛苦，想呼唤她的名字。</p>
-<p>“哆……”</p>
-<p>“别叫那个名字！”她立刻激动地打断了我。“这不光是侵权的问题了。你只要喊出我的名字，我就会立即被悖论抹消。”</p>
-<p>现在该怎么办？</p>
-<p>“怎么办？”猫娘冷笑道。“大雄，你总是这样。每次出了岔子，你除了朝我哭诉怎么办，一点儿也不会思考，只知道逃避，也难为你这样的人被选为正义的伙伴。静香虽然和我们一起长大，但是成年后也忍不住怀疑我们的关系，这也是你们夫妻嫌隙的矛盾点之一，这方面我也有错。说起来，我已经受够了从四次元短裙下帮你掏出神奇工具了。受到悖论的影响，现在大多数工具都无法运作，不过我最近倒是在公园和一个小伙伴搭上了话，它是一团很可爱的黑泥，它说只要扔出一把菜刀就能解决世界上的所有问题……看吧，大雄，这把菜刀就是它送给我的，你要不要试一试呀……”</p>
-<p>猫娘逐渐变得邪恶的声音慢慢地听不见了，我如坠冰窟，感觉不到周围。已经完蛋了。若不是因为那幅画，我怎么会付出这么大的代价！</p>
-<p>“喂，大雄，你别睡过去了，振作一点！喂！”猫娘的喊声再次把我拉回现实。我怒上心头，恶狠狠地瞪着她，艰难地挤出一句话：“你不让我活，也不让我死。”</p>
-<p>猫娘被我的气势吓住了，她怔怔地回答：“但是世界需要你。”</p>
-<p>我冷哼了一声，继续沙哑地说：“那需不需要你呢？哆啦……”</p>
-<p>“等等等等等别叫那个名字，求求你了！”猫娘慌了神，吓得连身体都快变透明了，于是赶紧制止我。“我只是想教训一下你，不是来真的。解决方法还是有的，但我只希望你能有自己的想法，独立做决定。”</p>
-<p>我平息了心情，缓慢地从床边的小推车上拾起一枚硬币。硬币的两面分别刻着“九磅”和“十五便士”。这是一枚神奇的错版硬币，我受伤住院以后它突然就在我病房的小推车上出现了。我把它当作我人生的新希望，珍藏起来。我决定用它来做决策。</p>
-<p>“省省吧，大雄……”猫娘用有气无力的声音制止我。“就算再怎么像那个人，他也只是烧掉了半边脸，而你是全身只剩下半边脸了，而且抛硬币这个梗也很没创意。我是要你独立做决定！”</p>
-<p>就这样度过余生？还是去救猫？</p>
-<p>当然是救猫啦！什么世界名画，什么守护人类文明的英雄，这稀巴烂的世界，我再也不想管了！让我去猫娘宇宙吧！</p>
-<p>“非常好。”猫娘终于露出了满意的神色，并把手里的菜刀丢在一边。</p>
-<p>“你通过了试炼，为了奖励你，我会帮你重新开放时光机。但是受到悖论的影响，时光机已经不能前往任何想去的时间了，它只有你观测到传送使者猫那个时刻之后的存档。因此，你会直接回到火灾现场，再度做出选择。这段旅程依然充满危险，但只要达成目标，你就能改变命运。去吧，大雄，成为出色的正义的伙伴！</p>
-<p>“要记住，那幅世界名画会对你产生极大的诱惑。但说到底，如果不是互联网崩溃，只剩下这幅图画没有被塔努基篡改，它本来并没有成为世界名画的资格。毕竟过去在互联网上，这幅图到处都是，它的迷因素材过于泛滥，甚至超过了作品的本质。因此，只要你修复了世界，就没必要再拯救这样一幅无聊的世界名画了。”</p>
-<p>猫娘的话更加坚定了我的信念。我的灵魂逐渐离开了残破的肉体，朝着过去移动。只要能成功，我就能拯救这个世界，并在异世界开始新的生活。</p>
-<p>“再见了，大雄，希望这是最后一次在这个世界同你相见。”猫娘的身影消失了。</p>
-<p>我眼含泪水，与她告别。</p>
-<p>这一次，一定要让猫娘们幸福。</p>
-]]></content>
-      <tags>
-        <tag>fiction</tag>
-        <tag>writing</tag>
-        <tag>original</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>没有名字的杀人魔</title>
-    <url>/2019/04/20/stand-alone-killer/</url>
-    <content><![CDATA[<p>很久很久以前，那时的消息很不灵通，听说某地有一个普普通通的少年。</p>
-<p>少年没有什么引人注目的地方，性格也并非特别讨人喜欢，连一门拿来炫耀的技艺都没有，周围的人都觉得他将一生平庸。</p>
-<p>少年从来没有把看扁他的人放在眼里，他满不在乎。他有一项不为人知的特长，就是记性特别好。他没有刻意和任何人比较过，只是对此很有自信而已，甚至连父母都不知道他有如此惊人的才华。</p>
-<p>少年上了高中就开始腾出时间打好几份工，他对学校教授的内容丝毫不感兴趣，因为早在小学阶段他就已经通过各种渠道把顶尖学者级别的知识量收入囊中。因为记性很好，餐厅服务生、便利店收银、书店店员、琴师等工作对他来说轻车熟路，其他体力活也不在话下，肌肉记忆能帮助他很快熟悉工作流程，他也通过各种工作锻炼出充沛的体力、敏捷的身手和坚韧的品格。</p>
-<p>有一天父亲又在餐桌上嘲讽少年在学校混日子，在零工上浪费时间，没有理想，终将一事无成。少年一言不发地跑了出去，在空荡荡的公园坐着打发时间。夜空中群星闪烁，少年默念着视野中每颗光点的天体命名。他突然想到，寂静的宇宙中有那么多孤独的星球，看起来近在咫尺，其实彼此相隔甚远。如果星球是像人一样拥有智慧的生命的话，它们其实没有相互交流和认识彼此的机会，每颗星都在虚无浩渺中默默地运行，既不用在意他人的评价，也不必为繁杂的人情关系所累。他对这样的状态感到羡慕，如果这世上也无人认识他，放任自己孤独游荡的话，会是怎样一种自由的体验呢？</p>
-<p>那就把所有认识自己的人杀掉好了。</p>
-<p>少年决定独自实现这个目标。因为是第一次确定人生目标，他激动不已，颤抖着在公园的长椅下睡着了，这一觉睡得特别香，他把梦里想象出的杀人技巧和过程都牢牢记在脑中。</p>
-<p>醒来以后冷静了一下，少年觉得这个目标有点普通，于是加上了一点限制——一种杀人方法只用一次。草草梳理了一遍，从出生开始接触过并且互相知道身份的人已经有四百余人，但是少年所了解的杀人术也只有三十种左右，这样是没法实现目标的。于是，少年不辞而别，背井离乡去各地寻找精通杀人术的高手。同时，他也凭过人的记忆，慢慢整理自己认识的所有人的名单，收集他能获得的具体信息，按照关系的远近来排列，规划着杀人的顺序。从太亲近的人开始下手的话很快就会被怀疑，少年不想节外生枝，毕竟出名太快，会一下子让太多的人知道自己，这样不得不再多花很多精力来处理。</p>
-<p>来到了几百公里外的小镇，举目无亲的少年过了一阵子风餐露宿的生活。这里应该没有任何人认识他，所以他感到无比舒适——本应该是这样的——直到有一天他在路上和一个小学同学打了照面。少年不想出师不利，赶紧在对方认出自己之前跑走了。这同学是小学时的恶霸，经常仗着自己的人脉，伙同他的势力欺负少年和其他弱小的同学。但是他父亲后来死于斗殴，母亲改嫁后又饱受虐待，这个儿子转学之后便杳无音信。</p>
-<p>接下来几天，少年仔细观察了这个意料之外的目标的行动方式。此人独来独往，做一点见不得人的地下买卖，还骗了当地一些人的钱，总是有人上门找他；每周定期去几个地方，有时会喝得醉醺醺很晚回家。少年在小学同学喝酒回家的必经之路上设好了陷阱，在某个寒冷的夜晚堵住了他，还挑衅他。同学依稀认出了少年，恼羞成怒之下挥着酒瓶想要打倒他。少年轻巧地躲过了醉汉的攻击，沿着悬在屋檐上的绳索爬回屋顶，而少年的同学一脚踩破被动了手脚的井盖，摔进阴沟里，磕破了脑袋，折断了脊椎，然后在冰冷的臭水中躺了一夜，清晨被发现时已经彻底断了气。少年把他用过的道具随便扔进跟死者有瓜葛的某个人的棚子里——他故意诱导警方往他杀的方向去调查。然后少年悄悄地溜走，动身寻找当地山里一位深居简出的战斗大师。</p>
-<p>这位大师年事已高，早就金盆洗手，也多年未收徒，不久前流传他将收关门弟子，少年这才专程来到此地。少年顺便将自己初次杀人的经历拿来与大师讨教。大师二话不说领少年进了门。半年后，大师在睡梦中去世，少年则带着新学的到上百种杀人技艺，背负着十几条人命，开始了新的旅程。</p>
-<p>少年又从一名流亡巫师那里学到了不少精妙的黑魔法。流亡巫师是从魔法特务部门叛逃出来的，到处从普通人类那里接一些不能被调查出来的杀人委托。为了防止流亡巫师背叛并确保委托人自身的安全，普通人类也会用一些技术手段限制巫师的行为，比如给流亡巫师套上埋藏着炸药的远程引爆项圈，如果委托人在任务进行中遭遇不测，项圈就会引爆。</p>
-<p>有一天流亡巫师感叹自己再也没有什么好教给少年的了，少年觉得亲自对阵流亡巫师可能没有胜算，于是他告诉流亡巫师他要介绍一份报酬很高的委托工作以表感激。流亡巫师完成了任务，然后他的脑袋被炸得灰飞烟灭，他最终都不知道这次的委托人其实就是被杀的女人。女人是少年在幼儿园时的班主任，因为现任园长喜欢年轻漂亮的老师，她便早已被辞退，并搬到现居的城市，却不幸被诊断出癌症。少年拜访了病痛缠身的女人，告诉她有不痛苦的死法，就是被瞬间分解物质的魔咒击中。于是她欣然接受了这个建议，并将自己的信息登录到项圈上。少年用易容魔法假扮其他委托人骗过了流亡巫师，然后轻松地杀死了对方。</p>
-<p>在那段日子里少年又杀掉了一些与自己有过交往的人，他现在掌握的杀人术的数量和名单中剩下的人数已经大致相同了。但他仍觉得不够，应该再多学一些以备不时之需，万一未来不慎向大众曝光了自己的身份，为了处理那些人，还需要大量的杀人方式。</p>
-<p>少年又走进世界的一片荒芜的角落，拜访了一位超能力者。超能力者是天生的怪物，没人喜欢他。他过去被关进监狱好多次，但是每一次他都能大摇大摆地走出来。没有人能探知超能力者的力量上限。他能一口气让方圆几十公里的有机体燃烧；也能改变自己密度和速度，瞬间穿透任何物质；他能呼唤任意极端天气；他引发过不直接接触就把水、食物和药物变成剧毒和重度污染物的恶性公共事件，等等等等。最终，知道超能力者诸多恶行的人几乎都死了，而幸存的人纷纷从他身边逃离，把他留在世界的角落。</p>
-<p>少年无法从超能力者这里学到任何技巧，因为超能力者的身体素质是独一无二的。少年也不知道超能力者最强的能力其实是全域心灵感应。超能力者一出生就能感应到世界上所有生物的思想，并且这个能力是被动的，连他自己都没法关掉。也正是苦于心灵感应，超能力者夜不能寐，情绪极度不稳定，身体里的强大力量接二连三地被激发出来，让他经常失控，最终成为没人喜欢的怪物。超能力者了解少年经历的一切与内心的真正想法，少年却对超能力者知之甚少。当少年决定来拜访超能力者的时候，超能力者真正注意到了少年。因为多少年来，所有人都试图从自己身边逃开，连他自己都很想一口气跳入茫茫宇宙放逐自己。但是少年毫不畏惧，直接找上门来，令超能力者感到非常新奇。他也知道少年的计划，意味着少年有一天也威胁他的生命，令他不得不天天提防少年。其实超能力者心底里对少年死板而幼稚的计划嗤之以鼻，但他并不表露出任何态度，打算戏弄少年一阵子，等对方真准备动手了，再把他干掉。</p>
-<p>少年经常出远门，把在名单上的人一个个找出来杀死。随着死者与少年的关系越来越亲近，各地的警方和媒体都开始注意到了某些不寻常的迹象，并进行一系列的追踪调查和报道。但是他们也无法给出任何结论，有不负责任的小报将一些具有地域特征和时间特征的案件总结成“某种无名的噩兆”。</p>
-<p>少年不杀人的时候就会回到世界的荒芜角落陪伴超能力者，超能力者心知肚明，少年其实另有所图。超能力者暗自羡慕少年的无限永恒记忆，这是一种珍贵的才能，如果自己也有这种能力，结合心灵感应，也许能把全世界的信息一口气保存下来。因为心灵感应的影响，超能力者不断地接收信息，记忆的剩余空间永远很紧张，说白了，超能力者非常健忘。有一天超能力者一时忘记了身边的少年是来干什么的，于是随口炫耀了自己的心灵感应能力。少年的脸色马上变了，但是他迅速想出了应对方案。超能力者浑身冒起冷汗，因为他已经知道少年想要做什么了。超能力者沉默了三天。随后，少年离开了世界的荒芜角落，再也没有回去过。</p>
-<p>两年过去了，少年学成了几千种杀人技巧，多到让自己都不知所措，于是他决定回家。父母和少年却已天人永隔。对父亲的蛮横与傲慢，少年自然没什么好感，而母亲的懦弱和无原则也令少年痛恨，所以少年其实不觉得惋惜。父母死于家庭煤气爆炸事故，少年什么都没有做。家里值钱的东西差不多都被亲戚搬空了，邻居的夫妇俩也趁火打劫了一些。少年的归来打破了这些人的小算盘，他成为了房子真正的主人。这个家终于只剩他一人，少年随心所欲地住了一段时间，再也不用被迫跑出去了。小镇的非正常死亡案件越来越频繁了，每个案件都有显著的他杀证据，但是受害者的死法各异，警方为了调查挠破了头。原本平静祥和的小镇成了危险地带，人心惶惶。</p>
-<p>小镇的事件惊动了首都，一名国家级的社会学及犯罪心理学专家被指派协助调查组。这位专家收集了上百起案件的受害人信息，并调取内部档案中的全国人际关系网络，利用算法来进行社群发现，对死者相关人的信息进行筛查，逐渐将怀疑的目光转移到少年这个节点上，但是他怎么也料想不到少年的动机。与此同时，网络上开始流传关于这些命案的恐怖传说，传说的结论也将矛头直指少年，一时间，认为少年是某种诅咒的都市传说甚嚣尘上，与专家的观点异曲同工。调查组敲定将少年列为重点调查对象。</p>
-<p>调查组的人员和专家一起开始逐个走访少年的亲戚和其他相关人，询问情况。但是过了没多久调查行动不得不终止，因为知情的调查人员包括提出调查的专家都死了，其他非知情人一筹莫展，甚至不知道他们究竟在调查什么，因为谁而送了命。</p>
-<p>少年的亲戚原本对少年就有成见，自从他们知道网上关于少年的流言后，更加把少年视作眼中钉和家族的祸害，试图把他赶出自己的家，还要断绝关系。有一次，这些亲戚为了商讨事务而举办家庭聚会，闪电打断了屋子的电力，屋内陷入一片漆黑。最终没有一个人走出屋子。</p>
-<p>网络上关于小镇命案的恐怖故事越传越广，情节越来越具体。而伴随着恐惧，少年的名字也逐渐流传开来。当然网上也有不一样的声音，为少年辩护，称这种推理是无稽之谈是网络暴力，却很快被怀疑的声音反攻回去，指出辩护的人该不会就是犯人本人吧。随着讨论的愈发激烈，持不同意见者相互暴露隐私信息、甚至线下约见面的暴力行为时有发生，许多人因此而白白丧命，参与少年本人信息相关讨论的几千人都因为因为各种原因而身亡，少年的故事被冠以“新时代被血染红的最神秘都市传说”，最终再也没有人在网上谈论少年的名字了，过去两年间发生的许多离奇命案重新成为悬案。</p>
-<p>少年的邻居家的女孩也是少年的青梅竹马，和她刻薄贪小便宜的父母不同，是一个善良纯洁的人。少年不在的两年间，女孩拒绝了许多男孩与她交往的请求。少年回来后她也一直坚信眼前沉默而楚楚可怜的少年是一个好人，并被激发起强烈的同情心和照顾本能，她时不时会关注少年。某一天，女孩因为少年的事情还有其他琐事与父母大吵一架，父亲甩了女儿一巴掌，于是女孩忍着泪从家里跑出去，敲开邻居少年的房门。少年招待了女孩，并允许她留在房间里。</p>
-<p>女孩和少年谈天说地，聊过去的事情。少年对童年回忆亦如数家珍，甚至女孩记不得的许多细节他都能轻松地回想起来，让女孩惊叹不已。少年知道女孩对自己有感情，但是他对此没有任何感想。他只觉得人与人之间有各种各样的感情联系实在是太恶心了。少年只是被动地承受着女孩越来越炽烈的情感。女孩向少年表白，她脱光自己身上的衣物想要抱少年。但就在女孩帮少年脱去衣服时，她看见了他不成人形的身体，于是女孩大声尖叫起来，活活吓死了。</p>
-<p>这时，少年身体中的超能力者讥讽少年的杀人方法太过恶趣味。少年并没有反驳，只是用魔法让超能力者重新沉睡。原来当时少年没能杀死超能力者，他知道自己完全不是超能力者的对手，但是自己有值得用来交涉的筹码。于是少年当场和对方达成协议，请超能力者吃掉自己，而保留自己的心脏、魔力、大脑和全部记忆，而少年会利用自己的魔法帮助超能力者摆脱心灵感应的梦魇，并让自己支配超能力者的身体，直到达成目标为止。结果超能力者获得了永恒的记忆，变成了世界最强的生物。少年使用催眠魔法把超能力者的意识给封住，只有杀人过程中需要使用多种超能力，一个人难以控制时才把他放出来，所以超能力者大部分时间就不必接收心灵感应的刺激了，而少年平时可以利用心灵感应快速找出认识自己的人。结果，少年即将达成当初定下的目标，但是他掌握的杀人技术还剩下好多种并未发挥出来。他粗略计算了还需要补充的受害者的数目，开始有意识地把自己的名字传播出去，并渲染恐怖的气氛来加速传播速度。事实上，网络上有关少年的传说的始作俑者正是少年本人，他还用这个故事成功诱导了犯罪专家和调查组来自投罗网。最终，杀人的技术快要消耗完毕，目标也即将达成。</p>
-<p>少年吸收了女孩的肉体，把因为超能力反噬而乱七八糟的身躯修补了一番。他走进女孩的家，女孩的父母责骂她跑出去鬼混几个月不回家，他们并不知道面前的女孩是少年变成的。少年为父母做了最后一餐饭，饭后，女孩的母亲变成了风化的石块，而女孩的父亲被传送到了土地的深处，与熔岩化为一体。</p>
-<p>少年曾经只是单纯漠视人与人之间存在的联系，想变得孤身一人。他并不能体会到人与人之间各种感情的不同之处。有了心灵感应之后，少年才真正体会到人的情感，内心也逐渐变得完整起来。特别是杀人时，对方在死前涌现出来的强烈愤恨、恐惧、惋惜、欣慰还有各种各样丰富的情绪，填补了少年的空白。少年原本以为，人就是因为过分牵挂他人才活得这么累的，而在经历各种情绪的洗礼后，少年开始明白的确人类只有那样才有活着的实感。但是，事已至此，少年最终坚持自己的道路，他像一个没有名字的怪物一样，最终不被人知晓，不再与任何人相遇，孑然一身。</p>
-<p>少年从身体里抽出女孩的肉体并将她复活，悄悄离开了。女孩醒来后没有见到少年，而她已经失去了全部关于少年和父母的记忆。超能力者问少年为什么这么做。少年说，本来在杀掉女孩的时候，觉得留下一个人陪伴自己也许能让生活更精彩一些，但是复活到一半的时候觉得一直以来贯彻的原则会被颠覆，就毫无意义了，所以，还是让女孩忘了自己，不要再相见比较好。超能力者说，你不是还有我嘛。少年说，对啊，还有你。</p>
-<p>传说最后少年从魔法中找到了主动控制心灵感应的方法，这时超能力者感觉时机成熟，决定杀死少年的意志，取而代之。少年拒绝了超能力者，他用超能力点燃自己的每一个细胞，并用魔法把超能力者的意志吹散了。少年杀掉了最后一个认识他的人，那就是少年自己。少年永恒的记忆也不再属于他，而是像宇宙中的电波一样漫无目的地游荡下去。再也没有人知道少年的故事。</p>
-<p>少年最终实现了愿望。</p>
-]]></content>
-      <tags>
-        <tag>fiction</tag>
-        <tag>writing</tag>
-        <tag>original</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>0202年在 Pixel C 刷魔趣ROM</title>
-    <url>/2020/03/28/pixel-c-mokee-magisk/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>Pixel C 又开始电量尿崩了，放着不管一天多电就能跑光， timerfd 疯狂唤醒，就算清除 Google 数据都没用。那就一鼓作气 root 并且直接刷魔趣ROM上 Android 10 吧！</p>
-<h2 id="准备工作">准备工作</h2>
-<p>阅读资料，下载资源</p>
-<p>https://www.mokeedev.com/guide/getting_started.html</p>
-<p>https://download.mokeedev.com/dragon.html</p>
-<p>https://flash.mokeedev.com/ （其实没用，只是帮你完成一些步骤）</p>
-<ul>
-<li>Magisk-v20.4.zip</li>
-<li>MK100.0-dragon-202003280436-NIGHTLY.zip</li>
-<li>open_gapps-arm64-10.0-nano-20200325.zip</li>
-<li>twrp-3.3.1-2-dragon.img</li>
-</ul>
-<p>把指定资源放进目标文件夹，再打开计算机的终端进入该文件夹。</p>
-<h2 id="刷机">刷机</h2>
-<h3 id="解锁设备">解锁设备</h3>
-<p>进入设置-开发者选项-允许 oem 解锁</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br></pre></td></tr></table></figure>
-<p>设备重启并显示 waiting for fastboot command….</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">fastboot oem unlock</span><br></pre></td></tr></table></figure>
-<p>按电源键确认，设备发出一声“滴”然后重启，显示“正在清空”（为什么是中文？）</p>
-<p>有点慢……</p>
-<p>为了确保正常，重启试试（没问题，恢复出厂了，跳过激活设置重新打开 usb 调试）</p>
-<h3 id="刷入-recovery">刷入 recovery</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br><span class="line">fastboot flash recovery .\twrp-3.3.1-2-dragon.img</span><br></pre></td></tr></table></figure>
-<p>进入重启循环无法进入 recovery？</p>
-<p>改成 <code>fastboot boot .\twrp-3.3.1-2-dragon.img</code> , 好了</p>
-<p>选择 <code>格式化 data 分区</code></p>
-<p>在高级选项中选中 adb sideload，读条时刷入 mokee magisk opengapps</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb sideload xxx.zip #每执行一次成功后再在 TWRP 中选 adb sideload</span><br></pre></td></tr></table></figure>
-<p>重启</p>
-<p>卡在 Google 标志了？！</p>
-<p>为了保险，重新线刷了一次，这次终于出现 mokee logo （后来发现，卡在 Google 标志，可能多重启几次会好，大概是 nightly 不够稳定）</p>
-<p>妈的，这logo丑哭了</p>
-<h2 id="开机后设置">开机后设置</h2>
-<p>像一个正常 google 设备一样设置，从 Google 云拖回设备备份，更新应用……</p>
-<p>Magisk Manager 有了，但是 safetynet 检查不通过，ctsProfile: false. 不行，这样装不了 Netflix.</p>
-<p>安装 <code>magiskhide props config</code> 和 <code>busybox</code> 模块</p>
-<p>顺便一说这个魔趣 ROM 自带终端，帮助我迅速解决 safetynet 问题，不用临时下一个 termux 了。直接在终端里操作：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">su</span><br><span class="line">props</span><br><span class="line">1 # edit device fingerprint</span><br><span class="line">f # Pick a certified fingerprint</span><br><span class="line"><span class="meta">#</span><span class="bash"> 找到品牌 设备 系统版本</span></span><br></pre></td></tr></table></figure>
-<p>然后就是安装其他 magisk 模块……</p>
-<p>全剧终</p>
-<h2 id="后记">后记</h2>
-<p>上一篇博客提到可能是2020年最后一篇博客，不过这篇就是打上一篇的脸。其实我是不太喜欢记录这些杂碎的技术笔记的，毕竟2020年还要折腾 Pixel C 这种设备，实在是过时了。顺便一说为了搞个纯写作环境，我自己的创作会集中放在另一个分站上 https://utsk.wordpress.com/ ，而这边的博客还是保持想到啥写啥的碎碎念状态，文字质量不会太高。</p>
-]]></content>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>草原之风与即逝之虹</title>
     <url>/2020/02/16/rubbles-grassland-music/</url>
     <content><![CDATA[<p>潘忒拉<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>伸开四肢仰躺在地上，急促地呼吸着。暖洋洋的风慵懒地拂过她饱满的胸脯，流过平坦的小腹，再从修长的双腿之间散得无影无踪。潘忒拉从来没有感觉如此畅快，她想像自己躺在金色的海藻床上，明亮的阳光透过水面投射下来，头顶浮着像云朵一样胖乎乎的白鲸。</p>
@@ -1887,30 +1846,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
         <tag>fiction</tag>
         <tag>writing</tag>
         <tag>original</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《在无爱之森呐喊》观后感</title>
-    <url>/2019/10/14/the-forest-of-love-review/</url>
-    <content><![CDATA[<p><strong>注意：本文任何一句话都可能包含剧透，或者直到最后都没有。</strong></p>
-<p>10月13日凌晨在 Netflix 看了园子温监督的<a href="https://www.netflix.com/jp/title/81133621" target="_blank" rel="noopener">《在无爱之森呐喊》</a>。</p>
-<p>其实我并未深入了解园子温，看过的上一部也是我看的第一部他的作品，叫《我们都是超能力者》，全程欢乐恶搞。对于其电影风格的了解仅限于一些剪辑。因此，我也不在此详细述说这部电影哪一部分和哪部作品是如何地相似了。反正都没看过，日后再补。</p>
-<p>总而言之，这是一部帮助新观众快速了解园子温风格的懒人包电影，这是一部让园子温粉丝巩固记忆的作品，而对于别的观众来说，喜欢不喜欢这部电影的理由都能列出很多。</p>
-<p>152分钟的片长，可能还是装不下三条故事线的信息量，也有可能是有意而为之，电影通过篇章分割，而叙事支离破碎，对理解剧情可能有一点影响。由于情节的设计，观众必须有足够的耐心。</p>
-<p>部分摇晃的镜头毫无疑问会让观众产生强烈的代入感与临场感，这与本片角色之一“阿信”亲身经历案件的体验是一致的。</p>
-<p>本片具有残酷的美感和风格强烈的色调表现。就欣赏画面这个层次来评价，是令人非常满足的。除了少女美好的胴体外，没有刺激感官的点。也许是我不够理解，总觉得性的表现缺乏美感，介于枯燥和克制之间，反正这两个形容词拼音缩写一下都是 KZ（？）。至于暴力，有自杀、谋杀和虐待的场面，出血量还是挺大的，还有两段 Not safe for anywhere 的分尸镜头，如果无法承受，可以跳过。</p>
-<p>故事是根据真实案件改编的，即使如此，情节也严肃不起来，多数时候角色都在放飞自我，仿佛真的深陷在他们自己拍摄的疯狂的电影中。真相与谎言的界限变得模糊，而一旦有人恢复清醒，陷得浅可以逃离，陷得深就只能迎接死亡。我为了在观影过程中保持俯瞰的姿态以免被剧情带着走，便把它当作推理小说来看，尝试在一连串非理性的混乱中找出线索。尽管如此，在答案揭晓前，我已经判断这群人都是疯子，而无人能胜任英雄（侦探）的角色。当全片最精彩的部分以排山倒海之势呼应主题时，电影最大的谜团就此揭晓，让我精神为之振奋，内心十分过瘾。尘埃落定后的发展又极度讽刺，留下一个温情的结尾。总的来说是个好玩的故事，细节和逻辑不太经得起推敲。不过管他呢，不要想，只要爽。</p>
-<p>看完电影后去查了相关资料，多看了几眼园子温，也查了本片的原型案件——<a href="https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B9%9D%E5%B7%9E%E7%9B%A3%E7%A6%81%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6" target="_blank" rel="noopener">北九州监禁杀人事件</a>。不看不要紧，看了之后，本案已超过女子高中生水泥埋尸案，成为我心目中最恶心的日本谋杀案例。而和本案相关人员的真实经历比起来，这部电影应该温柔了许多才是。阿信在片头告诉小电影二人组，自己来自爱知县丰川市。实际上园子温的<a href="https://zh.wikipedia.org/wiki/%E5%9C%92%E5%AD%90%E6%BA%AB" target="_blank" rel="noopener">出身</a>正是爱知县丰川市，不难理解片中的阿信是园子温的化身，导演借由这部电影和这个角色，畅快地致敬自己的作品，重新演绎案件，对剧中的杀人凶手指点一番，实则指桑骂槐嘲讽现实中的案犯“不敢亲手杀人”。</p>
-<p>本片中的罗密欧与朱丽叶舞台剧故事表现了一种极致的爱情，确实不赖。果然世上只有百合好。</p>
-<p>演员演得很拼，颜值和妆容也很能打。椎名桔平的村田丈戏份多也很卖力，最具戏剧性；満島真之介的阿信还真的挺突破认知的，看到后面才体会到；日南響子的妙子富有个人魅力；鎌滝えり的美津子则活生生地展现出来，并通过逼真的演技奉献了全片最大的惊喜。</p>
-<p>说起来，我过去对满岛真之介有印象完全是靠动画《只有我不存在的城市》，当时我对于TV动画男主的成年音和少儿音都没选专职声优，而是俳优（满岛真之介、土屋太凤）这一点就很好奇了，实际听起来还是有明显棒读现象，但是习惯了声线之后又感觉还不错。</p>
-<p>Netflix 搞这种变态气质的剧集影片，还真的不会厌啊，但是观众可能会厌。</p>
-<p>这是第一部我全程观看没开字幕的日语电影。过去总想尝试看电影，却没这个耐心，所以仅仅局限于动画无字幕。这次观看后发现还是能理解很多台词，而不影响对细节的注意。决定下次再用无字幕看一遍，第三遍开字幕检查自己的听力。</p>
-<p>最后，我还是挺后悔这部电影占用了我宝贵的睡眠时间的，白天看不好吗？更何况这篇影评也是在半夜完成最后几段的，我更感觉有点浪费。</p>
-<p><a href="https://movie.douban.com/subject/30337760/comments?sort=time&amp;status=P" target="_blank" rel="noopener">豆瓣</a>上本片备受争议，褒贬不一，想知道为什么的，看过一遍电影就能懂了。</p>
-]]></content>
-      <tags>
-        <tag>movie</tag>
       </tags>
   </entry>
   <entry>
@@ -2038,204 +1973,68 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>《声之形》观后感</title>
-    <url>/2018/12/18/the-shape-of-voice-review/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>半夜在 Netflix 搜电影看，根据关键词匹配的结果中，「聲の形」排在很前面的位置。其实因为我看了「リズと青い鳥」五遍都还没好，想在线补一次票，无奈这部片没有线上版，搜索的时候「聲の形」和「リズと青い鳥」相关度最高，所以只好选了声之形。</p>
-<p>本来要我看《声之形》，我是抗拒的。原因大概有这些：没看过原作漫画，对背景不够了解；引进国内时，负责宣发的公司使用了不得体的文案；国内公映版存在过多删节，破坏了影片结构；以及，因为题材的敏感性，引起太多人关注议论的影片，我不想看。</p>
-<p>但是最终还是想亲自体验一下这部作品。刚看完「リズと青い鳥」的我，同时也想深入了解一下同一制作阵容演绎的另一部影片到底有什么与众不同的特质，能让观众产生如此多深邃的感想。</p>
-<p>注：本文是在影片剧情基础上，结合了我事后查阅的漫画原作设定，并在我拜读完一些比较热门的影评后，思考了他人的观点的条件下写完的，因此可能有部分想法脱离了影片剧情和设定的局限，存在二次加工和过度臆想的成分。本文主要关注剧情、演出和角色特点，对于伦理道德评审等领域的笼统的讨论不是重点。本文核心是，角色演出质量一流，故事一般，个人认同这部影片的优点大于批判这部影片的缺点。</p>
-<h2 id="故事">故事</h2>
-<ol type="1">
-<li><p>预谋已久的自杀及未遂。从将也的日历上可以看到，结束打工，卖破烂，销户取钱，这些都是为了自杀做的准备。但是在大桥听到烟花的声音后他就放弃了。这段做得还不错，有条理地设置悬念。</p></li>
-<li><p>OP切入，干净利落地介绍了故事发生之前的一些小细节。交代人物背景和关系，包括植野对将也明显又超越友情的注视；而另外值得一提的是在石田家理发店闪现的硝子，也是刚受到欺凌的模样，并且还是长发；而最后几个镜头，将曾经是圈子中心的将也，和孤独一人的硝子形成对比。这段剪辑非常优秀，让人看了眼前一亮。而OP选用了 The Who 乐队的 <a href="https://www.youtube.com/watch?v=qN5zw04WxCc" target="_blank" rel="noopener">《My Generation》</a>（参考译名《我这一代》）<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>，歌词、独特的唱法和歌曲背后的故事<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，也和本作的故事相映照，耐人寻味。</p></li>
-<li><p>小学时的故事。硝子的出现令将也感到，自己的日常在被一个异类挑战 （参考刚转学进班的时候他脑内浮现出的 final boss）。 同时，沟通的不畅也让班上同学逐渐排挤硝子，乃至波及与硝子关系好的佐原。观察着班上气氛变化与硝子逆来顺受态度的将也，对现状感到十分不爽。因此他开展了一系列的欺负行为，并且在周围同学默许的冷漠和老师的无动于衷中愈演愈烈，直至助听器事件爆发（值得注意的是，植野第一次扔助听器给将也的时候，可以听到助听器发出啸叫。），才演变成其他人调转矛头欺凌将也，总体来看说将也自作自受也不过分（道歉那段可以注意到石田妈妈右耳血迹细节，据官方 FANBOOK 记载<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> 是美也子为了向西宫的妈妈八重子表达歉意，体会硝子同样的痛苦，自己硬扯下来的）。即使如此，硝子依然对将也的欺凌行为不断忍让，仅仅在为将也擦桌子时又因为沟通不畅而与将也打架，流露真情。硝子转学，将也伤痕累累的小学阶段就这样落幕了，但是痛苦却伴随着他长大。这段包含了丰富的细节，塑造了几个重要角色的形象，也对小学就发生的欺凌行为做了深刻的描述——同时也是国内上映时受删减最严重的部分。这段的篇幅很重要，个人觉得演出效果很好，把小学六年级这段让观众怒火中烧又无可奈何的时光逼真地再现了出来。</p></li>
-<li><p>在轻生的想法付诸行动前，将也带着硝子的笔记本主动寻找硝子想道歉求得心安，他学会手语与硝子交流，并愿意和硝子做朋友，这是个很了不起的改变，意味着将也选择用硝子的方式与硝子沟通了，这件事对双方都是有很大的触动与积极意义的。硝子的表情真的很可爱啊。</p></li>
-<li><p>高中时的故事，介绍将也在高中保持孤立，不与他人交流的原因，也让观众了解了他自杀的动机。但是在尝试与硝子的接触中体会了朋友的意义。通过与永束误打误撞的结识，走出孤立，开始重新构筑与朋友的关系。但是随着与各种人交往的深入，与过去朋友的冲突令将也再次感到痛苦，自我厌恶。不欢而散的结局刺激了硝子的罪恶感。这一段较真地说的话，是西宫妹妹结絃的主场。结絃不断努力帮姐姐摆脱痛苦，又推着将也前进做出行动，是将不同的人交织起来的线，帮助将也和硝子沟通。喜欢悠木碧声音的朋友一定不要错过这一段。</p></li>
-<li><p>西宫奶奶的去世再度给硝子打击，西宫妈妈的生日会和花火大会又给了她感动。这段主要是以西宫家庭为中心的。个人觉得本片整体都应该重点描述将也和硝子的关系，将也和西宫一家还有西宫家内部关系的改变，不应给太多笔墨在硝子将也和别人的和解上。可惜后面还有一团乱麻的画蛇添足。</p></li>
-<li><p>自杀，其实之前5和6，以及花火大会后的手语“对不起”可以算伏笔吧，而后来结絃讲述自己拍摄动物死亡照片的动机是为了阻止硝子自杀，才让我明白硝子想自杀不是一时意气用事，而是早有想法，可能实施过不止一次。而将也在救硝子的过程中终于明白了自己还欠硝子一个道歉。这段有很强的情绪感染力，但是对于没看过原作的观众来说，在热闹幸福的气氛中选择自杀，稍显突兀，我看第一遍时并不太明白为什么硝子就这么想寻短见。</p></li>
-<li><p>将也的牺牲行为终于让硝子从消极的自我厌弃中走出来，决定努力改变自己，改变与别人的关系。将也醒来后，与硝子重逢，两个人心意最终相通，约定相互扶持好好活下去。最后就是潦草的大团圆，每个角色登场与将也和解，将也完成了对自身的救赎，接纳了周围，变得能看到他人的脸和听到声音了，皆大欢喜~</p></li>
-</ol>
-<p>总结：直到花火大会之前的剧情节奏还是比较稳重的，但是将也住院之后的节奏就有点崩，细节也不严谨了，故事虎头蛇尾让人有些遗憾。强行全员相互理解也是最让人难受的部分。</p>
-<h2 id="角色">角色</h2>
-<p><strong>石田将也</strong> <code>喜欢</code></p>
-<p>小学的将也，调皮捣蛋，粗枝大叶，爱显摆。虽然单亲家庭环境也可能影响个性，但是将也的坏毛病应该不是家长惯出来的，也不是鸣人那种缺爱型的，纯粹就是符合熊孩子形象的无聊到欠揍。但另一方面，他也关注班级里的气氛变化，一定程度上追求“正常”和“公平”。他排挤不正常，因为硝子难以沟通让班上的其他人很辛苦很难堪，他简单粗暴地把这种不正常全部归结到硝子头上。他反抗不公平，因为老师批评了语文课上棒读的植野（我认为这里植野平时习惯了跟硝子那样一字一顿讲话才下意识棒读，当然也有可能是我想多了，单纯就是植野没认真读），而放过根本念不好课文的硝子，所以他自认为学硝子发出怪声的行为可以帮助朋友出头，后来欺凌行为过程中也靠类似的想法给自己一个正当的借口——排解日常生活的无聊，顺便帮助集体排挤异类。然而他错在自己没有好好与硝子沟通，也没有站在硝子的角度思考过，自顾自地做出欺凌行为，践踏硝子的善意。将也随时可以停止自己的行为，却闹过了火，彻底搞砸了自己小学六年级至高中开始的这段人生，真是自作自受。</p>
-<p>高中的将也，起初自卑，自厌，拒绝与周围沟通，游走在自杀的边界。抱着些许罪恶感和自我满足的动机接近硝子。但是他逐渐掌握了沟通的方法，从硝子的角度设身处地思考，并且有了与周围建立联系的动力，改变了自己。剧中的将也还是有一厢情愿的地方，他的行为依然对硝子产生了伤害。但是他在意识到自己的错误后，也真心诚意地悔改。不知道是不是因为因为自我孤立，将也不敢看别人的脸，拒绝了周围的声音，但是心思却变得纤细，懂得体谅他人，也能及时发现不对劲的地方（特别是对结絃），情绪趋向与冷淡和冷静，很少会有大脑发热的状况。比较迟钝的地方就是对女孩子的心思不敏感，甚至会丝毫没有意识到硝子的表白而听错成月亮（つき和すき傻傻分不清楚，当然硬要说的话这里还是有“月色真美”这个浪漫梗的存在）。</p>
-<p>本片可以说是围绕着石田将也单主角展开的，几乎所有情节都有将也视角的存在。因此也花费了最多的笔墨来塑造这个角色的形象，的确很成功，入木三分。</p>
-<p><strong>西宫硝子</strong> <code>喜欢</code></p>
-<p>本片最大的受害者。小学时期因为自己先天的缺陷（听障）而陷入自卑，但是用善意对待周围，想和大家都做朋友，尽管一次次受到伤害，依然用微笑对待，也总自己先说对不起。为了融入集体而过度妥协，却忽视了他人的不友好气氛，迟钝的样子终于让周围的将也和植野等人对自己的态度恶化。尽管依然在努力与周围沟通，还是逃不掉被欺凌的命运，并且性格逆来顺受，这些凸显了这个角色的悲剧性。唯一的一次反抗令人印象深刻，让我不禁感慨原来硝子不是真正的逆来顺受，她的心里原来也是有不屈的想法的。造就硝子命运的是她的沟通障碍和性格中懦弱的部分，她的沟通方式得不到周围同学的体谅，而她懦弱的性格也是她封闭自我拒绝周围的根源。</p>
-<p>进入高中后硝子的自我厌恶也没有得到改善。假设将也长大后不去打扰硝子求她原谅，也许硝子还能平平安安地度过这段时光。但是从后面的西宫奶奶逝世可以看出，硝子一直无法摆脱消极情绪，只要周围的人为了照顾她而受到伤害，只要自己关心的人为了她而与别人的关系四分五裂，她对自己的厌恶就会加深一分，即使不自杀，也迟早会令硝子崩溃。这就是俗话说的“解铃还须系铃人”，将也曾经给她很大的伤害，也在关键时刻抓住了她，给她重获新生的机会。也难怪硝子在高中再见到将也时，脸上会露出复杂的表情啊。</p>
-<p>西宫硝子不是天使<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> 。</p>
-<p>西宫硝子害怕孤独，她对友情的过度渴求是普通人无法体会的，这种差异是欺凌的导火索。</p>
-<p><strong>西宫结絃</strong> <code>超喜欢</code></p>
-<p>令人眼前一亮的角色，本片当之无愧的准主角。假小子打扮，性格古灵精怪，总是端着相机，关心姐姐和家人，也是将也的支持者。“结絃”和奶奶的名字“いと（糸）”都有联系事物的含义，特别值得注意的是，官方 FANBOOK 里有提到“结絃”与“结弦”的不同，选用乐器的“琴絃”而非“弓弦”更能体现出“用声音连接彼此”的含义，当然这一点在中文汉字里是无法表现出来的。中文正式翻译还是结弦。</p>
-<p>结絃是推动剧情发展的存在。一开始假装硝子男友去阻止将也对她造成二次伤害，并一针见血地指出将也来找硝子赎罪只是为了自我满足。在社交网站上传照片捉弄将也，却被将也捡回家照顾，认识到将也的真心之后结絃的心态也发生了转变，为了能让姐姐变好而逐渐开始支持将也的行动。有着成熟理性的思考，也有中学生的活泼与天真，同时还是心细的盗摄狂魔。为了阻止姐姐自杀而经常拍摄动物死亡主题的作品，摄影技巧好到足以参加竞赛。对学校和社会有一定的距离感，把生活的重心专注于姐姐，在奶奶的开导下注意到自己也是被关爱着的。</p>
-<p>把将也和西宫一家联系起来的人。</p>
-<p><strong>永束友宏</strong> <code>喜欢</code></p>
-<p>把将也和学校朋友联系起来的人，搞笑担当。永束这个姓也有连结的含义存在。作为将也高中交到的第一个朋友，永束这个角色也设置得很有意义。误打误撞地相识，帮助将也和永束两个人同时走出各自的封闭，接触周围的人。有感恩精神，讲义气，是一个标准的“朋友”模板。其实永束曾今也很孤独，在认识将也之前应该是没朋友的。从镜头中可以观察到，他像将也一样骑车上学，像将也一样坐在教室与他人格格不入，像将也一样去学校的长椅吃午饭。但是他渴望友情，也能大大方方接受自闭的将也。即使后来闹得不欢而散，内心还是愿意站在将也一边。这个角色不算丰满，倒是有点京都动画搞笑男二的气质。</p>
-<p><strong>植野直花</strong> <code>不讨厌，可以交往</code></p>
-<p>植野的角色与其他几个小学高中朋友比更加复杂和有争议。一方面，植野从小学到高中都是一如既往的性格：强势、高傲、扭曲、我行我素。她第一个提出要帮助学习有困难的硝子，可能真的是善心发作，也更有可能是为了维持自己班级中心的“面子”。但后来植野因为受不了难堪的气氛、自己班级中心的地位受到影响，而放弃帮助硝子，也放弃和硝子结伴，转而嘲讽帮助硝子的人。面对班级对硝子的隐性欺凌和将也明目张胆的欺凌，植野非但不阻止，甚至火上浇油地帮腔，成为将也的共犯。小学的她不去理解硝子，却要求硝子理解她。从读课文那段可以看出植野贯穿全片的心理内核——“我没有错，我为什么要道歉呢？”</p>
-<p>对待将也这方面，最严重的过错就是在校长和老师戳穿将也欺凌行为时，没有站出来担当责任，而是第一个把锅全推在将也身上。这行为给将也的打击直接导致了后来他们的疏远。</p>
-<p>高中的植野一定程度上认识到自己对将也犯下的过错，但是仍然坚持自己对硝子的做法没问题。所以她试图修复和将也的关系，接近将也并自作主张地想让将也和以前的朋友们重归于好。尽管如此，植野强势和高傲的性格没有改变，她见到试图和硝子搞好关系的将也，大失所望，认为这样的他和自己想像中的那个男孩已经渐行渐远，变得逊毙了。她对硝子的态度也没有多大变化，认为都是硝子的错，是硝子作为一个不正常的人，没有去照顾到他们正常人的感受。这种想法本身就很没道理，而植野直花这株笔直生长的花，却丝毫不觉得自己的真实想法有什么问题，并毫无顾忌地表达出来。植野几乎到结局都没有为硝子思考，坚持用大声说话的方式和硝子沟通，只在文化祭的时候，硬是用手语别扭地挤出一句“笨蛋”，表现了她近乎无奈的改变。植野错就错在不理解西宫硝子为什么对友情有这么高的渴求，所以她傲慢地对待对方，假如她自己也受过欺凌，那看问题的方式肯定不是片中的样子了。</p>
-<p>植野对将也的感情也是评判这个角色时不能忽视的一环。高中的植野有几次向将也倾诉时表达了自己对将也的喜欢（原作漫画中甚至在喵喵钱包里藏小纸条表白），影片也给了不少镜头描绘植野的眼神、表情和肢体动作，暗示植野从小学起就对将也抱有友情以上的情感。一定程度上，因为有感情元素的介入，植野在对待将也和硝子的态度上变得更加复杂。植野害怕将也因为小学的事情而讨厌他，并希望将也能站在自己的一边。但是在看到将也选择去和自己的欺凌对象搞好关系，这让她不知所措。吃醋和看不起将也的两种情绪混杂在一起，让植野迟迟无法正视自己的错误，而继续把痛苦的根源归咎于硝子。将也住院的时候，植野殴打硝子，固执地在病房看护不让硝子等人会见，可以看出植野真的非常喜欢将也，也发自内心地讨厌把将也弄成这副惨样的硝子。在硝子的坚持下，植野才化解了心结，愿意以硝子能接受的方式与对方交流。</p>
-<p><strong>佐原美世子</strong> <code>喜欢</code></p>
-<p>小学时班上少有的用手语帮助硝子的同学，但是因为受到言语冷落而无法出席。曾今微胖土气的女生变得高挑，找到了自信，并和欺负自己的植野同校，因为兴趣相投成了朋友。影片描绘的佐原没有什么缺点，成功克服了过去的懦弱，并以一个普通人的方式与欺负自己的人达成和解。她也是硝子的好朋友之一，与硝子再见面后也给了硝子不少慰藉。</p>
-<p><strong>川井美树</strong> <code>讨厌</code></p>
-<p>扁平化角色之一，精致的利己主义者的代表。川井从小就以无辜的形象示人，她在硝子受欺凌的事件中扮演的是默许的旁观者的角色。只要不牵涉到自己，她就不会阻止，但是一旦有人把火烧到自己身上，川井就会干脆地推脱责任。川井欺凌过硝子吗？明面上没有，但是暗地里的想法谁又知道呢？同学过分的行为全都看在眼里却不制止，其实也是无形中成了隐性欺凌的帮凶。川井为了掩饰自己的缺点，保持良好形象，是什么事都可以做出来的。后来一听到将也谈过去的事情就炸，当着全班的面再次揭发将也是欺凌者，这一段正是这个角色全然不顾是非，只为自己的正当化考虑的表现。重新接触硝子表现出的好意也好，将也住院时募集千纸鹤也罢，这些行为都不能消除这个角色的做作与虚伪。她也始终没有向硝子道歉，因为她觉得自己行得正，没有任何错误。影片里的川井将性格从一而终到了最后，但是原作中，川井似乎为她这种为人处世的方式付出了代价——在募集千纸鹤的时候被同学在暗地里骂“恶心”——令她重新审视自己和周围的关系。</p>
-<p><strong>真柴智</strong> <code>无感</code></p>
-<p>扁平化角色之一，抱有正义感的路人角色。因为自己的粗眉毛，小学时受过欺凌的真柴其实发自内心地痛恨欺凌行为，因此他的是非观让他无法原谅欺凌过别人的人。在不熟悉对方的情况下还对将也下判断，结果被反呛后觉得做不成朋友了。真柴没有错，他的立场令他无法接纳犯过错的人，这完全合情合理。他后来深入了解了将也的所作所为，也马上由衷地认可了将也。</p>
-<p><strong>岛田一旗</strong> <code>讨厌</code></p>
-<p>将也小学时的伙伴，也是导致将也后来被排挤孤立的元凶。本身有音乐才能，可能成绩也不错，比较积极上进。我觉得他之所以原来跟将也混在一起，可能只是因为他也觉得日子很无聊，但是其实对将也的幼稚也有些看不起，想好好学习成为成熟的大人。欺凌事件曝光后，他的自尊令他内心并不愿意袒护将也，反而落井下石洗脱自己的责任。再加上之后的变本加厉到处散布将也的前科让他抬不起头，多少是为了维护这份面子，多少是出于“正义感”，多少是真心排挤将也，我并不能看出来。到了高中，他们的裂痕无法修复，岛田也从来没有道歉。他指责植野撮合两人是多管闲事，说明他也对这种状态感到无可奈何，但是最可怕的是，影片没有表达出岛田的歉意。后面将也坠河，岛田出手相助，在我看来有种潦草收尾强行洗白的感觉，画蛇添足。鉴于影片的篇幅有限，原作中有更丰富的细节，所以我看到的也只是电影中片面的岛田而不是漫画完整的人物形象。</p>
-<p><strong>广濑启祐</strong> <code>无感</code></p>
-<p>将也小学时的伙伴，合伙排挤将也，把将也曾经捉弄他的事一一还到将也头上。对他救助将也这件事，我的感想同上。</p>
-<p><strong>竹内老师</strong> <code>非常讨厌</code></p>
-<p>本作中最令人不满的角色之一，失职教育者的标准模板。将也在语文课上怪叫他批评了事，植野不愿意学手语的时候他站在讲台边沉默，将也一次次在课堂内外欺凌硝子，他也不闻不问。他把硝子当作一个麻烦而不是需要关照的对象，对欺凌行为无动于衷，不引导犯错的学生改正，不保护被欺负的学生令她摆脱伤害，却在事情无可挽回的时候举起管教的大棒，用公开连坐威逼，让还没有正确是非观的学生纷纷为了保护自己而伤害朋友。综合来看，硝子被欺负，被逼转学，将也被排挤，这些事加起来，将也要负一半以上责任，竹内要负剩下的大部分责任。但是同样的，本片中我们也不可能看到老师对学生道歉。</p>
-<p><strong>石田美也子</strong> <code>喜欢</code></p>
-<p>坚强的母亲的角色，亲切而开朗，为儿子犯下的过程勇敢承担责任，也支持将也要坚定地好好活下去。害怕给他人造成麻烦，最后将也住院时见到八重子第一面也是习惯性地道歉，尽管她并没有听八重子说详细情况。最后与八重子和解。</p>
-<p><strong>西宫八重子</strong> <code>喜欢</code></p>
-<p>保护欲强的母亲的角色，表情冰冷，但是在奶奶葬礼和听说硝子自杀未遂的时候还是会掩面而泣。尽管关心两个女儿，但是因为硝子的听障，连身为母亲都觉得沟通困难，因而要依靠结絃作为传声筒。教育方式可能存在问题，因为她强迫听障的女儿被普通人的环境接纳，让硝子像健康人一样生活。想法是好的，但是过于激进。八重子在两个女儿的努力下终于接纳了将也，然而对硝子的沟通的忽视令她也差点失去珍贵的女儿。最后也与美也子和解。</p>
-<h2 id="演出">演出</h2>
-<p>技术活就不详细说了。场景取材的细致参考大垣市给的官方圣地巡礼<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> 。此外，镜头内容包含的信息量、人物的表情和动作的刻画都是下了功夫的。这些多看几遍就能明白。反复看了几遍《莉兹与青鸟》后，我已经逐渐习惯山田导演过程中擅长的一些手段。而看了《声之形》，我发现《莉兹与青鸟》的特质早在本片中就得到了发扬。</p>
-<p>个人比较喜欢的场景包括：OP的剪辑；将也第一次用手语和硝子对话的场景；美也子失手把钱烧掉的搞笑桥段；结絃在雨中拨开伞接纳将也的瞬间；硝子努力表白却失败的场景，与后面将也傻乎乎对结絃解释自己听到硝子说了“月亮”后，结絃没忍住笑喷的场景。</p>
-<p>最喜欢的部分就是花火大会。花火大会中除了描绘将也和西宫一家，也不忘对其他角色的形象进行精炼而细致的刻画。这一段剪辑描述了每个角色看烟花时所处的状态，比如孤身一人的永束、作为家中小公主的川井，同样是单亲家庭，被三个弟弟环抱的植野等等，可以看出每个角色其实并不是观众想当然的扁平化。这些人在面对不同的人，特别是家人的时候，才会展现出独特的性格特征。</p>
-<p>花语的暗示贯穿全片。花是渲染情绪的一组重要意象，由于我识花并不在行，也不了解花语，还是请参阅别人的分析吧<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> 。</p>
-<p>音乐在高潮时比较烘托气氛，其他时候存在感不是很明显。不过牛尾的配乐在《莉兹与青鸟》里真的很精彩。</p>
-<p>声优们的演技也很出色。可能为了增加影片的生活气息而减少动画的感觉，声优们普遍使用了更日常的真实声线。入野自由那种有气无力和羞涩的少年音，早见沙织富有情感爆发力的模仿听障人士的特殊语音的表演，悠木碧收放自如展现结絃少女活泼和古灵精怪特质，雪野五月稳定发挥演绎母亲角色，这些在第一遍看的时候就能感受出来，反复聆听，用心享受声音的美好是最幸福的事情。</p>
-<p>作画方面，唯一不满的可能是上色，背景的色彩和对比度我很满意，人物虽然修得很细致，但是上色偏暖，边缘高光发白，相比京都动画的其他作品，有种背景高级人物廉价的感觉，特别是夜色中硝子居然流出了粉色的眼泪这一点，最让我出戏，看了好几次，怎么都不习惯。</p>
-<h2 id="精神内涵题外话">精神内涵&amp;题外话</h2>
-<p>好好活着，敞开心扉，坦然沟通，拥抱他人。我认为这是本片传达给我的最重要的内涵。</p>
-<p>当然，如何善待听障人士，以及如何处理校园暴力和欺凌排挤相关的现象，是本片主旨，也是观众争议声比较大的方面。我认为创作者在试图向观众展示这些方面的相关讨论的时候，更侧重于表现人性中善良美好的一面，而不想把真实情况中更残酷更黑暗的一面赤裸裸地剥离在外给人看。原作者大今良时说讨厌故事中的所有角色；导演山田尚子说喜欢里面所有角色<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> 。我认为她们的观点都有道理，并且都是从各自的角度出发对作品做出诠释。</p>
-<p>不管是面对现实中的人还是虚构的艺术作品，我都不会急于对其进行伦理道德评审。尽管本作中有些角色或是振振有词不承认错误，或是转移重点为自己脱罪，面对受害者都表现得很不像话，但是从演出的细节中仍然可以观察出每个角色的复杂面貌，就像活生生的真人一般，有喜怒哀乐的变化，存在矛盾性。</p>
-<p>耐人寻味的一点是，本片中对硝子的恶意流露得最彻底，并几乎贯彻至结尾的角色植野，却大概说出了多数对本片产生异议的观众们的心声——“欺负人的人和被欺负的人做朋友？开什么玩笑！”尽管植野是处在帮凶的立场上说这句话，想表达欺凌者和受害者友好相处这种事很土，而观众在意的是受害者绝不能原谅施暴的人，我在这里作比较的确有些偷换概念了。</p>
-<p>植野、佐原、川井、真柴这四个角色其实代表了四种人性特征，复杂而真实。我在小学、初中和高中阶段的生活都可以说是风平浪静，即使有不愉快的一些瞬间，班集体整体的氛围也都很好。现在回忆起来，小学和初中时自己和身边的人其实是受过一些欺负的，但因为我性格比较温和，心理素质还算稳定，又是男性，小学六年级之后自己就不太会被这种事影响，而是专心学习。</p>
-<p>但是印象里女生被欺负的状况还是比较惨烈的，一件一件细数的话，在二到四年级的时候，有些顽皮男生针对女生的捉弄甚至暴力行为的确引起了班内师生和家长的骚动，至今我还对某些带血的场景历历在目；但到了高年级，随着学习任务的增加和女老师们的悉心管教，原来顽皮的男生成绩跟不上，风评亦不佳，自然反过来成了班内新的排挤对象——就像将也；也有常年身体状况比较差经常请假的女生因为和班上处得不太好，个性也比较娇气，而被疏远的情况；更多的小规模欺凌行为包括起外号和传绯闻，这些事可能伴随着所有人长大。现在回想起来，如果我站在他人的角度去思考的话，其实被欺负的人，欺负人后反被排挤的人，因为无法融入气氛就被无形中排挤的人，都需要善待。可是当时的我并不会在意，身边的朋友也没有站出来当正义的伙伴，我觉得能努力做好自己，顺便和别人搞好关系就是最重要的事情。现在我已离开小学十四年，期间除了见过老师一面，有一个至今稍有联系的高中同班的小学同学外，再没找过其他童年伙伴，当时的记忆也已模糊，现在再找人谈往事，也应该说不出口吧。</p>
-<p>初中阶段对一部分欺凌行为有了意识，除了独善其身的策略以外，也尽量在成绩优秀（座位也近）或爱好相近（拖我进宅坑）的几个同学之间维持一个小圈子，平时无话不谈，这样就避免了和关系不太好的人的接触。初中阶段比较多的欺凌方式还是大家习以为常起外号和绯闻谣传，但很少有暴力行为，反倒是中年男性的班主任脾气火爆下手比较狠，因此学生都还算老实。但是对于圈外的同学受到的持续欺凌，我们这群优等生中可能只有班干部会出手调解，并没有更多的正义行为，尤其是当时成绩中段同学的圈子里，有男生持续不断地对一个身材一般但是第二性征比较明显的女生进行语言和肢体的欺凌，却没有谁会明显地去阻止这种行为。而另一个比较瘦弱的男生，和我的圈子关系还算好，也因为其有点神经质的形貌和偶尔意外发作的抽搐，而变成部分人嘲笑的对象，甚至连我身边有几个和他关系好的优等生也会拿他的病症捉弄他，结果在初三的时候这个男生当场爆发，狠狠咬了跟风叫他外号的某男生一口，并吵得不可开交。那一瞬间我明白了他的痛苦。当我制止了被咬的男生对被欺负的男生的咒骂后，因为愤怒而在他们面前自顾自哭了起来。此外，现在回想起来，我确实有和别人一起针对过某个品行和成绩都很差，破坏课堂纪律，也经常伤害别人的男生；也曾和原来住楼上下而在班上经常开猥琐玩笑的男生的关系处得有点僵。在很长一段时间里，即使对方并没继续做什么坏事，我都没有放平心态去原谅他们。直到上了初三，对学习考试游刃有余的我才有闲心在教室里观察过去不太交流的一些人，了解一些人平时不易展现的一面。后来我逐渐发现，我认识的家伙其实都不坏，他们只是彼此无法好好地沟通，而采用了错误的方式，令对方痛苦。在伤害发生后有些人会觉得愧疚，但是出于某些原因，这些愧疚的心情也无法好好传达。</p>
-<p>曾经我是自认为自己从来没有站在欺凌者的位置的。但是在回想了那段时光，并且投射到这部电影中之后，我意识到我自己也成为过川井、成为过真柴、偶尔成为佐原、而内心可能会冒出和植野一样的看法（初中以后就没有过了）。我被轻微地伤害过，并且可能无意识地伤害过别人。我可能独善其身，但是也说明我对他人的恶行进行了默许和纵容。如果当时能好好沟通的话，有些事情就不会这样不了了之地留下淡淡伤痕，而会以非常积极的方式去解决了吧。</p>
-<p>所以在看到硝子被欺负的时候，我充满了同情和气愤，在将也自作自受之后，我并没有觉得幸灾乐祸，而是感到悲哀。明面或暗地里欺凌过硝子和排挤将也的几个人振振有词地为自己辩护，看了影片几遍之后，我发现自己并没有感到生气——他们的行为是站在自己的角度而做出的。当最后硝子和一部分人达成和解，将也重新接受了世界的声音时，我有种羡慕的感觉：硝子和将也都从曾经的不幸中走了出来，改变了自己并且接受了这个世界，获得了新生，而且被身边的人主动或被动地善待着。我把这部电影当作一个童话故事，它告诉我传递心意的方式有很多种，相比于自己的表达，倾听他人也是很重要的沟通方式。我不指望现实中欺凌他人还不悔改的家伙能从被害人身上得到宽慰和救赎——这样的人不值得；我也不希望被欺凌的人都逆来顺受地既往不咎，和自己的仇人相谈甚欢——这对受害者不公平。但是针对这部电影来说，我觉得它试图表述的还是爱的主题。也难怪最后本片的评价两极分化，因为每个人都是带着自己独特的视角去理解这部作品，体会也天差地别。我感叹自己的幸运，羡慕故事主角后来能被善待的经历，也深深地体会到曾经遭受过伤害的人一路成长的艰辛与痛苦。</p>
-<h3 id="if结局">IF结局……</h3>
-<p>强行全员相互理解还是有点善良过头了。我个人内心其实希望硝子和将也自己和解就好了，他们和其他伤害过他们的人不再往来，靠自己的努力走出阴霾，也不是不可以。</p>
-<ul>
-<li><p>如果时光能倒流回五年前，竹内老师是个好老师，既用心保护硝子又能正确引导欺负人的同学停止自己的恶行，大家和睦相处，平稳健康地度过小学六年级。可惜好老师可遇不可求。</p></li>
-<li><p>如果植野在将也被揭发的时候主动担锅承认错误，没准后面的岛田和川井也不会跟风甩锅，大家的家长集体出面，诚恳向西宫家道歉，赔偿损失，及早和解，消除欺凌的气氛，对硝子是好事，对其他孩子也能起到教育作用。以后可能会为当时的事情留下心结，但是帮助硝子今后能远离伤害。</p></li>
-<li><p>如果将也厚着脸皮熬过初中，高中转到没人认识的新环境，不去打扰硝子，让硝子自己走出阴影，让时间抹平彼此童年的伤痛，这样也不会惹出电影里后面的一堆事。比较现实，可操作性较强。</p></li>
-</ul>
-<p>如果……</p>
-<p>可惜没有如果。</p>
-<h2 id="参考">参考</h2>
-<section class="footnotes" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p><a href="https://en.wikipedia.org/wiki/My_Generation" target="_blank" rel="noopener">My_Generation</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>舉例來說，像是英國樂團 The Who 在1965年發行的劃時代歌曲〈My Generation〉，他們用口吃的演唱使歌曲聽起來像摩德族（Mod）的聲音（因為他們常常在嗑安非他命），但樂團並不是以此取笑他們，而是由於五Ｏ年代崛起的摩德族正逢二次世界大戰結束後，許多歸國的軍人父親與已經成長為青少年的他們之間有代溝，年輕的一代就在這樣壓抑的環境中掙扎。歌曲便是傳達大人們不應該用過時的標準來評斷看待年輕一輩，應該讓他們過自己想過的生活。類似這樣貼近自身處境的歌曲，使年輕聽眾能夠強烈接收到認同感。from: <a href="https://www.mplus.com.tw/article/572" target="_blank" rel="noopener">搖滾樂的過去、現在和未來</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p><a href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12165340172" target="_blank" rel="noopener">聲の形の映画を見てきたのですが……</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/27096343" target="_blank" rel="noopener">争议旋涡中的《声之形》，你看懂导演的心思了吗？</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p><a href="http://www.ogakikanko.jp/koenokatati/movie/" target="_blank" rel="noopener">映画聲の形大垣市舞台モデル紹介</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p><a href="https://movie.douban.com/review/8553727/" target="_blank" rel="noopener">《声之形》中的花语</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/27096343" target="_blank" rel="noopener">争议旋涡中的《声之形》，你看懂导演的心思了吗？</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
+    <title>没有名字的杀人魔</title>
+    <url>/2019/04/20/stand-alone-killer/</url>
+    <content><![CDATA[<p>很久很久以前，那时的消息很不灵通，听说某地有一个普普通通的少年。</p>
+<p>少年没有什么引人注目的地方，性格也并非特别讨人喜欢，连一门拿来炫耀的技艺都没有，周围的人都觉得他将一生平庸。</p>
+<p>少年从来没有把看扁他的人放在眼里，他满不在乎。他有一项不为人知的特长，就是记性特别好。他没有刻意和任何人比较过，只是对此很有自信而已，甚至连父母都不知道他有如此惊人的才华。</p>
+<p>少年上了高中就开始腾出时间打好几份工，他对学校教授的内容丝毫不感兴趣，因为早在小学阶段他就已经通过各种渠道把顶尖学者级别的知识量收入囊中。因为记性很好，餐厅服务生、便利店收银、书店店员、琴师等工作对他来说轻车熟路，其他体力活也不在话下，肌肉记忆能帮助他很快熟悉工作流程，他也通过各种工作锻炼出充沛的体力、敏捷的身手和坚韧的品格。</p>
+<p>有一天父亲又在餐桌上嘲讽少年在学校混日子，在零工上浪费时间，没有理想，终将一事无成。少年一言不发地跑了出去，在空荡荡的公园坐着打发时间。夜空中群星闪烁，少年默念着视野中每颗光点的天体命名。他突然想到，寂静的宇宙中有那么多孤独的星球，看起来近在咫尺，其实彼此相隔甚远。如果星球是像人一样拥有智慧的生命的话，它们其实没有相互交流和认识彼此的机会，每颗星都在虚无浩渺中默默地运行，既不用在意他人的评价，也不必为繁杂的人情关系所累。他对这样的状态感到羡慕，如果这世上也无人认识他，放任自己孤独游荡的话，会是怎样一种自由的体验呢？</p>
+<p>那就把所有认识自己的人杀掉好了。</p>
+<p>少年决定独自实现这个目标。因为是第一次确定人生目标，他激动不已，颤抖着在公园的长椅下睡着了，这一觉睡得特别香，他把梦里想象出的杀人技巧和过程都牢牢记在脑中。</p>
+<p>醒来以后冷静了一下，少年觉得这个目标有点普通，于是加上了一点限制——一种杀人方法只用一次。草草梳理了一遍，从出生开始接触过并且互相知道身份的人已经有四百余人，但是少年所了解的杀人术也只有三十种左右，这样是没法实现目标的。于是，少年不辞而别，背井离乡去各地寻找精通杀人术的高手。同时，他也凭过人的记忆，慢慢整理自己认识的所有人的名单，收集他能获得的具体信息，按照关系的远近来排列，规划着杀人的顺序。从太亲近的人开始下手的话很快就会被怀疑，少年不想节外生枝，毕竟出名太快，会一下子让太多的人知道自己，这样不得不再多花很多精力来处理。</p>
+<p>来到了几百公里外的小镇，举目无亲的少年过了一阵子风餐露宿的生活。这里应该没有任何人认识他，所以他感到无比舒适——本应该是这样的——直到有一天他在路上和一个小学同学打了照面。少年不想出师不利，赶紧在对方认出自己之前跑走了。这同学是小学时的恶霸，经常仗着自己的人脉，伙同他的势力欺负少年和其他弱小的同学。但是他父亲后来死于斗殴，母亲改嫁后又饱受虐待，这个儿子转学之后便杳无音信。</p>
+<p>接下来几天，少年仔细观察了这个意料之外的目标的行动方式。此人独来独往，做一点见不得人的地下买卖，还骗了当地一些人的钱，总是有人上门找他；每周定期去几个地方，有时会喝得醉醺醺很晚回家。少年在小学同学喝酒回家的必经之路上设好了陷阱，在某个寒冷的夜晚堵住了他，还挑衅他。同学依稀认出了少年，恼羞成怒之下挥着酒瓶想要打倒他。少年轻巧地躲过了醉汉的攻击，沿着悬在屋檐上的绳索爬回屋顶，而少年的同学一脚踩破被动了手脚的井盖，摔进阴沟里，磕破了脑袋，折断了脊椎，然后在冰冷的臭水中躺了一夜，清晨被发现时已经彻底断了气。少年把他用过的道具随便扔进跟死者有瓜葛的某个人的棚子里——他故意诱导警方往他杀的方向去调查。然后少年悄悄地溜走，动身寻找当地山里一位深居简出的战斗大师。</p>
+<p>这位大师年事已高，早就金盆洗手，也多年未收徒，不久前流传他将收关门弟子，少年这才专程来到此地。少年顺便将自己初次杀人的经历拿来与大师讨教。大师二话不说领少年进了门。半年后，大师在睡梦中去世，少年则带着新学的到上百种杀人技艺，背负着十几条人命，开始了新的旅程。</p>
+<p>少年又从一名流亡巫师那里学到了不少精妙的黑魔法。流亡巫师是从魔法特务部门叛逃出来的，到处从普通人类那里接一些不能被调查出来的杀人委托。为了防止流亡巫师背叛并确保委托人自身的安全，普通人类也会用一些技术手段限制巫师的行为，比如给流亡巫师套上埋藏着炸药的远程引爆项圈，如果委托人在任务进行中遭遇不测，项圈就会引爆。</p>
+<p>有一天流亡巫师感叹自己再也没有什么好教给少年的了，少年觉得亲自对阵流亡巫师可能没有胜算，于是他告诉流亡巫师他要介绍一份报酬很高的委托工作以表感激。流亡巫师完成了任务，然后他的脑袋被炸得灰飞烟灭，他最终都不知道这次的委托人其实就是被杀的女人。女人是少年在幼儿园时的班主任，因为现任园长喜欢年轻漂亮的老师，她便早已被辞退，并搬到现居的城市，却不幸被诊断出癌症。少年拜访了病痛缠身的女人，告诉她有不痛苦的死法，就是被瞬间分解物质的魔咒击中。于是她欣然接受了这个建议，并将自己的信息登录到项圈上。少年用易容魔法假扮其他委托人骗过了流亡巫师，然后轻松地杀死了对方。</p>
+<p>在那段日子里少年又杀掉了一些与自己有过交往的人，他现在掌握的杀人术的数量和名单中剩下的人数已经大致相同了。但他仍觉得不够，应该再多学一些以备不时之需，万一未来不慎向大众曝光了自己的身份，为了处理那些人，还需要大量的杀人方式。</p>
+<p>少年又走进世界的一片荒芜的角落，拜访了一位超能力者。超能力者是天生的怪物，没人喜欢他。他过去被关进监狱好多次，但是每一次他都能大摇大摆地走出来。没有人能探知超能力者的力量上限。他能一口气让方圆几十公里的有机体燃烧；也能改变自己密度和速度，瞬间穿透任何物质；他能呼唤任意极端天气；他引发过不直接接触就把水、食物和药物变成剧毒和重度污染物的恶性公共事件，等等等等。最终，知道超能力者诸多恶行的人几乎都死了，而幸存的人纷纷从他身边逃离，把他留在世界的角落。</p>
+<p>少年无法从超能力者这里学到任何技巧，因为超能力者的身体素质是独一无二的。少年也不知道超能力者最强的能力其实是全域心灵感应。超能力者一出生就能感应到世界上所有生物的思想，并且这个能力是被动的，连他自己都没法关掉。也正是苦于心灵感应，超能力者夜不能寐，情绪极度不稳定，身体里的强大力量接二连三地被激发出来，让他经常失控，最终成为没人喜欢的怪物。超能力者了解少年经历的一切与内心的真正想法，少年却对超能力者知之甚少。当少年决定来拜访超能力者的时候，超能力者真正注意到了少年。因为多少年来，所有人都试图从自己身边逃开，连他自己都很想一口气跳入茫茫宇宙放逐自己。但是少年毫不畏惧，直接找上门来，令超能力者感到非常新奇。他也知道少年的计划，意味着少年有一天也威胁他的生命，令他不得不天天提防少年。其实超能力者心底里对少年死板而幼稚的计划嗤之以鼻，但他并不表露出任何态度，打算戏弄少年一阵子，等对方真准备动手了，再把他干掉。</p>
+<p>少年经常出远门，把在名单上的人一个个找出来杀死。随着死者与少年的关系越来越亲近，各地的警方和媒体都开始注意到了某些不寻常的迹象，并进行一系列的追踪调查和报道。但是他们也无法给出任何结论，有不负责任的小报将一些具有地域特征和时间特征的案件总结成“某种无名的噩兆”。</p>
+<p>少年不杀人的时候就会回到世界的荒芜角落陪伴超能力者，超能力者心知肚明，少年其实另有所图。超能力者暗自羡慕少年的无限永恒记忆，这是一种珍贵的才能，如果自己也有这种能力，结合心灵感应，也许能把全世界的信息一口气保存下来。因为心灵感应的影响，超能力者不断地接收信息，记忆的剩余空间永远很紧张，说白了，超能力者非常健忘。有一天超能力者一时忘记了身边的少年是来干什么的，于是随口炫耀了自己的心灵感应能力。少年的脸色马上变了，但是他迅速想出了应对方案。超能力者浑身冒起冷汗，因为他已经知道少年想要做什么了。超能力者沉默了三天。随后，少年离开了世界的荒芜角落，再也没有回去过。</p>
+<p>两年过去了，少年学成了几千种杀人技巧，多到让自己都不知所措，于是他决定回家。父母和少年却已天人永隔。对父亲的蛮横与傲慢，少年自然没什么好感，而母亲的懦弱和无原则也令少年痛恨，所以少年其实不觉得惋惜。父母死于家庭煤气爆炸事故，少年什么都没有做。家里值钱的东西差不多都被亲戚搬空了，邻居的夫妇俩也趁火打劫了一些。少年的归来打破了这些人的小算盘，他成为了房子真正的主人。这个家终于只剩他一人，少年随心所欲地住了一段时间，再也不用被迫跑出去了。小镇的非正常死亡案件越来越频繁了，每个案件都有显著的他杀证据，但是受害者的死法各异，警方为了调查挠破了头。原本平静祥和的小镇成了危险地带，人心惶惶。</p>
+<p>小镇的事件惊动了首都，一名国家级的社会学及犯罪心理学专家被指派协助调查组。这位专家收集了上百起案件的受害人信息，并调取内部档案中的全国人际关系网络，利用算法来进行社群发现，对死者相关人的信息进行筛查，逐渐将怀疑的目光转移到少年这个节点上，但是他怎么也料想不到少年的动机。与此同时，网络上开始流传关于这些命案的恐怖传说，传说的结论也将矛头直指少年，一时间，认为少年是某种诅咒的都市传说甚嚣尘上，与专家的观点异曲同工。调查组敲定将少年列为重点调查对象。</p>
+<p>调查组的人员和专家一起开始逐个走访少年的亲戚和其他相关人，询问情况。但是过了没多久调查行动不得不终止，因为知情的调查人员包括提出调查的专家都死了，其他非知情人一筹莫展，甚至不知道他们究竟在调查什么，因为谁而送了命。</p>
+<p>少年的亲戚原本对少年就有成见，自从他们知道网上关于少年的流言后，更加把少年视作眼中钉和家族的祸害，试图把他赶出自己的家，还要断绝关系。有一次，这些亲戚为了商讨事务而举办家庭聚会，闪电打断了屋子的电力，屋内陷入一片漆黑。最终没有一个人走出屋子。</p>
+<p>网络上关于小镇命案的恐怖故事越传越广，情节越来越具体。而伴随着恐惧，少年的名字也逐渐流传开来。当然网上也有不一样的声音，为少年辩护，称这种推理是无稽之谈是网络暴力，却很快被怀疑的声音反攻回去，指出辩护的人该不会就是犯人本人吧。随着讨论的愈发激烈，持不同意见者相互暴露隐私信息、甚至线下约见面的暴力行为时有发生，许多人因此而白白丧命，参与少年本人信息相关讨论的几千人都因为因为各种原因而身亡，少年的故事被冠以“新时代被血染红的最神秘都市传说”，最终再也没有人在网上谈论少年的名字了，过去两年间发生的许多离奇命案重新成为悬案。</p>
+<p>少年的邻居家的女孩也是少年的青梅竹马，和她刻薄贪小便宜的父母不同，是一个善良纯洁的人。少年不在的两年间，女孩拒绝了许多男孩与她交往的请求。少年回来后她也一直坚信眼前沉默而楚楚可怜的少年是一个好人，并被激发起强烈的同情心和照顾本能，她时不时会关注少年。某一天，女孩因为少年的事情还有其他琐事与父母大吵一架，父亲甩了女儿一巴掌，于是女孩忍着泪从家里跑出去，敲开邻居少年的房门。少年招待了女孩，并允许她留在房间里。</p>
+<p>女孩和少年谈天说地，聊过去的事情。少年对童年回忆亦如数家珍，甚至女孩记不得的许多细节他都能轻松地回想起来，让女孩惊叹不已。少年知道女孩对自己有感情，但是他对此没有任何感想。他只觉得人与人之间有各种各样的感情联系实在是太恶心了。少年只是被动地承受着女孩越来越炽烈的情感。女孩向少年表白，她脱光自己身上的衣物想要抱少年。但就在女孩帮少年脱去衣服时，她看见了他不成人形的身体，于是女孩大声尖叫起来，活活吓死了。</p>
+<p>这时，少年身体中的超能力者讥讽少年的杀人方法太过恶趣味。少年并没有反驳，只是用魔法让超能力者重新沉睡。原来当时少年没能杀死超能力者，他知道自己完全不是超能力者的对手，但是自己有值得用来交涉的筹码。于是少年当场和对方达成协议，请超能力者吃掉自己，而保留自己的心脏、魔力、大脑和全部记忆，而少年会利用自己的魔法帮助超能力者摆脱心灵感应的梦魇，并让自己支配超能力者的身体，直到达成目标为止。结果超能力者获得了永恒的记忆，变成了世界最强的生物。少年使用催眠魔法把超能力者的意识给封住，只有杀人过程中需要使用多种超能力，一个人难以控制时才把他放出来，所以超能力者大部分时间就不必接收心灵感应的刺激了，而少年平时可以利用心灵感应快速找出认识自己的人。结果，少年即将达成当初定下的目标，但是他掌握的杀人技术还剩下好多种并未发挥出来。他粗略计算了还需要补充的受害者的数目，开始有意识地把自己的名字传播出去，并渲染恐怖的气氛来加速传播速度。事实上，网络上有关少年的传说的始作俑者正是少年本人，他还用这个故事成功诱导了犯罪专家和调查组来自投罗网。最终，杀人的技术快要消耗完毕，目标也即将达成。</p>
+<p>少年吸收了女孩的肉体，把因为超能力反噬而乱七八糟的身躯修补了一番。他走进女孩的家，女孩的父母责骂她跑出去鬼混几个月不回家，他们并不知道面前的女孩是少年变成的。少年为父母做了最后一餐饭，饭后，女孩的母亲变成了风化的石块，而女孩的父亲被传送到了土地的深处，与熔岩化为一体。</p>
+<p>少年曾经只是单纯漠视人与人之间存在的联系，想变得孤身一人。他并不能体会到人与人之间各种感情的不同之处。有了心灵感应之后，少年才真正体会到人的情感，内心也逐渐变得完整起来。特别是杀人时，对方在死前涌现出来的强烈愤恨、恐惧、惋惜、欣慰还有各种各样丰富的情绪，填补了少年的空白。少年原本以为，人就是因为过分牵挂他人才活得这么累的，而在经历各种情绪的洗礼后，少年开始明白的确人类只有那样才有活着的实感。但是，事已至此，少年最终坚持自己的道路，他像一个没有名字的怪物一样，最终不被人知晓，不再与任何人相遇，孑然一身。</p>
+<p>少年从身体里抽出女孩的肉体并将她复活，悄悄离开了。女孩醒来后没有见到少年，而她已经失去了全部关于少年和父母的记忆。超能力者问少年为什么这么做。少年说，本来在杀掉女孩的时候，觉得留下一个人陪伴自己也许能让生活更精彩一些，但是复活到一半的时候觉得一直以来贯彻的原则会被颠覆，就毫无意义了，所以，还是让女孩忘了自己，不要再相见比较好。超能力者说，你不是还有我嘛。少年说，对啊，还有你。</p>
+<p>传说最后少年从魔法中找到了主动控制心灵感应的方法，这时超能力者感觉时机成熟，决定杀死少年的意志，取而代之。少年拒绝了超能力者，他用超能力点燃自己的每一个细胞，并用魔法把超能力者的意志吹散了。少年杀掉了最后一个认识他的人，那就是少年自己。少年永恒的记忆也不再属于他，而是像宇宙中的电波一样漫无目的地游荡下去。再也没有人知道少年的故事。</p>
+<p>少年最终实现了愿望。</p>
 ]]></content>
       <tags>
-        <tag>anime</tag>
-        <tag>movie</tag>
+        <tag>fiction</tag>
+        <tag>writing</tag>
+        <tag>original</tag>
       </tags>
   </entry>
   <entry>
-    <title>简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图</title>
-    <url>/2019/01/19/venn-diagram-with-R-venn-package/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
-<h2 id="需求">需求</h2>
-<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
-<h2 id="准备">准备</h2>
-<p>一个用 Python 做了预处理的文件，格式大致如下：</p>
-<table>
-<thead>
-<tr class="header">
-<th>groupname</th>
-<th>groupvalue</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>g1</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>g1</td>
-<td>B</td>
-</tr>
-<tr class="odd">
-<td>g2</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>...</td>
-<td>...</td>
-</tr>
-<tr class="odd">
-<td>g5</td>
-<td>C</td>
-</tr>
-<tr class="even">
-<td>g5</td>
-<td>D</td>
-</tr>
-</tbody>
-</table>
-<p>其中第一列是组别，有五组，第二列是组别各自对应的数值，彼此有相同的部分。当然可以用 R 做数据预处理，不过这里省略基础部分，直接从成熟的数据开始处理。</p>
-<p>参考网上的教程，包括：</p>
-<p><a href="https://www.cnblogs.com/xianghang123/archive/2013/03/25/2980623.html" target="_blank" rel="noopener">【R作图】在R中绘制韦恩图的几种方法 和 一些漂亮的venn图</a></p>
-<p><a href="https://qiubio.com/archives/2603" target="_blank" rel="noopener">R绘图基础（五）文氏图vennDiagram</a></p>
-<p><a href="http://blog.biochen.com/archives/520" target="_blank" rel="noopener">使用VennDiagram包绘制韦恩图</a></p>
-<p>以及一个貌似是利用自己写的代码配合 matplotlib 绘图的库 <a href="https://github.com/tctianchi/pyvenn" target="_blank" rel="noopener">tctianchi/pyvenn</a></p>
-<p>方法包括 R 里面的 limma::vennDiagram, gplot::venn, venneuler, VennDiagram 和 python 里面的 pyvenn库，以及一些在线工具。</p>
-<p>其中 limma 和 venneuler 只能画三组数据,不符合我的要求，另外大佬们的文章似乎有点过时，我看现在有些包应该没那么弱了吧。至于我为什么不用 python 的库，没有为什么，就像我今晚突然不想吃我爱吃的肥宅快乐餐一样。</p>
-<p>然后发现了独立的 venn 包，上面的文章里提到2012年的时候找不到 venn 包了，但是我误打误撞在 google 首页就翻到了 venn 1.7 的文档，一看时间发布于2018年七月底<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，就感觉很迷。研究了一会，感觉看进去了，那好吧就用它了！</p>
-<h2 id="操作">操作</h2>
-<h3 id="基础入门三步走">基础入门三步走</h3>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">install.packages(<span class="string">"venn"</span>) <span class="comment">#安装</span></span><br><span class="line"><span class="keyword">library</span>(venn) <span class="comment">#导入</span></span><br><span class="line">?venn <span class="comment">#查看文档</span></span><br></pre></td></tr></table></figure>
-<p>前面文档说了一堆，跳过了，直奔主题看五组数据怎么画。没错我就是这么功利而不求甚解。</p>
-<h3 id="直接看-usage-里的-arguments">直接看 Usage 里的 arguments</h3>
-<blockquote>
-<p>x - 单个数字（集合）或元模型公式，或包含设置值的<strong>列表</strong>，或包含布尔值的数据集。 <code>关键词，可以扔 list 进去</code></p>
-<p>snames - 包含每个集名称的可选参数。</p>
-<p>ilabels - 打印每个交叉点的标签。 <code>TRUE 是打印， FALSE 为否</code></p>
-<p>counts - 每组交集的计数的数字向量。</p>
-<p>ellipse - 尽可能将形状强制为椭圆。 <code>TRUE 是把区域变成椭圆， FALSE 为否</code></p>
-<p>zcolor - 自定义区域的颜色矢量，或“样式”的预定义颜色</p>
-<p>opacity - 就是用数值调不透明度</p>
-<p>size - 就是用数值调整绘图大小，以厘米为单位。</p>
-<p>cexil - 就是用数值调整每个交集区域数值标签的字体大小免得看不清</p>
-<p>cexsn - 就是用数值调整集合名称标签的字体大小</p>
-<p>borders - 绘制所有交叉点边界 <code>看不出来效果</code></p>
-</blockquote>
-<p>(对不起，上面是我机翻+脑补的，因为实在懒得打字)</p>
-<h3 id="数据导入及基本作图">数据导入及基本作图</h3>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">datasets &lt;- read.table(<span class="string">"/path/to/your/data.txt"</span>, header = <span class="literal">TRUE</span>, sep = <span class="string">'\t'</span>) <span class="comment">#导入数据，数据格式见前文，路径自己填，数据包含表头， Tab 分隔</span></span><br><span class="line">g1 = datasets$groupvalue[datasets$groupname == <span class="string">'g1'</span>] <span class="comment">#把同 groupname 的 groupvalue 们归类到一个 factor 中，下略</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">x = list(g1,g2,g3,g4,g5) <span class="comment">#将五组数据也就是五个 factor 放入一个 list 中</span></span><br><span class="line">venn(x) <span class="comment">#文氏图飞来！</span></span><br></pre></td></tr></table></figure>
-<p>出图。</p>
-<p><img src="https://i.imgur.com/fxeidw1.png" /></p>
-<h3 id="太单调来点高级的">太单调？来点高级的。</h3>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#指定集合名称，设置默认的颜色风格，把交集区域数值标签字体改大到1，集合名称标签字体改成0.8</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i.imgur.com/EF6bcVv.png" /></p>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, ellipse = <span class="literal">TRUE</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#诸君，我喜欢椭圆</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i.imgur.com/cM2VIaz.png" /></p>
-<h2 id="后记">后记</h2>
-<p>以上就是此次玩弄 venn 包的过程，我自己的目的已经达到了，可以进行下一步的研究了。内容非常简单，我不写你们也能学会，希望大家不要因为我写的这堆乱七八糟的东西，反而看不懂了。对这个包有更深兴趣的朋友可以自行查阅文档里其他功能的介绍。</p>
-<p>venn 包支持最高七组数据的文氏图绘制，你们可以 <code>venn(7)</code> 简单看看效果。</p>
-<p><strong>参考</strong></p>
-<section class="footnotes" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/32350930" target="_blank" rel="noopener">7维韦恩图 7-set Venn Diagram | 知乎专栏</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p><a href="https://cran.r-project.org/web/packages/venn/venn.pdf" target="_blank" rel="noopener">Package ‘venn’</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
+    <title>《在无爱之森呐喊》观后感</title>
+    <url>/2019/10/14/the-forest-of-love-review/</url>
+    <content><![CDATA[<p><strong>注意：本文任何一句话都可能包含剧透，或者直到最后都没有。</strong></p>
+<p>10月13日凌晨在 Netflix 看了园子温监督的<a href="https://www.netflix.com/jp/title/81133621" target="_blank" rel="noopener">《在无爱之森呐喊》</a>。</p>
+<p>其实我并未深入了解园子温，看过的上一部也是我看的第一部他的作品，叫《我们都是超能力者》，全程欢乐恶搞。对于其电影风格的了解仅限于一些剪辑。因此，我也不在此详细述说这部电影哪一部分和哪部作品是如何地相似了。反正都没看过，日后再补。</p>
+<p>总而言之，这是一部帮助新观众快速了解园子温风格的懒人包电影，这是一部让园子温粉丝巩固记忆的作品，而对于别的观众来说，喜欢不喜欢这部电影的理由都能列出很多。</p>
+<p>152分钟的片长，可能还是装不下三条故事线的信息量，也有可能是有意而为之，电影通过篇章分割，而叙事支离破碎，对理解剧情可能有一点影响。由于情节的设计，观众必须有足够的耐心。</p>
+<p>部分摇晃的镜头毫无疑问会让观众产生强烈的代入感与临场感，这与本片角色之一“阿信”亲身经历案件的体验是一致的。</p>
+<p>本片具有残酷的美感和风格强烈的色调表现。就欣赏画面这个层次来评价，是令人非常满足的。除了少女美好的胴体外，没有刺激感官的点。也许是我不够理解，总觉得性的表现缺乏美感，介于枯燥和克制之间，反正这两个形容词拼音缩写一下都是 KZ（？）。至于暴力，有自杀、谋杀和虐待的场面，出血量还是挺大的，还有两段 Not safe for anywhere 的分尸镜头，如果无法承受，可以跳过。</p>
+<p>故事是根据真实案件改编的，即使如此，情节也严肃不起来，多数时候角色都在放飞自我，仿佛真的深陷在他们自己拍摄的疯狂的电影中。真相与谎言的界限变得模糊，而一旦有人恢复清醒，陷得浅可以逃离，陷得深就只能迎接死亡。我为了在观影过程中保持俯瞰的姿态以免被剧情带着走，便把它当作推理小说来看，尝试在一连串非理性的混乱中找出线索。尽管如此，在答案揭晓前，我已经判断这群人都是疯子，而无人能胜任英雄（侦探）的角色。当全片最精彩的部分以排山倒海之势呼应主题时，电影最大的谜团就此揭晓，让我精神为之振奋，内心十分过瘾。尘埃落定后的发展又极度讽刺，留下一个温情的结尾。总的来说是个好玩的故事，细节和逻辑不太经得起推敲。不过管他呢，不要想，只要爽。</p>
+<p>看完电影后去查了相关资料，多看了几眼园子温，也查了本片的原型案件——<a href="https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B9%9D%E5%B7%9E%E7%9B%A3%E7%A6%81%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6" target="_blank" rel="noopener">北九州监禁杀人事件</a>。不看不要紧，看了之后，本案已超过女子高中生水泥埋尸案，成为我心目中最恶心的日本谋杀案例。而和本案相关人员的真实经历比起来，这部电影应该温柔了许多才是。阿信在片头告诉小电影二人组，自己来自爱知县丰川市。实际上园子温的<a href="https://zh.wikipedia.org/wiki/%E5%9C%92%E5%AD%90%E6%BA%AB" target="_blank" rel="noopener">出身</a>正是爱知县丰川市，不难理解片中的阿信是园子温的化身，导演借由这部电影和这个角色，畅快地致敬自己的作品，重新演绎案件，对剧中的杀人凶手指点一番，实则指桑骂槐嘲讽现实中的案犯“不敢亲手杀人”。</p>
+<p>本片中的罗密欧与朱丽叶舞台剧故事表现了一种极致的爱情，确实不赖。果然世上只有百合好。</p>
+<p>演员演得很拼，颜值和妆容也很能打。椎名桔平的村田丈戏份多也很卖力，最具戏剧性；満島真之介的阿信还真的挺突破认知的，看到后面才体会到；日南響子的妙子富有个人魅力；鎌滝えり的美津子则活生生地展现出来，并通过逼真的演技奉献了全片最大的惊喜。</p>
+<p>说起来，我过去对满岛真之介有印象完全是靠动画《只有我不存在的城市》，当时我对于TV动画男主的成年音和少儿音都没选专职声优，而是俳优（满岛真之介、土屋太凤）这一点就很好奇了，实际听起来还是有明显棒读现象，但是习惯了声线之后又感觉还不错。</p>
+<p>Netflix 搞这种变态气质的剧集影片，还真的不会厌啊，但是观众可能会厌。</p>
+<p>这是第一部我全程观看没开字幕的日语电影。过去总想尝试看电影，却没这个耐心，所以仅仅局限于动画无字幕。这次观看后发现还是能理解很多台词，而不影响对细节的注意。决定下次再用无字幕看一遍，第三遍开字幕检查自己的听力。</p>
+<p>最后，我还是挺后悔这部电影占用了我宝贵的睡眠时间的，白天看不好吗？更何况这篇影评也是在半夜完成最后几段的，我更感觉有点浪费。</p>
+<p><a href="https://movie.douban.com/subject/30337760/comments?sort=time&amp;status=P" target="_blank" rel="noopener">豆瓣</a>上本片备受争议，褒贬不一，想知道为什么的，看过一遍电影就能懂了。</p>
 ]]></content>
       <tags>
-        <tag>R</tag>
-        <tag>venn diagram</tag>
-        <tag>practice</tag>
+        <tag>movie</tag>
       </tags>
   </entry>
   <entry>
@@ -2423,6 +2222,207 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
         <tag>fiction</tag>
         <tag>writing</tag>
         <tag>original</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图</title>
+    <url>/2019/01/19/venn-diagram-with-R-venn-package/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
+<h2 id="需求">需求</h2>
+<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
+<h2 id="准备">准备</h2>
+<p>一个用 Python 做了预处理的文件，格式大致如下：</p>
+<table>
+<thead>
+<tr class="header">
+<th>groupname</th>
+<th>groupvalue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>g1</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>g1</td>
+<td>B</td>
+</tr>
+<tr class="odd">
+<td>g2</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td>g5</td>
+<td>C</td>
+</tr>
+<tr class="even">
+<td>g5</td>
+<td>D</td>
+</tr>
+</tbody>
+</table>
+<p>其中第一列是组别，有五组，第二列是组别各自对应的数值，彼此有相同的部分。当然可以用 R 做数据预处理，不过这里省略基础部分，直接从成熟的数据开始处理。</p>
+<p>参考网上的教程，包括：</p>
+<p><a href="https://www.cnblogs.com/xianghang123/archive/2013/03/25/2980623.html" target="_blank" rel="noopener">【R作图】在R中绘制韦恩图的几种方法 和 一些漂亮的venn图</a></p>
+<p><a href="https://qiubio.com/archives/2603" target="_blank" rel="noopener">R绘图基础（五）文氏图vennDiagram</a></p>
+<p><a href="http://blog.biochen.com/archives/520" target="_blank" rel="noopener">使用VennDiagram包绘制韦恩图</a></p>
+<p>以及一个貌似是利用自己写的代码配合 matplotlib 绘图的库 <a href="https://github.com/tctianchi/pyvenn" target="_blank" rel="noopener">tctianchi/pyvenn</a></p>
+<p>方法包括 R 里面的 limma::vennDiagram, gplot::venn, venneuler, VennDiagram 和 python 里面的 pyvenn库，以及一些在线工具。</p>
+<p>其中 limma 和 venneuler 只能画三组数据,不符合我的要求，另外大佬们的文章似乎有点过时，我看现在有些包应该没那么弱了吧。至于我为什么不用 python 的库，没有为什么，就像我今晚突然不想吃我爱吃的肥宅快乐餐一样。</p>
+<p>然后发现了独立的 venn 包，上面的文章里提到2012年的时候找不到 venn 包了，但是我误打误撞在 google 首页就翻到了 venn 1.7 的文档，一看时间发布于2018年七月底<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，就感觉很迷。研究了一会，感觉看进去了，那好吧就用它了！</p>
+<h2 id="操作">操作</h2>
+<h3 id="基础入门三步走">基础入门三步走</h3>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">install.packages(<span class="string">"venn"</span>) <span class="comment">#安装</span></span><br><span class="line"><span class="keyword">library</span>(venn) <span class="comment">#导入</span></span><br><span class="line">?venn <span class="comment">#查看文档</span></span><br></pre></td></tr></table></figure>
+<p>前面文档说了一堆，跳过了，直奔主题看五组数据怎么画。没错我就是这么功利而不求甚解。</p>
+<h3 id="直接看-usage-里的-arguments">直接看 Usage 里的 arguments</h3>
+<blockquote>
+<p>x - 单个数字（集合）或元模型公式，或包含设置值的<strong>列表</strong>，或包含布尔值的数据集。 <code>关键词，可以扔 list 进去</code></p>
+<p>snames - 包含每个集名称的可选参数。</p>
+<p>ilabels - 打印每个交叉点的标签。 <code>TRUE 是打印， FALSE 为否</code></p>
+<p>counts - 每组交集的计数的数字向量。</p>
+<p>ellipse - 尽可能将形状强制为椭圆。 <code>TRUE 是把区域变成椭圆， FALSE 为否</code></p>
+<p>zcolor - 自定义区域的颜色矢量，或“样式”的预定义颜色</p>
+<p>opacity - 就是用数值调不透明度</p>
+<p>size - 就是用数值调整绘图大小，以厘米为单位。</p>
+<p>cexil - 就是用数值调整每个交集区域数值标签的字体大小免得看不清</p>
+<p>cexsn - 就是用数值调整集合名称标签的字体大小</p>
+<p>borders - 绘制所有交叉点边界 <code>看不出来效果</code></p>
+</blockquote>
+<p>(对不起，上面是我机翻+脑补的，因为实在懒得打字)</p>
+<h3 id="数据导入及基本作图">数据导入及基本作图</h3>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">datasets &lt;- read.table(<span class="string">"/path/to/your/data.txt"</span>, header = <span class="literal">TRUE</span>, sep = <span class="string">'\t'</span>) <span class="comment">#导入数据，数据格式见前文，路径自己填，数据包含表头， Tab 分隔</span></span><br><span class="line">g1 = datasets$groupvalue[datasets$groupname == <span class="string">'g1'</span>] <span class="comment">#把同 groupname 的 groupvalue 们归类到一个 factor 中，下略</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">x = list(g1,g2,g3,g4,g5) <span class="comment">#将五组数据也就是五个 factor 放入一个 list 中</span></span><br><span class="line">venn(x) <span class="comment">#文氏图飞来！</span></span><br></pre></td></tr></table></figure>
+<p>出图。</p>
+<p><img src="https://i.imgur.com/fxeidw1.png" /></p>
+<h3 id="太单调来点高级的">太单调？来点高级的。</h3>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#指定集合名称，设置默认的颜色风格，把交集区域数值标签字体改大到1，集合名称标签字体改成0.8</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/EF6bcVv.png" /></p>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, ellipse = <span class="literal">TRUE</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#诸君，我喜欢椭圆</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/cM2VIaz.png" /></p>
+<h2 id="后记">后记</h2>
+<p>以上就是此次玩弄 venn 包的过程，我自己的目的已经达到了，可以进行下一步的研究了。内容非常简单，我不写你们也能学会，希望大家不要因为我写的这堆乱七八糟的东西，反而看不懂了。对这个包有更深兴趣的朋友可以自行查阅文档里其他功能的介绍。</p>
+<p>venn 包支持最高七组数据的文氏图绘制，你们可以 <code>venn(7)</code> 简单看看效果。</p>
+<p><strong>参考</strong></p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/32350930" target="_blank" rel="noopener">7维韦恩图 7-set Venn Diagram | 知乎专栏</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><a href="https://cran.r-project.org/web/packages/venn/venn.pdf" target="_blank" rel="noopener">Package ‘venn’</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>R</tag>
+        <tag>venn diagram</tag>
+        <tag>practice</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《声之形》观后感</title>
+    <url>/2018/12/18/the-shape-of-voice-review/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>半夜在 Netflix 搜电影看，根据关键词匹配的结果中，「聲の形」排在很前面的位置。其实因为我看了「リズと青い鳥」五遍都还没好，想在线补一次票，无奈这部片没有线上版，搜索的时候「聲の形」和「リズと青い鳥」相关度最高，所以只好选了声之形。</p>
+<p>本来要我看《声之形》，我是抗拒的。原因大概有这些：没看过原作漫画，对背景不够了解；引进国内时，负责宣发的公司使用了不得体的文案；国内公映版存在过多删节，破坏了影片结构；以及，因为题材的敏感性，引起太多人关注议论的影片，我不想看。</p>
+<p>但是最终还是想亲自体验一下这部作品。刚看完「リズと青い鳥」的我，同时也想深入了解一下同一制作阵容演绎的另一部影片到底有什么与众不同的特质，能让观众产生如此多深邃的感想。</p>
+<p>注：本文是在影片剧情基础上，结合了我事后查阅的漫画原作设定，并在我拜读完一些比较热门的影评后，思考了他人的观点的条件下写完的，因此可能有部分想法脱离了影片剧情和设定的局限，存在二次加工和过度臆想的成分。本文主要关注剧情、演出和角色特点，对于伦理道德评审等领域的笼统的讨论不是重点。本文核心是，角色演出质量一流，故事一般，个人认同这部影片的优点大于批判这部影片的缺点。</p>
+<h2 id="故事">故事</h2>
+<ol type="1">
+<li><p>预谋已久的自杀及未遂。从将也的日历上可以看到，结束打工，卖破烂，销户取钱，这些都是为了自杀做的准备。但是在大桥听到烟花的声音后他就放弃了。这段做得还不错，有条理地设置悬念。</p></li>
+<li><p>OP切入，干净利落地介绍了故事发生之前的一些小细节。交代人物背景和关系，包括植野对将也明显又超越友情的注视；而另外值得一提的是在石田家理发店闪现的硝子，也是刚受到欺凌的模样，并且还是长发；而最后几个镜头，将曾经是圈子中心的将也，和孤独一人的硝子形成对比。这段剪辑非常优秀，让人看了眼前一亮。而OP选用了 The Who 乐队的 <a href="https://www.youtube.com/watch?v=qN5zw04WxCc" target="_blank" rel="noopener">《My Generation》</a>（参考译名《我这一代》）<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>，歌词、独特的唱法和歌曲背后的故事<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，也和本作的故事相映照，耐人寻味。</p></li>
+<li><p>小学时的故事。硝子的出现令将也感到，自己的日常在被一个异类挑战 （参考刚转学进班的时候他脑内浮现出的 final boss）。 同时，沟通的不畅也让班上同学逐渐排挤硝子，乃至波及与硝子关系好的佐原。观察着班上气氛变化与硝子逆来顺受态度的将也，对现状感到十分不爽。因此他开展了一系列的欺负行为，并且在周围同学默许的冷漠和老师的无动于衷中愈演愈烈，直至助听器事件爆发（值得注意的是，植野第一次扔助听器给将也的时候，可以听到助听器发出啸叫。），才演变成其他人调转矛头欺凌将也，总体来看说将也自作自受也不过分（道歉那段可以注意到石田妈妈右耳血迹细节，据官方 FANBOOK 记载<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> 是美也子为了向西宫的妈妈八重子表达歉意，体会硝子同样的痛苦，自己硬扯下来的）。即使如此，硝子依然对将也的欺凌行为不断忍让，仅仅在为将也擦桌子时又因为沟通不畅而与将也打架，流露真情。硝子转学，将也伤痕累累的小学阶段就这样落幕了，但是痛苦却伴随着他长大。这段包含了丰富的细节，塑造了几个重要角色的形象，也对小学就发生的欺凌行为做了深刻的描述——同时也是国内上映时受删减最严重的部分。这段的篇幅很重要，个人觉得演出效果很好，把小学六年级这段让观众怒火中烧又无可奈何的时光逼真地再现了出来。</p></li>
+<li><p>在轻生的想法付诸行动前，将也带着硝子的笔记本主动寻找硝子想道歉求得心安，他学会手语与硝子交流，并愿意和硝子做朋友，这是个很了不起的改变，意味着将也选择用硝子的方式与硝子沟通了，这件事对双方都是有很大的触动与积极意义的。硝子的表情真的很可爱啊。</p></li>
+<li><p>高中时的故事，介绍将也在高中保持孤立，不与他人交流的原因，也让观众了解了他自杀的动机。但是在尝试与硝子的接触中体会了朋友的意义。通过与永束误打误撞的结识，走出孤立，开始重新构筑与朋友的关系。但是随着与各种人交往的深入，与过去朋友的冲突令将也再次感到痛苦，自我厌恶。不欢而散的结局刺激了硝子的罪恶感。这一段较真地说的话，是西宫妹妹结絃的主场。结絃不断努力帮姐姐摆脱痛苦，又推着将也前进做出行动，是将不同的人交织起来的线，帮助将也和硝子沟通。喜欢悠木碧声音的朋友一定不要错过这一段。</p></li>
+<li><p>西宫奶奶的去世再度给硝子打击，西宫妈妈的生日会和花火大会又给了她感动。这段主要是以西宫家庭为中心的。个人觉得本片整体都应该重点描述将也和硝子的关系，将也和西宫一家还有西宫家内部关系的改变，不应给太多笔墨在硝子将也和别人的和解上。可惜后面还有一团乱麻的画蛇添足。</p></li>
+<li><p>自杀，其实之前5和6，以及花火大会后的手语“对不起”可以算伏笔吧，而后来结絃讲述自己拍摄动物死亡照片的动机是为了阻止硝子自杀，才让我明白硝子想自杀不是一时意气用事，而是早有想法，可能实施过不止一次。而将也在救硝子的过程中终于明白了自己还欠硝子一个道歉。这段有很强的情绪感染力，但是对于没看过原作的观众来说，在热闹幸福的气氛中选择自杀，稍显突兀，我看第一遍时并不太明白为什么硝子就这么想寻短见。</p></li>
+<li><p>将也的牺牲行为终于让硝子从消极的自我厌弃中走出来，决定努力改变自己，改变与别人的关系。将也醒来后，与硝子重逢，两个人心意最终相通，约定相互扶持好好活下去。最后就是潦草的大团圆，每个角色登场与将也和解，将也完成了对自身的救赎，接纳了周围，变得能看到他人的脸和听到声音了，皆大欢喜~</p></li>
+</ol>
+<p>总结：直到花火大会之前的剧情节奏还是比较稳重的，但是将也住院之后的节奏就有点崩，细节也不严谨了，故事虎头蛇尾让人有些遗憾。强行全员相互理解也是最让人难受的部分。</p>
+<h2 id="角色">角色</h2>
+<p><strong>石田将也</strong> <code>喜欢</code></p>
+<p>小学的将也，调皮捣蛋，粗枝大叶，爱显摆。虽然单亲家庭环境也可能影响个性，但是将也的坏毛病应该不是家长惯出来的，也不是鸣人那种缺爱型的，纯粹就是符合熊孩子形象的无聊到欠揍。但另一方面，他也关注班级里的气氛变化，一定程度上追求“正常”和“公平”。他排挤不正常，因为硝子难以沟通让班上的其他人很辛苦很难堪，他简单粗暴地把这种不正常全部归结到硝子头上。他反抗不公平，因为老师批评了语文课上棒读的植野（我认为这里植野平时习惯了跟硝子那样一字一顿讲话才下意识棒读，当然也有可能是我想多了，单纯就是植野没认真读），而放过根本念不好课文的硝子，所以他自认为学硝子发出怪声的行为可以帮助朋友出头，后来欺凌行为过程中也靠类似的想法给自己一个正当的借口——排解日常生活的无聊，顺便帮助集体排挤异类。然而他错在自己没有好好与硝子沟通，也没有站在硝子的角度思考过，自顾自地做出欺凌行为，践踏硝子的善意。将也随时可以停止自己的行为，却闹过了火，彻底搞砸了自己小学六年级至高中开始的这段人生，真是自作自受。</p>
+<p>高中的将也，起初自卑，自厌，拒绝与周围沟通，游走在自杀的边界。抱着些许罪恶感和自我满足的动机接近硝子。但是他逐渐掌握了沟通的方法，从硝子的角度设身处地思考，并且有了与周围建立联系的动力，改变了自己。剧中的将也还是有一厢情愿的地方，他的行为依然对硝子产生了伤害。但是他在意识到自己的错误后，也真心诚意地悔改。不知道是不是因为因为自我孤立，将也不敢看别人的脸，拒绝了周围的声音，但是心思却变得纤细，懂得体谅他人，也能及时发现不对劲的地方（特别是对结絃），情绪趋向与冷淡和冷静，很少会有大脑发热的状况。比较迟钝的地方就是对女孩子的心思不敏感，甚至会丝毫没有意识到硝子的表白而听错成月亮（つき和すき傻傻分不清楚，当然硬要说的话这里还是有“月色真美”这个浪漫梗的存在）。</p>
+<p>本片可以说是围绕着石田将也单主角展开的，几乎所有情节都有将也视角的存在。因此也花费了最多的笔墨来塑造这个角色的形象，的确很成功，入木三分。</p>
+<p><strong>西宫硝子</strong> <code>喜欢</code></p>
+<p>本片最大的受害者。小学时期因为自己先天的缺陷（听障）而陷入自卑，但是用善意对待周围，想和大家都做朋友，尽管一次次受到伤害，依然用微笑对待，也总自己先说对不起。为了融入集体而过度妥协，却忽视了他人的不友好气氛，迟钝的样子终于让周围的将也和植野等人对自己的态度恶化。尽管依然在努力与周围沟通，还是逃不掉被欺凌的命运，并且性格逆来顺受，这些凸显了这个角色的悲剧性。唯一的一次反抗令人印象深刻，让我不禁感慨原来硝子不是真正的逆来顺受，她的心里原来也是有不屈的想法的。造就硝子命运的是她的沟通障碍和性格中懦弱的部分，她的沟通方式得不到周围同学的体谅，而她懦弱的性格也是她封闭自我拒绝周围的根源。</p>
+<p>进入高中后硝子的自我厌恶也没有得到改善。假设将也长大后不去打扰硝子求她原谅，也许硝子还能平平安安地度过这段时光。但是从后面的西宫奶奶逝世可以看出，硝子一直无法摆脱消极情绪，只要周围的人为了照顾她而受到伤害，只要自己关心的人为了她而与别人的关系四分五裂，她对自己的厌恶就会加深一分，即使不自杀，也迟早会令硝子崩溃。这就是俗话说的“解铃还须系铃人”，将也曾经给她很大的伤害，也在关键时刻抓住了她，给她重获新生的机会。也难怪硝子在高中再见到将也时，脸上会露出复杂的表情啊。</p>
+<p>西宫硝子不是天使<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> 。</p>
+<p>西宫硝子害怕孤独，她对友情的过度渴求是普通人无法体会的，这种差异是欺凌的导火索。</p>
+<p><strong>西宫结絃</strong> <code>超喜欢</code></p>
+<p>令人眼前一亮的角色，本片当之无愧的准主角。假小子打扮，性格古灵精怪，总是端着相机，关心姐姐和家人，也是将也的支持者。“结絃”和奶奶的名字“いと（糸）”都有联系事物的含义，特别值得注意的是，官方 FANBOOK 里有提到“结絃”与“结弦”的不同，选用乐器的“琴絃”而非“弓弦”更能体现出“用声音连接彼此”的含义，当然这一点在中文汉字里是无法表现出来的。中文正式翻译还是结弦。</p>
+<p>结絃是推动剧情发展的存在。一开始假装硝子男友去阻止将也对她造成二次伤害，并一针见血地指出将也来找硝子赎罪只是为了自我满足。在社交网站上传照片捉弄将也，却被将也捡回家照顾，认识到将也的真心之后结絃的心态也发生了转变，为了能让姐姐变好而逐渐开始支持将也的行动。有着成熟理性的思考，也有中学生的活泼与天真，同时还是心细的盗摄狂魔。为了阻止姐姐自杀而经常拍摄动物死亡主题的作品，摄影技巧好到足以参加竞赛。对学校和社会有一定的距离感，把生活的重心专注于姐姐，在奶奶的开导下注意到自己也是被关爱着的。</p>
+<p>把将也和西宫一家联系起来的人。</p>
+<p><strong>永束友宏</strong> <code>喜欢</code></p>
+<p>把将也和学校朋友联系起来的人，搞笑担当。永束这个姓也有连结的含义存在。作为将也高中交到的第一个朋友，永束这个角色也设置得很有意义。误打误撞地相识，帮助将也和永束两个人同时走出各自的封闭，接触周围的人。有感恩精神，讲义气，是一个标准的“朋友”模板。其实永束曾今也很孤独，在认识将也之前应该是没朋友的。从镜头中可以观察到，他像将也一样骑车上学，像将也一样坐在教室与他人格格不入，像将也一样去学校的长椅吃午饭。但是他渴望友情，也能大大方方接受自闭的将也。即使后来闹得不欢而散，内心还是愿意站在将也一边。这个角色不算丰满，倒是有点京都动画搞笑男二的气质。</p>
+<p><strong>植野直花</strong> <code>不讨厌，可以交往</code></p>
+<p>植野的角色与其他几个小学高中朋友比更加复杂和有争议。一方面，植野从小学到高中都是一如既往的性格：强势、高傲、扭曲、我行我素。她第一个提出要帮助学习有困难的硝子，可能真的是善心发作，也更有可能是为了维持自己班级中心的“面子”。但后来植野因为受不了难堪的气氛、自己班级中心的地位受到影响，而放弃帮助硝子，也放弃和硝子结伴，转而嘲讽帮助硝子的人。面对班级对硝子的隐性欺凌和将也明目张胆的欺凌，植野非但不阻止，甚至火上浇油地帮腔，成为将也的共犯。小学的她不去理解硝子，却要求硝子理解她。从读课文那段可以看出植野贯穿全片的心理内核——“我没有错，我为什么要道歉呢？”</p>
+<p>对待将也这方面，最严重的过错就是在校长和老师戳穿将也欺凌行为时，没有站出来担当责任，而是第一个把锅全推在将也身上。这行为给将也的打击直接导致了后来他们的疏远。</p>
+<p>高中的植野一定程度上认识到自己对将也犯下的过错，但是仍然坚持自己对硝子的做法没问题。所以她试图修复和将也的关系，接近将也并自作主张地想让将也和以前的朋友们重归于好。尽管如此，植野强势和高傲的性格没有改变，她见到试图和硝子搞好关系的将也，大失所望，认为这样的他和自己想像中的那个男孩已经渐行渐远，变得逊毙了。她对硝子的态度也没有多大变化，认为都是硝子的错，是硝子作为一个不正常的人，没有去照顾到他们正常人的感受。这种想法本身就很没道理，而植野直花这株笔直生长的花，却丝毫不觉得自己的真实想法有什么问题，并毫无顾忌地表达出来。植野几乎到结局都没有为硝子思考，坚持用大声说话的方式和硝子沟通，只在文化祭的时候，硬是用手语别扭地挤出一句“笨蛋”，表现了她近乎无奈的改变。植野错就错在不理解西宫硝子为什么对友情有这么高的渴求，所以她傲慢地对待对方，假如她自己也受过欺凌，那看问题的方式肯定不是片中的样子了。</p>
+<p>植野对将也的感情也是评判这个角色时不能忽视的一环。高中的植野有几次向将也倾诉时表达了自己对将也的喜欢（原作漫画中甚至在喵喵钱包里藏小纸条表白），影片也给了不少镜头描绘植野的眼神、表情和肢体动作，暗示植野从小学起就对将也抱有友情以上的情感。一定程度上，因为有感情元素的介入，植野在对待将也和硝子的态度上变得更加复杂。植野害怕将也因为小学的事情而讨厌他，并希望将也能站在自己的一边。但是在看到将也选择去和自己的欺凌对象搞好关系，这让她不知所措。吃醋和看不起将也的两种情绪混杂在一起，让植野迟迟无法正视自己的错误，而继续把痛苦的根源归咎于硝子。将也住院的时候，植野殴打硝子，固执地在病房看护不让硝子等人会见，可以看出植野真的非常喜欢将也，也发自内心地讨厌把将也弄成这副惨样的硝子。在硝子的坚持下，植野才化解了心结，愿意以硝子能接受的方式与对方交流。</p>
+<p><strong>佐原美世子</strong> <code>喜欢</code></p>
+<p>小学时班上少有的用手语帮助硝子的同学，但是因为受到言语冷落而无法出席。曾今微胖土气的女生变得高挑，找到了自信，并和欺负自己的植野同校，因为兴趣相投成了朋友。影片描绘的佐原没有什么缺点，成功克服了过去的懦弱，并以一个普通人的方式与欺负自己的人达成和解。她也是硝子的好朋友之一，与硝子再见面后也给了硝子不少慰藉。</p>
+<p><strong>川井美树</strong> <code>讨厌</code></p>
+<p>扁平化角色之一，精致的利己主义者的代表。川井从小就以无辜的形象示人，她在硝子受欺凌的事件中扮演的是默许的旁观者的角色。只要不牵涉到自己，她就不会阻止，但是一旦有人把火烧到自己身上，川井就会干脆地推脱责任。川井欺凌过硝子吗？明面上没有，但是暗地里的想法谁又知道呢？同学过分的行为全都看在眼里却不制止，其实也是无形中成了隐性欺凌的帮凶。川井为了掩饰自己的缺点，保持良好形象，是什么事都可以做出来的。后来一听到将也谈过去的事情就炸，当着全班的面再次揭发将也是欺凌者，这一段正是这个角色全然不顾是非，只为自己的正当化考虑的表现。重新接触硝子表现出的好意也好，将也住院时募集千纸鹤也罢，这些行为都不能消除这个角色的做作与虚伪。她也始终没有向硝子道歉，因为她觉得自己行得正，没有任何错误。影片里的川井将性格从一而终到了最后，但是原作中，川井似乎为她这种为人处世的方式付出了代价——在募集千纸鹤的时候被同学在暗地里骂“恶心”——令她重新审视自己和周围的关系。</p>
+<p><strong>真柴智</strong> <code>无感</code></p>
+<p>扁平化角色之一，抱有正义感的路人角色。因为自己的粗眉毛，小学时受过欺凌的真柴其实发自内心地痛恨欺凌行为，因此他的是非观让他无法原谅欺凌过别人的人。在不熟悉对方的情况下还对将也下判断，结果被反呛后觉得做不成朋友了。真柴没有错，他的立场令他无法接纳犯过错的人，这完全合情合理。他后来深入了解了将也的所作所为，也马上由衷地认可了将也。</p>
+<p><strong>岛田一旗</strong> <code>讨厌</code></p>
+<p>将也小学时的伙伴，也是导致将也后来被排挤孤立的元凶。本身有音乐才能，可能成绩也不错，比较积极上进。我觉得他之所以原来跟将也混在一起，可能只是因为他也觉得日子很无聊，但是其实对将也的幼稚也有些看不起，想好好学习成为成熟的大人。欺凌事件曝光后，他的自尊令他内心并不愿意袒护将也，反而落井下石洗脱自己的责任。再加上之后的变本加厉到处散布将也的前科让他抬不起头，多少是为了维护这份面子，多少是出于“正义感”，多少是真心排挤将也，我并不能看出来。到了高中，他们的裂痕无法修复，岛田也从来没有道歉。他指责植野撮合两人是多管闲事，说明他也对这种状态感到无可奈何，但是最可怕的是，影片没有表达出岛田的歉意。后面将也坠河，岛田出手相助，在我看来有种潦草收尾强行洗白的感觉，画蛇添足。鉴于影片的篇幅有限，原作中有更丰富的细节，所以我看到的也只是电影中片面的岛田而不是漫画完整的人物形象。</p>
+<p><strong>广濑启祐</strong> <code>无感</code></p>
+<p>将也小学时的伙伴，合伙排挤将也，把将也曾经捉弄他的事一一还到将也头上。对他救助将也这件事，我的感想同上。</p>
+<p><strong>竹内老师</strong> <code>非常讨厌</code></p>
+<p>本作中最令人不满的角色之一，失职教育者的标准模板。将也在语文课上怪叫他批评了事，植野不愿意学手语的时候他站在讲台边沉默，将也一次次在课堂内外欺凌硝子，他也不闻不问。他把硝子当作一个麻烦而不是需要关照的对象，对欺凌行为无动于衷，不引导犯错的学生改正，不保护被欺负的学生令她摆脱伤害，却在事情无可挽回的时候举起管教的大棒，用公开连坐威逼，让还没有正确是非观的学生纷纷为了保护自己而伤害朋友。综合来看，硝子被欺负，被逼转学，将也被排挤，这些事加起来，将也要负一半以上责任，竹内要负剩下的大部分责任。但是同样的，本片中我们也不可能看到老师对学生道歉。</p>
+<p><strong>石田美也子</strong> <code>喜欢</code></p>
+<p>坚强的母亲的角色，亲切而开朗，为儿子犯下的过程勇敢承担责任，也支持将也要坚定地好好活下去。害怕给他人造成麻烦，最后将也住院时见到八重子第一面也是习惯性地道歉，尽管她并没有听八重子说详细情况。最后与八重子和解。</p>
+<p><strong>西宫八重子</strong> <code>喜欢</code></p>
+<p>保护欲强的母亲的角色，表情冰冷，但是在奶奶葬礼和听说硝子自杀未遂的时候还是会掩面而泣。尽管关心两个女儿，但是因为硝子的听障，连身为母亲都觉得沟通困难，因而要依靠结絃作为传声筒。教育方式可能存在问题，因为她强迫听障的女儿被普通人的环境接纳，让硝子像健康人一样生活。想法是好的，但是过于激进。八重子在两个女儿的努力下终于接纳了将也，然而对硝子的沟通的忽视令她也差点失去珍贵的女儿。最后也与美也子和解。</p>
+<h2 id="演出">演出</h2>
+<p>技术活就不详细说了。场景取材的细致参考大垣市给的官方圣地巡礼<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> 。此外，镜头内容包含的信息量、人物的表情和动作的刻画都是下了功夫的。这些多看几遍就能明白。反复看了几遍《莉兹与青鸟》后，我已经逐渐习惯山田导演过程中擅长的一些手段。而看了《声之形》，我发现《莉兹与青鸟》的特质早在本片中就得到了发扬。</p>
+<p>个人比较喜欢的场景包括：OP的剪辑；将也第一次用手语和硝子对话的场景；美也子失手把钱烧掉的搞笑桥段；结絃在雨中拨开伞接纳将也的瞬间；硝子努力表白却失败的场景，与后面将也傻乎乎对结絃解释自己听到硝子说了“月亮”后，结絃没忍住笑喷的场景。</p>
+<p>最喜欢的部分就是花火大会。花火大会中除了描绘将也和西宫一家，也不忘对其他角色的形象进行精炼而细致的刻画。这一段剪辑描述了每个角色看烟花时所处的状态，比如孤身一人的永束、作为家中小公主的川井，同样是单亲家庭，被三个弟弟环抱的植野等等，可以看出每个角色其实并不是观众想当然的扁平化。这些人在面对不同的人，特别是家人的时候，才会展现出独特的性格特征。</p>
+<p>花语的暗示贯穿全片。花是渲染情绪的一组重要意象，由于我识花并不在行，也不了解花语，还是请参阅别人的分析吧<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> 。</p>
+<p>音乐在高潮时比较烘托气氛，其他时候存在感不是很明显。不过牛尾的配乐在《莉兹与青鸟》里真的很精彩。</p>
+<p>声优们的演技也很出色。可能为了增加影片的生活气息而减少动画的感觉，声优们普遍使用了更日常的真实声线。入野自由那种有气无力和羞涩的少年音，早见沙织富有情感爆发力的模仿听障人士的特殊语音的表演，悠木碧收放自如展现结絃少女活泼和古灵精怪特质，雪野五月稳定发挥演绎母亲角色，这些在第一遍看的时候就能感受出来，反复聆听，用心享受声音的美好是最幸福的事情。</p>
+<p>作画方面，唯一不满的可能是上色，背景的色彩和对比度我很满意，人物虽然修得很细致，但是上色偏暖，边缘高光发白，相比京都动画的其他作品，有种背景高级人物廉价的感觉，特别是夜色中硝子居然流出了粉色的眼泪这一点，最让我出戏，看了好几次，怎么都不习惯。</p>
+<h2 id="精神内涵题外话">精神内涵&amp;题外话</h2>
+<p>好好活着，敞开心扉，坦然沟通，拥抱他人。我认为这是本片传达给我的最重要的内涵。</p>
+<p>当然，如何善待听障人士，以及如何处理校园暴力和欺凌排挤相关的现象，是本片主旨，也是观众争议声比较大的方面。我认为创作者在试图向观众展示这些方面的相关讨论的时候，更侧重于表现人性中善良美好的一面，而不想把真实情况中更残酷更黑暗的一面赤裸裸地剥离在外给人看。原作者大今良时说讨厌故事中的所有角色；导演山田尚子说喜欢里面所有角色<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> 。我认为她们的观点都有道理，并且都是从各自的角度出发对作品做出诠释。</p>
+<p>不管是面对现实中的人还是虚构的艺术作品，我都不会急于对其进行伦理道德评审。尽管本作中有些角色或是振振有词不承认错误，或是转移重点为自己脱罪，面对受害者都表现得很不像话，但是从演出的细节中仍然可以观察出每个角色的复杂面貌，就像活生生的真人一般，有喜怒哀乐的变化，存在矛盾性。</p>
+<p>耐人寻味的一点是，本片中对硝子的恶意流露得最彻底，并几乎贯彻至结尾的角色植野，却大概说出了多数对本片产生异议的观众们的心声——“欺负人的人和被欺负的人做朋友？开什么玩笑！”尽管植野是处在帮凶的立场上说这句话，想表达欺凌者和受害者友好相处这种事很土，而观众在意的是受害者绝不能原谅施暴的人，我在这里作比较的确有些偷换概念了。</p>
+<p>植野、佐原、川井、真柴这四个角色其实代表了四种人性特征，复杂而真实。我在小学、初中和高中阶段的生活都可以说是风平浪静，即使有不愉快的一些瞬间，班集体整体的氛围也都很好。现在回忆起来，小学和初中时自己和身边的人其实是受过一些欺负的，但因为我性格比较温和，心理素质还算稳定，又是男性，小学六年级之后自己就不太会被这种事影响，而是专心学习。</p>
+<p>但是印象里女生被欺负的状况还是比较惨烈的，一件一件细数的话，在二到四年级的时候，有些顽皮男生针对女生的捉弄甚至暴力行为的确引起了班内师生和家长的骚动，至今我还对某些带血的场景历历在目；但到了高年级，随着学习任务的增加和女老师们的悉心管教，原来顽皮的男生成绩跟不上，风评亦不佳，自然反过来成了班内新的排挤对象——就像将也；也有常年身体状况比较差经常请假的女生因为和班上处得不太好，个性也比较娇气，而被疏远的情况；更多的小规模欺凌行为包括起外号和传绯闻，这些事可能伴随着所有人长大。现在回想起来，如果我站在他人的角度去思考的话，其实被欺负的人，欺负人后反被排挤的人，因为无法融入气氛就被无形中排挤的人，都需要善待。可是当时的我并不会在意，身边的朋友也没有站出来当正义的伙伴，我觉得能努力做好自己，顺便和别人搞好关系就是最重要的事情。现在我已离开小学十四年，期间除了见过老师一面，有一个至今稍有联系的高中同班的小学同学外，再没找过其他童年伙伴，当时的记忆也已模糊，现在再找人谈往事，也应该说不出口吧。</p>
+<p>初中阶段对一部分欺凌行为有了意识，除了独善其身的策略以外，也尽量在成绩优秀（座位也近）或爱好相近（拖我进宅坑）的几个同学之间维持一个小圈子，平时无话不谈，这样就避免了和关系不太好的人的接触。初中阶段比较多的欺凌方式还是大家习以为常起外号和绯闻谣传，但很少有暴力行为，反倒是中年男性的班主任脾气火爆下手比较狠，因此学生都还算老实。但是对于圈外的同学受到的持续欺凌，我们这群优等生中可能只有班干部会出手调解，并没有更多的正义行为，尤其是当时成绩中段同学的圈子里，有男生持续不断地对一个身材一般但是第二性征比较明显的女生进行语言和肢体的欺凌，却没有谁会明显地去阻止这种行为。而另一个比较瘦弱的男生，和我的圈子关系还算好，也因为其有点神经质的形貌和偶尔意外发作的抽搐，而变成部分人嘲笑的对象，甚至连我身边有几个和他关系好的优等生也会拿他的病症捉弄他，结果在初三的时候这个男生当场爆发，狠狠咬了跟风叫他外号的某男生一口，并吵得不可开交。那一瞬间我明白了他的痛苦。当我制止了被咬的男生对被欺负的男生的咒骂后，因为愤怒而在他们面前自顾自哭了起来。此外，现在回想起来，我确实有和别人一起针对过某个品行和成绩都很差，破坏课堂纪律，也经常伤害别人的男生；也曾和原来住楼上下而在班上经常开猥琐玩笑的男生的关系处得有点僵。在很长一段时间里，即使对方并没继续做什么坏事，我都没有放平心态去原谅他们。直到上了初三，对学习考试游刃有余的我才有闲心在教室里观察过去不太交流的一些人，了解一些人平时不易展现的一面。后来我逐渐发现，我认识的家伙其实都不坏，他们只是彼此无法好好地沟通，而采用了错误的方式，令对方痛苦。在伤害发生后有些人会觉得愧疚，但是出于某些原因，这些愧疚的心情也无法好好传达。</p>
+<p>曾经我是自认为自己从来没有站在欺凌者的位置的。但是在回想了那段时光，并且投射到这部电影中之后，我意识到我自己也成为过川井、成为过真柴、偶尔成为佐原、而内心可能会冒出和植野一样的看法（初中以后就没有过了）。我被轻微地伤害过，并且可能无意识地伤害过别人。我可能独善其身，但是也说明我对他人的恶行进行了默许和纵容。如果当时能好好沟通的话，有些事情就不会这样不了了之地留下淡淡伤痕，而会以非常积极的方式去解决了吧。</p>
+<p>所以在看到硝子被欺负的时候，我充满了同情和气愤，在将也自作自受之后，我并没有觉得幸灾乐祸，而是感到悲哀。明面或暗地里欺凌过硝子和排挤将也的几个人振振有词地为自己辩护，看了影片几遍之后，我发现自己并没有感到生气——他们的行为是站在自己的角度而做出的。当最后硝子和一部分人达成和解，将也重新接受了世界的声音时，我有种羡慕的感觉：硝子和将也都从曾经的不幸中走了出来，改变了自己并且接受了这个世界，获得了新生，而且被身边的人主动或被动地善待着。我把这部电影当作一个童话故事，它告诉我传递心意的方式有很多种，相比于自己的表达，倾听他人也是很重要的沟通方式。我不指望现实中欺凌他人还不悔改的家伙能从被害人身上得到宽慰和救赎——这样的人不值得；我也不希望被欺凌的人都逆来顺受地既往不咎，和自己的仇人相谈甚欢——这对受害者不公平。但是针对这部电影来说，我觉得它试图表述的还是爱的主题。也难怪最后本片的评价两极分化，因为每个人都是带着自己独特的视角去理解这部作品，体会也天差地别。我感叹自己的幸运，羡慕故事主角后来能被善待的经历，也深深地体会到曾经遭受过伤害的人一路成长的艰辛与痛苦。</p>
+<h3 id="if结局">IF结局……</h3>
+<p>强行全员相互理解还是有点善良过头了。我个人内心其实希望硝子和将也自己和解就好了，他们和其他伤害过他们的人不再往来，靠自己的努力走出阴霾，也不是不可以。</p>
+<ul>
+<li><p>如果时光能倒流回五年前，竹内老师是个好老师，既用心保护硝子又能正确引导欺负人的同学停止自己的恶行，大家和睦相处，平稳健康地度过小学六年级。可惜好老师可遇不可求。</p></li>
+<li><p>如果植野在将也被揭发的时候主动担锅承认错误，没准后面的岛田和川井也不会跟风甩锅，大家的家长集体出面，诚恳向西宫家道歉，赔偿损失，及早和解，消除欺凌的气氛，对硝子是好事，对其他孩子也能起到教育作用。以后可能会为当时的事情留下心结，但是帮助硝子今后能远离伤害。</p></li>
+<li><p>如果将也厚着脸皮熬过初中，高中转到没人认识的新环境，不去打扰硝子，让硝子自己走出阴影，让时间抹平彼此童年的伤痛，这样也不会惹出电影里后面的一堆事。比较现实，可操作性较强。</p></li>
+</ul>
+<p>如果……</p>
+<p>可惜没有如果。</p>
+<h2 id="参考">参考</h2>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p><a href="https://en.wikipedia.org/wiki/My_Generation" target="_blank" rel="noopener">My_Generation</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>舉例來說，像是英國樂團 The Who 在1965年發行的劃時代歌曲〈My Generation〉，他們用口吃的演唱使歌曲聽起來像摩德族（Mod）的聲音（因為他們常常在嗑安非他命），但樂團並不是以此取笑他們，而是由於五Ｏ年代崛起的摩德族正逢二次世界大戰結束後，許多歸國的軍人父親與已經成長為青少年的他們之間有代溝，年輕的一代就在這樣壓抑的環境中掙扎。歌曲便是傳達大人們不應該用過時的標準來評斷看待年輕一輩，應該讓他們過自己想過的生活。類似這樣貼近自身處境的歌曲，使年輕聽眾能夠強烈接收到認同感。from: <a href="https://www.mplus.com.tw/article/572" target="_blank" rel="noopener">搖滾樂的過去、現在和未來</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p><a href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12165340172" target="_blank" rel="noopener">聲の形の映画を見てきたのですが……</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/27096343" target="_blank" rel="noopener">争议旋涡中的《声之形》，你看懂导演的心思了吗？</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p><a href="http://www.ogakikanko.jp/koenokatati/movie/" target="_blank" rel="noopener">映画聲の形大垣市舞台モデル紹介</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p><a href="https://movie.douban.com/review/8553727/" target="_blank" rel="noopener">《声之形》中的花语</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/27096343" target="_blank" rel="noopener">争议旋涡中的《声之形》，你看懂导演的心思了吗？</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>anime</tag>
+        <tag>movie</tag>
       </tags>
   </entry>
 </search>
