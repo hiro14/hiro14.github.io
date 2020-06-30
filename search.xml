@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>杂念1</title>
+    <url>/2016/02/25/2016-02-25-what-does-cyborg-see-in-her-dream-1/</url>
+    <content><![CDATA[<p>“啊，她睁眼了。”</p>
+<p>——我……在哪儿？</p>
+<p>“N#$#!)小姐，能听见我说话吗？”</p>
+<p>——……嗯。</p>
+<p>“你现在的情况依然很危险，但是请不要慌张，这里的医生会竭尽全力帮助你。”</p>
+<p>——……</p>
+<p>“现在我们想请你回答几个问题，尽可能说一些，可以吗？“</p>
+<p>——……</p>
+<p>”&amp;7=<span class="citation" data-cites="A小姐">@A小姐</span>——“ ”不要！别告诉他！“ ”——在什么地方？“</p>
+<p>——什么？</p>
+]]></content>
+      <tags>
+        <tag>fiction</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Predicted protein interactome for T.reesei collection of interaction data</title>
+    <url>/2016/02/28/2016-02-28-PRIN-2/</url>
+    <content><![CDATA[<p>不知不觉已经是月底，今年有2月29日，不然时间会更紧张一些。</p>
+<p>昨天完成了模式生物蛋白互作数据的查询，涉及数据库有BioGrid，DIP，IntAct。</p>
+<p>话说这些数据真是难办，非得先用买的DO服务器下下来才能用代理正常拖到本地。</p>
+<p>另一方面InParanoid的运行，光改权限似乎不行，我必须用root身份运行程序才行。今天可以集体跑起来了。</p>
+<p>先这样。</p>
+<p>更新：目前下载完了BioGrid, DIP, MINT, IntAct, STRING, 其中只有STRING自带物种分类，其他没有。另外从Uniprot上下载的表格可以作为物种分类的参考。</p>
+<p>现在对于如何整合不同数据库的数据还没有头绪，另一方面InParanoid的九个进程跑完了六个，还没看结果不过不出意外的话应该都很成功，坐等剩下三个完成。</p>
+<p>如果顺利完成互作数据整合的话我该如何构建映射矩阵呢。</p>
+<p>快想啊，要来不及了。</p>
+]]></content>
+      <tags>
+        <tag>Project</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Predicted protein interactome for T.reesei</title>
     <url>/2016/02/27/2016-02-27-PRIN/</url>
     <content><![CDATA[<p>好的，现在稍作休息。 实在是拖得不能再拖了，手里的PRIN项目不赶快结束掉，不但今后自己的研究之路会被毁掉，在实验室也会没有立足之地。 逐渐觉得自己的注意力在不断的下降后，对自己坚持做一件事情越来越没有信心，将工作效率的下降简单归咎于外界干扰，实际上是懦夫的行为。 但是我真的很难在用心隔绝一切外借骚扰。</p>
@@ -29,24 +64,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>杂念1</title>
-    <url>/2016/02/25/2016-02-25-what-does-cyborg-see-in-her-dream-1/</url>
-    <content><![CDATA[<p>“啊，她睁眼了。”</p>
-<p>——我……在哪儿？</p>
-<p>“N#$#!)小姐，能听见我说话吗？”</p>
-<p>——……嗯。</p>
-<p>“你现在的情况依然很危险，但是请不要慌张，这里的医生会竭尽全力帮助你。”</p>
-<p>——……</p>
-<p>“现在我们想请你回答几个问题，尽可能说一些，可以吗？“</p>
-<p>——……</p>
-<p>”&amp;7=<span class="citation" data-cites="A小姐">@A小姐</span>——“ ”不要！别告诉他！“ ”——在什么地方？“</p>
-<p>——什么？</p>
-]]></content>
-      <tags>
-        <tag>fiction</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Predicted protein interactome for T.reesei integration of interaction data</title>
     <url>/2016/02/29/2016-02-29-PRIN-3/</url>
     <content><![CDATA[<p>今天是2月29日呢，需不需要特别纪念一下呢。好吧也没啥大不了的。</p>
@@ -58,26 +75,23 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>Predicted protein interactome for T.reesei collection of interaction data</title>
-    <url>/2016/02/28/2016-02-28-PRIN-2/</url>
-    <content><![CDATA[<p>不知不觉已经是月底，今年有2月29日，不然时间会更紧张一些。</p>
-<p>昨天完成了模式生物蛋白互作数据的查询，涉及数据库有BioGrid，DIP，IntAct。</p>
-<p>话说这些数据真是难办，非得先用买的DO服务器下下来才能用代理正常拖到本地。</p>
-<p>另一方面InParanoid的运行，光改权限似乎不行，我必须用root身份运行程序才行。今天可以集体跑起来了。</p>
-<p>先这样。</p>
-<p>更新：目前下载完了BioGrid, DIP, MINT, IntAct, STRING, 其中只有STRING自带物种分类，其他没有。另外从Uniprot上下载的表格可以作为物种分类的参考。</p>
-<p>现在对于如何整合不同数据库的数据还没有头绪，另一方面InParanoid的九个进程跑完了六个，还没看结果不过不出意外的话应该都很成功，坐等剩下三个完成。</p>
-<p>如果顺利完成互作数据整合的话我该如何构建映射矩阵呢。</p>
-<p>快想啊，要来不及了。</p>
-]]></content>
-      <tags>
-        <tag>Project</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello March</title>
     <url>/2016/03/01/2016-03-01-Hello-March/</url>
     <content><![CDATA[<p>Tweetdeck真乃提升阅读体验和效率的神器。</p>
+]]></content>
+      <tags>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>强力拖延</title>
+    <url>/2016/03/02/2016-03-02-Procrastination/</url>
+    <content><![CDATA[<p>从昨天算起已经荒废了一天半的时间。</p>
+<p>昨天写了biopeptidedb的introduction，但是没写完，因为有一段需要参考很多文献。</p>
+<p>PRIN那块没有碰，因为看到人类的数据没跑好就没有心情，而且我的脑子里同时想着到底是先处理同源映射呢还是先处理互作数据的整合，还是做别的事情？</p>
+<p>于是就在这种纠结的心情中浪费了大量的时间，空坐在电脑前。我对自己很不满意。</p>
+<p>我因为各种各样的理由推脱，逃避，然而还是走到了今天，这一切都是因为有太多人在包容我。</p>
+<p>不再快点做些什么的话……</p>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -98,32 +112,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>Predicted protein interactome for T.reesei make table for interolog of multiple species</title>
-    <url>/2016/03/04/2016-03-04-no-title/</url>
-    <content><![CDATA[<p>好消息，全部物种的同源映射终于跑完了。Homo sapiens的时间最长花了三天。</p>
-<p>下一步，写个Python脚本做一个表，大致上是这几个Column: species1, header1, header2, species2, sequence1, sequence2, taxid1, taxid2。</p>
-<p>应该很快就可以搞定。</p>
-<p>从微博获知了吴谢宇涉嫌杀母事件。目前案件未侦破，舆论再一次无下限地将矛头指向某高校，可谓居心叵测。从Google上搜到了嫌疑人当年发的GRE经验，行文间看不出有什么思路不清或者精神错乱的问题，明明是个很优秀的学生，但是人是会变的，如果犯人真的是吴谢宇本人，那只能说他自己选择走上这条不归路，犯下了极大的罪孽。恶的根源是什么？也只有他本人清楚。</p>
-]]></content>
-      <tags>
-        <tag>Project</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>强力拖延</title>
-    <url>/2016/03/02/2016-03-02-Procrastination/</url>
-    <content><![CDATA[<p>从昨天算起已经荒废了一天半的时间。</p>
-<p>昨天写了biopeptidedb的introduction，但是没写完，因为有一段需要参考很多文献。</p>
-<p>PRIN那块没有碰，因为看到人类的数据没跑好就没有心情，而且我的脑子里同时想着到底是先处理同源映射呢还是先处理互作数据的整合，还是做别的事情？</p>
-<p>于是就在这种纠结的心情中浪费了大量的时间，空坐在电脑前。我对自己很不满意。</p>
-<p>我因为各种各样的理由推脱，逃避，然而还是走到了今天，这一切都是因为有太多人在包容我。</p>
-<p>不再快点做些什么的话……</p>
-]]></content>
-      <tags>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>南非签证与机票都搞定了</title>
     <url>/2016/03/03/2016-03-03-Heading-for-Cape-Town/</url>
     <content><![CDATA[<p>今天得知南非的签证已经办下来了，想想这两个月各种折腾也值了。随即定了机票，3.14从杭州途径香港去开普敦，3.18原路返回。</p>
@@ -132,20 +120,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>昨晚得知高中时代一直关注的网球文字直播员癌症去世的消息，极为震惊。年轻的生命就这样凋谢，实在可惜。感谢Eric让我能更好地了解网球，爱上网球。</p>
 <p>今天还有什么事……啊，今天还是专注于PRIN的构建。昨晚写了一部分iCelLoc的后台脚本，可惜工作效率不是很高，写出来的程序算法也不太好，预计要运行很长时间。</p>
 <p>加油。</p>
-]]></content>
-      <tags>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>周六从写基金申请书开始</title>
-    <url>/2016/03/05/2016-03-05-no-title/</url>
-    <content><![CDATA[<p>做了一个梦。梦里的我在找你，一路上遇见了许许多多过去的朋友，他们聚成好多群，和我搭话。</p>
-<p>真的好怀念那时候。</p>
-<p>今天要花时间写一份国家自然基金申请书的某一段。</p>
-<p>天气不错，心情也好。虽然早上起来发现Travian里的三村被隔壁老外给夷平了，不过游戏嘛，认真就输了。</p>
-<p>感觉自己有思路，希望午饭前后能把内容憋出来。</p>
-<p>加油！</p>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -168,19 +142,26 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>从周三忙到周三</title>
-    <url>/2016/03/09/2016-03-09-last-chance/</url>
-    <content><![CDATA[<p>这一周的前三天眼睁睁地浪费掉了。原因是给导师写永无止境的基金申请书。几乎全实验室都被动员起来，写完正文写摘要，又是画图又是翻译，校内校外到处跑。看着时间从手里流失是一件非常痛苦的事，然而我非常清楚其实有很多琐碎的时间都能拿来完成一些事情，所以这不应该只考虑外因。但是由于个人心理方面的因素，这几个月对碎片化的时间利用率非常低，唯一考虑做的事情就是吸取信息，于是总是会无所事事地看看推特看看微博做点记录，对于自己的实际发展的作用很有限。我们都明白不把一件事赶快搞定就没法安心做另一件事，所以谁都是表面上毫无怨言地撑下去，默默地无可奈何地把“别人的任务”搞定。我个人相对来说比较欠缺多线程工作的能力，所以碰到二月中旬以来的这种状况，自觉比较吃亏。要是没有这么一个地方让我做记录，我都无法明白地控制自己一天做了什么要做什么。</p>
-<p>麻烦事看起来在今天中午告一段落了。这连轴转的几个星期，论苦劳我做的并不如其他伙伴多，论功劳也没什么实际的成就。但是总是觉得自己很忙，内部压力很大，心理调节也不如几年前。但是终究是放下了一个担子，眼下的任务只剩下在两天之内飞快地做出一个能在国外大学展示的20min幻灯片。</p>
-<p>FUCK.</p>
-<p>我并不打算放弃积极的生活态度。一如既往，过去是怎么对应deadline的，这次照着做就好了。而且目前为止战胜deadline的概率可以达到99.5%吧（笑）</p>
-<p>今天卸载了Limbo（因为通关了），安装了The Room 3（AppStore限时12元），还没开始玩。</p>
-<p>推送更新了棉花糖，Z5变得如丝般顺滑。</p>
-<p>堕落街的杨国福麻辣烫越来越难吃了，而且还挤。</p>
-<p>同源映射预测蛋白互作的项目坑了好几天了，懒得管。</p>
-<p>刚刚写好了幻灯片的大纲，仅仅是大纲（12个单词，每页一个）。</p>
-<p>今天有一件大事就是人工智能AlphaGO围棋挑战李世石吧，吸引了许多人的目光，结果第一战人类认输。干得好，人工智能。</p>
-<p>好几天没看动画了，已饥荒。</p>
+    <title>Predicted protein interactome for T.reesei make table for interolog of multiple species</title>
+    <url>/2016/03/04/2016-03-04-no-title/</url>
+    <content><![CDATA[<p>好消息，全部物种的同源映射终于跑完了。Homo sapiens的时间最长花了三天。</p>
+<p>下一步，写个Python脚本做一个表，大致上是这几个Column: species1, header1, header2, species2, sequence1, sequence2, taxid1, taxid2。</p>
+<p>应该很快就可以搞定。</p>
+<p>从微博获知了吴谢宇涉嫌杀母事件。目前案件未侦破，舆论再一次无下限地将矛头指向某高校，可谓居心叵测。从Google上搜到了嫌疑人当年发的GRE经验，行文间看不出有什么思路不清或者精神错乱的问题，明明是个很优秀的学生，但是人是会变的，如果犯人真的是吴谢宇本人，那只能说他自己选择走上这条不归路，犯下了极大的罪孽。恶的根源是什么？也只有他本人清楚。</p>
+]]></content>
+      <tags>
+        <tag>Project</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周六从写基金申请书开始</title>
+    <url>/2016/03/05/2016-03-05-no-title/</url>
+    <content><![CDATA[<p>做了一个梦。梦里的我在找你，一路上遇见了许许多多过去的朋友，他们聚成好多群，和我搭话。</p>
+<p>真的好怀念那时候。</p>
+<p>今天要花时间写一份国家自然基金申请书的某一段。</p>
+<p>天气不错，心情也好。虽然早上起来发现Travian里的三村被隔壁老外给夷平了，不过游戏嘛，认真就输了。</p>
+<p>感觉自己有思路，希望午饭前后能把内容憋出来。</p>
+<p>加油！</p>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -225,6 +206,57 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 ]]></content>
       <tags>
         <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从周三忙到周三</title>
+    <url>/2016/03/09/2016-03-09-last-chance/</url>
+    <content><![CDATA[<p>这一周的前三天眼睁睁地浪费掉了。原因是给导师写永无止境的基金申请书。几乎全实验室都被动员起来，写完正文写摘要，又是画图又是翻译，校内校外到处跑。看着时间从手里流失是一件非常痛苦的事，然而我非常清楚其实有很多琐碎的时间都能拿来完成一些事情，所以这不应该只考虑外因。但是由于个人心理方面的因素，这几个月对碎片化的时间利用率非常低，唯一考虑做的事情就是吸取信息，于是总是会无所事事地看看推特看看微博做点记录，对于自己的实际发展的作用很有限。我们都明白不把一件事赶快搞定就没法安心做另一件事，所以谁都是表面上毫无怨言地撑下去，默默地无可奈何地把“别人的任务”搞定。我个人相对来说比较欠缺多线程工作的能力，所以碰到二月中旬以来的这种状况，自觉比较吃亏。要是没有这么一个地方让我做记录，我都无法明白地控制自己一天做了什么要做什么。</p>
+<p>麻烦事看起来在今天中午告一段落了。这连轴转的几个星期，论苦劳我做的并不如其他伙伴多，论功劳也没什么实际的成就。但是总是觉得自己很忙，内部压力很大，心理调节也不如几年前。但是终究是放下了一个担子，眼下的任务只剩下在两天之内飞快地做出一个能在国外大学展示的20min幻灯片。</p>
+<p>FUCK.</p>
+<p>我并不打算放弃积极的生活态度。一如既往，过去是怎么对应deadline的，这次照着做就好了。而且目前为止战胜deadline的概率可以达到99.5%吧（笑）</p>
+<p>今天卸载了Limbo（因为通关了），安装了The Room 3（AppStore限时12元），还没开始玩。</p>
+<p>推送更新了棉花糖，Z5变得如丝般顺滑。</p>
+<p>堕落街的杨国福麻辣烫越来越难吃了，而且还挤。</p>
+<p>同源映射预测蛋白互作的项目坑了好几天了，懒得管。</p>
+<p>刚刚写好了幻灯片的大纲，仅仅是大纲（12个单词，每页一个）。</p>
+<p>今天有一件大事就是人工智能AlphaGO围棋挑战李世石吧，吸引了许多人的目光，结果第一战人类认输。干得好，人工智能。</p>
+<p>好几天没看动画了，已饥荒。</p>
+]]></content>
+      <tags>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A spider on Expasy Peptide Cutter, by Python</title>
+    <url>/2016/03/24/2016-03-24-peptidecutter_spider/</url>
+    <content><![CDATA[<p>因为工作需要，写了一个爬虫爬取Expasy的peptidecutter页面。peptidecutter是一个模拟蛋白质水解的工具，本身使用Perl写成。</p>
+<p>本来的计划是自己用Python写，参照它的蛋白水解酶酶切规则，实现序列的读入，模拟水解，输出结果的功能。然而时间有限，涉及的酶实在太多，不管是字典还是正则都很麻烦，为了快点实现功能，就猥琐一点，直接写爬虫请求pepcutter的页面就好了，反正用同样的算法，输入相同的序列，返回的值肯定是一样的。</p>
+<p>于是开工。</p>
+<p>用到的关键模块不外乎这几个：re, urllib, urllib2。</p>
+<p>访问的url是： <a href="http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl" target="_blank" rel="noopener">http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl</a> 。</p>
+<p>需要post的value通过浏览器F12获取。</p>
+<p>写一个request header模拟浏览器。</p>
+<p>此外还有读取文件的部分，从文件中读取序列的部分。</p>
+<p>本爬虫的亮点应该就在于可以提交多序列，fasta格式，而如果对多序列没有需求，上传的是普通氨基酸序列的话，建议还是直接通过它自己网站预测水解吧，速度会快一点。</p>
+<p>然后是对抓取内容的解读，需要把水解位点和对应的酶的名称抓下来。</p>
+<p>写的时候遇到一点问题。某一个Proline-endopeptidase所在行的html代码和其他酶不一样，而且水解结果另起一行。于是不得不专门对这个酶写一个正则表达式。</p>
+<p>然后要抓的内容分六种类型：</p>
+<p>1.一般的酶，有水解，多酶切位点</p>
+<p>2.一般的酶，有水解，单酶切位点</p>
+<p>3.Proline-endopeptidase，有水解，多酶切位点</p>
+<p>4.Proline-endopeptidase，有水解，单酶切位点</p>
+<p>5.一般的酶，无水解</p>
+<p>6.Proline-endopeptidase，无水解</p>
+<p>time out属于例外。然后写if语句的时候花了不少力气，不停报错，最后写了个不是很简洁的方案，也懒得改了。</p>
+<p>最后将结果输出。运行，成功！</p>
+<p>这个程序还是有不少瑕疵的，比如条件语句太复杂，抓取的内容是纯复制（本来我的目标是根据抓取的内容高亮酶切片段的，因为最终目的是找到酶切片段中有生物活性的肽段。），缩进不够整齐等（两个空格和编辑器自动补全四个空格的混用）。希望能找个时间好好改进一下。</p>
+<p>就这样吧。</p>
+<p>以下是代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding=utf-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line">TEXT = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#.+'</span>)</span><br><span class="line">TEXT2 = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#Pro\"\&gt;.+\n.+'</span>)</span><br><span class="line">target_file = sys.argv[<span class="number">1</span>]</span><br><span class="line">out_file = <span class="string">"result.txt"</span></span><br><span class="line">out = open(out_file,<span class="string">'w'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">  infile = open(target_file,<span class="string">'r'</span>)</span><br><span class="line"><span class="keyword">except</span> IOError:</span><br><span class="line">  sys.stderr.write(<span class="string">"Cannot open fasta format sequence file %s\n"</span>% target_file)</span><br><span class="line">  sys.exit(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">ID = <span class="number">0</span></span><br><span class="line">seq_store = &#123;&#125;</span><br><span class="line">header_map = &#123;&#125; <span class="comment">#store the header</span></span><br><span class="line">seq = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> infile :</span><br><span class="line">  <span class="keyword">if</span> line[<span class="number">0</span>] == <span class="string">'&gt;'</span> :</span><br><span class="line">    header = line.split(<span class="string">"|"</span>)[<span class="number">1</span>]</span><br><span class="line">    header_map[ID] = header</span><br><span class="line">    <span class="keyword">if</span> seq != <span class="literal">None</span> :</span><br><span class="line">      seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line">    seq = <span class="string">""</span></span><br><span class="line">    ID += <span class="number">1</span></span><br><span class="line">  <span class="keyword">else</span> :</span><br><span class="line">    seq = seq + line</span><br><span class="line"></span><br><span class="line">seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(seq_store)):</span><br><span class="line">  header = header_map[i]</span><br><span class="line">  seq = seq_store[i]</span><br><span class="line">  <span class="keyword">if</span> len(seq_store[i]) &lt; <span class="number">9</span> :</span><br><span class="line">     out.write(header_map[i] + <span class="string">"\t\n"</span>)</span><br><span class="line">     <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">  req_header = &#123;<span class="string">'User-Agent'</span>:<span class="string">'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'</span>,</span><br><span class="line">  <span class="string">'Accept'</span>:<span class="string">'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'</span>,</span><br><span class="line">  <span class="string">'Accept-Charset'</span>:<span class="string">'ISO-8859-1,utf-8;q=0.7,*;q=0.3'</span>,<span class="string">'Accept-Encoding'</span>:<span class="string">'gzip, deflate'</span>,</span><br><span class="line">  <span class="string">'Connection'</span>:<span class="string">'keep-alive'</span>,</span><br><span class="line">  <span class="string">'Referer'</span>:<span class="string">'http://web.expasy.org/peptide_cutter/'</span></span><br><span class="line">              &#125;</span><br><span class="line">  req_timeout = <span class="number">500</span></span><br><span class="line"></span><br><span class="line">  url = <span class="string">'http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl'</span></span><br><span class="line">  values =  &#123;<span class="string">'protein'</span>:seq_store[i],<span class="string">'enzyme_number'</span>:<span class="string">'all_enzymes'</span>,<span class="string">'special_enzyme'</span>:<span class="string">'Chym'</span>,<span class="string">'min_prob'</span>:<span class="string">''</span>,<span class="string">'cleavage_map'</span>:<span class="string">'cleavage_map'</span>,<span class="string">'block_size'</span>:<span class="string">'60'</span>,<span class="string">'alphtable'</span>:<span class="string">'alphtable'</span>,<span class="string">'cleave_number'</span>:<span class="string">'all'</span>,<span class="string">'cleave_exactly'</span>:<span class="string">''</span>,<span class="string">'cleave_range_min'</span>:<span class="string">''</span>,<span class="string">'cleave_range_max'</span>:<span class="string">''</span>&#125;</span><br><span class="line">  data = urllib.urlencode(values)</span><br><span class="line">  req = urllib2.Request(url, data, req_header)</span><br><span class="line"></span><br><span class="line">  <span class="keyword">try</span> :</span><br><span class="line">    resp = urllib2.urlopen(req,<span class="literal">None</span>,req_timeout)</span><br><span class="line">    html = resp.read()</span><br><span class="line">    enzymeset = TEXT.findall(html)</span><br><span class="line">    pro = TEXT2.findall(html)</span><br><span class="line">    results = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(enzymeset)):</span><br><span class="line">        firstsplit = enzymeset[i].split(<span class="string">'&lt;/A&gt;&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">        <span class="keyword">print</span> firstsplit</span><br><span class="line">        <span class="keyword">if</span> len(firstsplit) &gt; <span class="number">1</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            cleave_numbers = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">            <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                sites = <span class="string">','</span>.join(firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                sites = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">            <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">            results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">print</span> enzyme</span><br><span class="line">            <span class="keyword">if</span> enzyme == <span class="string">'Proline-endopeptidase&lt;/A&gt; &lt;A HREF="#[*] pro_note'</span>:</span><br><span class="line">                <span class="keyword">print</span> pro</span><br><span class="line">                enzyme = <span class="string">'Proline-endopeptidase'</span></span><br><span class="line">                secondsplit = pro[<span class="number">0</span>].split(<span class="string">'&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">                <span class="keyword">if</span> len(secondsplit) &gt; <span class="number">1</span>:</span><br><span class="line">                    cleave_numbers = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">                    <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                        sites = <span class="string">','</span>.join(secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">                    <span class="keyword">else</span>:</span><br><span class="line">                        sites = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    sites = <span class="string">'not cut'</span></span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/A&gt; &lt;/td&gt;&lt;tr&gt;'</span>)</span><br><span class="line">                sites = <span class="string">'not cut'</span></span><br><span class="line">                results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">  <span class="keyword">except</span> :</span><br><span class="line">    enzyme = <span class="string">'time_out'</span></span><br><span class="line">    sites = <span class="string">''</span></span><br><span class="line">    <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">    results.append(enzyme+<span class="string">': '</span>+sites)</span><br><span class="line">  result = <span class="string">'\n'</span>.join(results[<span class="number">1</span>:])</span><br><span class="line">  <span class="keyword">print</span> result</span><br><span class="line">  out.write(<span class="string">'&gt;'</span>+header+<span class="string">'\n'</span>+seq+<span class="string">'\n'</span>+result+<span class="string">"\n"</span>)</span><br><span class="line"></span><br><span class="line">out.close()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Project</tag>
       </tags>
   </entry>
   <entry>
@@ -342,104 +374,12 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>A spider on Expasy Peptide Cutter, by Python</title>
-    <url>/2016/03/24/2016-03-24-peptidecutter_spider/</url>
-    <content><![CDATA[<p>因为工作需要，写了一个爬虫爬取Expasy的peptidecutter页面。peptidecutter是一个模拟蛋白质水解的工具，本身使用Perl写成。</p>
-<p>本来的计划是自己用Python写，参照它的蛋白水解酶酶切规则，实现序列的读入，模拟水解，输出结果的功能。然而时间有限，涉及的酶实在太多，不管是字典还是正则都很麻烦，为了快点实现功能，就猥琐一点，直接写爬虫请求pepcutter的页面就好了，反正用同样的算法，输入相同的序列，返回的值肯定是一样的。</p>
-<p>于是开工。</p>
-<p>用到的关键模块不外乎这几个：re, urllib, urllib2。</p>
-<p>访问的url是： <a href="http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl" target="_blank" rel="noopener">http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl</a> 。</p>
-<p>需要post的value通过浏览器F12获取。</p>
-<p>写一个request header模拟浏览器。</p>
-<p>此外还有读取文件的部分，从文件中读取序列的部分。</p>
-<p>本爬虫的亮点应该就在于可以提交多序列，fasta格式，而如果对多序列没有需求，上传的是普通氨基酸序列的话，建议还是直接通过它自己网站预测水解吧，速度会快一点。</p>
-<p>然后是对抓取内容的解读，需要把水解位点和对应的酶的名称抓下来。</p>
-<p>写的时候遇到一点问题。某一个Proline-endopeptidase所在行的html代码和其他酶不一样，而且水解结果另起一行。于是不得不专门对这个酶写一个正则表达式。</p>
-<p>然后要抓的内容分六种类型：</p>
-<p>1.一般的酶，有水解，多酶切位点</p>
-<p>2.一般的酶，有水解，单酶切位点</p>
-<p>3.Proline-endopeptidase，有水解，多酶切位点</p>
-<p>4.Proline-endopeptidase，有水解，单酶切位点</p>
-<p>5.一般的酶，无水解</p>
-<p>6.Proline-endopeptidase，无水解</p>
-<p>time out属于例外。然后写if语句的时候花了不少力气，不停报错，最后写了个不是很简洁的方案，也懒得改了。</p>
-<p>最后将结果输出。运行，成功！</p>
-<p>这个程序还是有不少瑕疵的，比如条件语句太复杂，抓取的内容是纯复制（本来我的目标是根据抓取的内容高亮酶切片段的，因为最终目的是找到酶切片段中有生物活性的肽段。），缩进不够整齐等（两个空格和编辑器自动补全四个空格的混用）。希望能找个时间好好改进一下。</p>
-<p>就这样吧。</p>
-<p>以下是代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding=utf-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line">TEXT = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#.+'</span>)</span><br><span class="line">TEXT2 = re.compile(<span class="string">'HREF=\"\/peptide_cutter\/peptidecutter_enzymes\.html\#Pro\"\&gt;.+\n.+'</span>)</span><br><span class="line">target_file = sys.argv[<span class="number">1</span>]</span><br><span class="line">out_file = <span class="string">"result.txt"</span></span><br><span class="line">out = open(out_file,<span class="string">'w'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">  infile = open(target_file,<span class="string">'r'</span>)</span><br><span class="line"><span class="keyword">except</span> IOError:</span><br><span class="line">  sys.stderr.write(<span class="string">"Cannot open fasta format sequence file %s\n"</span>% target_file)</span><br><span class="line">  sys.exit(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">ID = <span class="number">0</span></span><br><span class="line">seq_store = &#123;&#125;</span><br><span class="line">header_map = &#123;&#125; <span class="comment">#store the header</span></span><br><span class="line">seq = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> infile :</span><br><span class="line">  <span class="keyword">if</span> line[<span class="number">0</span>] == <span class="string">'&gt;'</span> :</span><br><span class="line">    header = line.split(<span class="string">"|"</span>)[<span class="number">1</span>]</span><br><span class="line">    header_map[ID] = header</span><br><span class="line">    <span class="keyword">if</span> seq != <span class="literal">None</span> :</span><br><span class="line">      seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line">    seq = <span class="string">""</span></span><br><span class="line">    ID += <span class="number">1</span></span><br><span class="line">  <span class="keyword">else</span> :</span><br><span class="line">    seq = seq + line</span><br><span class="line"></span><br><span class="line">seq_store[ID<span class="number">-1</span>] = seq</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(seq_store)):</span><br><span class="line">  header = header_map[i]</span><br><span class="line">  seq = seq_store[i]</span><br><span class="line">  <span class="keyword">if</span> len(seq_store[i]) &lt; <span class="number">9</span> :</span><br><span class="line">     out.write(header_map[i] + <span class="string">"\t\n"</span>)</span><br><span class="line">     <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">  req_header = &#123;<span class="string">'User-Agent'</span>:<span class="string">'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'</span>,</span><br><span class="line">  <span class="string">'Accept'</span>:<span class="string">'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'</span>,</span><br><span class="line">  <span class="string">'Accept-Charset'</span>:<span class="string">'ISO-8859-1,utf-8;q=0.7,*;q=0.3'</span>,<span class="string">'Accept-Encoding'</span>:<span class="string">'gzip, deflate'</span>,</span><br><span class="line">  <span class="string">'Connection'</span>:<span class="string">'keep-alive'</span>,</span><br><span class="line">  <span class="string">'Referer'</span>:<span class="string">'http://web.expasy.org/peptide_cutter/'</span></span><br><span class="line">              &#125;</span><br><span class="line">  req_timeout = <span class="number">500</span></span><br><span class="line"></span><br><span class="line">  url = <span class="string">'http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl'</span></span><br><span class="line">  values =  &#123;<span class="string">'protein'</span>:seq_store[i],<span class="string">'enzyme_number'</span>:<span class="string">'all_enzymes'</span>,<span class="string">'special_enzyme'</span>:<span class="string">'Chym'</span>,<span class="string">'min_prob'</span>:<span class="string">''</span>,<span class="string">'cleavage_map'</span>:<span class="string">'cleavage_map'</span>,<span class="string">'block_size'</span>:<span class="string">'60'</span>,<span class="string">'alphtable'</span>:<span class="string">'alphtable'</span>,<span class="string">'cleave_number'</span>:<span class="string">'all'</span>,<span class="string">'cleave_exactly'</span>:<span class="string">''</span>,<span class="string">'cleave_range_min'</span>:<span class="string">''</span>,<span class="string">'cleave_range_max'</span>:<span class="string">''</span>&#125;</span><br><span class="line">  data = urllib.urlencode(values)</span><br><span class="line">  req = urllib2.Request(url, data, req_header)</span><br><span class="line"></span><br><span class="line">  <span class="keyword">try</span> :</span><br><span class="line">    resp = urllib2.urlopen(req,<span class="literal">None</span>,req_timeout)</span><br><span class="line">    html = resp.read()</span><br><span class="line">    enzymeset = TEXT.findall(html)</span><br><span class="line">    pro = TEXT2.findall(html)</span><br><span class="line">    results = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(enzymeset)):</span><br><span class="line">        firstsplit = enzymeset[i].split(<span class="string">'&lt;/A&gt;&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">        <span class="keyword">print</span> firstsplit</span><br><span class="line">        <span class="keyword">if</span> len(firstsplit) &gt; <span class="number">1</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            cleave_numbers = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">            <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                sites = <span class="string">','</span>.join(firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                sites = firstsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">            <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">            results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">print</span> enzyme</span><br><span class="line">            <span class="keyword">if</span> enzyme == <span class="string">'Proline-endopeptidase&lt;/A&gt; &lt;A HREF="#[*] pro_note'</span>:</span><br><span class="line">                <span class="keyword">print</span> pro</span><br><span class="line">                enzyme = <span class="string">'Proline-endopeptidase'</span></span><br><span class="line">                secondsplit = pro[<span class="number">0</span>].split(<span class="string">'&lt;/td&gt;&lt;td align=center&gt;'</span>)</span><br><span class="line">                <span class="keyword">if</span> len(secondsplit) &gt; <span class="number">1</span>:</span><br><span class="line">                    cleave_numbers = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">0</span>]</span><br><span class="line">                    <span class="keyword">if</span> int(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                        sites = <span class="string">','</span>.join(secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>).split(<span class="string">' '</span>)[<span class="number">1</span>:])</span><br><span class="line">                    <span class="keyword">else</span>:</span><br><span class="line">                        sites = secondsplit[<span class="number">1</span>].split(<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/td&gt;&lt;tr&gt; '</span>)</span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tCleavage sites number: '</span> + cleave_numbers + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    sites = <span class="string">'not cut'</span></span><br><span class="line">                    results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">'"&gt;'</span>)[<span class="number">1</span>].rstrip(<span class="string">'&lt;/A&gt; &lt;/td&gt;&lt;tr&gt;'</span>)</span><br><span class="line">                sites = <span class="string">'not cut'</span></span><br><span class="line">                results.append(<span class="string">'Enzyme: '</span> + enzyme + <span class="string">'\tSites: '</span> + sites)</span><br><span class="line">                <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">  <span class="keyword">except</span> :</span><br><span class="line">    enzyme = <span class="string">'time_out'</span></span><br><span class="line">    sites = <span class="string">''</span></span><br><span class="line">    <span class="keyword">print</span> enzyme+<span class="string">': '</span>+sites</span><br><span class="line">    results.append(enzyme+<span class="string">': '</span>+sites)</span><br><span class="line">  result = <span class="string">'\n'</span>.join(results[<span class="number">1</span>:])</span><br><span class="line">  <span class="keyword">print</span> result</span><br><span class="line">  out.write(<span class="string">'&gt;'</span>+header+<span class="string">'\n'</span>+seq+<span class="string">'\n'</span>+result+<span class="string">"\n"</span>)</span><br><span class="line"></span><br><span class="line">out.close()</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Project</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>最近的目标</title>
     <url>/2016/10/04/2016-10-4-future-research-on-RNA-in-neurodegenerative-diseases/</url>
     <content><![CDATA[<p>前几天读了一些神经退行性疾病与RNA相关的研究性文章，感觉这一块待发掘的东西不少。</p>
 ]]></content>
       <tags>
         <tag>Project</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cytoscape 基础（文字初版）</title>
-    <url>/2017/10/31/2017-10-31-cytoscape-basic/</url>
-    <content><![CDATA[<blockquote>
-<p>此文内容为未发布的教材章节，含原创部分，请勿转载。</p>
-<p>从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 <a href="https://en.wikipedia.org/wiki/Cytoscape" target="_blank" rel="noopener">Wikipedia: Cytoscape</a> 和 <a href="http://cytoscape.org/manual/Cytoscape3_4_0Manual.pdf" target="_blank" rel="noopener">User Manual</a></p>
-</blockquote>
-<h4 id="cytoscape-概要">Cytoscape 概要</h4>
-<p>Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用于分子互作网络可视化和复杂网络分析。目前软件的最新版本是3.5.1。 Cytoscape 可以运行在各种操作系统平台上。官方网址： <a href="http://cytoscape.org/" target="_blank" rel="noopener">http://cytoscape.org/</a>。</p>
-<h4 id="cytoscape-安装">Cytoscape 安装</h4>
-<p>Cytoscape 需要在 Java 运行环境的支持下使用，因此在安装 Cytoscape 之前，用户的计算机应具备 Java （官方网址： <a href="https://java.com" target="_blank" rel="noopener">https://java.com</a>）。 Cytoscape 提供了不同操作系统平台的安装包下载，你可以按照自己操作系统的配置选择对应版本下载安装。</p>
-<h4 id="cytoscape-和其他软件的比较">Cytoscape 和其他软件的比较</h4>
-<p>相比于其他网络可视化软件， Cytoscape 的优势体现在：操作丰富，包含大量插件，支持多种格式的导入与导出，并且能良好支持生物数据专用的文件格式（如 SBML）。Cytoscape 在系统生物学领域的应用尤为突出，并且可以应用于生物学之外的领域，它还提供了官方 JavaScript 库用于网页开发。而同样有类似特性的软件包括 R 和 Gelphi. 但是它们相对于 Cytoscape 的不足在于： R 主要面向统计计算，要进行网络分析和可视化，需要安装一些第三方的软件包，并且它完全由命令行输入代码操作，需要使用者有一定编程基础；而 Gelphi 并非针对生物学网络开发的软件，相对于 Cytoscape 功能较少，开发成熟程度也较差。</p>
-<p>相比之下， R 同样具有丰富的软件包和精细的图像导出预设，熟练使用后可以实现更加复杂的互作网络生成和分析，在学术研究领域也是比较好的选择; Gelphi 更加轻便、简化，适合生物学互作关系网络研究的初学者，此外它具备更加美观的预设和内建的统计分析模块。</p>
-<p>由于 Cytoscape 是开源软件，由核心开发团队和众多开发者共同开发维护，随着软件版本的更新，相信 Cytoscape 的功能会越来越丰富与强劲。</p>
-<h4 id="cytoscape-基本操作">Cytoscape 基本操作</h4>
-<h5 id="一认识界面">一、认识界面</h5>
-<p><a href="">Figure 1. Cytoscape 主界面</a></p>
-<p>Cytoscape 在2013年发布3.0版本后，发生了较大的变化。以3.5.1为例，目前 Cytoscape 软件的界面更加模块化。界面顶端是菜单和工具栏，用于执行各种对网络和文件的操作。占据界面左侧的是控制台，可以管理、调整并筛选网络中的节点和连线。界面最突出的区域是可视化区域，用于展示和移动网络可视化。可视化区域的下方是数据栏，以列表的形式展现网络中节点与连线的具体信息。</p>
-<h5 id="二基本网络操作">二、基本网络操作</h5>
-<h6 id="节点和连线的操作">节点和连线的操作</h6>
-<p>在可视化区域右键点击唤出快捷菜单，实现节点和连线的创建 <code>Add</code>，在可视化区域中实现节点的移动（左键拖动），节点和连线的删除或剪切（<code>Delete</code> 键或 <code>Ctrl + X</code>）视图的放大缩小（鼠标滚轮）。</p>
-<p><a href="">Figure 2. 添加节点和连线的操作</a></p>
-<h6 id="节点和连线的样式改变">节点和连线的样式改变</h6>
-<p>在可视化区域右键点击唤出快捷菜单，对选中节点和连线的样式进行单独设置。在控制面板的 Style 栏中实现网络全局、映射调整和对选中节点和连线的样式进行单独设置。</p>
-<p><a href="">Figure 3. 设置选中节点样式的操作</a></p>
-<h6 id="网络分析">网络分析</h6>
-<p>在菜单栏中选择 NetworkAnalyzer，运行网络分析，在数据栏生成新的列展示网络节点和连线的具体属性，计算节点的度与连线的加权。</p>
-<p><a href="">Figure 4. 运行网络分析</a></p>
-<h6 id="子网络的构建">子网络的构建</h6>
-<p>选择感兴趣的节点，使用菜单栏或工具栏的选项构建子网络，选择相应层级的邻接节点构建多层子网络。</p>
-<p><a href="">Figure 5. 构建子网络的操作</a></p>
-<h5 id="三文件操作">三、文件操作</h5>
-<h6 id="导入网络文件">导入网络文件</h6>
-<p>通过菜单栏或工具栏导入文件，选择文件位置，选择数据格式和属性，导入网络视图。在导入网络的过程中，你可以通过对话框与 Cytoscape 交互，调整输入数据的分隔格式。 Cytoscape 对不同文件的格式有良好的适应性，可以到入用各种符号分隔的数据表。</p>
-<p><a href="">Figure 6. 导入网络文件</a></p>
-<h6 id="导入表格">导入表格</h6>
-<p>通过菜单栏或工具栏导入表格文件，这些表格文件多为网络节点或者连线的属性注释。选择文件位置，选择数据格式和属性，导入数据栏，用于后续操作。同样，你也可以用与导入网络过程中类似的对话框与 Cytoscape 交互，调整输入数据的分隔格式。</p>
-<p><a href="">Figure 7. 导入表格</a></p>
-<h6 id="导出网络图像">导出网络图像</h6>
-<p>将所需导出的网络视图调整为适当大小，确保不超出可视化区域边缘。利用菜单栏或工具栏导出图像，选择文件导出位置和图像格式（支持 JPEG、 PDF、 PNG 等格式）。</p>
-<p><a href="">Figure 8. 将网络导出为图像</a></p>
-<h4 id="cytoscape-实现互作网络可视化">Cytoscape 实现互作网络可视化</h4>
-<p>我们使用 Cytoscape 安装目录中的示例数据构建一个简单的蛋白质互作网络。在 <code>sampleData/</code> 目录中找到 <code>galFiltered.sif</code>，在 Cytoscape 中使用“导入网络”操作。点击顺序为：<code>File → Import → Network → File</code>. 观察数据栏可知该文件表示酵母蛋白的两两互作。</p>
-<p><a href="">Figure 9. 导入示例数据 galFiltered.sif</a></p>
-<p>在可视化界面即可查看导入的网络，使用菜单栏的 “Layouts” 菜单调整网络布局。使用控制面板 “Style” 页面对网络的节点、连线及整体进行手动调整。</p>
-<p>也可以使用“导入表格”操作加入附加表格文件，作为网络的属性，映射到对应的节点或连线上。在弹出的对话框中完成正确的映射后，观察 Cytoscape 下方数据栏，即可找到增加的节点或连线属性，可以根据此在控制面板的 “Style” 页面对网络的节点、连线及整体进行批量调整。</p>
-<p>如果没有附加表格，也可以直接通过网络分析工具创建网络的基本统计属性。点击顺序为： <code>Tools → Network Analyzer → Network Analysis → Analyze Network</code>. 增加基本统计属性后也可以此为参数设置网络的 Style.</p>
-<p><a href="">Figure 10. 对 galFiltered 进行网络分析</a></p>
-<p>完成上述工作后，再手动对网络的节点位置进行微调，移开重叠的节点。</p>
-<p>也可以参照视频教程，结合 <code>此处打码</code> 中的数据进行较大规模网络的构建。</p>
-<h4 id="cytoscape-插件">Cytoscape 插件</h4>
-<p>Cytoscape 具备丰富的插件支持，例如，用于 GO 富集分析的 BiNGO，用于文献挖掘的 Agilent Literature Search.</p>
-<p>可以在菜单中打开插件管理器，搜索所需的插件进行下载安装，也可以通过来自网络或其他位置的 jar 文件安装，安装后即可在菜单栏插件列表中点击运行。Cytoscape 在丰富的插件支持下，功能变得更加强大，也更受多个领域的研究人员的青睐。</p>
-<p><a href="">Figure 11. 插件管理器</a></p>
-]]></content>
-      <tags>
-        <tag>bioinformatics</tag>
       </tags>
   </entry>
   <entry>
@@ -572,6 +512,66 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
+    <title>Cytoscape 基础（文字初版）</title>
+    <url>/2017/10/31/2017-10-31-cytoscape-basic/</url>
+    <content><![CDATA[<blockquote>
+<p>此文内容为未发布的教材章节，含原创部分，请勿转载。</p>
+<p>从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 <a href="https://en.wikipedia.org/wiki/Cytoscape" target="_blank" rel="noopener">Wikipedia: Cytoscape</a> 和 <a href="http://cytoscape.org/manual/Cytoscape3_4_0Manual.pdf" target="_blank" rel="noopener">User Manual</a></p>
+</blockquote>
+<h4 id="cytoscape-概要">Cytoscape 概要</h4>
+<p>Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用于分子互作网络可视化和复杂网络分析。目前软件的最新版本是3.5.1。 Cytoscape 可以运行在各种操作系统平台上。官方网址： <a href="http://cytoscape.org/" target="_blank" rel="noopener">http://cytoscape.org/</a>。</p>
+<h4 id="cytoscape-安装">Cytoscape 安装</h4>
+<p>Cytoscape 需要在 Java 运行环境的支持下使用，因此在安装 Cytoscape 之前，用户的计算机应具备 Java （官方网址： <a href="https://java.com" target="_blank" rel="noopener">https://java.com</a>）。 Cytoscape 提供了不同操作系统平台的安装包下载，你可以按照自己操作系统的配置选择对应版本下载安装。</p>
+<h4 id="cytoscape-和其他软件的比较">Cytoscape 和其他软件的比较</h4>
+<p>相比于其他网络可视化软件， Cytoscape 的优势体现在：操作丰富，包含大量插件，支持多种格式的导入与导出，并且能良好支持生物数据专用的文件格式（如 SBML）。Cytoscape 在系统生物学领域的应用尤为突出，并且可以应用于生物学之外的领域，它还提供了官方 JavaScript 库用于网页开发。而同样有类似特性的软件包括 R 和 Gelphi. 但是它们相对于 Cytoscape 的不足在于： R 主要面向统计计算，要进行网络分析和可视化，需要安装一些第三方的软件包，并且它完全由命令行输入代码操作，需要使用者有一定编程基础；而 Gelphi 并非针对生物学网络开发的软件，相对于 Cytoscape 功能较少，开发成熟程度也较差。</p>
+<p>相比之下， R 同样具有丰富的软件包和精细的图像导出预设，熟练使用后可以实现更加复杂的互作网络生成和分析，在学术研究领域也是比较好的选择; Gelphi 更加轻便、简化，适合生物学互作关系网络研究的初学者，此外它具备更加美观的预设和内建的统计分析模块。</p>
+<p>由于 Cytoscape 是开源软件，由核心开发团队和众多开发者共同开发维护，随着软件版本的更新，相信 Cytoscape 的功能会越来越丰富与强劲。</p>
+<h4 id="cytoscape-基本操作">Cytoscape 基本操作</h4>
+<h5 id="一认识界面">一、认识界面</h5>
+<p><a href="">Figure 1. Cytoscape 主界面</a></p>
+<p>Cytoscape 在2013年发布3.0版本后，发生了较大的变化。以3.5.1为例，目前 Cytoscape 软件的界面更加模块化。界面顶端是菜单和工具栏，用于执行各种对网络和文件的操作。占据界面左侧的是控制台，可以管理、调整并筛选网络中的节点和连线。界面最突出的区域是可视化区域，用于展示和移动网络可视化。可视化区域的下方是数据栏，以列表的形式展现网络中节点与连线的具体信息。</p>
+<h5 id="二基本网络操作">二、基本网络操作</h5>
+<h6 id="节点和连线的操作">节点和连线的操作</h6>
+<p>在可视化区域右键点击唤出快捷菜单，实现节点和连线的创建 <code>Add</code>，在可视化区域中实现节点的移动（左键拖动），节点和连线的删除或剪切（<code>Delete</code> 键或 <code>Ctrl + X</code>）视图的放大缩小（鼠标滚轮）。</p>
+<p><a href="">Figure 2. 添加节点和连线的操作</a></p>
+<h6 id="节点和连线的样式改变">节点和连线的样式改变</h6>
+<p>在可视化区域右键点击唤出快捷菜单，对选中节点和连线的样式进行单独设置。在控制面板的 Style 栏中实现网络全局、映射调整和对选中节点和连线的样式进行单独设置。</p>
+<p><a href="">Figure 3. 设置选中节点样式的操作</a></p>
+<h6 id="网络分析">网络分析</h6>
+<p>在菜单栏中选择 NetworkAnalyzer，运行网络分析，在数据栏生成新的列展示网络节点和连线的具体属性，计算节点的度与连线的加权。</p>
+<p><a href="">Figure 4. 运行网络分析</a></p>
+<h6 id="子网络的构建">子网络的构建</h6>
+<p>选择感兴趣的节点，使用菜单栏或工具栏的选项构建子网络，选择相应层级的邻接节点构建多层子网络。</p>
+<p><a href="">Figure 5. 构建子网络的操作</a></p>
+<h5 id="三文件操作">三、文件操作</h5>
+<h6 id="导入网络文件">导入网络文件</h6>
+<p>通过菜单栏或工具栏导入文件，选择文件位置，选择数据格式和属性，导入网络视图。在导入网络的过程中，你可以通过对话框与 Cytoscape 交互，调整输入数据的分隔格式。 Cytoscape 对不同文件的格式有良好的适应性，可以到入用各种符号分隔的数据表。</p>
+<p><a href="">Figure 6. 导入网络文件</a></p>
+<h6 id="导入表格">导入表格</h6>
+<p>通过菜单栏或工具栏导入表格文件，这些表格文件多为网络节点或者连线的属性注释。选择文件位置，选择数据格式和属性，导入数据栏，用于后续操作。同样，你也可以用与导入网络过程中类似的对话框与 Cytoscape 交互，调整输入数据的分隔格式。</p>
+<p><a href="">Figure 7. 导入表格</a></p>
+<h6 id="导出网络图像">导出网络图像</h6>
+<p>将所需导出的网络视图调整为适当大小，确保不超出可视化区域边缘。利用菜单栏或工具栏导出图像，选择文件导出位置和图像格式（支持 JPEG、 PDF、 PNG 等格式）。</p>
+<p><a href="">Figure 8. 将网络导出为图像</a></p>
+<h4 id="cytoscape-实现互作网络可视化">Cytoscape 实现互作网络可视化</h4>
+<p>我们使用 Cytoscape 安装目录中的示例数据构建一个简单的蛋白质互作网络。在 <code>sampleData/</code> 目录中找到 <code>galFiltered.sif</code>，在 Cytoscape 中使用“导入网络”操作。点击顺序为：<code>File → Import → Network → File</code>. 观察数据栏可知该文件表示酵母蛋白的两两互作。</p>
+<p><a href="">Figure 9. 导入示例数据 galFiltered.sif</a></p>
+<p>在可视化界面即可查看导入的网络，使用菜单栏的 “Layouts” 菜单调整网络布局。使用控制面板 “Style” 页面对网络的节点、连线及整体进行手动调整。</p>
+<p>也可以使用“导入表格”操作加入附加表格文件，作为网络的属性，映射到对应的节点或连线上。在弹出的对话框中完成正确的映射后，观察 Cytoscape 下方数据栏，即可找到增加的节点或连线属性，可以根据此在控制面板的 “Style” 页面对网络的节点、连线及整体进行批量调整。</p>
+<p>如果没有附加表格，也可以直接通过网络分析工具创建网络的基本统计属性。点击顺序为： <code>Tools → Network Analyzer → Network Analysis → Analyze Network</code>. 增加基本统计属性后也可以此为参数设置网络的 Style.</p>
+<p><a href="">Figure 10. 对 galFiltered 进行网络分析</a></p>
+<p>完成上述工作后，再手动对网络的节点位置进行微调，移开重叠的节点。</p>
+<p>也可以参照视频教程，结合 <code>此处打码</code> 中的数据进行较大规模网络的构建。</p>
+<h4 id="cytoscape-插件">Cytoscape 插件</h4>
+<p>Cytoscape 具备丰富的插件支持，例如，用于 GO 富集分析的 BiNGO，用于文献挖掘的 Agilent Literature Search.</p>
+<p>可以在菜单中打开插件管理器，搜索所需的插件进行下载安装，也可以通过来自网络或其他位置的 jar 文件安装，安装后即可在菜单栏插件列表中点击运行。Cytoscape 在丰富的插件支持下，功能变得更加强大，也更受多个领域的研究人员的青睐。</p>
+<p><a href="">Figure 11. 插件管理器</a></p>
+]]></content>
+      <tags>
+        <tag>bioinformatics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>School to home to school</title>
     <url>/2017/11/12/2017-11-12-School-to-home-to-school/</url>
     <content><![CDATA[<p>春节之后就一直呆在学校，正巧父亲来杭开会，便趁着周五和他一起乘车回家。</p>
@@ -614,6 +614,35 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       <tags>
         <tag>life</tag>
         <tag>family</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Article reading briefings, Nov 3rd-6th 2017</title>
+    <url>/2017/11/06/2017-11-06-Nov-2017-reading-report/</url>
+    <content><![CDATA[<p>Hi there! I'm here to share some articles I read recently. They mainly focus on protein sequence-based functional annotations and protein interaction analysis or prediction. Although not all of them are the latest, the articles are no older than one year. I wish I could study from them and apply their methods in my future work.</p>
+<h5 id="protein-interaction-perturbation-profiling-at-amid-acid-resolution">Protein interaction perturbation profiling at amid-acid resolution</h5>
+<p><em>doi:10.1038/nmeth.4464</em></p>
+<p>The research presented a sensitive yeast two-hybrid-based pipeline for positive selection of interaction-disruptive variants by developing Int-Seq, a scalable method that can dissect binary PPI at individual amino-acid resolution.</p>
+<p>BBSome interaction Network was drawn.</p>
+<p>It seems that this method can identify protein interaction change when an amino acid altered.</p>
+<p>I think the most interesting part of this job is that it can characterize residues involved in maintaining interaction.</p>
+<p>Didn't find the figures valuable.</p>
+<h5 id="prediction-of-protein-protein-interactions-by-evidence-combining-methods">Prediction of Protein-Protein Interactions by Evidence Combining Methods</h5>
+<p><em>doi:10.3390/ijms17111946</em></p>
+<p>This review introduced something I'm familiar with. Boring. But it is a nice collection. It's worth reading when I want to search for useful tools and algorithms.</p>
+<h5 id="sequence-based-prediction-of-protein-protein-interactions-using-weighted-sparse-representation-model-combined-with-global-encoding">Sequence-based prediction of protein-protein interactions using weighted sparse representation model combined with global encoding</h5>
+<p><em>doi:10.1186/s12859-016-1035-4</em></p>
+<p>A novel prediction model for PPI was developed by combining weighted sparse representation based classifier and global encoding representation of proteins. The figures are convincing but can be improved. It's a standard research article presenting a method. Not exciting. This article included comparison with SVM and other methods, and pointed out the weakness of methods based on homology and structure.</p>
+<h5 id="deepgo-predicting-protein-functions-from-sequence-and-interactions-using-a-deep-ontology-aware-classifier">DeepGO: predicting protein functions from sequence and interactions using a deep ontology-aware classifier</h5>
+<p><em>doi:10.1093/bioinformatics/btx624</em></p>
+<p>I should have realized the exact name of this tool before starting reading. The article represented a novel method with deep learning to predict protein GO annotation based on sequence. The web server is available <a href="http://deepgo.bio2vec.net/deepgo/" target="_blank" rel="noopener">here</a>.</p>
+<p>Just put this article down, take a deep breath and switch to your own job.</p>
+<p>That's all about it.</p>
+]]></content>
+      <tags>
+        <tag>research</tag>
+        <tag>protein</tag>
+        <tag>article reading</tag>
       </tags>
   </entry>
   <entry>
@@ -674,35 +703,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       <tags>
         <tag>anime</tag>
         <tag>literature</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Article reading briefings, Nov 3rd-6th 2017</title>
-    <url>/2017/11/06/2017-11-06-Nov-2017-reading-report/</url>
-    <content><![CDATA[<p>Hi there! I'm here to share some articles I read recently. They mainly focus on protein sequence-based functional annotations and protein interaction analysis or prediction. Although not all of them are the latest, the articles are no older than one year. I wish I could study from them and apply their methods in my future work.</p>
-<h5 id="protein-interaction-perturbation-profiling-at-amid-acid-resolution">Protein interaction perturbation profiling at amid-acid resolution</h5>
-<p><em>doi:10.1038/nmeth.4464</em></p>
-<p>The research presented a sensitive yeast two-hybrid-based pipeline for positive selection of interaction-disruptive variants by developing Int-Seq, a scalable method that can dissect binary PPI at individual amino-acid resolution.</p>
-<p>BBSome interaction Network was drawn.</p>
-<p>It seems that this method can identify protein interaction change when an amino acid altered.</p>
-<p>I think the most interesting part of this job is that it can characterize residues involved in maintaining interaction.</p>
-<p>Didn't find the figures valuable.</p>
-<h5 id="prediction-of-protein-protein-interactions-by-evidence-combining-methods">Prediction of Protein-Protein Interactions by Evidence Combining Methods</h5>
-<p><em>doi:10.3390/ijms17111946</em></p>
-<p>This review introduced something I'm familiar with. Boring. But it is a nice collection. It's worth reading when I want to search for useful tools and algorithms.</p>
-<h5 id="sequence-based-prediction-of-protein-protein-interactions-using-weighted-sparse-representation-model-combined-with-global-encoding">Sequence-based prediction of protein-protein interactions using weighted sparse representation model combined with global encoding</h5>
-<p><em>doi:10.1186/s12859-016-1035-4</em></p>
-<p>A novel prediction model for PPI was developed by combining weighted sparse representation based classifier and global encoding representation of proteins. The figures are convincing but can be improved. It's a standard research article presenting a method. Not exciting. This article included comparison with SVM and other methods, and pointed out the weakness of methods based on homology and structure.</p>
-<h5 id="deepgo-predicting-protein-functions-from-sequence-and-interactions-using-a-deep-ontology-aware-classifier">DeepGO: predicting protein functions from sequence and interactions using a deep ontology-aware classifier</h5>
-<p><em>doi:10.1093/bioinformatics/btx624</em></p>
-<p>I should have realized the exact name of this tool before starting reading. The article represented a novel method with deep learning to predict protein GO annotation based on sequence. The web server is available <a href="http://deepgo.bio2vec.net/deepgo/" target="_blank" rel="noopener">here</a>.</p>
-<p>Just put this article down, take a deep breath and switch to your own job.</p>
-<p>That's all about it.</p>
-]]></content>
-      <tags>
-        <tag>research</tag>
-        <tag>protein</tag>
-        <tag>article reading</tag>
       </tags>
   </entry>
   <entry>
@@ -823,6 +823,24 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
+    <title>最近看的一些電影</title>
+    <url>/2018/10/29/2018oct-zaji/</url>
+    <content><![CDATA[<h4 id="重返十七歲">重返十七歲</h4>
+<p>最近看了這部電影。設定和日本動畫“重返十七歲”（ReLIFE）類似，都是 <del>被坑吃了黑衣組織小藥丸</del> 變回十七歲的樣子去再上一遍高中。只不過日本動畫的劇情更嚴肅，人設也更青春，美國的高中那種浪勁兒我還是不適應。儘管講了個完整的故事，演員的顏值和演技也在線，魔戒梗更是讓人激動不已，最後也好好地告訴你人生道理，但是鑑於劇情結構有太多經不起推敲的部分，還是不推薦要求高的朋友去看了，閒時看一遍放鬆一下就好。</p>
+<h4 id="綠燈俠">綠燈俠</h4>
+<p>還看了這部電影。好失敗的起源故事，我很慶幸不是在死侍之前看這部電影，不然我可能痛苦好多年。至少看完之後好多天都難忘那抹鮮豔的綠色。前幾天華納祝賀瑞安·雷诺兹生日快樂的時候似乎還用了這部電影的圖？應該是高級黑。</p>
+<h4 id="無敵破壞王">無敵破壞王</h4>
+<p>從致敬老遊戲，對遊戲反派角色進行人文關懷的角度，是一部很棒的電影，故事很溫馨很簡單，充滿着各種令人感動的元素。角色個性迥異獨具特色，也非常吸引我。片尾曲有一首是 AKB48 唱的，我聽的時候並不知道，突然聽出了日語感到非常驚訝。</p>
+<h4 id="朝花夕誓">朝花夕誓</h4>
+<p>等不到國內影院上映了，不過一旦成功定檔還是會去支持的。昨晚剛補完的作品。岡媽出手的劇場版，劇本稍嫌短，也有好多突兀的轉折，但是仍有很棒的演出表現力，另外畫面的精美程度令我無語凝咽，淚流滿面。只關注兩位主要人物的話，是非常感人的親情故事（雖然很有可能走向母子變兄妹變愛人變祖孫的背德路線但是對大衆來說那樣的展開還是太衝擊了，所以僅供妄想），最後的結局在我看來是一個圓滿收尾，也忍不住流淚。不過有得有失。首先篇幅的限制不知道是刻意對劇本做了刪減，還是因爲畫面太燒錢而不得不卡時間，總之我覺得這個故事裏的支線劇情是令人莫名其妙的，不好好理解猜測的話根本不明白配角的行動邏輯。雖然整體的發展在情理之中，但是單薄的背景人物就像是被主角的故事帶着走，而不是以自身的故事來爲主角陪襯。本來女二的故事完全可以變成另一條有關母親的大戲，但是可能就算是岡媽在這個劇本裏也沒法得心應手地同時駕馭兩條線而不讓主題分散。總之讓茅野愛衣配音的女二經歷這麼大委屈卻沒什麼表現的機會，我私心看來也是很可惜的。女主的石見舞菜香的高音聲線趕得上當年的茅野愛衣，不愧是一脈相承的後輩，她在 NEW GAME!! 和泥鯨之子裏的表現也給我留下了一些印象。總之這部片子我還是很愛吃的，畢竟是岡媽的作品，希望她以後能寫出更優秀的故事。</p>
+<h4 id="少數派報告">少數派報告</h4>
+<p>忘記寫上這一部了，隔了一段時間記性就不怎麼好真遺憾。菲利普·迪克原作，斯皮爾伯格改編，質量上乘，阿湯哥和科林法瑞爾顏值比拼，我兩個都喜歡。其實個人覺得菲利普·迪克的一些作品其實不是很豐滿的科幻，而是科幻骨架單薄的人文劇情向小說。同樣，以一部科幻片的眼光去看這部改編電影也是很可惜的。其實故事講得很不錯，和原作的差異因爲我也記不清楚，所以不比較。對於相關作品的觀看順序，我是 PSYCHO-PASS -&gt; 原作 -&gt; 電影，也是非常不講究先來後到了。在這種世界觀設定下，有獨立意志的個人該如何行動，是我更關注的內容，所以演員的演技是大於畫面效果的展現的。這裏的重要角色，只有科林法瑞爾的角色是個很傻很天真的外行，以一個傳統偵探的思路去判斷，輕信權威，慘遭老狐狸滅口。影片後半程還是有很多硬傷，體現出好萊塢的無腦爽片氣質，不過是少數，瑕不掩瑜。而我比較想吐槽的一個場景就是，科林法瑞爾死前，居然把案發現場找到的手槍不退膛不上保險也不裝塑膠袋，就這麼帶着實彈遞給老狐狸，簡直就是明晃晃的死亡 flag 立起了。這種不合規範的搜查操作，換成我一定是把子彈全退掉，這樣你拿另一把槍殺我我也認了。結局什麼的其實還好。關於先知系統的思考。其實在看 PSYCHO-PASS 的時候我是堅定反對類似系統實用的，因爲很容易被濫用，並且造成個人自由的喪失。近幾年各種社會危害事件頻發的情況和有關部門出臺的政策卻令我對相關的機制有了另一方面的看法。是否真的有必要實施先知機制？如果沒有必要，是否當局仍然強行推行類似政策，也是無可奈何的？也許再過五年就能看到答案了。</p>
+]]></content>
+      <tags>
+        <tag>movie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>救世主、扫把星和隔壁班效应</title>
     <url>/2018/01/05/2018-1-5-dilemma-of-social-group/</url>
     <content><![CDATA[<p>敲标题时犯了今年第一个错，就是把年份写成了2017。</p>
@@ -868,24 +886,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       <tags>
         <tag>life</tag>
         <tag>thinking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最近看的一些電影</title>
-    <url>/2018/10/29/2018oct-zaji/</url>
-    <content><![CDATA[<h4 id="重返十七歲">重返十七歲</h4>
-<p>最近看了這部電影。設定和日本動畫“重返十七歲”（ReLIFE）類似，都是 <del>被坑吃了黑衣組織小藥丸</del> 變回十七歲的樣子去再上一遍高中。只不過日本動畫的劇情更嚴肅，人設也更青春，美國的高中那種浪勁兒我還是不適應。儘管講了個完整的故事，演員的顏值和演技也在線，魔戒梗更是讓人激動不已，最後也好好地告訴你人生道理，但是鑑於劇情結構有太多經不起推敲的部分，還是不推薦要求高的朋友去看了，閒時看一遍放鬆一下就好。</p>
-<h4 id="綠燈俠">綠燈俠</h4>
-<p>還看了這部電影。好失敗的起源故事，我很慶幸不是在死侍之前看這部電影，不然我可能痛苦好多年。至少看完之後好多天都難忘那抹鮮豔的綠色。前幾天華納祝賀瑞安·雷诺兹生日快樂的時候似乎還用了這部電影的圖？應該是高級黑。</p>
-<h4 id="無敵破壞王">無敵破壞王</h4>
-<p>從致敬老遊戲，對遊戲反派角色進行人文關懷的角度，是一部很棒的電影，故事很溫馨很簡單，充滿着各種令人感動的元素。角色個性迥異獨具特色，也非常吸引我。片尾曲有一首是 AKB48 唱的，我聽的時候並不知道，突然聽出了日語感到非常驚訝。</p>
-<h4 id="朝花夕誓">朝花夕誓</h4>
-<p>等不到國內影院上映了，不過一旦成功定檔還是會去支持的。昨晚剛補完的作品。岡媽出手的劇場版，劇本稍嫌短，也有好多突兀的轉折，但是仍有很棒的演出表現力，另外畫面的精美程度令我無語凝咽，淚流滿面。只關注兩位主要人物的話，是非常感人的親情故事（雖然很有可能走向母子變兄妹變愛人變祖孫的背德路線但是對大衆來說那樣的展開還是太衝擊了，所以僅供妄想），最後的結局在我看來是一個圓滿收尾，也忍不住流淚。不過有得有失。首先篇幅的限制不知道是刻意對劇本做了刪減，還是因爲畫面太燒錢而不得不卡時間，總之我覺得這個故事裏的支線劇情是令人莫名其妙的，不好好理解猜測的話根本不明白配角的行動邏輯。雖然整體的發展在情理之中，但是單薄的背景人物就像是被主角的故事帶着走，而不是以自身的故事來爲主角陪襯。本來女二的故事完全可以變成另一條有關母親的大戲，但是可能就算是岡媽在這個劇本裏也沒法得心應手地同時駕馭兩條線而不讓主題分散。總之讓茅野愛衣配音的女二經歷這麼大委屈卻沒什麼表現的機會，我私心看來也是很可惜的。女主的石見舞菜香的高音聲線趕得上當年的茅野愛衣，不愧是一脈相承的後輩，她在 NEW GAME!! 和泥鯨之子裏的表現也給我留下了一些印象。總之這部片子我還是很愛吃的，畢竟是岡媽的作品，希望她以後能寫出更優秀的故事。</p>
-<h4 id="少數派報告">少數派報告</h4>
-<p>忘記寫上這一部了，隔了一段時間記性就不怎麼好真遺憾。菲利普·迪克原作，斯皮爾伯格改編，質量上乘，阿湯哥和科林法瑞爾顏值比拼，我兩個都喜歡。其實個人覺得菲利普·迪克的一些作品其實不是很豐滿的科幻，而是科幻骨架單薄的人文劇情向小說。同樣，以一部科幻片的眼光去看這部改編電影也是很可惜的。其實故事講得很不錯，和原作的差異因爲我也記不清楚，所以不比較。對於相關作品的觀看順序，我是 PSYCHO-PASS -&gt; 原作 -&gt; 電影，也是非常不講究先來後到了。在這種世界觀設定下，有獨立意志的個人該如何行動，是我更關注的內容，所以演員的演技是大於畫面效果的展現的。這裏的重要角色，只有科林法瑞爾的角色是個很傻很天真的外行，以一個傳統偵探的思路去判斷，輕信權威，慘遭老狐狸滅口。影片後半程還是有很多硬傷，體現出好萊塢的無腦爽片氣質，不過是少數，瑕不掩瑜。而我比較想吐槽的一個場景就是，科林法瑞爾死前，居然把案發現場找到的手槍不退膛不上保險也不裝塑膠袋，就這麼帶着實彈遞給老狐狸，簡直就是明晃晃的死亡 flag 立起了。這種不合規範的搜查操作，換成我一定是把子彈全退掉，這樣你拿另一把槍殺我我也認了。結局什麼的其實還好。關於先知系統的思考。其實在看 PSYCHO-PASS 的時候我是堅定反對類似系統實用的，因爲很容易被濫用，並且造成個人自由的喪失。近幾年各種社會危害事件頻發的情況和有關部門出臺的政策卻令我對相關的機制有了另一方面的看法。是否真的有必要實施先知機制？如果沒有必要，是否當局仍然強行推行類似政策，也是無可奈何的？也許再過五年就能看到答案了。</p>
-]]></content>
-      <tags>
-        <tag>movie</tag>
       </tags>
   </entry>
   <entry>
@@ -984,6 +984,48 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 ]]></content>
       <tags>
         <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一只猫的故事。</title>
+    <url>/2018/05/03/abandoned-cat/</url>
+    <content><![CDATA[<p>在一个雨夜，女生发现了一只瑟瑟发抖的小猫。</p>
+<p>雨水打湿了它的毛，让它显得十分狼狈。</p>
+<p>小猫大概有一个多月大，身边没有母猫。这让女生动了恻隐之心。</p>
+<p>她用很好的箱子把猫装起，带到住处，并且给它喂食。</p>
+<p>猫迅速恢复了元气，让人放下心来。</p>
+<hr />
+<p>第二天，女生出门工作，打算公开为猫寻找一位领养的好心人。她的消息成功的吸引了很多眼球，但是没有好心人出现。</p>
+<p>与此同时，在六楼的阳台上，有只无人看护的小猫正摇摇欲坠。</p>
+<p>女生觉得把猫留在箱子里一天没问题，她甚至准备好了屏障防止小猫爬出去，还告诉朋友有这件事情。</p>
+<p>但是当她回去时，等待她的依然是令人惊恐的消息。</p>
+<p>这一晚猫消失了。</p>
+<p>怀着负罪感的女生直到后一天才找到猫的所在。神奇的是当它在二楼被发现时，身体似乎毫发无损。</p>
+<hr />
+<p>怀着别样的心态与猫重逢的女生不想再有更多伤心的体验，她决定好好对待猫直到有人愿意收养它。</p>
+<p>去动物医院做了必要的检查，没找到外伤，做了除虫，买了适合的食物。</p>
+<p>猫暂时有了居住的地方，但是女生并没有养猫的经验。她的朋友热情地担负起了临时保姆的责任，笨拙地喂食喂水，并让猫睡着。</p>
+<p>与此同时，也得到了愿意收养猫的人的信息。</p>
+<p>猫的状态似乎并不如第一晚喂食后那般活跃。也许是尚年幼，也许是惊魂未定，还有可能是未被发现的内伤，它的一举一动都稍显孱弱，颤颤巍巍，经过一段时间才重新展示出健康的动作。</p>
+<p>但是在新环境中活泼了一阵子之后，还是疲惫地沉入梦乡。</p>
+<p>这一晚对它和女生来说，一定非常漫长。而且这样的状态还要持续两天以上。</p>
+<p>这只死里逃生的猫的未来究竟会怎样，它的故事将如何继续？谁都说不清楚。</p>
+<hr />
+<p>猫被救助的那个雨夜，我正在全家内踩一条无辜的蚰蜒。</p>
+<p>蚰蜒是基本无害甚至有益的生物。但是它的阴湿和毒素不为人所喜爱，甚至造成恐惧。</p>
+<p>我并不怜悯低维度的可怜虫，我也并非有心虐杀它。</p>
+<p>但是当野生动物闯进人类的圈子时，我无法阻止自己用纯理性的态度对待它们。</p>
+<p>和自然界比较，人类平均水平是自大且无知的。他们基于自己的价值观迫害让他们不快的生物，他们对心仪的可爱个体施以所谓人道主义的援手。</p>
+<p>也许他们自诩为支配自然的神，但是同为人类的我觉得大多数行为只有破坏神才能做得出来。</p>
+<p>既然在人群聚居的场合出现的低维度可怜虫，注定是会被某些人类的无知给害死，或者反过来使人受到不快的侵扰。这样的无辜生物，与其让它进一步与人类的圈子融合，倒不如让我这样没有同情心的人类早点将之驱逐，驱逐不了就直接扼杀，这样也不用让其他人类承担罪责，又能结束这些生物短暂的生命，警醒它们的同胞：远离人类，接触人类的话只有无尽的痛苦而已。同时也为了身边的人考虑，脏了我自己的手亲自送可怜虫上路比较好。</p>
+<p>自然状态下被遗弃的幼兽，比起低维度可怜虫，是稍微带些灵性的个体，根据它们的身体状态，要独自存活下来也问题不大。反倒是在接触人类之后，带有异常气味的幼体很可能被成年个体杀死，更因为丧失野性而降低了独立生活的能力。因此，这样的生物被人类的无知所关怀，对于它们的命运其实是一种毁灭性的转折。</p>
+<p>并不是所有人都能对动物负起动物与人类之间深刻联系一样的责任。他们太容易背叛了。</p>
+<p>被遗弃的小猫应该是流浪猫所生育的，而流浪猫是被人类创造出来的。没有责任和经验的人，不应该去同情路边的其他物种。生死是自然规律，破坏这种规律的人，要负起更多的责任，而不成熟的关怀会让一切努力白费。</p>
+<hr />
+<p>最后我悲哀地发现一个事实：我会习惯性祝福我见到的大部分事物和人，尽管不一定有效。但是当我选择不祝福的时候，总是发现厄运在它们身上降临得特别灵验。</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
       </tags>
   </entry>
   <entry>
@@ -1094,48 +1136,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>一只猫的故事。</title>
-    <url>/2018/05/03/abandoned-cat/</url>
-    <content><![CDATA[<p>在一个雨夜，女生发现了一只瑟瑟发抖的小猫。</p>
-<p>雨水打湿了它的毛，让它显得十分狼狈。</p>
-<p>小猫大概有一个多月大，身边没有母猫。这让女生动了恻隐之心。</p>
-<p>她用很好的箱子把猫装起，带到住处，并且给它喂食。</p>
-<p>猫迅速恢复了元气，让人放下心来。</p>
-<hr />
-<p>第二天，女生出门工作，打算公开为猫寻找一位领养的好心人。她的消息成功的吸引了很多眼球，但是没有好心人出现。</p>
-<p>与此同时，在六楼的阳台上，有只无人看护的小猫正摇摇欲坠。</p>
-<p>女生觉得把猫留在箱子里一天没问题，她甚至准备好了屏障防止小猫爬出去，还告诉朋友有这件事情。</p>
-<p>但是当她回去时，等待她的依然是令人惊恐的消息。</p>
-<p>这一晚猫消失了。</p>
-<p>怀着负罪感的女生直到后一天才找到猫的所在。神奇的是当它在二楼被发现时，身体似乎毫发无损。</p>
-<hr />
-<p>怀着别样的心态与猫重逢的女生不想再有更多伤心的体验，她决定好好对待猫直到有人愿意收养它。</p>
-<p>去动物医院做了必要的检查，没找到外伤，做了除虫，买了适合的食物。</p>
-<p>猫暂时有了居住的地方，但是女生并没有养猫的经验。她的朋友热情地担负起了临时保姆的责任，笨拙地喂食喂水，并让猫睡着。</p>
-<p>与此同时，也得到了愿意收养猫的人的信息。</p>
-<p>猫的状态似乎并不如第一晚喂食后那般活跃。也许是尚年幼，也许是惊魂未定，还有可能是未被发现的内伤，它的一举一动都稍显孱弱，颤颤巍巍，经过一段时间才重新展示出健康的动作。</p>
-<p>但是在新环境中活泼了一阵子之后，还是疲惫地沉入梦乡。</p>
-<p>这一晚对它和女生来说，一定非常漫长。而且这样的状态还要持续两天以上。</p>
-<p>这只死里逃生的猫的未来究竟会怎样，它的故事将如何继续？谁都说不清楚。</p>
-<hr />
-<p>猫被救助的那个雨夜，我正在全家内踩一条无辜的蚰蜒。</p>
-<p>蚰蜒是基本无害甚至有益的生物。但是它的阴湿和毒素不为人所喜爱，甚至造成恐惧。</p>
-<p>我并不怜悯低维度的可怜虫，我也并非有心虐杀它。</p>
-<p>但是当野生动物闯进人类的圈子时，我无法阻止自己用纯理性的态度对待它们。</p>
-<p>和自然界比较，人类平均水平是自大且无知的。他们基于自己的价值观迫害让他们不快的生物，他们对心仪的可爱个体施以所谓人道主义的援手。</p>
-<p>也许他们自诩为支配自然的神，但是同为人类的我觉得大多数行为只有破坏神才能做得出来。</p>
-<p>既然在人群聚居的场合出现的低维度可怜虫，注定是会被某些人类的无知给害死，或者反过来使人受到不快的侵扰。这样的无辜生物，与其让它进一步与人类的圈子融合，倒不如让我这样没有同情心的人类早点将之驱逐，驱逐不了就直接扼杀，这样也不用让其他人类承担罪责，又能结束这些生物短暂的生命，警醒它们的同胞：远离人类，接触人类的话只有无尽的痛苦而已。同时也为了身边的人考虑，脏了我自己的手亲自送可怜虫上路比较好。</p>
-<p>自然状态下被遗弃的幼兽，比起低维度可怜虫，是稍微带些灵性的个体，根据它们的身体状态，要独自存活下来也问题不大。反倒是在接触人类之后，带有异常气味的幼体很可能被成年个体杀死，更因为丧失野性而降低了独立生活的能力。因此，这样的生物被人类的无知所关怀，对于它们的命运其实是一种毁灭性的转折。</p>
-<p>并不是所有人都能对动物负起动物与人类之间深刻联系一样的责任。他们太容易背叛了。</p>
-<p>被遗弃的小猫应该是流浪猫所生育的，而流浪猫是被人类创造出来的。没有责任和经验的人，不应该去同情路边的其他物种。生死是自然规律，破坏这种规律的人，要负起更多的责任，而不成熟的关怀会让一切努力白费。</p>
-<hr />
-<p>最后我悲哀地发现一个事实：我会习惯性祝福我见到的大部分事物和人，尽管不一定有效。但是当我选择不祝福的时候，总是发现厄运在它们身上降临得特别灵验。</p>
-]]></content>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>告别一个孟加拉人</title>
     <url>/2018/07/24/farewell-to-the-bengali/</url>
     <content><![CDATA[<p>实验室刚毕业的孟加拉博士马上就要回国了。</p>
@@ -1161,6 +1161,87 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 ]]></content>
       <tags>
         <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>说要写2018年末总结其实是骗人的</title>
+    <url>/2018/12/31/hello-2019/</url>
+    <content><![CDATA[<h2 id="记录2018">记录2018</h2>
+<ul>
+<li><p>看了几部2018年出品的动画 <code>27</code></p></li>
+<li><p>看过几部新上映的真人电影 <code>7</code></p></li>
+<li><p>新游戏 <code>3</code></p></li>
+<li><p>记下了几场梦 <code>54</code></p></li>
+<li><p>参加的婚礼 <code>1</code></p></li>
+<li><p>拍过几部 vlog <code>3</code></p></li>
+<li><p>写过的坑 <code>3</code></p></li>
+<li><p>公开的坑 <code>1</code></p></li>
+<li><p>完成的坑 <code>0</code></p></li>
+</ul>
+<p>去年大概有以上这些内容值得纪念，具体就不展开了。</p>
+<h2 id="展望2019">展望2019</h2>
+<ul>
+<li><p>把坑填完</p></li>
+<li><p>把白色相簿2剩下几条线推完</p></li>
+<li><p>挣到很多钱</p></li>
+<li><p>惯例的，希望早日实现不老不死不灭</p></li>
+<li><p>顺便获得几种超能力就更好了</p></li>
+<li><p>多学几门语言</p></li>
+</ul>
+<h2 id="想说的话">想说的话</h2>
+<p>感谢关照过我的人，给你们添麻烦了。</p>
+<p>感谢我照顾过的人，让我能保持人性。</p>
+<p>感谢拓展我视野的你们，感谢分享快乐的你们，感谢为这个世界带来美丽的事物的你们。</p>
+<p>接下来的一年我也会努力接近你们的轨迹，争取让自己变得更优秀。</p>
+<p>希望有一天我能大声呼喊出心灵的话语。</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>投胎</title>
+    <url>/2018/11/03/first-day/</url>
+    <content><![CDATA[<p>我还记得自己第一次真正意义上，有自主意识的看世界的情景。反正不是在跑动中或是在列车上突然对这个世界有感应的，而是相当庸俗的从床上醒来。那是个夏天的午后，室外晴朗，不过并不是很炎热。一个阿姨带着忧色把我摇醒，问我为什么那么久都醒不过来。我不认识她，于是不言不语的下了床，赤足站在磨的同镜子一般的水泥地板上，一丝凉意沁上心头。</p>
+<p>发现自己落了单，我回头望一群小孩，已经自得其乐的扎在大堆的玩具里，嬉闹着。我奔过去，意识到他们会是我人生中第一群伙伴，尽管我一个也不认识。那时我还不懂得认脸。唯一的印象就是一个扎羊角辫的女孩额头上包着染红的纱布。红色，我见到的第一种鲜艳的颜色。</p>
+<p>于是我开始认识颜色，红色是触目惊心的危险的颜色，也是我内心某一片邪念热爱的颜色。白色是天空中悠然飘浮的云的颜色，蓝色是静谧的天空的颜色，也是我一直最喜欢的颜色。绿色是沙沙作响的树叶的颜色。灰色是我脚下水泥地的颜色。黄色是我皮肤的本色。我觉得颜色很有趣，所以在漫长的童年里，颜色超过音符的作用支配着我的行动。</p>
+<p>我只是漫不经心的在那房间里来回走着，仿佛并没有意识到“外面”是什么，就像多年后我在看书时没有意识到宇宙“外面”是什么一样。我只是观察。有一个穿着白色连衣裙的女孩，就那么一言不发地站在一张小板凳上，眺望着窗外，许久都不眨一下眼，而我后来才发现自己也习惯不眨眼睛，让爸妈惊讶了好久。也许她在和飞鸟交流吧，我这样想，尽管并不知道什么是飞鸟。我觉得无聊，于是走到另一个角落，听到不寻常的哭闹。只见一个穿黄色短袖的男孩以一种奇怪的姿势跪在衣柜前，我仔细看发现他把头卡进衣柜底了。他的脸上挂着泪珠，耳朵和双颊红得像喝了烈酒一样，尽管我并不知道什么是烈酒。阿姨试图让他平静，伙伴们则徒劳的扯着他的衣服，不过看他们好像并没有担心或是紧张的什么表情。我心里叹道，这样是不对的。可是这么想想也是无聊，所以打算走开了。过了一会，没有哭声了，挂着泪的男孩高高兴兴的去玩了。我凝视着他，完全没有预料到几年后我会遭遇类似的情况。我也完全没想到，没过多久这里的一切，看护阿姨，孩子们，厂房，就全部在我的生命中消失得一干二净，现在只是空旷的平地，甚至在父母的交流中也找不出多少信息。他们就这样不留痕迹的匆匆走过。</p>
+<p>厂区的下班铃响了。一群穿着朴素的人走进这个房间。孩子们欢呼着向那几个高大的人影奔去。我不明白是怎么回事，但是不由自主的跟了过去。当时我妈还是服装厂女工。尽管当时我还不认识她，但是既然她一脸笑意的向我走来，给我清凉的绿豆汤，帮我擦脸，我就明白她是人类中的母亲角色吧，而且承受体是我。我很高兴接下来就应该是见到我爸的时刻，并且明白了：自此往后，原本混沌之中的灵魂要在这个躯体中待上很长一段时间，于是就放心的说出了全世界婴儿开口的第一个词——“妈妈”。</p>
+<p>诶，是谁教我这么说的？</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>人生的限制器</title>
+    <url>/2020/05/13/life-limits/</url>
+    <content><![CDATA[<ul>
+<li><p>时间</p></li>
+<li><p>空间</p></li>
+<li><p>社会关系</p></li>
+<li><p>需求</p></li>
+<li><p>智慧</p></li>
+</ul>
+<p>且不谈成功和自由，我觉得自己要是被这五项全部束缚住的话，起码是不能获得幸福的，所以至少要抛弃一项。</p>
+<p>当然，有些人能得心应手地统御这五项，他们很优秀。</p>
+<h2 id="时间">时间</h2>
+<p>生命是有限的，要在活着的时候做时间管理，还要尽可能长寿；如果像蜉蝣那样在须臾间结束，如果人能倒转时间，时间也就不是问题。</p>
+<h2 id="空间">空间</h2>
+<p>人没法随意到达世界的任何角落，但又不习惯漂泊，喜欢宽敞的环境，却不一定适应野外，因此需要交通工具和房子。如果人能够在宇宙空间中生存，或者掌握瞬间移动的妙法，空间也就不是问题。</p>
+<h2 id="社会关系">社会关系</h2>
+<p>人与人之间的关系是人类社群网络的基本成分。家庭、集体、社会、国家、现实、虚拟，形形色色的相遇与相知，喜欢与讨厌。为了这些关系，多少还是要有些牺牲的。人与人的边界是不会消失的，所以社会关系是人生在世永远需要面对的问题，除非人选择做回动物。</p>
+<h2 id="需求">需求</h2>
+<p>需求是最复杂的一项，按照马斯洛的需求层次理论，人的需求其实可以涵盖本文提到的其他四项。只是用需求来概括人生的限制，未免太过笼统。想要玩乐、想要物质、想要征服、想要毁灭，个人的需求会与其他四项、他人的意志产生冲突，如果你什么都不想要，那么需求的确也不是问题。</p>
+<h2 id="智慧">智慧</h2>
+<p>智慧倒是可以分为纯粹知识和真理的获取、世界本质的洞察以及系统的处事方法。其实智慧可以并入需求一项，单独提出来只是因为我个人觉得对于纯粹知识的获取很重要而已。应该只有少数人能突破人脑能力的极限，即使这样，他们也无法穷尽知识。至于真理，最好的状态也只是是无限接近而遥不可及。而这一方面的瓶颈是一些人痛苦的根源。如果甘愿当疯子或傻子，那么智慧倒显得不那么重要。</p>
+<p>从情感上说，我愿意抛弃这五项中的一项来达到人生的平静与幸福。但是以理性的角度思考，其中任何一项都可以分解成生活中多种实际的因素，缺少了这些实际因素的辅助，其他四项的实现还是会碰到困难。</p>
+<p>比方说，如果抛弃麻烦的社会关系，我有可能失去提升智慧与满足需求的资源，甚至被社会排斥而成为流落荒野的独狼；而反过来，要是为了社会关系处心积虑的话，我的时间、空间、生活与学习的需求都会被挤占，就得放弃自己的愿望。</p>
+<p>在这五项之间无法好好取舍而迷茫，这就是被束缚的凡人的悲哀吧。</p>
+<p>对我来说，成功、自由、幸福，都是统合而复杂的概念，不是简简单单能触及的东西。</p>
+]]></content>
+      <tags>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -1321,87 +1402,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>投胎</title>
-    <url>/2018/11/03/first-day/</url>
-    <content><![CDATA[<p>我还记得自己第一次真正意义上，有自主意识的看世界的情景。反正不是在跑动中或是在列车上突然对这个世界有感应的，而是相当庸俗的从床上醒来。那是个夏天的午后，室外晴朗，不过并不是很炎热。一个阿姨带着忧色把我摇醒，问我为什么那么久都醒不过来。我不认识她，于是不言不语的下了床，赤足站在磨的同镜子一般的水泥地板上，一丝凉意沁上心头。</p>
-<p>发现自己落了单，我回头望一群小孩，已经自得其乐的扎在大堆的玩具里，嬉闹着。我奔过去，意识到他们会是我人生中第一群伙伴，尽管我一个也不认识。那时我还不懂得认脸。唯一的印象就是一个扎羊角辫的女孩额头上包着染红的纱布。红色，我见到的第一种鲜艳的颜色。</p>
-<p>于是我开始认识颜色，红色是触目惊心的危险的颜色，也是我内心某一片邪念热爱的颜色。白色是天空中悠然飘浮的云的颜色，蓝色是静谧的天空的颜色，也是我一直最喜欢的颜色。绿色是沙沙作响的树叶的颜色。灰色是我脚下水泥地的颜色。黄色是我皮肤的本色。我觉得颜色很有趣，所以在漫长的童年里，颜色超过音符的作用支配着我的行动。</p>
-<p>我只是漫不经心的在那房间里来回走着，仿佛并没有意识到“外面”是什么，就像多年后我在看书时没有意识到宇宙“外面”是什么一样。我只是观察。有一个穿着白色连衣裙的女孩，就那么一言不发地站在一张小板凳上，眺望着窗外，许久都不眨一下眼，而我后来才发现自己也习惯不眨眼睛，让爸妈惊讶了好久。也许她在和飞鸟交流吧，我这样想，尽管并不知道什么是飞鸟。我觉得无聊，于是走到另一个角落，听到不寻常的哭闹。只见一个穿黄色短袖的男孩以一种奇怪的姿势跪在衣柜前，我仔细看发现他把头卡进衣柜底了。他的脸上挂着泪珠，耳朵和双颊红得像喝了烈酒一样，尽管我并不知道什么是烈酒。阿姨试图让他平静，伙伴们则徒劳的扯着他的衣服，不过看他们好像并没有担心或是紧张的什么表情。我心里叹道，这样是不对的。可是这么想想也是无聊，所以打算走开了。过了一会，没有哭声了，挂着泪的男孩高高兴兴的去玩了。我凝视着他，完全没有预料到几年后我会遭遇类似的情况。我也完全没想到，没过多久这里的一切，看护阿姨，孩子们，厂房，就全部在我的生命中消失得一干二净，现在只是空旷的平地，甚至在父母的交流中也找不出多少信息。他们就这样不留痕迹的匆匆走过。</p>
-<p>厂区的下班铃响了。一群穿着朴素的人走进这个房间。孩子们欢呼着向那几个高大的人影奔去。我不明白是怎么回事，但是不由自主的跟了过去。当时我妈还是服装厂女工。尽管当时我还不认识她，但是既然她一脸笑意的向我走来，给我清凉的绿豆汤，帮我擦脸，我就明白她是人类中的母亲角色吧，而且承受体是我。我很高兴接下来就应该是见到我爸的时刻，并且明白了：自此往后，原本混沌之中的灵魂要在这个躯体中待上很长一段时间，于是就放心的说出了全世界婴儿开口的第一个词——“妈妈”。</p>
-<p>诶，是谁教我这么说的？</p>
-]]></content>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>说要写2018年末总结其实是骗人的</title>
-    <url>/2018/12/31/hello-2019/</url>
-    <content><![CDATA[<h2 id="记录2018">记录2018</h2>
-<ul>
-<li><p>看了几部2018年出品的动画 <code>27</code></p></li>
-<li><p>看过几部新上映的真人电影 <code>7</code></p></li>
-<li><p>新游戏 <code>3</code></p></li>
-<li><p>记下了几场梦 <code>54</code></p></li>
-<li><p>参加的婚礼 <code>1</code></p></li>
-<li><p>拍过几部 vlog <code>3</code></p></li>
-<li><p>写过的坑 <code>3</code></p></li>
-<li><p>公开的坑 <code>1</code></p></li>
-<li><p>完成的坑 <code>0</code></p></li>
-</ul>
-<p>去年大概有以上这些内容值得纪念，具体就不展开了。</p>
-<h2 id="展望2019">展望2019</h2>
-<ul>
-<li><p>把坑填完</p></li>
-<li><p>把白色相簿2剩下几条线推完</p></li>
-<li><p>挣到很多钱</p></li>
-<li><p>惯例的，希望早日实现不老不死不灭</p></li>
-<li><p>顺便获得几种超能力就更好了</p></li>
-<li><p>多学几门语言</p></li>
-</ul>
-<h2 id="想说的话">想说的话</h2>
-<p>感谢关照过我的人，给你们添麻烦了。</p>
-<p>感谢我照顾过的人，让我能保持人性。</p>
-<p>感谢拓展我视野的你们，感谢分享快乐的你们，感谢为这个世界带来美丽的事物的你们。</p>
-<p>接下来的一年我也会努力接近你们的轨迹，争取让自己变得更优秀。</p>
-<p>希望有一天我能大声呼喊出心灵的话语。</p>
-]]></content>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人生的限制器</title>
-    <url>/2020/05/13/life-limits/</url>
-    <content><![CDATA[<ul>
-<li><p>时间</p></li>
-<li><p>空间</p></li>
-<li><p>社会关系</p></li>
-<li><p>需求</p></li>
-<li><p>智慧</p></li>
-</ul>
-<p>且不谈成功和自由，我觉得自己要是被这五项全部束缚住的话，起码是不能获得幸福的，所以至少要抛弃一项。</p>
-<p>当然，有些人能得心应手地统御这五项，他们很优秀。</p>
-<h2 id="时间">时间</h2>
-<p>生命是有限的，要在活着的时候做时间管理，还要尽可能长寿；如果像蜉蝣那样在须臾间结束，如果人能倒转时间，时间也就不是问题。</p>
-<h2 id="空间">空间</h2>
-<p>人没法随意到达世界的任何角落，但又不习惯漂泊，喜欢宽敞的环境，却不一定适应野外，因此需要交通工具和房子。如果人能够在宇宙空间中生存，或者掌握瞬间移动的妙法，空间也就不是问题。</p>
-<h2 id="社会关系">社会关系</h2>
-<p>人与人之间的关系是人类社群网络的基本成分。家庭、集体、社会、国家、现实、虚拟，形形色色的相遇与相知，喜欢与讨厌。为了这些关系，多少还是要有些牺牲的。人与人的边界是不会消失的，所以社会关系是人生在世永远需要面对的问题，除非人选择做回动物。</p>
-<h2 id="需求">需求</h2>
-<p>需求是最复杂的一项，按照马斯洛的需求层次理论，人的需求其实可以涵盖本文提到的其他四项。只是用需求来概括人生的限制，未免太过笼统。想要玩乐、想要物质、想要征服、想要毁灭，个人的需求会与其他四项、他人的意志产生冲突，如果你什么都不想要，那么需求的确也不是问题。</p>
-<h2 id="智慧">智慧</h2>
-<p>智慧倒是可以分为纯粹知识和真理的获取、世界本质的洞察以及系统的处事方法。其实智慧可以并入需求一项，单独提出来只是因为我个人觉得对于纯粹知识的获取很重要而已。应该只有少数人能突破人脑能力的极限，即使这样，他们也无法穷尽知识。至于真理，最好的状态也只是是无限接近而遥不可及。而这一方面的瓶颈是一些人痛苦的根源。如果甘愿当疯子或傻子，那么智慧倒显得不那么重要。</p>
-<p>从情感上说，我愿意抛弃这五项中的一项来达到人生的平静与幸福。但是以理性的角度思考，其中任何一项都可以分解成生活中多种实际的因素，缺少了这些实际因素的辅助，其他四项的实现还是会碰到困难。</p>
-<p>比方说，如果抛弃麻烦的社会关系，我有可能失去提升智慧与满足需求的资源，甚至被社会排斥而成为流落荒野的独狼；而反过来，要是为了社会关系处心积虑的话，我的时间、空间、生活与学习的需求都会被挤占，就得放弃自己的愿望。</p>
-<p>在这五项之间无法好好取舍而迷茫，这就是被束缚的凡人的悲哀吧。</p>
-<p>对我来说，成功、自由、幸福，都是统合而复杂的概念，不是简简单单能触及的东西。</p>
-]]></content>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>就当我在胡说八道</title>
     <url>/2018/05/20/make-a-promise/</url>
     <content><![CDATA[<p>最近偶尔会思考以后要做什么。</p>
@@ -1433,58 +1433,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       <tags>
         <tag>diary</tag>
         <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>0202年在 Pixel C 刷魔趣ROM</title>
-    <url>/2020/03/28/pixel-c-mokee-magisk/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>Pixel C 又开始电量尿崩了，放着不管一天多电就能跑光， timerfd 疯狂唤醒，就算清除 Google 数据都没用。那就一鼓作气 root 并且直接刷魔趣ROM上 Android 10 吧！</p>
-<h2 id="准备工作">准备工作</h2>
-<p>阅读资料，下载资源</p>
-<p>https://www.mokeedev.com/guide/getting_started.html</p>
-<p>https://download.mokeedev.com/dragon.html</p>
-<p>https://flash.mokeedev.com/ （其实没用，只是帮你完成一些步骤）</p>
-<ul>
-<li>Magisk-v20.4.zip</li>
-<li>MK100.0-dragon-202003280436-NIGHTLY.zip</li>
-<li>open_gapps-arm64-10.0-nano-20200325.zip</li>
-<li>twrp-3.3.1-2-dragon.img</li>
-</ul>
-<p>把指定资源放进目标文件夹，再打开计算机的终端进入该文件夹。</p>
-<h2 id="刷机">刷机</h2>
-<h3 id="解锁设备">解锁设备</h3>
-<p>进入设置-开发者选项-允许 oem 解锁</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br></pre></td></tr></table></figure>
-<p>设备重启并显示 waiting for fastboot command….</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">fastboot oem unlock</span><br></pre></td></tr></table></figure>
-<p>按电源键确认，设备发出一声“滴”然后重启，显示“正在清空”（为什么是中文？）</p>
-<p>有点慢……</p>
-<p>为了确保正常，重启试试（没问题，恢复出厂了，跳过激活设置重新打开 usb 调试）</p>
-<h3 id="刷入-recovery">刷入 recovery</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br><span class="line">fastboot flash recovery .\twrp-3.3.1-2-dragon.img</span><br></pre></td></tr></table></figure>
-<p>进入重启循环无法进入 recovery？</p>
-<p>改成 <code>fastboot boot .\twrp-3.3.1-2-dragon.img</code> , 好了</p>
-<p>选择 <code>格式化 data 分区</code></p>
-<p>在高级选项中选中 adb sideload，读条时刷入 mokee magisk opengapps</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb sideload xxx.zip #每执行一次成功后再在 TWRP 中选 adb sideload</span><br></pre></td></tr></table></figure>
-<p>重启</p>
-<p>卡在 Google 标志了？！</p>
-<p>为了保险，重新线刷了一次，这次终于出现 mokee logo （后来发现，卡在 Google 标志，可能多重启几次会好，大概是 nightly 不够稳定）</p>
-<p>妈的，这logo丑哭了</p>
-<h2 id="开机后设置">开机后设置</h2>
-<p>像一个正常 google 设备一样设置，从 Google 云拖回设备备份，更新应用……</p>
-<p>Magisk Manager 有了，但是 safetynet 检查不通过，ctsProfile: false. 不行，这样装不了 Netflix.</p>
-<p>安装 <code>magiskhide props config</code> 和 <code>busybox</code> 模块</p>
-<p>顺便一说这个魔趣 ROM 自带终端，帮助我迅速解决 safetynet 问题，不用临时下一个 termux 了。直接在终端里操作：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">su</span><br><span class="line">props</span><br><span class="line">1 # edit device fingerprint</span><br><span class="line">f # Pick a certified fingerprint</span><br><span class="line"><span class="meta">#</span><span class="bash"> 找到品牌 设备 系统版本</span></span><br></pre></td></tr></table></figure>
-<p>然后就是安装其他 magisk 模块……</p>
-<p>全剧终</p>
-<h2 id="后记">后记</h2>
-<p>上一篇博客提到可能是2020年最后一篇博客，不过这篇就是打上一篇的脸。其实我是不太喜欢记录这些杂碎的技术笔记的，毕竟2020年还要折腾 Pixel C 这种设备，实在是过时了。顺便一说为了搞个纯写作环境，我自己的创作会集中放在另一个分站上 https://utsk.wordpress.com/ ，而这边的博客还是保持想到啥写啥的碎碎念状态，文字质量不会太高。</p>
-]]></content>
-      <tags>
-        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -1567,82 +1515,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 ]]></content>
       <tags>
         <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>救世界名画还是救猫？</title>
-    <url>/2019/11/11/painting-or-cat-dilemma/</url>
-    <content><![CDATA[<p>我躺在床上，病房没有开灯，十分昏暗，我单侧的视野中只有熟悉到吐的天花板。门外，女人的讲话声慢慢地远去。</p>
-<p>口好渴。我试图呼唤别人来帮我喂水，但是肿胀的喉咙只能发出低微的嘶鸣。身边没有一个人在照看我，没有人知道我的情况。我感到绝望和焦虑，这么一想身上越发难受起来，但实际又感觉不到什么，我的身体就像被厚厚的胶皮包裹着，阻碍了触觉和痛觉。屁股下面空荡荡的，这么一想，原来右腿已经坏死得太厉害，做了截肢手术啊。</p>
-<p>真是悲哀的人生啊。我在心中无奈地叹息。病房角落的的暗影中好像有一个熟悉的轮廓，但是我实在是有点累，便懒得去注意它，闭上了眼睛。</p>
-<p>落得这步田地，也是当时自己选的，好歹我也成了英雄不是吗？</p>
-<p>一切都要从那场震惊世界的美术馆火灾说起。</p>
-<p>那一天，我参加市政厅主办，美术馆布置的展览。因为午餐喝了冷掉的咖啡，我在展览中就感到不适，只得去了厕所。</p>
-<p>不去不要紧。当我走出厕所时，发生了不得了的事情。美术馆陷入火海，其他人早已撤离，而我因为厕所广播线路损坏没有维修而完美地错过了火灾警报。</p>
-<p>我回忆起各种逃生注意事项，尝试找到出口。烟雾太浓，我只好凭本能判断方向。</p>
-<p>结果，我被熊熊大火包围了，无路可逃。吾命休矣！一想到自己的人生就这样结束，我不禁仰天长叹。这时我才发现，背后的墙上正好挂着本次展览最珍贵的世界名画。刚才急着去厕所还没参观，现在才看到它，我一边庆幸自己能一睹名画风采，一边惋惜初次见面就要和它一起葬身火海。</p>
-<p>画面在烈火的熏燎下依然清晰，名画的内容是一对男女在机场深情拥吻，而男子的身后站着另一位沉默的少女。这时我也顾不得即将烈焰焚身了，完全沉浸在画作的情景之中。</p>
-<p>将我拉回现实的是脚边柔软的触感，我低头一看，发现不知哪里跑来的小猫在蹭着我的小腿。原来除我以外还有别的生命困在火海！一股强烈的求生欲从心头激起，我决定同小猫一起找到出口！</p>
-<p>回头看了一眼世界名画，我还是忍不住小心翼翼地把它从墙上摘下来。</p>
-<p>动物的本能果然强大，在小猫的带领下，我发现出口近在咫尺。正当我向前冲刺的时候，楼板塌陷了，我脚下一沉，身体开始下落，在掉下去前，我拼尽全力将世界名画向出口甩去，并伸手悬挂在残留的木板上，小猫落到了地下一层，冲我喵喵地叫着。</p>
-<p>太糟糕了，是把那幅画放着不管，和小猫一起再找出路呢，还是任凭小猫自生自灭，我爬上去带着画逃生？我陷入了两难的境地。</p>
-<p>一番心理斗争后，我沉默着，用力支撑起身体，在木板即将烧断时，一跃而起，抱住了世界名画。喵喵的叫声很快被崩塌的建筑所掩埋，我忍着悲痛的心情，拾起画，坚决地向门外走去，就像电影里的主角，不再回头。</p>
-<p>室外的光非常刺眼，正当我以为安全而放下心来时，我的身后发立刻生了爆炸。我不知道自己怎么来得及反应过来转过头去看的，但我昏迷前最后见到的，是向我冲来的一团巨大的猫形火球。</p>
-<p>随后的情节就像主旋律影片一样按部就班地发生。世界名画完好无损，我被送医院急救，度过了危险期，保住了性命。我以为自己很坚强，总能站起来，但是这一次我在病床上等了太久，也没有站起来。我对文艺作品的热爱与保护和其体现的崇高精神感动了市民、媒体和政府。我的病房一度摆满了鲜花，电视新闻滚动播放我的事迹，而政府部门多次派人员前来慰问，并向我的家人承诺，不但会给我颁发市民荣誉，还将用一大笔奖金和日常的补贴来负担起我的生活和医疗费。</p>
-<p>等我意识完全清醒时，周围的喧闹也不复。医生和护士例行公事，定期来检查我的状况。妻子一般会在病房照顾我，但是最近也不常来。因为我的喉咙受伤，我们无法顺利地交流，我只能用单侧的视野观察她，她并没有好好地回应我。她的表情越来越僵硬了。</p>
-<p>一种似曾相识的被抛弃的感觉持续占据了我的内心。我默默地承受着不安，等待着变化的发生。我时不时会想起美术馆里的那只小猫。就连梦里，它楚楚可怜的样子都让我难受得喘不过气。它到底有没有活下来呢？我的选择是正确的吗？就这样一直纠结着，时间慢慢流逝，我将以这副模样度过余生。</p>
-<p>我睁开眼，只见病房角落的暗影中的轮廓晃动了一下。</p>
-<p>我又眨了一下眼睛，那个物体不知怎么地瞬间移动到我的身边，假如我的喉咙没有损坏的话，我一定会放声尖叫。但我现在只想晕过去，我太累了。</p>
-<p>是一只猫！我没能如愿晕过去，它让我一个激灵清醒过来。</p>
-<p>“现在后悔吗？当时选择了这条路。”猫开口说话了。</p>
-<p>被问到这个问题，我彻底崩溃了。心跳急促起来，泪水慢慢从眼角滑落，滴在枕头上。</p>
-<p>“你的时间不多了。</p>
-<p>“你能活下来，绝不是万幸，毕竟这一切都是剧本的安排，剧本是不会让你这样窝囊地死去的。</p>
-<p>“你明明读过剧本，却忘记了自己的使命，被区区一幅世界名画蒙蔽了心灵。你这样还能算正义的伙伴吗？</p>
-<p>“你搞砸了，丧失了宝贵的机会，现在基本无法挽回。来吧，告诉我，剧本是怎么说的？”</p>
-<p>剧本……</p>
-<p>想起来了。</p>
-<p>我的角色是正义的伙伴，我在人类世界的重要使命就是拯救猫。</p>
-<p>不论猫的品种是什么，状况有多么危险，造成的副作用有多么严重，我必须救下在我眼前受到伤害的任何一只猫。</p>
-<p>哪怕是付出自己的生命，救猫。二选一的紧急情况下，救猫。把一只猫和一架飞机上的旅客放在天平的两头，救猫。</p>
-<p>这一切都是因为某一只猫对这个世界的意义非常重大。如果没有救下那一只，世界就会完蛋。</p>
-<p>问题在于剧本也无法确定具体是哪只猫，只知道那只猫必定出现在我面前。而只要能救下那只猫，其他的一切都可以牺牲。</p>
-<p>原来，那只猫是联系这个世界与另一侧的名为“薛定谔的猫娘宇宙”的传送使者。因为身份不明，它可能是任何一只猫。薛定谔的猫娘宇宙是我们所在宇宙的镜像宇宙的异构体。那一侧的智慧生命全是猫娘。如果你没有见过猫娘的话，建议你查一下互联网 <a href="https://zh.moegirl.org/zh-hans/%E7%8C%AB%E5%A8%98" target="_blank" rel="noopener">猫娘</a>。不过互联网五十年前就已经崩溃了，所以查了也是白查。</p>
-<p>薛定谔的猫娘宇宙本来和我们的世界隔绝，相安无事。但是有一天，跨次元侵略者塔努基大魔王和它的军团选择了侵略薛定谔的猫娘宇宙。猫娘们并没有足够的力量抵抗，因此，薛定谔的猫娘宇宙陷落成为了塔努基殖民地，民不聊生。塔努基大魔王甚至不断扩张它的势力范围，它的跨次元力量终于影响到了我们的世界。七十年前，它们灭绝了所有北美浣熊，在美国人短暂的快乐之后迅速取代了浣熊的生态位，造成了更严重的破坏。五十年前，全球重要的几个互联网数据节点沦陷了，所有网站媒体资源和用户数据都被替换成了塔努基的迷因素材。没过多久，世界就回到了彼此隔绝的落后状态。</p>
-<p>三十年前，也就是我出生的那一年，人类和猫娘在各自的宇宙同时出土了一块泥板，上面刻有解除塔努基危机的剧本。剧本说猫娘只有通过从我们这个世界召唤正义的伙伴，打败塔努基大魔王，一切才能恢复如初。</p>
-<p>而和泥板同年同月同日问世的我，就这样悄然成为了正义的伙伴人选，并时刻铭记剧本的指导。</p>
-<p>然而故事并不圆满。我救下了许多猫，最终被召唤到薛定谔的猫娘宇宙。在那里我没能打败塔努基大魔王，直接被塔努基的爪子拍成了灰。在猫娘们的嘘声中我的灵魂穿过莫比乌斯环，重新回归到刚出生的我身上。原来这是一种循环，我必须通过不断轮回的试炼，才能累积经验，找到打败塔努基大魔王的方法。</p>
-<p>不知道从哪一次轮回开始，我不禁想要逃避。既然注定会见到传送使者猫，那只要尽量降低日常生活中见到猫的频率，就能省去很多麻烦。然而这样也没有让打败塔努基的效率变得更高，一切在循环往复中持续着。而世人并不理解我经历的一切，只认为我是一个因为猫而惹麻烦的怪人。</p>
-<p>然后在这一次轮回，我应该也读过剧本。剧本上说这次极有可能成功，打败塔努基大魔王，让世界恢复和平。剧本上也说这次的挑战主要在人世，并叮嘱我一定要万事谨慎。但是轮回的次数太多，过往的记忆残片影响了我现在的记忆。面对世界名画，我松懈了，退缩了，选择做普通的人。结果我刚好错失了救下传送使者的机会。</p>
-<p>“按照剧本，你这次本应该在大火中救下那只猫，你的死状会很惨烈，但那不是真正的死亡。你救下的那只猫应该正是这次轮回的传送使者，它很快会让你在薛定谔的猫娘世界转生，让你再次成为勇者，彻底打败塔努基大魔王。然后，你和猫娘们可以继续展开惊心动魄的冒险，在那个宇宙度过幸福的一生。</p>
-<p>“但是你选择了另一条路。你拯救了那幅画，你活了下来，但是身受重伤，只能领着政府的补贴躺在病床上度过余生。你的妻子对你的感情并没有你以为的那样深厚，她会悄悄挥霍你的奖金，并私自将补贴挪用到其他地方。她想等你断气，但是发现你一直顽强地坚持着。最终她感到守着你也没意义，于是同你离婚了。你除了一个人类文明的守护者的称号，什么也没有得到，也无法再成就事业，只能麻木地迎接世界的终结。</p>
-<p>“而我现在则不得不同你告别，因为最后的时刻已经来到，我再也帮不了你了，大雄。我是薛定谔的猫娘宇宙2000年以后的科技结晶，穿过莫比乌斯环来到你的世界，从小陪伴你，照顾你，监督你成为正义的伙伴。现在的你再也无法拯救薛定谔的猫娘宇宙，这注定了薛定谔的猫娘宇宙未来创造的我也不复存在。另外，我刚刚得知，传送使者猫也是我的直系祖先。因为悖论，我在这个时代的一切信息应该被抹消，只不过我自从你出事后就一直低调行事，只在黑暗中行动，只要不被任何人观察到，我就能维持现在这个样子，直到悖论完全发挥效果。”</p>
-<p>猫娘说完了，月光倾泻进房间，微微照亮了她蓝色的布偶头套。我忍受着痛苦，想呼唤她的名字。</p>
-<p>“哆……”</p>
-<p>“别叫那个名字！”她立刻激动地打断了我。“这不光是侵权的问题了。你只要喊出我的名字，我就会立即被悖论抹消。”</p>
-<p>现在该怎么办？</p>
-<p>“怎么办？”猫娘冷笑道。“大雄，你总是这样。每次出了岔子，你除了朝我哭诉怎么办，一点儿也不会思考，只知道逃避，也难为你这样的人被选为正义的伙伴。静香虽然和我们一起长大，但是成年后也忍不住怀疑我们的关系，这也是你们夫妻嫌隙的矛盾点之一，这方面我也有错。说起来，我已经受够了从四次元短裙下帮你掏出神奇工具了。受到悖论的影响，现在大多数工具都无法运作，不过我最近倒是在公园和一个小伙伴搭上了话，它是一团很可爱的黑泥，它说只要扔出一把菜刀就能解决世界上的所有问题……看吧，大雄，这把菜刀就是它送给我的，你要不要试一试呀……”</p>
-<p>猫娘逐渐变得邪恶的声音慢慢地听不见了，我如坠冰窟，感觉不到周围。已经完蛋了。若不是因为那幅画，我怎么会付出这么大的代价！</p>
-<p>“喂，大雄，你别睡过去了，振作一点！喂！”猫娘的喊声再次把我拉回现实。我怒上心头，恶狠狠地瞪着她，艰难地挤出一句话：“你不让我活，也不让我死。”</p>
-<p>猫娘被我的气势吓住了，她怔怔地回答：“但是世界需要你。”</p>
-<p>我冷哼了一声，继续沙哑地说：“那需不需要你呢？哆啦……”</p>
-<p>“等等等等等别叫那个名字，求求你了！”猫娘慌了神，吓得连身体都快变透明了，于是赶紧制止我。“我只是想教训一下你，不是来真的。解决方法还是有的，但我只希望你能有自己的想法，独立做决定。”</p>
-<p>我平息了心情，缓慢地从床边的小推车上拾起一枚硬币。硬币的两面分别刻着“九磅”和“十五便士”。这是一枚神奇的错版硬币，我受伤住院以后它突然就在我病房的小推车上出现了。我把它当作我人生的新希望，珍藏起来。我决定用它来做决策。</p>
-<p>“省省吧，大雄……”猫娘用有气无力的声音制止我。“就算再怎么像那个人，他也只是烧掉了半边脸，而你是全身只剩下半边脸了，而且抛硬币这个梗也很没创意。我是要你独立做决定！”</p>
-<p>就这样度过余生？还是去救猫？</p>
-<p>当然是救猫啦！什么世界名画，什么守护人类文明的英雄，这稀巴烂的世界，我再也不想管了！让我去猫娘宇宙吧！</p>
-<p>“非常好。”猫娘终于露出了满意的神色，并把手里的菜刀丢在一边。</p>
-<p>“你通过了试炼，为了奖励你，我会帮你重新开放时光机。但是受到悖论的影响，时光机已经不能前往任何想去的时间了，它只有你观测到传送使者猫那个时刻之后的存档。因此，你会直接回到火灾现场，再度做出选择。这段旅程依然充满危险，但只要达成目标，你就能改变命运。去吧，大雄，成为出色的正义的伙伴！</p>
-<p>“要记住，那幅世界名画会对你产生极大的诱惑。但说到底，如果不是互联网崩溃，只剩下这幅图画没有被塔努基篡改，它本来并没有成为世界名画的资格。毕竟过去在互联网上，这幅图到处都是，它的迷因素材过于泛滥，甚至超过了作品的本质。因此，只要你修复了世界，就没必要再拯救这样一幅无聊的世界名画了。”</p>
-<p>猫娘的话更加坚定了我的信念。我的灵魂逐渐离开了残破的肉体，朝着过去移动。只要能成功，我就能拯救这个世界，并在异世界开始新的生活。</p>
-<p>“再见了，大雄，希望这是最后一次在这个世界同你相见。”猫娘的身影消失了。</p>
-<p>我眼含泪水，与她告别。</p>
-<p>这一次，一定要让猫娘们幸福。</p>
-]]></content>
-      <tags>
-        <tag>fiction</tag>
-        <tag>writing</tag>
-        <tag>original</tag>
       </tags>
   </entry>
   <entry>
@@ -1750,6 +1622,82 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
+    <title>救世界名画还是救猫？</title>
+    <url>/2019/11/11/painting-or-cat-dilemma/</url>
+    <content><![CDATA[<p>我躺在床上，病房没有开灯，十分昏暗，我单侧的视野中只有熟悉到吐的天花板。门外，女人的讲话声慢慢地远去。</p>
+<p>口好渴。我试图呼唤别人来帮我喂水，但是肿胀的喉咙只能发出低微的嘶鸣。身边没有一个人在照看我，没有人知道我的情况。我感到绝望和焦虑，这么一想身上越发难受起来，但实际又感觉不到什么，我的身体就像被厚厚的胶皮包裹着，阻碍了触觉和痛觉。屁股下面空荡荡的，这么一想，原来右腿已经坏死得太厉害，做了截肢手术啊。</p>
+<p>真是悲哀的人生啊。我在心中无奈地叹息。病房角落的的暗影中好像有一个熟悉的轮廓，但是我实在是有点累，便懒得去注意它，闭上了眼睛。</p>
+<p>落得这步田地，也是当时自己选的，好歹我也成了英雄不是吗？</p>
+<p>一切都要从那场震惊世界的美术馆火灾说起。</p>
+<p>那一天，我参加市政厅主办，美术馆布置的展览。因为午餐喝了冷掉的咖啡，我在展览中就感到不适，只得去了厕所。</p>
+<p>不去不要紧。当我走出厕所时，发生了不得了的事情。美术馆陷入火海，其他人早已撤离，而我因为厕所广播线路损坏没有维修而完美地错过了火灾警报。</p>
+<p>我回忆起各种逃生注意事项，尝试找到出口。烟雾太浓，我只好凭本能判断方向。</p>
+<p>结果，我被熊熊大火包围了，无路可逃。吾命休矣！一想到自己的人生就这样结束，我不禁仰天长叹。这时我才发现，背后的墙上正好挂着本次展览最珍贵的世界名画。刚才急着去厕所还没参观，现在才看到它，我一边庆幸自己能一睹名画风采，一边惋惜初次见面就要和它一起葬身火海。</p>
+<p>画面在烈火的熏燎下依然清晰，名画的内容是一对男女在机场深情拥吻，而男子的身后站着另一位沉默的少女。这时我也顾不得即将烈焰焚身了，完全沉浸在画作的情景之中。</p>
+<p>将我拉回现实的是脚边柔软的触感，我低头一看，发现不知哪里跑来的小猫在蹭着我的小腿。原来除我以外还有别的生命困在火海！一股强烈的求生欲从心头激起，我决定同小猫一起找到出口！</p>
+<p>回头看了一眼世界名画，我还是忍不住小心翼翼地把它从墙上摘下来。</p>
+<p>动物的本能果然强大，在小猫的带领下，我发现出口近在咫尺。正当我向前冲刺的时候，楼板塌陷了，我脚下一沉，身体开始下落，在掉下去前，我拼尽全力将世界名画向出口甩去，并伸手悬挂在残留的木板上，小猫落到了地下一层，冲我喵喵地叫着。</p>
+<p>太糟糕了，是把那幅画放着不管，和小猫一起再找出路呢，还是任凭小猫自生自灭，我爬上去带着画逃生？我陷入了两难的境地。</p>
+<p>一番心理斗争后，我沉默着，用力支撑起身体，在木板即将烧断时，一跃而起，抱住了世界名画。喵喵的叫声很快被崩塌的建筑所掩埋，我忍着悲痛的心情，拾起画，坚决地向门外走去，就像电影里的主角，不再回头。</p>
+<p>室外的光非常刺眼，正当我以为安全而放下心来时，我的身后发立刻生了爆炸。我不知道自己怎么来得及反应过来转过头去看的，但我昏迷前最后见到的，是向我冲来的一团巨大的猫形火球。</p>
+<p>随后的情节就像主旋律影片一样按部就班地发生。世界名画完好无损，我被送医院急救，度过了危险期，保住了性命。我以为自己很坚强，总能站起来，但是这一次我在病床上等了太久，也没有站起来。我对文艺作品的热爱与保护和其体现的崇高精神感动了市民、媒体和政府。我的病房一度摆满了鲜花，电视新闻滚动播放我的事迹，而政府部门多次派人员前来慰问，并向我的家人承诺，不但会给我颁发市民荣誉，还将用一大笔奖金和日常的补贴来负担起我的生活和医疗费。</p>
+<p>等我意识完全清醒时，周围的喧闹也不复。医生和护士例行公事，定期来检查我的状况。妻子一般会在病房照顾我，但是最近也不常来。因为我的喉咙受伤，我们无法顺利地交流，我只能用单侧的视野观察她，她并没有好好地回应我。她的表情越来越僵硬了。</p>
+<p>一种似曾相识的被抛弃的感觉持续占据了我的内心。我默默地承受着不安，等待着变化的发生。我时不时会想起美术馆里的那只小猫。就连梦里，它楚楚可怜的样子都让我难受得喘不过气。它到底有没有活下来呢？我的选择是正确的吗？就这样一直纠结着，时间慢慢流逝，我将以这副模样度过余生。</p>
+<p>我睁开眼，只见病房角落的暗影中的轮廓晃动了一下。</p>
+<p>我又眨了一下眼睛，那个物体不知怎么地瞬间移动到我的身边，假如我的喉咙没有损坏的话，我一定会放声尖叫。但我现在只想晕过去，我太累了。</p>
+<p>是一只猫！我没能如愿晕过去，它让我一个激灵清醒过来。</p>
+<p>“现在后悔吗？当时选择了这条路。”猫开口说话了。</p>
+<p>被问到这个问题，我彻底崩溃了。心跳急促起来，泪水慢慢从眼角滑落，滴在枕头上。</p>
+<p>“你的时间不多了。</p>
+<p>“你能活下来，绝不是万幸，毕竟这一切都是剧本的安排，剧本是不会让你这样窝囊地死去的。</p>
+<p>“你明明读过剧本，却忘记了自己的使命，被区区一幅世界名画蒙蔽了心灵。你这样还能算正义的伙伴吗？</p>
+<p>“你搞砸了，丧失了宝贵的机会，现在基本无法挽回。来吧，告诉我，剧本是怎么说的？”</p>
+<p>剧本……</p>
+<p>想起来了。</p>
+<p>我的角色是正义的伙伴，我在人类世界的重要使命就是拯救猫。</p>
+<p>不论猫的品种是什么，状况有多么危险，造成的副作用有多么严重，我必须救下在我眼前受到伤害的任何一只猫。</p>
+<p>哪怕是付出自己的生命，救猫。二选一的紧急情况下，救猫。把一只猫和一架飞机上的旅客放在天平的两头，救猫。</p>
+<p>这一切都是因为某一只猫对这个世界的意义非常重大。如果没有救下那一只，世界就会完蛋。</p>
+<p>问题在于剧本也无法确定具体是哪只猫，只知道那只猫必定出现在我面前。而只要能救下那只猫，其他的一切都可以牺牲。</p>
+<p>原来，那只猫是联系这个世界与另一侧的名为“薛定谔的猫娘宇宙”的传送使者。因为身份不明，它可能是任何一只猫。薛定谔的猫娘宇宙是我们所在宇宙的镜像宇宙的异构体。那一侧的智慧生命全是猫娘。如果你没有见过猫娘的话，建议你查一下互联网 <a href="https://zh.moegirl.org/zh-hans/%E7%8C%AB%E5%A8%98" target="_blank" rel="noopener">猫娘</a>。不过互联网五十年前就已经崩溃了，所以查了也是白查。</p>
+<p>薛定谔的猫娘宇宙本来和我们的世界隔绝，相安无事。但是有一天，跨次元侵略者塔努基大魔王和它的军团选择了侵略薛定谔的猫娘宇宙。猫娘们并没有足够的力量抵抗，因此，薛定谔的猫娘宇宙陷落成为了塔努基殖民地，民不聊生。塔努基大魔王甚至不断扩张它的势力范围，它的跨次元力量终于影响到了我们的世界。七十年前，它们灭绝了所有北美浣熊，在美国人短暂的快乐之后迅速取代了浣熊的生态位，造成了更严重的破坏。五十年前，全球重要的几个互联网数据节点沦陷了，所有网站媒体资源和用户数据都被替换成了塔努基的迷因素材。没过多久，世界就回到了彼此隔绝的落后状态。</p>
+<p>三十年前，也就是我出生的那一年，人类和猫娘在各自的宇宙同时出土了一块泥板，上面刻有解除塔努基危机的剧本。剧本说猫娘只有通过从我们这个世界召唤正义的伙伴，打败塔努基大魔王，一切才能恢复如初。</p>
+<p>而和泥板同年同月同日问世的我，就这样悄然成为了正义的伙伴人选，并时刻铭记剧本的指导。</p>
+<p>然而故事并不圆满。我救下了许多猫，最终被召唤到薛定谔的猫娘宇宙。在那里我没能打败塔努基大魔王，直接被塔努基的爪子拍成了灰。在猫娘们的嘘声中我的灵魂穿过莫比乌斯环，重新回归到刚出生的我身上。原来这是一种循环，我必须通过不断轮回的试炼，才能累积经验，找到打败塔努基大魔王的方法。</p>
+<p>不知道从哪一次轮回开始，我不禁想要逃避。既然注定会见到传送使者猫，那只要尽量降低日常生活中见到猫的频率，就能省去很多麻烦。然而这样也没有让打败塔努基的效率变得更高，一切在循环往复中持续着。而世人并不理解我经历的一切，只认为我是一个因为猫而惹麻烦的怪人。</p>
+<p>然后在这一次轮回，我应该也读过剧本。剧本上说这次极有可能成功，打败塔努基大魔王，让世界恢复和平。剧本上也说这次的挑战主要在人世，并叮嘱我一定要万事谨慎。但是轮回的次数太多，过往的记忆残片影响了我现在的记忆。面对世界名画，我松懈了，退缩了，选择做普通的人。结果我刚好错失了救下传送使者的机会。</p>
+<p>“按照剧本，你这次本应该在大火中救下那只猫，你的死状会很惨烈，但那不是真正的死亡。你救下的那只猫应该正是这次轮回的传送使者，它很快会让你在薛定谔的猫娘世界转生，让你再次成为勇者，彻底打败塔努基大魔王。然后，你和猫娘们可以继续展开惊心动魄的冒险，在那个宇宙度过幸福的一生。</p>
+<p>“但是你选择了另一条路。你拯救了那幅画，你活了下来，但是身受重伤，只能领着政府的补贴躺在病床上度过余生。你的妻子对你的感情并没有你以为的那样深厚，她会悄悄挥霍你的奖金，并私自将补贴挪用到其他地方。她想等你断气，但是发现你一直顽强地坚持着。最终她感到守着你也没意义，于是同你离婚了。你除了一个人类文明的守护者的称号，什么也没有得到，也无法再成就事业，只能麻木地迎接世界的终结。</p>
+<p>“而我现在则不得不同你告别，因为最后的时刻已经来到，我再也帮不了你了，大雄。我是薛定谔的猫娘宇宙2000年以后的科技结晶，穿过莫比乌斯环来到你的世界，从小陪伴你，照顾你，监督你成为正义的伙伴。现在的你再也无法拯救薛定谔的猫娘宇宙，这注定了薛定谔的猫娘宇宙未来创造的我也不复存在。另外，我刚刚得知，传送使者猫也是我的直系祖先。因为悖论，我在这个时代的一切信息应该被抹消，只不过我自从你出事后就一直低调行事，只在黑暗中行动，只要不被任何人观察到，我就能维持现在这个样子，直到悖论完全发挥效果。”</p>
+<p>猫娘说完了，月光倾泻进房间，微微照亮了她蓝色的布偶头套。我忍受着痛苦，想呼唤她的名字。</p>
+<p>“哆……”</p>
+<p>“别叫那个名字！”她立刻激动地打断了我。“这不光是侵权的问题了。你只要喊出我的名字，我就会立即被悖论抹消。”</p>
+<p>现在该怎么办？</p>
+<p>“怎么办？”猫娘冷笑道。“大雄，你总是这样。每次出了岔子，你除了朝我哭诉怎么办，一点儿也不会思考，只知道逃避，也难为你这样的人被选为正义的伙伴。静香虽然和我们一起长大，但是成年后也忍不住怀疑我们的关系，这也是你们夫妻嫌隙的矛盾点之一，这方面我也有错。说起来，我已经受够了从四次元短裙下帮你掏出神奇工具了。受到悖论的影响，现在大多数工具都无法运作，不过我最近倒是在公园和一个小伙伴搭上了话，它是一团很可爱的黑泥，它说只要扔出一把菜刀就能解决世界上的所有问题……看吧，大雄，这把菜刀就是它送给我的，你要不要试一试呀……”</p>
+<p>猫娘逐渐变得邪恶的声音慢慢地听不见了，我如坠冰窟，感觉不到周围。已经完蛋了。若不是因为那幅画，我怎么会付出这么大的代价！</p>
+<p>“喂，大雄，你别睡过去了，振作一点！喂！”猫娘的喊声再次把我拉回现实。我怒上心头，恶狠狠地瞪着她，艰难地挤出一句话：“你不让我活，也不让我死。”</p>
+<p>猫娘被我的气势吓住了，她怔怔地回答：“但是世界需要你。”</p>
+<p>我冷哼了一声，继续沙哑地说：“那需不需要你呢？哆啦……”</p>
+<p>“等等等等等别叫那个名字，求求你了！”猫娘慌了神，吓得连身体都快变透明了，于是赶紧制止我。“我只是想教训一下你，不是来真的。解决方法还是有的，但我只希望你能有自己的想法，独立做决定。”</p>
+<p>我平息了心情，缓慢地从床边的小推车上拾起一枚硬币。硬币的两面分别刻着“九磅”和“十五便士”。这是一枚神奇的错版硬币，我受伤住院以后它突然就在我病房的小推车上出现了。我把它当作我人生的新希望，珍藏起来。我决定用它来做决策。</p>
+<p>“省省吧，大雄……”猫娘用有气无力的声音制止我。“就算再怎么像那个人，他也只是烧掉了半边脸，而你是全身只剩下半边脸了，而且抛硬币这个梗也很没创意。我是要你独立做决定！”</p>
+<p>就这样度过余生？还是去救猫？</p>
+<p>当然是救猫啦！什么世界名画，什么守护人类文明的英雄，这稀巴烂的世界，我再也不想管了！让我去猫娘宇宙吧！</p>
+<p>“非常好。”猫娘终于露出了满意的神色，并把手里的菜刀丢在一边。</p>
+<p>“你通过了试炼，为了奖励你，我会帮你重新开放时光机。但是受到悖论的影响，时光机已经不能前往任何想去的时间了，它只有你观测到传送使者猫那个时刻之后的存档。因此，你会直接回到火灾现场，再度做出选择。这段旅程依然充满危险，但只要达成目标，你就能改变命运。去吧，大雄，成为出色的正义的伙伴！</p>
+<p>“要记住，那幅世界名画会对你产生极大的诱惑。但说到底，如果不是互联网崩溃，只剩下这幅图画没有被塔努基篡改，它本来并没有成为世界名画的资格。毕竟过去在互联网上，这幅图到处都是，它的迷因素材过于泛滥，甚至超过了作品的本质。因此，只要你修复了世界，就没必要再拯救这样一幅无聊的世界名画了。”</p>
+<p>猫娘的话更加坚定了我的信念。我的灵魂逐渐离开了残破的肉体，朝着过去移动。只要能成功，我就能拯救这个世界，并在异世界开始新的生活。</p>
+<p>“再见了，大雄，希望这是最后一次在这个世界同你相见。”猫娘的身影消失了。</p>
+<p>我眼含泪水，与她告别。</p>
+<p>这一次，一定要让猫娘们幸福。</p>
+]]></content>
+      <tags>
+        <tag>fiction</tag>
+        <tag>writing</tag>
+        <tag>original</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>没有名字的杀人魔</title>
     <url>/2019/04/20/stand-alone-killer/</url>
     <content><![CDATA[<p>很久很久以前，那时的消息很不灵通，听说某地有一个普普通通的少年。</p>
@@ -1791,27 +1739,55 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>《在无爱之森呐喊》观后感</title>
-    <url>/2019/10/14/the-forest-of-love-review/</url>
-    <content><![CDATA[<p><strong>注意：本文任何一句话都可能包含剧透，或者直到最后都没有。</strong></p>
-<p>10月13日凌晨在 Netflix 看了园子温监督的<a href="https://www.netflix.com/jp/title/81133621" target="_blank" rel="noopener">《在无爱之森呐喊》</a>。</p>
-<p>其实我并未深入了解园子温，看过的上一部也是我看的第一部他的作品，叫《我们都是超能力者》，全程欢乐恶搞。对于其电影风格的了解仅限于一些剪辑。因此，我也不在此详细述说这部电影哪一部分和哪部作品是如何地相似了。反正都没看过，日后再补。</p>
-<p>总而言之，这是一部帮助新观众快速了解园子温风格的懒人包电影，这是一部让园子温粉丝巩固记忆的作品，而对于别的观众来说，喜欢不喜欢这部电影的理由都能列出很多。</p>
-<p>152分钟的片长，可能还是装不下三条故事线的信息量，也有可能是有意而为之，电影通过篇章分割，而叙事支离破碎，对理解剧情可能有一点影响。由于情节的设计，观众必须有足够的耐心。</p>
-<p>部分摇晃的镜头毫无疑问会让观众产生强烈的代入感与临场感，这与本片角色之一“阿信”亲身经历案件的体验是一致的。</p>
-<p>本片具有残酷的美感和风格强烈的色调表现。就欣赏画面这个层次来评价，是令人非常满足的。除了少女美好的胴体外，没有刺激感官的点。也许是我不够理解，总觉得性的表现缺乏美感，介于枯燥和克制之间，反正这两个形容词拼音缩写一下都是 KZ（？）。至于暴力，有自杀、谋杀和虐待的场面，出血量还是挺大的，还有两段 Not safe for anywhere 的分尸镜头，如果无法承受，可以跳过。</p>
-<p>故事是根据真实案件改编的，即使如此，情节也严肃不起来，多数时候角色都在放飞自我，仿佛真的深陷在他们自己拍摄的疯狂的电影中。真相与谎言的界限变得模糊，而一旦有人恢复清醒，陷得浅可以逃离，陷得深就只能迎接死亡。我为了在观影过程中保持俯瞰的姿态以免被剧情带着走，便把它当作推理小说来看，尝试在一连串非理性的混乱中找出线索。尽管如此，在答案揭晓前，我已经判断这群人都是疯子，而无人能胜任英雄（侦探）的角色。当全片最精彩的部分以排山倒海之势呼应主题时，电影最大的谜团就此揭晓，让我精神为之振奋，内心十分过瘾。尘埃落定后的发展又极度讽刺，留下一个温情的结尾。总的来说是个好玩的故事，细节和逻辑不太经得起推敲。不过管他呢，不要想，只要爽。</p>
-<p>看完电影后去查了相关资料，多看了几眼园子温，也查了本片的原型案件——<a href="https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B9%9D%E5%B7%9E%E7%9B%A3%E7%A6%81%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6" target="_blank" rel="noopener">北九州监禁杀人事件</a>。不看不要紧，看了之后，本案已超过女子高中生水泥埋尸案，成为我心目中最恶心的日本谋杀案例。而和本案相关人员的真实经历比起来，这部电影应该温柔了许多才是。阿信在片头告诉小电影二人组，自己来自爱知县丰川市。实际上园子温的<a href="https://zh.wikipedia.org/wiki/%E5%9C%92%E5%AD%90%E6%BA%AB" target="_blank" rel="noopener">出身</a>正是爱知县丰川市，不难理解片中的阿信是园子温的化身，导演借由这部电影和这个角色，畅快地致敬自己的作品，重新演绎案件，对剧中的杀人凶手指点一番，实则指桑骂槐嘲讽现实中的案犯“不敢亲手杀人”。</p>
-<p>本片中的罗密欧与朱丽叶舞台剧故事表现了一种极致的爱情，确实不赖。果然世上只有百合好。</p>
-<p>演员演得很拼，颜值和妆容也很能打。椎名桔平的村田丈戏份多也很卖力，最具戏剧性；満島真之介的阿信还真的挺突破认知的，看到后面才体会到；日南響子的妙子富有个人魅力；鎌滝えり的美津子则活生生地展现出来，并通过逼真的演技奉献了全片最大的惊喜。</p>
-<p>说起来，我过去对满岛真之介有印象完全是靠动画《只有我不存在的城市》，当时我对于TV动画男主的成年音和少儿音都没选专职声优，而是俳优（满岛真之介、土屋太凤）这一点就很好奇了，实际听起来还是有明显棒读现象，但是习惯了声线之后又感觉还不错。</p>
-<p>Netflix 搞这种变态气质的剧集影片，还真的不会厌啊，但是观众可能会厌。</p>
-<p>这是第一部我全程观看没开字幕的日语电影。过去总想尝试看电影，却没这个耐心，所以仅仅局限于动画无字幕。这次观看后发现还是能理解很多台词，而不影响对细节的注意。决定下次再用无字幕看一遍，第三遍开字幕检查自己的听力。</p>
-<p>最后，我还是挺后悔这部电影占用了我宝贵的睡眠时间的，白天看不好吗？更何况这篇影评也是在半夜完成最后几段的，我更感觉有点浪费。</p>
-<p><a href="https://movie.douban.com/subject/30337760/comments?sort=time&amp;status=P" target="_blank" rel="noopener">豆瓣</a>上本片备受争议，褒贬不一，想知道为什么的，看过一遍电影就能懂了。</p>
+    <title>0202年在 Pixel C 刷魔趣ROM</title>
+    <url>/2020/03/28/pixel-c-mokee-magisk/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>Pixel C 又开始电量尿崩了，放着不管一天多电就能跑光， timerfd 疯狂唤醒，就算清除 Google 数据都没用。那就一鼓作气 root 并且直接刷魔趣ROM上 Android 10 吧！</p>
+<h2 id="准备工作">准备工作</h2>
+<p>阅读资料，下载资源</p>
+<p>https://www.mokeedev.com/guide/getting_started.html</p>
+<p>https://download.mokeedev.com/dragon.html</p>
+<p>https://flash.mokeedev.com/ （其实没用，只是帮你完成一些步骤）</p>
+<ul>
+<li>Magisk-v20.4.zip</li>
+<li>MK100.0-dragon-202003280436-NIGHTLY.zip</li>
+<li>open_gapps-arm64-10.0-nano-20200325.zip</li>
+<li>twrp-3.3.1-2-dragon.img</li>
+</ul>
+<p>把指定资源放进目标文件夹，再打开计算机的终端进入该文件夹。</p>
+<h2 id="刷机">刷机</h2>
+<h3 id="解锁设备">解锁设备</h3>
+<p>进入设置-开发者选项-允许 oem 解锁</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br></pre></td></tr></table></figure>
+<p>设备重启并显示 waiting for fastboot command….</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">fastboot oem unlock</span><br></pre></td></tr></table></figure>
+<p>按电源键确认，设备发出一声“滴”然后重启，显示“正在清空”（为什么是中文？）</p>
+<p>有点慢……</p>
+<p>为了确保正常，重启试试（没问题，恢复出厂了，跳过激活设置重新打开 usb 调试）</p>
+<h3 id="刷入-recovery">刷入 recovery</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br><span class="line">fastboot flash recovery .\twrp-3.3.1-2-dragon.img</span><br></pre></td></tr></table></figure>
+<p>进入重启循环无法进入 recovery？</p>
+<p>改成 <code>fastboot boot .\twrp-3.3.1-2-dragon.img</code> , 好了</p>
+<p>选择 <code>格式化 data 分区</code></p>
+<p>在高级选项中选中 adb sideload，读条时刷入 mokee magisk opengapps</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb sideload xxx.zip #每执行一次成功后再在 TWRP 中选 adb sideload</span><br></pre></td></tr></table></figure>
+<p>重启</p>
+<p>卡在 Google 标志了？！</p>
+<p>为了保险，重新线刷了一次，这次终于出现 mokee logo （后来发现，卡在 Google 标志，可能多重启几次会好，大概是 nightly 不够稳定）</p>
+<p>妈的，这logo丑哭了</p>
+<h2 id="开机后设置">开机后设置</h2>
+<p>像一个正常 google 设备一样设置，从 Google 云拖回设备备份，更新应用……</p>
+<p>Magisk Manager 有了，但是 safetynet 检查不通过，ctsProfile: false. 不行，这样装不了 Netflix.</p>
+<p>安装 <code>magiskhide props config</code> 和 <code>busybox</code> 模块</p>
+<p>顺便一说这个魔趣 ROM 自带终端，帮助我迅速解决 safetynet 问题，不用临时下一个 termux 了。直接在终端里操作：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">su</span><br><span class="line">props</span><br><span class="line">1 # edit device fingerprint</span><br><span class="line">f # Pick a certified fingerprint</span><br><span class="line"><span class="meta">#</span><span class="bash"> 找到品牌 设备 系统版本</span></span><br></pre></td></tr></table></figure>
+<p>然后就是安装其他 magisk 模块……</p>
+<p>全剧终</p>
+<h2 id="后记">后记</h2>
+<p>上一篇博客提到可能是2020年最后一篇博客，不过这篇就是打上一篇的脸。其实我是不太喜欢记录这些杂碎的技术笔记的，毕竟2020年还要折腾 Pixel C 这种设备，实在是过时了。顺便一说为了搞个纯写作环境，我自己的创作会集中放在另一个分站上 https://utsk.wordpress.com/ ，而这边的博客还是保持想到啥写啥的碎碎念状态，文字质量不会太高。</p>
 ]]></content>
       <tags>
-        <tag>movie</tag>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -1911,6 +1887,30 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
         <tag>fiction</tag>
         <tag>writing</tag>
         <tag>original</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《在无爱之森呐喊》观后感</title>
+    <url>/2019/10/14/the-forest-of-love-review/</url>
+    <content><![CDATA[<p><strong>注意：本文任何一句话都可能包含剧透，或者直到最后都没有。</strong></p>
+<p>10月13日凌晨在 Netflix 看了园子温监督的<a href="https://www.netflix.com/jp/title/81133621" target="_blank" rel="noopener">《在无爱之森呐喊》</a>。</p>
+<p>其实我并未深入了解园子温，看过的上一部也是我看的第一部他的作品，叫《我们都是超能力者》，全程欢乐恶搞。对于其电影风格的了解仅限于一些剪辑。因此，我也不在此详细述说这部电影哪一部分和哪部作品是如何地相似了。反正都没看过，日后再补。</p>
+<p>总而言之，这是一部帮助新观众快速了解园子温风格的懒人包电影，这是一部让园子温粉丝巩固记忆的作品，而对于别的观众来说，喜欢不喜欢这部电影的理由都能列出很多。</p>
+<p>152分钟的片长，可能还是装不下三条故事线的信息量，也有可能是有意而为之，电影通过篇章分割，而叙事支离破碎，对理解剧情可能有一点影响。由于情节的设计，观众必须有足够的耐心。</p>
+<p>部分摇晃的镜头毫无疑问会让观众产生强烈的代入感与临场感，这与本片角色之一“阿信”亲身经历案件的体验是一致的。</p>
+<p>本片具有残酷的美感和风格强烈的色调表现。就欣赏画面这个层次来评价，是令人非常满足的。除了少女美好的胴体外，没有刺激感官的点。也许是我不够理解，总觉得性的表现缺乏美感，介于枯燥和克制之间，反正这两个形容词拼音缩写一下都是 KZ（？）。至于暴力，有自杀、谋杀和虐待的场面，出血量还是挺大的，还有两段 Not safe for anywhere 的分尸镜头，如果无法承受，可以跳过。</p>
+<p>故事是根据真实案件改编的，即使如此，情节也严肃不起来，多数时候角色都在放飞自我，仿佛真的深陷在他们自己拍摄的疯狂的电影中。真相与谎言的界限变得模糊，而一旦有人恢复清醒，陷得浅可以逃离，陷得深就只能迎接死亡。我为了在观影过程中保持俯瞰的姿态以免被剧情带着走，便把它当作推理小说来看，尝试在一连串非理性的混乱中找出线索。尽管如此，在答案揭晓前，我已经判断这群人都是疯子，而无人能胜任英雄（侦探）的角色。当全片最精彩的部分以排山倒海之势呼应主题时，电影最大的谜团就此揭晓，让我精神为之振奋，内心十分过瘾。尘埃落定后的发展又极度讽刺，留下一个温情的结尾。总的来说是个好玩的故事，细节和逻辑不太经得起推敲。不过管他呢，不要想，只要爽。</p>
+<p>看完电影后去查了相关资料，多看了几眼园子温，也查了本片的原型案件——<a href="https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B9%9D%E5%B7%9E%E7%9B%A3%E7%A6%81%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6" target="_blank" rel="noopener">北九州监禁杀人事件</a>。不看不要紧，看了之后，本案已超过女子高中生水泥埋尸案，成为我心目中最恶心的日本谋杀案例。而和本案相关人员的真实经历比起来，这部电影应该温柔了许多才是。阿信在片头告诉小电影二人组，自己来自爱知县丰川市。实际上园子温的<a href="https://zh.wikipedia.org/wiki/%E5%9C%92%E5%AD%90%E6%BA%AB" target="_blank" rel="noopener">出身</a>正是爱知县丰川市，不难理解片中的阿信是园子温的化身，导演借由这部电影和这个角色，畅快地致敬自己的作品，重新演绎案件，对剧中的杀人凶手指点一番，实则指桑骂槐嘲讽现实中的案犯“不敢亲手杀人”。</p>
+<p>本片中的罗密欧与朱丽叶舞台剧故事表现了一种极致的爱情，确实不赖。果然世上只有百合好。</p>
+<p>演员演得很拼，颜值和妆容也很能打。椎名桔平的村田丈戏份多也很卖力，最具戏剧性；満島真之介的阿信还真的挺突破认知的，看到后面才体会到；日南響子的妙子富有个人魅力；鎌滝えり的美津子则活生生地展现出来，并通过逼真的演技奉献了全片最大的惊喜。</p>
+<p>说起来，我过去对满岛真之介有印象完全是靠动画《只有我不存在的城市》，当时我对于TV动画男主的成年音和少儿音都没选专职声优，而是俳优（满岛真之介、土屋太凤）这一点就很好奇了，实际听起来还是有明显棒读现象，但是习惯了声线之后又感觉还不错。</p>
+<p>Netflix 搞这种变态气质的剧集影片，还真的不会厌啊，但是观众可能会厌。</p>
+<p>这是第一部我全程观看没开字幕的日语电影。过去总想尝试看电影，却没这个耐心，所以仅仅局限于动画无字幕。这次观看后发现还是能理解很多台词，而不影响对细节的注意。决定下次再用无字幕看一遍，第三遍开字幕检查自己的听力。</p>
+<p>最后，我还是挺后悔这部电影占用了我宝贵的睡眠时间的，白天看不好吗？更何况这篇影评也是在半夜完成最后几段的，我更感觉有点浪费。</p>
+<p><a href="https://movie.douban.com/subject/30337760/comments?sort=time&amp;status=P" target="_blank" rel="noopener">豆瓣</a>上本片备受争议，褒贬不一，想知道为什么的，看过一遍电影就能懂了。</p>
+]]></content>
+      <tags>
+        <tag>movie</tag>
       </tags>
   </entry>
   <entry>
@@ -2038,104 +2038,6 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       </tags>
   </entry>
   <entry>
-    <title>简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图</title>
-    <url>/2019/01/19/venn-diagram-with-R-venn-package/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
-<h2 id="需求">需求</h2>
-<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
-<h2 id="准备">准备</h2>
-<p>一个用 Python 做了预处理的文件，格式大致如下：</p>
-<table>
-<thead>
-<tr class="header">
-<th>groupname</th>
-<th>groupvalue</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>g1</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>g1</td>
-<td>B</td>
-</tr>
-<tr class="odd">
-<td>g2</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>...</td>
-<td>...</td>
-</tr>
-<tr class="odd">
-<td>g5</td>
-<td>C</td>
-</tr>
-<tr class="even">
-<td>g5</td>
-<td>D</td>
-</tr>
-</tbody>
-</table>
-<p>其中第一列是组别，有五组，第二列是组别各自对应的数值，彼此有相同的部分。当然可以用 R 做数据预处理，不过这里省略基础部分，直接从成熟的数据开始处理。</p>
-<p>参考网上的教程，包括：</p>
-<p><a href="https://www.cnblogs.com/xianghang123/archive/2013/03/25/2980623.html" target="_blank" rel="noopener">【R作图】在R中绘制韦恩图的几种方法 和 一些漂亮的venn图</a></p>
-<p><a href="https://qiubio.com/archives/2603" target="_blank" rel="noopener">R绘图基础（五）文氏图vennDiagram</a></p>
-<p><a href="http://blog.biochen.com/archives/520" target="_blank" rel="noopener">使用VennDiagram包绘制韦恩图</a></p>
-<p>以及一个貌似是利用自己写的代码配合 matplotlib 绘图的库 <a href="https://github.com/tctianchi/pyvenn" target="_blank" rel="noopener">tctianchi/pyvenn</a></p>
-<p>方法包括 R 里面的 limma::vennDiagram, gplot::venn, venneuler, VennDiagram 和 python 里面的 pyvenn库，以及一些在线工具。</p>
-<p>其中 limma 和 venneuler 只能画三组数据,不符合我的要求，另外大佬们的文章似乎有点过时，我看现在有些包应该没那么弱了吧。至于我为什么不用 python 的库，没有为什么，就像我今晚突然不想吃我爱吃的肥宅快乐餐一样。</p>
-<p>然后发现了独立的 venn 包，上面的文章里提到2012年的时候找不到 venn 包了，但是我误打误撞在 google 首页就翻到了 venn 1.7 的文档，一看时间发布于2018年七月底<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，就感觉很迷。研究了一会，感觉看进去了，那好吧就用它了！</p>
-<h2 id="操作">操作</h2>
-<h3 id="基础入门三步走">基础入门三步走</h3>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">install.packages(<span class="string">"venn"</span>) <span class="comment">#安装</span></span><br><span class="line"><span class="keyword">library</span>(venn) <span class="comment">#导入</span></span><br><span class="line">?venn <span class="comment">#查看文档</span></span><br></pre></td></tr></table></figure>
-<p>前面文档说了一堆，跳过了，直奔主题看五组数据怎么画。没错我就是这么功利而不求甚解。</p>
-<h3 id="直接看-usage-里的-arguments">直接看 Usage 里的 arguments</h3>
-<blockquote>
-<p>x - 单个数字（集合）或元模型公式，或包含设置值的<strong>列表</strong>，或包含布尔值的数据集。 <code>关键词，可以扔 list 进去</code></p>
-<p>snames - 包含每个集名称的可选参数。</p>
-<p>ilabels - 打印每个交叉点的标签。 <code>TRUE 是打印， FALSE 为否</code></p>
-<p>counts - 每组交集的计数的数字向量。</p>
-<p>ellipse - 尽可能将形状强制为椭圆。 <code>TRUE 是把区域变成椭圆， FALSE 为否</code></p>
-<p>zcolor - 自定义区域的颜色矢量，或“样式”的预定义颜色</p>
-<p>opacity - 就是用数值调不透明度</p>
-<p>size - 就是用数值调整绘图大小，以厘米为单位。</p>
-<p>cexil - 就是用数值调整每个交集区域数值标签的字体大小免得看不清</p>
-<p>cexsn - 就是用数值调整集合名称标签的字体大小</p>
-<p>borders - 绘制所有交叉点边界 <code>看不出来效果</code></p>
-</blockquote>
-<p>(对不起，上面是我机翻+脑补的，因为实在懒得打字)</p>
-<h3 id="数据导入及基本作图">数据导入及基本作图</h3>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">datasets &lt;- read.table(<span class="string">"/path/to/your/data.txt"</span>, header = <span class="literal">TRUE</span>, sep = <span class="string">'\t'</span>) <span class="comment">#导入数据，数据格式见前文，路径自己填，数据包含表头， Tab 分隔</span></span><br><span class="line">g1 = datasets$groupvalue[datasets$groupname == <span class="string">'g1'</span>] <span class="comment">#把同 groupname 的 groupvalue 们归类到一个 factor 中，下略</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">x = list(g1,g2,g3,g4,g5) <span class="comment">#将五组数据也就是五个 factor 放入一个 list 中</span></span><br><span class="line">venn(x) <span class="comment">#文氏图飞来！</span></span><br></pre></td></tr></table></figure>
-<p>出图。</p>
-<p><img src="https://i.imgur.com/fxeidw1.png" /></p>
-<h3 id="太单调来点高级的">太单调？来点高级的。</h3>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#指定集合名称，设置默认的颜色风格，把交集区域数值标签字体改大到1，集合名称标签字体改成0.8</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i.imgur.com/EF6bcVv.png" /></p>
-<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, ellipse = <span class="literal">TRUE</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#诸君，我喜欢椭圆</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i.imgur.com/cM2VIaz.png" /></p>
-<h2 id="后记">后记</h2>
-<p>以上就是此次玩弄 venn 包的过程，我自己的目的已经达到了，可以进行下一步的研究了。内容非常简单，我不写你们也能学会，希望大家不要因为我写的这堆乱七八糟的东西，反而看不懂了。对这个包有更深兴趣的朋友可以自行查阅文档里其他功能的介绍。</p>
-<p>venn 包支持最高七组数据的文氏图绘制，你们可以 <code>venn(7)</code> 简单看看效果。</p>
-<p><strong>参考</strong></p>
-<section class="footnotes" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/32350930" target="_blank" rel="noopener">7维韦恩图 7-set Venn Diagram | 知乎专栏</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p><a href="https://cran.r-project.org/web/packages/venn/venn.pdf" target="_blank" rel="noopener">Package ‘venn’</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>R</tag>
-        <tag>venn diagram</tag>
-        <tag>practice</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《声之形》观后感</title>
     <url>/2018/12/18/the-shape-of-voice-review/</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -2236,6 +2138,104 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
       <tags>
         <tag>anime</tag>
         <tag>movie</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图</title>
+    <url>/2019/01/19/venn-diagram-with-R-venn-package/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
+<h2 id="需求">需求</h2>
+<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
+<h2 id="准备">准备</h2>
+<p>一个用 Python 做了预处理的文件，格式大致如下：</p>
+<table>
+<thead>
+<tr class="header">
+<th>groupname</th>
+<th>groupvalue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>g1</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>g1</td>
+<td>B</td>
+</tr>
+<tr class="odd">
+<td>g2</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td>g5</td>
+<td>C</td>
+</tr>
+<tr class="even">
+<td>g5</td>
+<td>D</td>
+</tr>
+</tbody>
+</table>
+<p>其中第一列是组别，有五组，第二列是组别各自对应的数值，彼此有相同的部分。当然可以用 R 做数据预处理，不过这里省略基础部分，直接从成熟的数据开始处理。</p>
+<p>参考网上的教程，包括：</p>
+<p><a href="https://www.cnblogs.com/xianghang123/archive/2013/03/25/2980623.html" target="_blank" rel="noopener">【R作图】在R中绘制韦恩图的几种方法 和 一些漂亮的venn图</a></p>
+<p><a href="https://qiubio.com/archives/2603" target="_blank" rel="noopener">R绘图基础（五）文氏图vennDiagram</a></p>
+<p><a href="http://blog.biochen.com/archives/520" target="_blank" rel="noopener">使用VennDiagram包绘制韦恩图</a></p>
+<p>以及一个貌似是利用自己写的代码配合 matplotlib 绘图的库 <a href="https://github.com/tctianchi/pyvenn" target="_blank" rel="noopener">tctianchi/pyvenn</a></p>
+<p>方法包括 R 里面的 limma::vennDiagram, gplot::venn, venneuler, VennDiagram 和 python 里面的 pyvenn库，以及一些在线工具。</p>
+<p>其中 limma 和 venneuler 只能画三组数据,不符合我的要求，另外大佬们的文章似乎有点过时，我看现在有些包应该没那么弱了吧。至于我为什么不用 python 的库，没有为什么，就像我今晚突然不想吃我爱吃的肥宅快乐餐一样。</p>
+<p>然后发现了独立的 venn 包，上面的文章里提到2012年的时候找不到 venn 包了，但是我误打误撞在 google 首页就翻到了 venn 1.7 的文档，一看时间发布于2018年七月底<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，就感觉很迷。研究了一会，感觉看进去了，那好吧就用它了！</p>
+<h2 id="操作">操作</h2>
+<h3 id="基础入门三步走">基础入门三步走</h3>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">install.packages(<span class="string">"venn"</span>) <span class="comment">#安装</span></span><br><span class="line"><span class="keyword">library</span>(venn) <span class="comment">#导入</span></span><br><span class="line">?venn <span class="comment">#查看文档</span></span><br></pre></td></tr></table></figure>
+<p>前面文档说了一堆，跳过了，直奔主题看五组数据怎么画。没错我就是这么功利而不求甚解。</p>
+<h3 id="直接看-usage-里的-arguments">直接看 Usage 里的 arguments</h3>
+<blockquote>
+<p>x - 单个数字（集合）或元模型公式，或包含设置值的<strong>列表</strong>，或包含布尔值的数据集。 <code>关键词，可以扔 list 进去</code></p>
+<p>snames - 包含每个集名称的可选参数。</p>
+<p>ilabels - 打印每个交叉点的标签。 <code>TRUE 是打印， FALSE 为否</code></p>
+<p>counts - 每组交集的计数的数字向量。</p>
+<p>ellipse - 尽可能将形状强制为椭圆。 <code>TRUE 是把区域变成椭圆， FALSE 为否</code></p>
+<p>zcolor - 自定义区域的颜色矢量，或“样式”的预定义颜色</p>
+<p>opacity - 就是用数值调不透明度</p>
+<p>size - 就是用数值调整绘图大小，以厘米为单位。</p>
+<p>cexil - 就是用数值调整每个交集区域数值标签的字体大小免得看不清</p>
+<p>cexsn - 就是用数值调整集合名称标签的字体大小</p>
+<p>borders - 绘制所有交叉点边界 <code>看不出来效果</code></p>
+</blockquote>
+<p>(对不起，上面是我机翻+脑补的，因为实在懒得打字)</p>
+<h3 id="数据导入及基本作图">数据导入及基本作图</h3>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">datasets &lt;- read.table(<span class="string">"/path/to/your/data.txt"</span>, header = <span class="literal">TRUE</span>, sep = <span class="string">'\t'</span>) <span class="comment">#导入数据，数据格式见前文，路径自己填，数据包含表头， Tab 分隔</span></span><br><span class="line">g1 = datasets$groupvalue[datasets$groupname == <span class="string">'g1'</span>] <span class="comment">#把同 groupname 的 groupvalue 们归类到一个 factor 中，下略</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">x = list(g1,g2,g3,g4,g5) <span class="comment">#将五组数据也就是五个 factor 放入一个 list 中</span></span><br><span class="line">venn(x) <span class="comment">#文氏图飞来！</span></span><br></pre></td></tr></table></figure>
+<p>出图。</p>
+<p><img src="https://i.imgur.com/fxeidw1.png" /></p>
+<h3 id="太单调来点高级的">太单调？来点高级的。</h3>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#指定集合名称，设置默认的颜色风格，把交集区域数值标签字体改大到1，集合名称标签字体改成0.8</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/EF6bcVv.png" /></p>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, ellipse = <span class="literal">TRUE</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#诸君，我喜欢椭圆</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/cM2VIaz.png" /></p>
+<h2 id="后记">后记</h2>
+<p>以上就是此次玩弄 venn 包的过程，我自己的目的已经达到了，可以进行下一步的研究了。内容非常简单，我不写你们也能学会，希望大家不要因为我写的这堆乱七八糟的东西，反而看不懂了。对这个包有更深兴趣的朋友可以自行查阅文档里其他功能的介绍。</p>
+<p>venn 包支持最高七组数据的文氏图绘制，你们可以 <code>venn(7)</code> 简单看看效果。</p>
+<p><strong>参考</strong></p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/32350930" target="_blank" rel="noopener">7维韦恩图 7-set Venn Diagram | 知乎专栏</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><a href="https://cran.r-project.org/web/packages/venn/venn.pdf" target="_blank" rel="noopener">Package ‘venn’</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>R</tag>
+        <tag>venn diagram</tag>
+        <tag>practice</tag>
       </tags>
   </entry>
   <entry>
