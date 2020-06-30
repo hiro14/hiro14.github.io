@@ -17,15 +17,15 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"hiro14.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"nachtzug.xyz","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前言 如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。  需求 我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了">
+  <meta name="description" content="前言 如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。 需求 我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查">
 <meta property="og:type" content="article">
 <meta property="og:title" content="简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图">
-<meta property="og:url" content="hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/index.html">
+<meta property="og:url" content="nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/index.html">
 <meta property="og:site_name" content="Nachtzug">
-<meta property="og:description" content="前言 如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。  需求 我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了">
+<meta property="og:description" content="前言 如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。 需求 我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.imgur.com/fxeidw1.png">
 <meta property="og:image" content="https://i.imgur.com/EF6bcVv.png">
@@ -39,7 +39,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i.imgur.com/fxeidw1.png">
 
-<link rel="canonical" href="hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/">
+<link rel="canonical" href="nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/">
 
 
 <script id="page-configurations">
@@ -193,7 +193,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/">
+    <link itemprop="mainEntityOfPage" href="nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -230,41 +230,41 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+        <h2 id="前言">前言</h2>
 <p>如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
-<h2 id="需求"><a class="markdownIt-Anchor" href="#需求"></a> 需求</h2>
-<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
-<h2 id="准备"><a class="markdownIt-Anchor" href="#准备"></a> 准备</h2>
+<h2 id="需求">需求</h2>
+<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
+<h2 id="准备">准备</h2>
 <p>一个用 Python 做了预处理的文件，格式大致如下：</p>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>groupname</th>
 <th>groupvalue</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>g1</td>
 <td>A</td>
 </tr>
-<tr>
+<tr class="even">
 <td>g1</td>
 <td>B</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>g2</td>
 <td>A</td>
 </tr>
-<tr>
-<td>…</td>
-<td>…</td>
+<tr class="even">
+<td>...</td>
+<td>...</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>g5</td>
 <td>C</td>
 </tr>
-<tr>
+<tr class="even">
 <td>g5</td>
 <td>D</td>
 </tr>
@@ -278,46 +278,44 @@
 <p>以及一个貌似是利用自己写的代码配合 matplotlib 绘图的库 <a href="https://github.com/tctianchi/pyvenn" target="_blank" rel="noopener">tctianchi/pyvenn</a></p>
 <p>方法包括 R 里面的 limma::vennDiagram, gplot::venn, venneuler, VennDiagram 和 python 里面的 pyvenn库，以及一些在线工具。</p>
 <p>其中 limma 和 venneuler 只能画三组数据,不符合我的要求，另外大佬们的文章似乎有点过时，我看现在有些包应该没那么弱了吧。至于我为什么不用 python 的库，没有为什么，就像我今晚突然不想吃我爱吃的肥宅快乐餐一样。</p>
-<p>然后发现了独立的 venn 包，上面的文章里提到2012年的时候找不到 venn 包了，但是我误打误撞在 google 首页就翻到了 venn 1.7 的文档，一看时间发布于2018年七月底<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>，就感觉很迷。研究了一会，感觉看进去了，那好吧就用它了！</p>
-<h2 id="操作"><a class="markdownIt-Anchor" href="#操作"></a> 操作</h2>
-<h3 id="基础入门三步走"><a class="markdownIt-Anchor" href="#基础入门三步走"></a> 基础入门三步走</h3>
+<p>然后发现了独立的 venn 包，上面的文章里提到2012年的时候找不到 venn 包了，但是我误打误撞在 google 首页就翻到了 venn 1.7 的文档，一看时间发布于2018年七月底<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>，就感觉很迷。研究了一会，感觉看进去了，那好吧就用它了！</p>
+<h2 id="操作">操作</h2>
+<h3 id="基础入门三步走">基础入门三步走</h3>
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">install.packages(<span class="string">"venn"</span>) <span class="comment">#安装</span></span><br><span class="line"><span class="keyword">library</span>(venn) <span class="comment">#导入</span></span><br><span class="line">?venn <span class="comment">#查看文档</span></span><br></pre></td></tr></table></figure>
 <p>前面文档说了一堆，跳过了，直奔主题看五组数据怎么画。没错我就是这么功利而不求甚解。</p>
-<h3 id="直接看-usage-里的-arguments"><a class="markdownIt-Anchor" href="#直接看-usage-里的-arguments"></a> 直接看 Usage 里的 arguments</h3>
+<h3 id="直接看-usage-里的-arguments">直接看 Usage 里的 arguments</h3>
 <blockquote>
-<p>x  -  单个数字（集合）或元模型公式，或包含设置值的<strong>列表</strong>，或包含布尔值的数据集。 <code>关键词，可以扔 list 进去</code></p>
-<p>snames  - 包含每个集名称的可选参数。</p>
-<p>ilabels  - 打印每个交叉点的标签。 <code>TRUE 是打印， FALSE 为否</code></p>
+<p>x - 单个数字（集合）或元模型公式，或包含设置值的<strong>列表</strong>，或包含布尔值的数据集。 <code>关键词，可以扔 list 进去</code></p>
+<p>snames - 包含每个集名称的可选参数。</p>
+<p>ilabels - 打印每个交叉点的标签。 <code>TRUE 是打印， FALSE 为否</code></p>
 <p>counts - 每组交集的计数的数字向量。</p>
 <p>ellipse - 尽可能将形状强制为椭圆。 <code>TRUE 是把区域变成椭圆， FALSE 为否</code></p>
-<p>zcolor  - 自定义区域的颜色矢量，或“样式”的预定义颜色</p>
+<p>zcolor - 自定义区域的颜色矢量，或“样式”的预定义颜色</p>
 <p>opacity - 就是用数值调不透明度</p>
 <p>size - 就是用数值调整绘图大小，以厘米为单位。</p>
-<p>cexil  - 就是用数值调整每个交集区域数值标签的字体大小免得看不清</p>
-<p>cexsn  - 就是用数值调整集合名称标签的字体大小</p>
-<p>borders  -  绘制所有交叉点边界 <code>看不出来效果</code></p>
+<p>cexil - 就是用数值调整每个交集区域数值标签的字体大小免得看不清</p>
+<p>cexsn - 就是用数值调整集合名称标签的字体大小</p>
+<p>borders - 绘制所有交叉点边界 <code>看不出来效果</code></p>
 </blockquote>
 <p>(对不起，上面是我机翻+脑补的，因为实在懒得打字)</p>
-<h3 id="数据导入及基本作图"><a class="markdownIt-Anchor" href="#数据导入及基本作图"></a> 数据导入及基本作图</h3>
+<h3 id="数据导入及基本作图">数据导入及基本作图</h3>
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">datasets &lt;- read.table(<span class="string">"/path/to/your/data.txt"</span>, header = <span class="literal">TRUE</span>, sep = <span class="string">'\t'</span>) <span class="comment">#导入数据，数据格式见前文，路径自己填，数据包含表头， Tab 分隔</span></span><br><span class="line">g1 = datasets$groupvalue[datasets$groupname == <span class="string">'g1'</span>] <span class="comment">#把同 groupname 的 groupvalue 们归类到一个 factor 中，下略</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">x = list(g1,g2,g3,g4,g5) <span class="comment">#将五组数据也就是五个 factor 放入一个 list 中</span></span><br><span class="line">venn(x) <span class="comment">#文氏图飞来！</span></span><br></pre></td></tr></table></figure>
 <p>出图。</p>
-<p><img src="https://i.imgur.com/fxeidw1.png" alt="" /></p>
-<h3 id="太单调来点高级的"><a class="markdownIt-Anchor" href="#太单调来点高级的"></a> 太单调？来点高级的。</h3>
+<p><img src="https://i.imgur.com/fxeidw1.png" /></p>
+<h3 id="太单调来点高级的">太单调？来点高级的。</h3>
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#指定集合名称，设置默认的颜色风格，把交集区域数值标签字体改大到1，集合名称标签字体改成0.8</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i.imgur.com/EF6bcVv.png" alt="" /></p>
+<p><img src="https://i.imgur.com/EF6bcVv.png" /></p>
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">venn(x, snames = <span class="string">"G1,G2,G3,G4,G5"</span>, ellipse = <span class="literal">TRUE</span>, zcolor = <span class="string">"style"</span>, cexil = <span class="number">1</span>, cexsn = <span class="number">0.8</span>) <span class="comment">#诸君，我喜欢椭圆</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i.imgur.com/cM2VIaz.png" alt="" /></p>
-<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
+<p><img src="https://i.imgur.com/cM2VIaz.png" /></p>
+<h2 id="后记">后记</h2>
 <p>以上就是此次玩弄 venn 包的过程，我自己的目的已经达到了，可以进行下一步的研究了。内容非常简单，我不写你们也能学会，希望大家不要因为我写的这堆乱七八糟的东西，反而看不懂了。对这个包有更深兴趣的朋友可以自行查阅文档里其他功能的介绍。</p>
 <p>venn 包支持最高七组数据的文氏图绘制，你们可以 <code>venn(7)</code> 简单看看效果。</p>
 <p><strong>参考</strong></p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://zhuanlan.zhihu.com/p/32350930" target="_blank" rel="noopener">7维韦恩图 7-set Venn Diagram | 知乎专栏</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p><a href="https://cran.r-project.org/web/packages/venn/venn.pdf" target="_blank" rel="noopener">Package ‘venn’</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p><a href="https://zhuanlan.zhihu.com/p/32350930" target="_blank" rel="noopener">7维韦恩图 7-set Venn Diagram | 知乎专栏</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><a href="https://cran.r-project.org/web/packages/venn/venn.pdf" target="_blank" rel="noopener">Package ‘venn’</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
@@ -335,7 +333,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="/hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/" title="简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图">hiro14.github.io/2019/01/19/venn-diagram-with-R-venn-package/</a>
+    <a href="/nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/" title="简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图">nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -441,7 +439,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text"> 前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需求"><span class="nav-number">2.</span> <span class="nav-text"> 需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备"><span class="nav-number">3.</span> <span class="nav-text"> 准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作"><span class="nav-number">4.</span> <span class="nav-text"> 操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#基础入门三步走"><span class="nav-number">4.1.</span> <span class="nav-text"> 基础入门三步走</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#直接看-usage-里的-arguments"><span class="nav-number">4.2.</span> <span class="nav-text"> 直接看 Usage 里的 arguments</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据导入及基本作图"><span class="nav-number">4.3.</span> <span class="nav-text"> 数据导入及基本作图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#太单调来点高级的"><span class="nav-number">4.4.</span> <span class="nav-text"> 太单调？来点高级的。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后记"><span class="nav-number">5.</span> <span class="nav-text"> 后记</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需求"><span class="nav-number">2.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备"><span class="nav-number">3.</span> <span class="nav-text">准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作"><span class="nav-number">4.</span> <span class="nav-text">操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#基础入门三步走"><span class="nav-number">4.1.</span> <span class="nav-text">基础入门三步走</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#直接看-usage-里的-arguments"><span class="nav-number">4.2.</span> <span class="nav-text">直接看 Usage 里的 arguments</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据导入及基本作图"><span class="nav-number">4.3.</span> <span class="nav-text">数据导入及基本作图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#太单调来点高级的"><span class="nav-number">4.4.</span> <span class="nav-text">太单调？来点高级的。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后记"><span class="nav-number">5.</span> <span class="nav-text">后记</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
