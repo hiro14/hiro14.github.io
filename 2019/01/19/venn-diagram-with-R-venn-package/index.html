@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"nachtzug.xyz","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"disqusjs","storage":true,"lazyload":false,"nav":{"disqusjs":{"order":-1}},"activeClass":"disqusjs"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"nachtzug.xyz","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="前言 如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。 需求 我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查">
@@ -395,13 +395,6 @@
 
           </div>
           
-    
-  <div class="comments">
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
-    </div>
-  </div>
-  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -667,23 +660,6 @@
     
 
   
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js', () => {
-    window.dsqjs = new DisqusJS({
-      api       : 'https://disqus.skk.moe/disqus/' || 'https://disqus.com/api/',
-      apikey    : 'iGFVbXwyv4BhjZeTBsmVFOq35cjXa4OjGtGQgRp8cxvzGbNPXos8K298sVn4qYeD',
-      shortname : 'nachtzug',
-      url       : "nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/",
-      identifier: "2019/01/19/venn-diagram-with-R-venn-package/",
-      title     : "简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图",
-    });
-  }, window.DisqusJS);
-});
-</script>
 
 </body>
 </html>
