@@ -5,9 +5,9 @@
   <subtitle>「夜行列車」</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="nachtzug.xyz/"/>
+  <link href="https://nachtzug.xyz/"/>
   <updated>2020-07-01T12:28:20.524Z</updated>
-  <id>nachtzug.xyz/</id>
+  <id>https://nachtzug.xyz/</id>
   
   <author>
     <name>シズル</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>兜兜转转</title>
-    <link href="nachtzug.xyz/2020/07/01/go-round-and-round/"/>
-    <id>nachtzug.xyz/2020/07/01/go-round-and-round/</id>
+    <link href="https://nachtzug.xyz/2020/07/01/go-round-and-round/"/>
+    <id>https://nachtzug.xyz/2020/07/01/go-round-and-round/</id>
     <published>2020-07-01T12:10:44.000Z</published>
     <updated>2020-07-01T12:28:20.524Z</updated>
     
@@ -37,14 +37,14 @@
     
     
     
-      <category term="日记" scheme="nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="日记" scheme="https://nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>人生的限制器</title>
-    <link href="nachtzug.xyz/2020/05/13/life-limits/"/>
-    <id>nachtzug.xyz/2020/05/13/life-limits/</id>
+    <link href="https://nachtzug.xyz/2020/05/13/life-limits/"/>
+    <id>https://nachtzug.xyz/2020/05/13/life-limits/</id>
     <published>2020-05-12T19:50:12.000Z</published>
     <updated>2020-07-01T12:28:32.540Z</updated>
     
@@ -78,14 +78,14 @@
     
     
     
-      <category term="生活" scheme="nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>为什么学魔法是浪费时间（一）</title>
-    <link href="nachtzug.xyz/2020/05/12/why-is-learning-magic-a-waste-of-time-1/"/>
-    <id>nachtzug.xyz/2020/05/12/why-is-learning-magic-a-waste-of-time-1/</id>
+    <link href="https://nachtzug.xyz/2020/05/12/why-is-learning-magic-a-waste-of-time-1/"/>
+    <id>https://nachtzug.xyz/2020/05/12/why-is-learning-magic-a-waste-of-time-1/</id>
     <published>2020-05-11T20:19:32.000Z</published>
     <updated>2020-07-01T12:31:07.002Z</updated>
     
@@ -103,18 +103,18 @@
     
     
     
-      <category term="幻想" scheme="nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
+      <category term="幻想" scheme="https://nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
     
-      <category term="写作" scheme="nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="写作" scheme="https://nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-      <category term="原创" scheme="nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
   <entry>
     <title>0202年在 Pixel C 刷魔趣ROM</title>
-    <link href="nachtzug.xyz/2020/03/28/pixel-c-mokee-magisk/"/>
-    <id>nachtzug.xyz/2020/03/28/pixel-c-mokee-magisk/</id>
+    <link href="https://nachtzug.xyz/2020/03/28/pixel-c-mokee-magisk/"/>
+    <id>https://nachtzug.xyz/2020/03/28/pixel-c-mokee-magisk/</id>
     <published>2020-03-28T06:31:48.000Z</published>
     <updated>2020-07-01T12:29:18.640Z</updated>
     
@@ -132,14 +132,14 @@
     
     
     
-      <category term="电子设备" scheme="nachtzug.xyz/tags/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87/"/>
+      <category term="电子设备" scheme="https://nachtzug.xyz/tags/%E7%94%B5%E5%AD%90%E8%AE%BE%E5%A4%87/"/>
     
   </entry>
   
   <entry>
     <title>也不知道会不会是2020年最后一篇博客</title>
-    <link href="nachtzug.xyz/2020/03/12/araya/"/>
-    <id>nachtzug.xyz/2020/03/12/araya/</id>
+    <link href="https://nachtzug.xyz/2020/03/12/araya/"/>
+    <id>https://nachtzug.xyz/2020/03/12/araya/</id>
     <published>2020-03-12T06:08:59.000Z</published>
     <updated>2020-07-01T12:27:51.551Z</updated>
     
@@ -157,14 +157,14 @@
     
     
     
-      <category term="日记" scheme="nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="日记" scheme="https://nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>草原之风与即逝之虹</title>
-    <link href="nachtzug.xyz/2020/02/16/rubbles-grassland-music/"/>
-    <id>nachtzug.xyz/2020/02/16/rubbles-grassland-music/</id>
+    <link href="https://nachtzug.xyz/2020/02/16/rubbles-grassland-music/"/>
+    <id>https://nachtzug.xyz/2020/02/16/rubbles-grassland-music/</id>
     <published>2020-02-15T19:28:34.000Z</published>
     <updated>2020-07-01T12:29:38.560Z</updated>
     
@@ -182,18 +182,18 @@
     
     
     
-      <category term="幻想" scheme="nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
+      <category term="幻想" scheme="https://nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
     
-      <category term="写作" scheme="nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="写作" scheme="https://nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-      <category term="原创" scheme="nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
   <entry>
     <title>避疫杂记</title>
-    <link href="nachtzug.xyz/2020/02/01/2020-at-home/"/>
-    <id>nachtzug.xyz/2020/02/01/2020-at-home/</id>
+    <link href="https://nachtzug.xyz/2020/02/01/2020-at-home/"/>
+    <id>https://nachtzug.xyz/2020/02/01/2020-at-home/</id>
     <published>2020-01-31T20:01:13.000Z</published>
     <updated>2020-07-01T12:27:32.242Z</updated>
     
@@ -211,14 +211,14 @@
     
     
     
-      <category term="日记" scheme="nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="日记" scheme="https://nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>去你妈的2019</title>
-    <link href="nachtzug.xyz/2019/12/29/fuck-2019/"/>
-    <id>nachtzug.xyz/2019/12/29/fuck-2019/</id>
+    <link href="https://nachtzug.xyz/2019/12/29/fuck-2019/"/>
+    <id>https://nachtzug.xyz/2019/12/29/fuck-2019/</id>
     <published>2019-12-29T03:10:23.000Z</published>
     <updated>2020-07-01T12:28:14.326Z</updated>
     
@@ -238,14 +238,14 @@
     
     
     
-      <category term="生活" scheme="nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>救世界名画还是救猫？</title>
-    <link href="nachtzug.xyz/2019/11/11/painting-or-cat-dilemma/"/>
-    <id>nachtzug.xyz/2019/11/11/painting-or-cat-dilemma/</id>
+    <link href="https://nachtzug.xyz/2019/11/11/painting-or-cat-dilemma/"/>
+    <id>https://nachtzug.xyz/2019/11/11/painting-or-cat-dilemma/</id>
     <published>2019-11-11T01:16:24.000Z</published>
     <updated>2020-07-01T12:29:10.449Z</updated>
     
@@ -263,18 +263,18 @@
     
     
     
-      <category term="幻想" scheme="nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
+      <category term="幻想" scheme="https://nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
     
-      <category term="写作" scheme="nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="写作" scheme="https://nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-      <category term="原创" scheme="nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
   <entry>
     <title>9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro</title>
-    <link href="nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/"/>
-    <id>nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/</id>
+    <link href="https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/"/>
+    <id>https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/</id>
     <published>2019-10-26T21:27:25.000Z</published>
     <updated>2020-07-01T12:28:56.855Z</updated>
     
@@ -317,14 +317,14 @@
     
     
     
-      <category term="电子产品" scheme="nachtzug.xyz/tags/%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81/"/>
+      <category term="电子产品" scheme="https://nachtzug.xyz/tags/%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81/"/>
     
   </entry>
   
   <entry>
     <title>《在无爱之森呐喊》观后感</title>
-    <link href="nachtzug.xyz/2019/10/14/the-forest-of-love-review/"/>
-    <id>nachtzug.xyz/2019/10/14/the-forest-of-love-review/</id>
+    <link href="https://nachtzug.xyz/2019/10/14/the-forest-of-love-review/"/>
+    <id>https://nachtzug.xyz/2019/10/14/the-forest-of-love-review/</id>
     <published>2019-10-14T08:58:38.000Z</published>
     <updated>2020-07-01T12:30:22.341Z</updated>
     
@@ -342,14 +342,14 @@
     
     
     
-      <category term="电影" scheme="nachtzug.xyz/tags/%E7%94%B5%E5%BD%B1/"/>
+      <category term="电影" scheme="https://nachtzug.xyz/tags/%E7%94%B5%E5%BD%B1/"/>
     
   </entry>
   
   <entry>
     <title>个人翻译 ~ 来自北方的恶龙（爱沙尼亚童话）</title>
-    <link href="nachtzug.xyz/2019/07/13/the-dragon-of-the-north/"/>
-    <id>nachtzug.xyz/2019/07/13/the-dragon-of-the-north/</id>
+    <link href="https://nachtzug.xyz/2019/07/13/the-dragon-of-the-north/"/>
+    <id>https://nachtzug.xyz/2019/07/13/the-dragon-of-the-north/</id>
     <published>2019-07-13T04:16:25.000Z</published>
     <updated>2020-07-01T12:30:16.358Z</updated>
     
@@ -367,18 +367,18 @@
     
     
     
-      <category term="幻想" scheme="nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
+      <category term="幻想" scheme="https://nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
     
-      <category term="翻译" scheme="nachtzug.xyz/tags/%E7%BF%BB%E8%AF%91/"/>
+      <category term="翻译" scheme="https://nachtzug.xyz/tags/%E7%BF%BB%E8%AF%91/"/>
     
-      <category term="传说" scheme="nachtzug.xyz/tags/%E4%BC%A0%E8%AF%B4/"/>
+      <category term="传说" scheme="https://nachtzug.xyz/tags/%E4%BC%A0%E8%AF%B4/"/>
     
   </entry>
   
   <entry>
     <title>没有名字的杀人魔</title>
-    <link href="nachtzug.xyz/2019/04/20/stand-alone-killer/"/>
-    <id>nachtzug.xyz/2019/04/20/stand-alone-killer/</id>
+    <link href="https://nachtzug.xyz/2019/04/20/stand-alone-killer/"/>
+    <id>https://nachtzug.xyz/2019/04/20/stand-alone-killer/</id>
     <published>2019-04-20T03:20:45.000Z</published>
     <updated>2020-07-01T12:29:58.054Z</updated>
     
@@ -396,18 +396,18 @@
     
     
     
-      <category term="幻想" scheme="nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
+      <category term="幻想" scheme="https://nachtzug.xyz/tags/%E5%B9%BB%E6%83%B3/"/>
     
-      <category term="写作" scheme="nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="写作" scheme="https://nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-      <category term="原创" scheme="nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://nachtzug.xyz/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
   <entry>
     <title>停滞</title>
-    <link href="nachtzug.xyz/2019/03/06/2019-03-06/"/>
-    <id>nachtzug.xyz/2019/03/06/2019-03-06/</id>
+    <link href="https://nachtzug.xyz/2019/03/06/2019-03-06/"/>
+    <id>https://nachtzug.xyz/2019/03/06/2019-03-06/</id>
     <published>2019-03-06T11:09:59.000Z</published>
     <updated>2020-07-01T12:27:26.625Z</updated>
     
@@ -431,14 +431,14 @@
     
     
     
-      <category term="日记" scheme="nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="日记" scheme="https://nachtzug.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>简单易懂的可视化魔法——用 R 的 venn 包画五组数据的文氏图</title>
-    <link href="nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/"/>
-    <id>nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/</id>
+    <link href="https://nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/"/>
+    <id>https://nachtzug.xyz/2019/01/19/venn-diagram-with-R-venn-package/</id>
     <published>2019-01-19T08:49:55.000Z</published>
     <updated>2020-07-01T12:30:49.339Z</updated>
     
@@ -456,14 +456,14 @@
     
     
     
-      <category term="R" scheme="nachtzug.xyz/tags/R/"/>
+      <category term="R" scheme="https://nachtzug.xyz/tags/R/"/>
     
   </entry>
   
   <entry>
     <title>说要写2018年末总结其实是骗人的</title>
-    <link href="nachtzug.xyz/2018/12/31/hello-2019/"/>
-    <id>nachtzug.xyz/2018/12/31/hello-2019/</id>
+    <link href="https://nachtzug.xyz/2018/12/31/hello-2019/"/>
+    <id>https://nachtzug.xyz/2018/12/31/hello-2019/</id>
     <published>2018-12-31T07:55:38.000Z</published>
     <updated>2020-07-01T12:28:26.491Z</updated>
     
@@ -528,14 +528,14 @@
     
     
     
-      <category term="生活" scheme="nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>《声之形》观后感</title>
-    <link href="nachtzug.xyz/2018/12/18/the-shape-of-voice-review/"/>
-    <id>nachtzug.xyz/2018/12/18/the-shape-of-voice-review/</id>
+    <link href="https://nachtzug.xyz/2018/12/18/the-shape-of-voice-review/"/>
+    <id>https://nachtzug.xyz/2018/12/18/the-shape-of-voice-review/</id>
     <published>2018-12-18T08:47:57.000Z</published>
     <updated>2020-07-01T12:30:31.413Z</updated>
     
@@ -553,16 +553,16 @@
     
     
     
-      <category term="动画" scheme="nachtzug.xyz/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://nachtzug.xyz/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="电影" scheme="nachtzug.xyz/tags/%E7%94%B5%E5%BD%B1/"/>
+      <category term="电影" scheme="https://nachtzug.xyz/tags/%E7%94%B5%E5%BD%B1/"/>
     
   </entry>
   
   <entry>
     <title>投胎</title>
-    <link href="nachtzug.xyz/2018/11/03/first-day/"/>
-    <id>nachtzug.xyz/2018/11/03/first-day/</id>
+    <link href="https://nachtzug.xyz/2018/11/03/first-day/"/>
+    <id>https://nachtzug.xyz/2018/11/03/first-day/</id>
     <published>2018-11-02T19:55:00.000Z</published>
     <updated>2020-07-01T12:28:08.785Z</updated>
     
@@ -580,16 +580,16 @@
     
     
     
-      <category term="生活" scheme="nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="写作" scheme="nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="写作" scheme="https://nachtzug.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
   </entry>
   
   <entry>
     <title>最近看的一些電影</title>
-    <link href="nachtzug.xyz/2018/10/29/2018oct-zaji/"/>
-    <id>nachtzug.xyz/2018/10/29/2018oct-zaji/</id>
+    <link href="https://nachtzug.xyz/2018/10/29/2018oct-zaji/"/>
+    <id>https://nachtzug.xyz/2018/10/29/2018oct-zaji/</id>
     <published>2018-10-29T06:32:16.000Z</published>
     <updated>2020-07-01T12:27:20.021Z</updated>
     
@@ -607,14 +607,14 @@
     
     
     
-      <category term="电影" scheme="nachtzug.xyz/tags/%E7%94%B5%E5%BD%B1/"/>
+      <category term="电影" scheme="https://nachtzug.xyz/tags/%E7%94%B5%E5%BD%B1/"/>
     
   </entry>
   
   <entry>
     <title>倒带</title>
-    <link href="nachtzug.xyz/2018/09/07/re-play/"/>
-    <id>nachtzug.xyz/2018/09/07/re-play/</id>
+    <link href="https://nachtzug.xyz/2018/09/07/re-play/"/>
+    <id>https://nachtzug.xyz/2018/09/07/re-play/</id>
     <published>2018-09-07T05:03:33.000Z</published>
     <updated>2020-07-01T12:29:23.841Z</updated>
     
@@ -632,7 +632,7 @@
     
     
     
-      <category term="生活" scheme="nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://nachtzug.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
