@@ -1462,13 +1462,19 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
   <entry>
     <title>9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro</title>
     <url>/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/</url>
-    <content><![CDATA[<h2 id="准备工作">准备工作</h2>
+    <content><![CDATA[<h2 id="准备工作"><a class="markdownIt-Anchor" href="#准备工作"></a> 准备工作</h2>
 <ul>
-<li><p>最新官方镜像 <a href="https://manjaro.org/download/official/xfce/" target="_blank" rel="noopener">Manjaro - XFCE 18.1.1</a></p></li>
-<li><p>轻松创建USB启动盘 <a href="https://rufus.ie/" target="_blank" rel="noopener">Rufus</a></p></li>
-<li><p>备份笔记本电脑的全部数据，格式化<del>干烂</del>机械硬盘并删除分区，重置 Windows</p></li>
+<li>
+<p>最新官方镜像 <a href="https://manjaro.org/download/official/xfce/" target="_blank" rel="noopener">Manjaro - XFCE 18.1.1</a></p>
+</li>
+<li>
+<p>轻松创建USB启动盘 <a href="https://rufus.ie/" target="_blank" rel="noopener">Rufus</a></p>
+</li>
+<li>
+<p>备份笔记本电脑的全部数据，格式化<s>干烂</s>机械硬盘并删除分区，重置 Windows</p>
+</li>
 </ul>
-<h2 id="开始安装">开始安装</h2>
+<h2 id="开始安装"><a class="markdownIt-Anchor" href="#开始安装"></a> 开始安装</h2>
 <ul>
 <li>插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述；</li>
 <li>参照 <a href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/Manjaro-User-Guide.pdf" target="_blank" rel="noopener">官方用户指南</a> 的 <em>Dual-booting with Microsoft Windows 10</em> 一节：
@@ -1476,27 +1482,29 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <li>按步骤设置语言、时区、区域、键盘布局；</li>
 <li>直至分区方式步骤，参照 <em>Erase the disk and let Calamares choose a partition scheme</em> 小节：
 <ul>
-<li>选择 Erase disk. 把系统装进128GB SSD, 设置 swap with hibernation;</li>
-</ul></li>
-</ul></li>
+<li>选择 Erase disk.  把系统装进128GB SSD, 设置 swap with hibernation;</li>
+</ul>
+</li>
+</ul>
+</li>
 <li>设置用户名和密码</li>
 <li>确认你的设置，然后<strong>坐和放宽</strong></li>
 <li>确认是否安装 LibreOffice, 可装可不装，我先不装</li>
 </ul>
 <p>安装期间查看 <a href="https://wiki.archlinux.org/index.php/Hybrid_graphics" target="_blank" rel="noopener">混合图形技术</a>，并从中查阅所有与 NVIDIA 有关的文章，并决定采用哪种方案；</p>
 <p>综合考虑后我选择 <a href="https://wiki.archlinux.org/index.php/Nvidia-xrun" target="_blank" rel="noopener">nvidia-xrun</a>. （后来发现其实最迟在17年以后就可以不用 nvidia-xrun 实现同样功能）</p>
-<h2 id="安装后调教">安装后调教</h2>
-<h3 id="设置软件源">设置软件源</h3>
+<h2 id="安装后调教"><a class="markdownIt-Anchor" href="#安装后调教"></a> 安装后调教</h2>
+<h3 id="设置软件源"><a class="markdownIt-Anchor" href="#设置软件源"></a> 设置软件源</h3>
 <p>在终端中</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo pacman-mirrors -c China -m rank</span><br><span class="line">sudo vi /etc/pacman.conf</span><br></pre></td></tr></table></figure>
 <p>在上述 <code>/etc/pacman.conf</code> 文件最后增加 archlinuxcn 源，并保存：</p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[archlinuxcn]</span><br><span class="line">SigLevel = Optional TrustedOnly</span><br><span class="line">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br></pre></td></tr></table></figure>
 <p>继续在终端中</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo pacman -Syyu</span><br><span class="line">sudo pacman -Sy archlinuxcn-keyring</span><br><span class="line">sudo pacman -S yay</span><br><span class="line">yay --aururl <span class="string">"https://aur.tuna.tsinghua.edu.cn"</span> --save</span><br></pre></td></tr></table></figure>
-<h3 id="安装本地化和基础工具">安装本地化和基础工具</h3>
+<h3 id="安装本地化和基础工具"><a class="markdownIt-Anchor" href="#安装本地化和基础工具"></a> 安装本地化和基础工具</h3>
 <p>可以且必要但不是全部：</p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo pacman -S vim</span><br><span class="line">sudo pacman -S fcitx-im fcitx-configtool fcitx-skin-material fcitx-rime fcitx-mozc fcitx-googlepinyin</span><br><span class="line">sudo pacman -S wqy-zenhei wqy-bitmapfont wqy-microhei ttf-wps-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts</span><br><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>"</span> <span class="comment">#manjaro 自带 zsh, 所以直接装 oh-my-zsh</span></span><br><span class="line">yay -S powerline-fonts-git <span class="comment">#安装 powerline 字体</span></span><br><span class="line">vim ~/.zshrc <span class="comment">#修改主题和配置</span></span><br></pre></td></tr></table></figure>
-<h3 id="提升性能">提升(?)性能</h3>
+<h3 id="提升性能"><a class="markdownIt-Anchor" href="#提升性能"></a> 提升(?)性能</h3>
 <p>修理一下 <a href="https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501" target="_blank" rel="noopener">这台机器</a> 容易出现的问题，首先遇见的是挂起后再开机会导致耳机爆音：</p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/modprobe.d/alsa-base.conf <span class="comment">#创建文件</span></span><br></pre></td></tr></table></figure>
 <p>在上述 <code>/etc/modprobe.d/alsa-base.conf</code> 中填入 <code>options snd-hda-intel model=dell-headset-multi</code></p>
@@ -1526,7 +1534,7 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>到此为止，就基本解决了安装问题。网上提到的有些操作也没有全部做完，对我来说够用就行，接下来就是慢慢装常用软件了。不过，最后重启几次发现键盘背光突然失效，明明一开始都是好的。不过不要紧， <a href="https://wiki.archlinux.org/index.php/ASUS_N550JV#Keyboard" target="_blank" rel="noopener">N550JV 的介绍</a> 里有提到键盘背光的修复方法，首先安装 <code>asus-kbd-backlight</code>, 然后在内核模块 <code>/etc/modules-load.d/modules.conf</code> 中添加 <code>asus-nb-wmi</code>, 然后让 <code>asus-kbd-backlight.service</code> 服务开机启动：</p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yay -S asus-kbd-backlight</span><br><span class="line">sudo vim /etc/modules-load.d/modules.conf <span class="comment">#添加 asus-nb-wmi</span></span><br><span class="line">systemctl <span class="built_in">enable</span> --now asus-kbd-backlight.service</span><br></pre></td></tr></table></figure>
 <p>至此完工。</p>
-<h2 id="后记">后记</h2>
+<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
 <p>重新回到 Manjaro 怀抱。</p>
 <p>上一台 Manjaro 笔记本是大二时就从我爸那里薅来的昭阳K47A，经历过 Win7, Ubuntu, Win10, Chromium OS, CentOS, Feroda, Manjaro 是我用它折腾的最后一个操作系统，当时无脑装了 GNOME 版本，也没怎么关注显卡，直接用的开源驱动，即使换了新电池，续航还是一般，硬盘也没换成 SSD, 运行效果并不堪用，只能对付轻量的工作。由于各种原因不得不把机器还给我爸了。</p>
 <p>昨天在自己的<strong>曾经的</strong>出差主力笔记本 UX501VW 上安装 Manjaro 之前，我一直在物色下一台适合出差的<strong>便携</strong>笔记本，同时要满足<strong>良好支持 Linux 发行版</strong>的要求。这么一来市面上有售的品牌新机中，能选的范围就比较少了，然而我穷，看了也是白看。</p>
@@ -1538,19 +1546,19 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>通过安装新系统让自己的旧笔记本变得焕然一新，也借此机会重新整理一下生活的方方面面吧。</p>
 ]]></content>
       <tags>
-        <tag>电子产品</tag>
+        <tag>电子垃圾</tag>
       </tags>
   </entry>
   <entry>
     <title>0202年在 Pixel C 刷魔趣ROM</title>
     <url>/2020/03/28/pixel-c-mokee-magisk/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
+    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
 <p>Pixel C 又开始电量尿崩了，放着不管一天多电就能跑光， timerfd 疯狂唤醒，就算清除 Google 数据都没用。那就一鼓作气 root 并且直接刷魔趣ROM上 Android 10 吧！</p>
-<h2 id="准备工作">准备工作</h2>
+<h2 id="准备工作"><a class="markdownIt-Anchor" href="#准备工作"></a> 准备工作</h2>
 <p>阅读资料，下载资源</p>
-<p>https://www.mokeedev.com/guide/getting_started.html</p>
-<p>https://download.mokeedev.com/dragon.html</p>
-<p>https://flash.mokeedev.com/ （其实没用，只是帮你完成一些步骤）</p>
+<p><a href="https://www.mokeedev.com/guide/getting_started.html" target="_blank" rel="noopener">https://www.mokeedev.com/guide/getting_started.html</a></p>
+<p><a href="https://download.mokeedev.com/dragon.html" target="_blank" rel="noopener">https://download.mokeedev.com/dragon.html</a></p>
+<p><a href="https://flash.mokeedev.com/" target="_blank" rel="noopener">https://flash.mokeedev.com/</a> （其实没用，只是帮你完成一些步骤）</p>
 <ul>
 <li>Magisk-v20.4.zip</li>
 <li>MK100.0-dragon-202003280436-NIGHTLY.zip</li>
@@ -1558,8 +1566,8 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <li>twrp-3.3.1-2-dragon.img</li>
 </ul>
 <p>把指定资源放进目标文件夹，再打开计算机的终端进入该文件夹。</p>
-<h2 id="刷机">刷机</h2>
-<h3 id="解锁设备">解锁设备</h3>
+<h2 id="刷机"><a class="markdownIt-Anchor" href="#刷机"></a> 刷机</h2>
+<h3 id="解锁设备"><a class="markdownIt-Anchor" href="#解锁设备"></a> 解锁设备</h3>
 <p>进入设置-开发者选项-允许 oem 解锁</p>
 <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br></pre></td></tr></table></figure>
 <p>设备重启并显示 waiting for fastboot command….</p>
@@ -1567,7 +1575,7 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>按电源键确认，设备发出一声“滴”然后重启，显示“正在清空”（为什么是中文？）</p>
 <p>有点慢……</p>
 <p>为了确保正常，重启试试（没问题，恢复出厂了，跳过激活设置重新打开 usb 调试）</p>
-<h3 id="刷入-recovery">刷入 recovery</h3>
+<h3 id="刷入-recovery"><a class="markdownIt-Anchor" href="#刷入-recovery"></a> 刷入 recovery</h3>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">adb reboot bootloader</span><br><span class="line">fastboot flash recovery .\twrp-3.3.1-2-dragon.img</span><br></pre></td></tr></table></figure>
 <p>进入重启循环无法进入 recovery？</p>
 <p>改成 <code>fastboot boot .\twrp-3.3.1-2-dragon.img</code> , 好了</p>
@@ -1578,7 +1586,7 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>卡在 Google 标志了？！</p>
 <p>为了保险，重新线刷了一次，这次终于出现 mokee logo （后来发现，卡在 Google 标志，可能多重启几次会好，大概是 nightly 不够稳定）</p>
 <p>妈的，这logo丑哭了</p>
-<h2 id="开机后设置">开机后设置</h2>
+<h2 id="开机后设置"><a class="markdownIt-Anchor" href="#开机后设置"></a> 开机后设置</h2>
 <p>像一个正常 google 设备一样设置，从 Google 云拖回设备备份，更新应用……</p>
 <p>Magisk Manager 有了，但是 safetynet 检查不通过，ctsProfile: false. 不行，这样装不了 Netflix.</p>
 <p>安装 <code>magiskhide props config</code> 和 <code>busybox</code> 模块</p>
@@ -1586,11 +1594,11 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">su</span><br><span class="line">props</span><br><span class="line">1 # edit device fingerprint</span><br><span class="line">f # Pick a certified fingerprint</span><br><span class="line"><span class="meta">#</span><span class="bash"> 找到品牌 设备 系统版本</span></span><br></pre></td></tr></table></figure>
 <p>然后就是安装其他 magisk 模块……</p>
 <p>全剧终</p>
-<h2 id="后记">后记</h2>
-<p>上一篇博客提到可能是2020年最后一篇博客，不过这篇就是打上一篇的脸。其实我是不太喜欢记录这些杂碎的技术笔记的，毕竟2020年还要折腾 Pixel C 这种设备，实在是过时了。顺便一说为了搞个纯写作环境，我自己的创作会集中放在另一个分站上 https://utsk.wordpress.com/ ，而这边的博客还是保持想到啥写啥的碎碎念状态，文字质量不会太高。</p>
+<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
+<p>上一篇博客提到可能是2020年最后一篇博客，不过这篇就是打上一篇的脸。其实我是不太喜欢记录这些杂碎的技术笔记的，毕竟2020年还要折腾 Pixel C 这种设备，实在是过时了。顺便一说为了搞个纯写作环境，我自己的创作会集中放在另一个分站上 <a href="https://utsk.wordpress.com/" target="_blank" rel="noopener">https://utsk.wordpress.com/</a> ，而这边的博客还是保持想到啥写啥的碎碎念状态，文字质量不会太高。</p>
 ]]></content>
       <tags>
-        <tag>电子设备</tag>
+        <tag>电子垃圾</tag>
       </tags>
   </entry>
   <entry>
@@ -2518,7 +2526,7 @@ E.coli | E.coli_K12.fasta | JGI | 4305 | | 1 | 1 |</div>
 <p>对于一部分需求特殊的人来说，Xperia 10 II 恰到好处，无可替代。</p>
 ]]></content>
       <tags>
-        <tag>数码</tag>
+        <tag>电子垃圾</tag>
       </tags>
   </entry>
 </search>
