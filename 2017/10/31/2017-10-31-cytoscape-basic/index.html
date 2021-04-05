@@ -22,12 +22,12 @@
     var CONFIG = {"hostname":"nachtzug.xyz","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="此文内容为未发布的教材章节，含原创部分，请勿转载。 从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 Wikipedia: Cytoscape 和 User Manual  Cytoscape 概要 Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用">
+  <meta name="description" content="此文内容为未发布的教材章节，含原创部分，请勿转载。 从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 Wikipedia: Cytoscape 和 User Manual   Cytoscape 概要 Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用于分子互">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Cytoscape 基础（文字初版）">
 <meta property="og:url" content="https://nachtzug.xyz/2017/10/31/2017-10-31-cytoscape-basic/index.html">
 <meta property="og:site_name" content="Nachtzug">
-<meta property="og:description" content="此文内容为未发布的教材章节，含原创部分，请勿转载。 从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 Wikipedia: Cytoscape 和 User Manual  Cytoscape 概要 Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用">
+<meta property="og:description" content="此文内容为未发布的教材章节，含原创部分，请勿转载。 从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 Wikipedia: Cytoscape 和 User Manual   Cytoscape 概要 Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用于分子互">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2017-10-31T04:00:00.000Z">
 <meta property="article:modified_time" content="2020-07-01T12:25:59.795Z">
@@ -230,42 +230,42 @@
 <p>此文内容为未发布的教材章节，含原创部分，请勿转载。</p>
 <p>从来没正经写过教材的章节，语言难免不通顺，而且限于篇幅，并不能涵盖太多信息，写得比较像说明书。如果对此领域已有了解或有十分学习热情的朋友，建议参考 <a href="https://en.wikipedia.org/wiki/Cytoscape" target="_blank" rel="noopener">Wikipedia: Cytoscape</a> 和 <a href="http://cytoscape.org/manual/Cytoscape3_4_0Manual.pdf" target="_blank" rel="noopener">User Manual</a></p>
 </blockquote>
-<h4 id="cytoscape-概要">Cytoscape 概要</h4>
+<h4 id="cytoscape-概要"><a class="markdownIt-Anchor" href="#cytoscape-概要"></a> Cytoscape 概要</h4>
 <p>Cytoscape 是由美国西雅图系统生物学研究所开发并于2002年发布的开源软件，主要用于分子互作网络可视化和复杂网络分析。目前软件的最新版本是3.5.1。 Cytoscape 可以运行在各种操作系统平台上。官方网址： <a href="http://cytoscape.org/" target="_blank" rel="noopener">http://cytoscape.org/</a>。</p>
-<h4 id="cytoscape-安装">Cytoscape 安装</h4>
+<h4 id="cytoscape-安装"><a class="markdownIt-Anchor" href="#cytoscape-安装"></a> Cytoscape 安装</h4>
 <p>Cytoscape 需要在 Java 运行环境的支持下使用，因此在安装 Cytoscape 之前，用户的计算机应具备 Java （官方网址： <a href="https://java.com" target="_blank" rel="noopener">https://java.com</a>）。 Cytoscape 提供了不同操作系统平台的安装包下载，你可以按照自己操作系统的配置选择对应版本下载安装。</p>
-<h4 id="cytoscape-和其他软件的比较">Cytoscape 和其他软件的比较</h4>
+<h4 id="cytoscape-和其他软件的比较"><a class="markdownIt-Anchor" href="#cytoscape-和其他软件的比较"></a> Cytoscape 和其他软件的比较</h4>
 <p>相比于其他网络可视化软件， Cytoscape 的优势体现在：操作丰富，包含大量插件，支持多种格式的导入与导出，并且能良好支持生物数据专用的文件格式（如 SBML）。Cytoscape 在系统生物学领域的应用尤为突出，并且可以应用于生物学之外的领域，它还提供了官方 JavaScript 库用于网页开发。而同样有类似特性的软件包括 R 和 Gelphi. 但是它们相对于 Cytoscape 的不足在于： R 主要面向统计计算，要进行网络分析和可视化，需要安装一些第三方的软件包，并且它完全由命令行输入代码操作，需要使用者有一定编程基础；而 Gelphi 并非针对生物学网络开发的软件，相对于 Cytoscape 功能较少，开发成熟程度也较差。</p>
 <p>相比之下， R 同样具有丰富的软件包和精细的图像导出预设，熟练使用后可以实现更加复杂的互作网络生成和分析，在学术研究领域也是比较好的选择; Gelphi 更加轻便、简化，适合生物学互作关系网络研究的初学者，此外它具备更加美观的预设和内建的统计分析模块。</p>
 <p>由于 Cytoscape 是开源软件，由核心开发团队和众多开发者共同开发维护，随着软件版本的更新，相信 Cytoscape 的功能会越来越丰富与强劲。</p>
-<h4 id="cytoscape-基本操作">Cytoscape 基本操作</h4>
-<h5 id="一认识界面">一、认识界面</h5>
+<h4 id="cytoscape-基本操作"><a class="markdownIt-Anchor" href="#cytoscape-基本操作"></a> Cytoscape 基本操作</h4>
+<h5 id="一-认识界面"><a class="markdownIt-Anchor" href="#一-认识界面"></a> 一、认识界面</h5>
 <p><a href="">Figure 1. Cytoscape 主界面</a></p>
 <p>Cytoscape 在2013年发布3.0版本后，发生了较大的变化。以3.5.1为例，目前 Cytoscape 软件的界面更加模块化。界面顶端是菜单和工具栏，用于执行各种对网络和文件的操作。占据界面左侧的是控制台，可以管理、调整并筛选网络中的节点和连线。界面最突出的区域是可视化区域，用于展示和移动网络可视化。可视化区域的下方是数据栏，以列表的形式展现网络中节点与连线的具体信息。</p>
-<h5 id="二基本网络操作">二、基本网络操作</h5>
-<h6 id="节点和连线的操作">节点和连线的操作</h6>
+<h5 id="二-基本网络操作"><a class="markdownIt-Anchor" href="#二-基本网络操作"></a> 二、基本网络操作</h5>
+<h6 id="节点和连线的操作"><a class="markdownIt-Anchor" href="#节点和连线的操作"></a> 节点和连线的操作</h6>
 <p>在可视化区域右键点击唤出快捷菜单，实现节点和连线的创建 <code>Add</code>，在可视化区域中实现节点的移动（左键拖动），节点和连线的删除或剪切（<code>Delete</code> 键或 <code>Ctrl + X</code>）视图的放大缩小（鼠标滚轮）。</p>
 <p><a href="">Figure 2. 添加节点和连线的操作</a></p>
-<h6 id="节点和连线的样式改变">节点和连线的样式改变</h6>
+<h6 id="节点和连线的样式改变"><a class="markdownIt-Anchor" href="#节点和连线的样式改变"></a> 节点和连线的样式改变</h6>
 <p>在可视化区域右键点击唤出快捷菜单，对选中节点和连线的样式进行单独设置。在控制面板的 Style 栏中实现网络全局、映射调整和对选中节点和连线的样式进行单独设置。</p>
 <p><a href="">Figure 3. 设置选中节点样式的操作</a></p>
-<h6 id="网络分析">网络分析</h6>
+<h6 id="网络分析"><a class="markdownIt-Anchor" href="#网络分析"></a> 网络分析</h6>
 <p>在菜单栏中选择 NetworkAnalyzer，运行网络分析，在数据栏生成新的列展示网络节点和连线的具体属性，计算节点的度与连线的加权。</p>
 <p><a href="">Figure 4. 运行网络分析</a></p>
-<h6 id="子网络的构建">子网络的构建</h6>
+<h6 id="子网络的构建"><a class="markdownIt-Anchor" href="#子网络的构建"></a> 子网络的构建</h6>
 <p>选择感兴趣的节点，使用菜单栏或工具栏的选项构建子网络，选择相应层级的邻接节点构建多层子网络。</p>
 <p><a href="">Figure 5. 构建子网络的操作</a></p>
-<h5 id="三文件操作">三、文件操作</h5>
-<h6 id="导入网络文件">导入网络文件</h6>
+<h5 id="三-文件操作"><a class="markdownIt-Anchor" href="#三-文件操作"></a> 三、文件操作</h5>
+<h6 id="导入网络文件"><a class="markdownIt-Anchor" href="#导入网络文件"></a> 导入网络文件</h6>
 <p>通过菜单栏或工具栏导入文件，选择文件位置，选择数据格式和属性，导入网络视图。在导入网络的过程中，你可以通过对话框与 Cytoscape 交互，调整输入数据的分隔格式。 Cytoscape 对不同文件的格式有良好的适应性，可以到入用各种符号分隔的数据表。</p>
 <p><a href="">Figure 6. 导入网络文件</a></p>
-<h6 id="导入表格">导入表格</h6>
+<h6 id="导入表格"><a class="markdownIt-Anchor" href="#导入表格"></a> 导入表格</h6>
 <p>通过菜单栏或工具栏导入表格文件，这些表格文件多为网络节点或者连线的属性注释。选择文件位置，选择数据格式和属性，导入数据栏，用于后续操作。同样，你也可以用与导入网络过程中类似的对话框与 Cytoscape 交互，调整输入数据的分隔格式。</p>
 <p><a href="">Figure 7. 导入表格</a></p>
-<h6 id="导出网络图像">导出网络图像</h6>
+<h6 id="导出网络图像"><a class="markdownIt-Anchor" href="#导出网络图像"></a> 导出网络图像</h6>
 <p>将所需导出的网络视图调整为适当大小，确保不超出可视化区域边缘。利用菜单栏或工具栏导出图像，选择文件导出位置和图像格式（支持 JPEG、 PDF、 PNG 等格式）。</p>
 <p><a href="">Figure 8. 将网络导出为图像</a></p>
-<h4 id="cytoscape-实现互作网络可视化">Cytoscape 实现互作网络可视化</h4>
+<h4 id="cytoscape-实现互作网络可视化"><a class="markdownIt-Anchor" href="#cytoscape-实现互作网络可视化"></a> Cytoscape 实现互作网络可视化</h4>
 <p>我们使用 Cytoscape 安装目录中的示例数据构建一个简单的蛋白质互作网络。在 <code>sampleData/</code> 目录中找到 <code>galFiltered.sif</code>，在 Cytoscape 中使用“导入网络”操作。点击顺序为：<code>File → Import → Network → File</code>. 观察数据栏可知该文件表示酵母蛋白的两两互作。</p>
 <p><a href="">Figure 9. 导入示例数据 galFiltered.sif</a></p>
 <p>在可视化界面即可查看导入的网络，使用菜单栏的 “Layouts” 菜单调整网络布局。使用控制面板 “Style” 页面对网络的节点、连线及整体进行手动调整。</p>
@@ -274,7 +274,7 @@
 <p><a href="">Figure 10. 对 galFiltered 进行网络分析</a></p>
 <p>完成上述工作后，再手动对网络的节点位置进行微调，移开重叠的节点。</p>
 <p>也可以参照视频教程，结合 <code>此处打码</code> 中的数据进行较大规模网络的构建。</p>
-<h4 id="cytoscape-插件">Cytoscape 插件</h4>
+<h4 id="cytoscape-插件"><a class="markdownIt-Anchor" href="#cytoscape-插件"></a> Cytoscape 插件</h4>
 <p>Cytoscape 具备丰富的插件支持，例如，用于 GO 富集分析的 BiNGO，用于文献挖掘的 Agilent Literature Search.</p>
 <p>可以在菜单中打开插件管理器，搜索所需的插件进行下载安装，也可以通过来自网络或其他位置的 jar 文件安装，安装后即可在菜单栏插件列表中点击运行。Cytoscape 在丰富的插件支持下，功能变得更加强大，也更受多个领域的研究人员的青睐。</p>
 <p><a href="">Figure 11. 插件管理器</a></p>
@@ -412,7 +412,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-概要"><span class="nav-number">1.</span> <span class="nav-text">Cytoscape 概要</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-安装"><span class="nav-number">2.</span> <span class="nav-text">Cytoscape 安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-和其他软件的比较"><span class="nav-number">3.</span> <span class="nav-text">Cytoscape 和其他软件的比较</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-基本操作"><span class="nav-number">4.</span> <span class="nav-text">Cytoscape 基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#一认识界面"><span class="nav-number">4.1.</span> <span class="nav-text">一、认识界面</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#二基本网络操作"><span class="nav-number">4.2.</span> <span class="nav-text">二、基本网络操作</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#节点和连线的操作"><span class="nav-number">4.2.1.</span> <span class="nav-text">节点和连线的操作</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#节点和连线的样式改变"><span class="nav-number">4.2.2.</span> <span class="nav-text">节点和连线的样式改变</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#网络分析"><span class="nav-number">4.2.3.</span> <span class="nav-text">网络分析</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#子网络的构建"><span class="nav-number">4.2.4.</span> <span class="nav-text">子网络的构建</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#三文件操作"><span class="nav-number">4.3.</span> <span class="nav-text">三、文件操作</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#导入网络文件"><span class="nav-number">4.3.1.</span> <span class="nav-text">导入网络文件</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#导入表格"><span class="nav-number">4.3.2.</span> <span class="nav-text">导入表格</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#导出网络图像"><span class="nav-number">4.3.3.</span> <span class="nav-text">导出网络图像</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-实现互作网络可视化"><span class="nav-number">5.</span> <span class="nav-text">Cytoscape 实现互作网络可视化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-插件"><span class="nav-number">6.</span> <span class="nav-text">Cytoscape 插件</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-概要"><span class="nav-number">1.</span> <span class="nav-text"> Cytoscape 概要</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-安装"><span class="nav-number">2.</span> <span class="nav-text"> Cytoscape 安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-和其他软件的比较"><span class="nav-number">3.</span> <span class="nav-text"> Cytoscape 和其他软件的比较</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-基本操作"><span class="nav-number">4.</span> <span class="nav-text"> Cytoscape 基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#一-认识界面"><span class="nav-number">4.1.</span> <span class="nav-text"> 一、认识界面</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#二-基本网络操作"><span class="nav-number">4.2.</span> <span class="nav-text"> 二、基本网络操作</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#节点和连线的操作"><span class="nav-number">4.2.1.</span> <span class="nav-text"> 节点和连线的操作</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#节点和连线的样式改变"><span class="nav-number">4.2.2.</span> <span class="nav-text"> 节点和连线的样式改变</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#网络分析"><span class="nav-number">4.2.3.</span> <span class="nav-text"> 网络分析</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#子网络的构建"><span class="nav-number">4.2.4.</span> <span class="nav-text"> 子网络的构建</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#三-文件操作"><span class="nav-number">4.3.</span> <span class="nav-text"> 三、文件操作</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#导入网络文件"><span class="nav-number">4.3.1.</span> <span class="nav-text"> 导入网络文件</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#导入表格"><span class="nav-number">4.3.2.</span> <span class="nav-text"> 导入表格</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#导出网络图像"><span class="nav-number">4.3.3.</span> <span class="nav-text"> 导出网络图像</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-实现互作网络可视化"><span class="nav-number">5.</span> <span class="nav-text"> Cytoscape 实现互作网络可视化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cytoscape-插件"><span class="nav-number">6.</span> <span class="nav-text"> Cytoscape 插件</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
