@@ -14,18 +14,18 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/css?family=Lato:300,300italic,400,400italic,700,700italic%7COleo+Script:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CLora:300,300italic,400,400italic,700,700italic%7CUbuntu+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/css?family=Josefin+Sans:300,300italic,400,400italic,700,700italic%7CNoto+Sans+SC:300,300italic,400,400italic,700,700italic%7CPermanent+Marker:300,300italic,400,400italic,700,700italic%7CJosefin+Slab:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CUbuntu+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.10.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-  <meta name="description" content="起因是看见妹子在服务器上配置软件遇见不少困难，走了很多弯路依然不成功，最后抱怨开发者不考虑用户。 诚然Linux下部分生物信息学软件的安装说明并不近人情，既没有明确依赖关系，也不会照顾小白把完整的命令行语句放出来，更不会每一步都提供排错方案。但是毕竟是人家开发的软件，如果没有通过安装的话不可能发布。所以虽然我也是个菜鸟，但我相信开发者，也坚持自己的方法：试-错学习。这是一种比较低级的学习方式，但">
+  <meta name="description" content="起因是看见妹子在服务器上配置软件遇见不少困难，走了很多弯路依然不成功，最后抱怨开发者不考虑用户。 诚然Linux下部分生物信息学软件的安装说明并不近人情，既没有明确依赖关系，也不会照顾小白把完整的命令行语句放出来，更不会每一步都提供排错方案。但是毕竟是人家开发的软件，如果没有通过安装的话不可能发布。所以虽然我也是个菜鸟，但我相信开发者，也坚持自己的方法：试-错学习。这是一种比较低级的学习方式，但是">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在Ubuntu安装常用生物信息学软件（一）">
 <meta property="og:url" content="https://nachtzug.xyz/2016/04/12/2016-04-02-Installation-of-common-bioinformatics-softwares-on-Ubuntu/index.html">
 <meta property="og:site_name" content="Nachtzug">
-<meta property="og:description" content="起因是看见妹子在服务器上配置软件遇见不少困难，走了很多弯路依然不成功，最后抱怨开发者不考虑用户。 诚然Linux下部分生物信息学软件的安装说明并不近人情，既没有明确依赖关系，也不会照顾小白把完整的命令行语句放出来，更不会每一步都提供排错方案。但是毕竟是人家开发的软件，如果没有通过安装的话不可能发布。所以虽然我也是个菜鸟，但我相信开发者，也坚持自己的方法：试-错学习。这是一种比较低级的学习方式，但">
+<meta property="og:description" content="起因是看见妹子在服务器上配置软件遇见不少困难，走了很多弯路依然不成功，最后抱怨开发者不考虑用户。 诚然Linux下部分生物信息学软件的安装说明并不近人情，既没有明确依赖关系，也不会照顾小白把完整的命令行语句放出来，更不会每一步都提供排错方案。但是毕竟是人家开发的软件，如果没有通过安装的话不可能发布。所以虽然我也是个菜鸟，但我相信开发者，也坚持自己的方法：试-错学习。这是一种比较低级的学习方式，但是">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2016-04-11T16:00:00.000Z">
 <meta property="article:modified_time" content="2020-07-01T12:25:18.876Z">
@@ -148,7 +148,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#r%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">1.</span> <span class="nav-text">1.R的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#blast%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">2.blast+的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bamtools%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">3.</span> <span class="nav-text">3.bamtools的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bedtools%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">4.</span> <span class="nav-text">4.bedtools的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bowtie%E5%92%8Cbowtie2%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">5.</span> <span class="nav-text">5.bowtie和bowtie2的安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#bowtie"><span class="nav-number">5.1.</span> <span class="nav-text">bowtie</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bowtie2"><span class="nav-number">5.2.</span> <span class="nav-text">bowtie2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cdhit%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">6.</span> <span class="nav-text">6.cdhit的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#clustal-omega%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">7.</span> <span class="nav-text">7.clustal omega的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cytoscape%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">8.</span> <span class="nav-text">8.cytoscape的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fastqc%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">9.</span> <span class="nav-text">9.FastQC的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#samtools%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">10.</span> <span class="nav-text">10.samtools的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tophat%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">11.</span> <span class="nav-text">11.tophat的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#circos%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">12.</span> <span class="nav-text">12.circos的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cufflinks%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">13.</span> <span class="nav-text">13.cufflinks的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE"><span class="nav-number">14.</span> <span class="nav-text">14.环境变量设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%8F%E7%BB%93"><span class="nav-number">15.</span> <span class="nav-text">小结</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1r%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">1.</span> <span class="nav-text"> 1.R的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2blast%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text"> 2.blast+的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3bamtools%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">3.</span> <span class="nav-text"> 3.bamtools的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4bedtools%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">4.</span> <span class="nav-text"> 4.bedtools的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5bowtie%E5%92%8Cbowtie2%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">5.</span> <span class="nav-text"> 5.bowtie和bowtie2的安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#bowtie"><span class="nav-number">5.1.</span> <span class="nav-text"> bowtie</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bowtie2"><span class="nav-number">5.2.</span> <span class="nav-text"> bowtie2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6cdhit%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">6.</span> <span class="nav-text"> 6.cdhit的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7clustal-omega%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">7.</span> <span class="nav-text"> 7.clustal omega的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8cytoscape%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">8.</span> <span class="nav-text"> 8.cytoscape的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9fastqc%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">9.</span> <span class="nav-text"> 9.FastQC的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10samtools%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">10.</span> <span class="nav-text"> 10.samtools的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#11tophat%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">11.</span> <span class="nav-text"> 11.tophat的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#12circos%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">12.</span> <span class="nav-text"> 12.circos的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#13cufflinks%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">13.</span> <span class="nav-text"> 13.cufflinks的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#14%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE"><span class="nav-number">14.</span> <span class="nav-text"> 14.环境变量设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%8F%E7%BB%93"><span class="nav-number">15.</span> <span class="nav-text"> 小结</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -302,115 +302,96 @@
     <div class="post-body" itemprop="articleBody">
         <p>起因是看见妹子在服务器上配置软件遇见不少困难，走了很多弯路依然不成功，最后抱怨开发者不考虑用户。</p>
 <p>诚然Linux下部分生物信息学软件的安装说明并不近人情，既没有明确依赖关系，也不会照顾小白把完整的命令行语句放出来，更不会每一步都提供排错方案。但是毕竟是人家开发的软件，如果没有通过安装的话不可能发布。所以虽然我也是个菜鸟，但我相信开发者，也坚持自己的方法：试-错学习。这是一种比较低级的学习方式，但是很有效，可以总结经验，吸取教训，通过逐步累积迈向成功。</p>
-<p>前些天看了 <a
-target="_blank" rel="noopener" href="http://environmentalomics.org/bio-linux/">Bio-Linux</a>
-的介绍，的确是个很强大的生物信息学平台，工作环境覆盖了从笔记本到服务器的多种设备。不过这个系统无非是Ubuntu
-14.04LTS整合了300多个生物信息学软件而已，过多的软件可能会很臃肿，不太适合我。所以我想何不照着Bio-Linux的软件列表取自己所需的部分，自己进行安装呢。</p>
+<p>前些天看了 <a target="_blank" rel="noopener" href="http://environmentalomics.org/bio-linux/">Bio-Linux</a> 的介绍，的确是个很强大的生物信息学平台，工作环境覆盖了从笔记本到服务器的多种设备。不过这个系统无非是Ubuntu 14.04LTS整合了300多个生物信息学软件而已，过多的软件可能会很臃肿，不太适合我。所以我想何不照着Bio-Linux的软件列表取自己所需的部分，自己进行安装呢。</p>
 <p>说干就干，先装一些基础的，中间碰到不少麻烦，感谢Google和Stackoverflow和CSDN等各种网站，让我能站在前人的肩上触碰云朵。</p>
 <p>系统是14.04 LTS （trusty），这一次装的软件是：</p>
 <blockquote>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://www.r-project.org/">R</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&amp;DOC_TYPE=Download">blast+</a></li>
+<li><a target="_blank" rel="noopener" href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&amp;DOC_TYPE=Download">blast+</a></li>
 <li><a target="_blank" rel="noopener" href="https://github.com/pezmaster31/bamtools">bamtools</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://bedtools.readthedocs.org/en/latest/">bedtools</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://bowtie-bio.sourceforge.net/index.shtml">bowtie</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://bowtie-bio.sourceforge.net/bowtie2/index.shtml">bowtie2</a></li>
+<li><a target="_blank" rel="noopener" href="http://bedtools.readthedocs.org/en/latest/">bedtools</a></li>
+<li><a target="_blank" rel="noopener" href="http://bowtie-bio.sourceforge.net/index.shtml">bowtie</a></li>
+<li><a target="_blank" rel="noopener" href="http://bowtie-bio.sourceforge.net/bowtie2/index.shtml">bowtie2</a></li>
 <li><a target="_blank" rel="noopener" href="https://github.com/weizhongli/cdhit">cd-hit</a></li>
 <li><a target="_blank" rel="noopener" href="http://www.clustal.org/omega/">clustal omega</a></li>
 <li><a target="_blank" rel="noopener" href="http://cytoscape.org/">cytoscape</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">fastqc</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">fastqc</a></li>
 <li><a target="_blank" rel="noopener" href="http://samtools.sourceforge.net/">samtools</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://ccb.jhu.edu/software/tophat/index.shtml">tophat</a></li>
+<li><a target="_blank" rel="noopener" href="http://ccb.jhu.edu/software/tophat/index.shtml">tophat</a></li>
 <li><a target="_blank" rel="noopener" href="http://www.circos.ca/">circos</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://cole-trapnell-lab.github.io/cufflinks/">cufflinks</a></li>
+<li><a target="_blank" rel="noopener" href="http://cole-trapnell-lab.github.io/cufflinks/">cufflinks</a></li>
 </ul>
 </blockquote>
-<h2 id="r的安装">1.R的安装</h2>
+<h2 id="1r的安装"><a class="markdownIt-Anchor" href="#1r的安装"></a> 1.R的安装</h2>
 <p>注：R的安装并非编译安装</p>
 <p>必装。为啥不用Ubuntu自己的软件仓库？14.04的R的版本是3.0.2，已经稍显落后，有些package装不上去。</p>
 <p>为啥不编译安装？R从镜像安装相对比较成熟，流程比较简单，也不存在某些科学上网的问题，可以快速有效解决一些依赖关系。</p>
-<p>选取一个镜像，比如https://mirrors.tuna.tsinghua.edu.cn/CRAN/
-。在/etc/apt/source.list中增加一行
-<code>deb https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/linux/ubuntu trusty/</code>
-，保存。</p>
+<p>选取一个镜像，比如https://mirrors.tuna.tsinghua.edu.cn/CRAN/ 。在/etc/apt/source.list中增加一行 <code>deb https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/linux/ubuntu trusty/</code> ，保存。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install r-base</span><br></pre></td></tr></table></figure>
 <p>然后就可以尽情使用R了。</p>
-<h2 id="blast的安装">2.blast+的安装</h2>
-<p>ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
-获取源码包。我的版本是ncbi-blast-2.3.0+-src.tar.gz;</p>
+<h2 id="2blast的安装"><a class="markdownIt-Anchor" href="#2blast的安装"></a> 2.blast+的安装</h2>
+<p><a href="ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/">ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/</a> 获取源码包。我的版本是ncbi-blast-2.3.0±src.tar.gz;</p>
 <p>在目录下解压<code>tar -zxvf ncbi-blast-2.3.0+-src.tar.gz</code></p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ncbi-blast-2.3.0+-src/c++</span><br><span class="line">sudo ./configure</span><br><span class="line"><span class="built_in">cd</span> ReleaseMT/</span><br><span class="line"><span class="built_in">cd</span> build/</span><br><span class="line">sudo make all_r</span><br></pre></td></tr></table></figure>
 <p>完成。</p>
-<h2 id="bamtools的安装">3.bamtools的安装</h2>
+<h2 id="3bamtools的安装"><a class="markdownIt-Anchor" href="#3bamtools的安装"></a> 3.bamtools的安装</h2>
 <p>bamtools的安装依赖CMake。所以先要获得CMake：<code>wget https://cmake.org/files/v3.5/cmake-3.5.1.tar.gz</code></p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf cmake-3.5.1.tar.gz</span><br><span class="line"><span class="built_in">cd</span> cmake-3.5.1/</span><br><span class="line">sudo ./bootstrap</span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
 <p>然后获取bamtools：<code>git clone https://github.com/pezmaster31/bamtools.git</code></p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> bamtools/</span><br><span class="line"><span class="built_in">mkdir</span> build</span><br><span class="line"><span class="built_in">cd</span> build/</span><br><span class="line">sudo cmake ..</span><br><span class="line">sudo make</span><br></pre></td></tr></table></figure>
 <p>完成。</p>
-<h2 id="bedtools的安装">4.bedtools的安装</h2>
+<h2 id="4bedtools的安装"><a class="markdownIt-Anchor" href="#4bedtools的安装"></a> 4.bedtools的安装</h2>
 <p>相对比较简单，进入目录直接make就好。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/arq5x/bedtools2.git</span><br><span class="line"><span class="built_in">cd</span> bedtools2/</span><br><span class="line">sudo make</span><br></pre></td></tr></table></figure>
-<h2 id="bowtie和bowtie2的安装">5.bowtie和bowtie2的安装</h2>
-<p>很简单，https://sourceforge.net/projects/bowtie-bio/files/bowtie/下载相应版本，直接make</p>
-<h3 id="bowtie">bowtie</h3>
+<h2 id="5bowtie和bowtie2的安装"><a class="markdownIt-Anchor" href="#5bowtie和bowtie2的安装"></a> 5.bowtie和bowtie2的安装</h2>
+<p>很简单，<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/bowtie-bio/files/bowtie/%E4%B8%8B%E8%BD%BD%E7%9B%B8%E5%BA%94%E7%89%88%E6%9C%AC%EF%BC%8C%E7%9B%B4%E6%8E%A5make">https://sourceforge.net/projects/bowtie-bio/files/bowtie/下载相应版本，直接make</a></p>
+<h3 id="bowtie"><a class="markdownIt-Anchor" href="#bowtie"></a> bowtie</h3>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">unzip bowtie-1.1.2-src.zip</span><br><span class="line"><span class="built_in">cd</span> bowtie-1.1.2/</span><br><span class="line">sudo make</span><br></pre></td></tr></table></figure>
-<h3 id="bowtie2">bowtie2</h3>
+<h3 id="bowtie2"><a class="markdownIt-Anchor" href="#bowtie2"></a> bowtie2</h3>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">unzip bowtie2-2.2.8-source.zip</span><br><span class="line"><span class="built_in">cd</span> bowtie2-2.2.8/</span><br><span class="line">sudo make</span><br></pre></td></tr></table></figure>
-<h2 id="cdhit的安装">6.cdhit的安装</h2>
+<h2 id="6cdhit的安装"><a class="markdownIt-Anchor" href="#6cdhit的安装"></a> 6.cdhit的安装</h2>
 <p>也很简单，还是直接make</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/weizhongli/cdhit.git</span><br><span class="line"><span class="built_in">cd</span> cdhit/</span><br><span class="line">sudo make</span><br></pre></td></tr></table></figure>
-<h2 id="clustal-omega的安装">7.clustal omega的安装</h2>
+<h2 id="7clustal-omega的安装"><a class="markdownIt-Anchor" href="#7clustal-omega的安装"></a> 7.clustal omega的安装</h2>
 <p>好，看安装说明似乎很简单。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf clustal-omega-1.2.1.tar.gz</span><br><span class="line"><span class="built_in">cd</span> clustal-omega-1.2.1/</span><br><span class="line">sudo ./configure</span><br></pre></td></tr></table></figure>
 <p>然而这里就报错：</p>
 <p><code>configure: error: Could not find argtable2.h. Try $ ./configure CFLAGS='-Iyour-argtable2-include-path</code></p>
-<p>大概是缺什么依赖吧，当然这条命令不能照抄咯，就去网上找答案，在 <a
-target="_blank" rel="noopener" href="https://www.biostars.org/p/60612/">biostar</a>
-上发现是缺libargtable2-dev。于是：</p>
+<p>大概是缺什么依赖吧，当然这条命令不能照抄咯，就去网上找答案，在 <a target="_blank" rel="noopener" href="https://www.biostars.org/p/60612/">biostar</a> 上发现是缺libargtable2-dev。于是：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install libargtable2-dev</span><br><span class="line">sudo ./configure</span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
 <p>搞定。</p>
-<h2 id="cytoscape的安装">8.cytoscape的安装</h2>
+<h2 id="8cytoscape的安装"><a class="markdownIt-Anchor" href="#8cytoscape的安装"></a> 8.cytoscape的安装</h2>
 <p>这是个好东西，是我很喜欢的一个软件，可以清楚地对网络进行可视化展示。然而软件更新规模很大，我从2.8.9换到3.2.1花了很久才适应，结果到了3.3.0又出现一些功能不会用的情况。不过现在经过一段时间的学习，已经可以领会3版本的精神了，所以可以直接使用3.4.0最新版本，只是不久之后将发布的3.5.0会有什么改动。</p>
 <p>软件倒是非常好装，解压了无需编译直接就能运行。但是cytoscape的运行依赖java8，而Ubuntu软件源默认的版本是7。好吧，从官网下了8版本的打上了，然后安装CytoScape。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf cytoscape-3.4.0.tar.gz</span><br><span class="line"><span class="built_in">cd</span> cytoscape-unix-3.4.0/</span><br><span class="line">cytoscape.sh <span class="comment">#运行cytoscape</span></span><br></pre></td></tr></table></figure>
-<h2 id="fastqc的安装">9.FastQC的安装</h2>
+<h2 id="9fastqc的安装"><a class="markdownIt-Anchor" href="#9fastqc的安装"></a> 9.FastQC的安装</h2>
 <p>这个还是不编译来的方便，从官网http://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc获取编译好的Linux用软件包fastqc_v0.11.5.zip。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">unzip fastqc_v0.11.5.zip</span><br><span class="line"><span class="built_in">cd</span> FastQC/</span><br><span class="line">sudo <span class="built_in">chmod</span> 755 fastqc</span><br></pre></td></tr></table></figure>
-<h2 id="samtools的安装">10.samtools的安装</h2>
+<h2 id="10samtools的安装"><a class="markdownIt-Anchor" href="#10samtools的安装"></a> 10.samtools的安装</h2>
 <p>要安装1.3.1版本，从官网http://www.htslib.org/download/下载samtools-1.3.1.tar.bz2。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> samtools-1.3.1/</span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
-<h2 id="tophat的安装">11.tophat的安装</h2>
-<p>若要从源码安装tophat，首先应安装boost
-C++库https://sourceforge.net/projects/boost/files/boost/1.61.0/。建议安装1.47以上的版本以便用于安装cufflinks。
+<h2 id="11tophat的安装"><a class="markdownIt-Anchor" href="#11tophat的安装"></a> 11.tophat的安装</h2>
+<p>若要从源码安装tophat，首先应安装boost C++库https://sourceforge.net/projects/boost/files/boost/1.61.0/。建议安装1.47以上的版本以便用于安装cufflinks。<br />
 从https://ccb.jhu.edu/software/tophat/downloads/tophat-2.1.1.tar.gz获取tophat源码包。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf boost_1_61_0.tar.gz</span><br><span class="line"><span class="built_in">cd</span> boost_1_61_0/</span><br><span class="line">sudo ./bootstrap.sh</span><br><span class="line">sudo ./b2 install</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">tar zxvf tophat-2.1.1.tar.gz</span><br><span class="line"><span class="built_in">cd</span> tophat-2.1.1/</span><br><span class="line">sudo ./configure</span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
-<p>完了用tutorial里的test_data测试，提示报错： [FAILED] Error:
-segment-based junction search failed with err =127
-/usr/local/bin/segment_juncs: error while loading shared libraries:
-libboost_thread.so.1.54.0: cannot open shared object file: No such file
-or directory</p>
+<p>完了用tutorial里的test_data测试，提示报错：<br />
+[FAILED]<br />
+Error: segment-based junction search failed with err =127<br />
+/usr/local/bin/segment_juncs: error while loading shared libraries: libboost_thread.so.1.54.0: cannot open shared object file: No such file or directory</p>
 <p>看来还是缺少什么库文件，下面这步我觉得并不是针对上面这个问题的，但是Google之后反正是可以解决。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install libboost-thread1.58.0</span><br></pre></td></tr></table></figure>
 <p>搞定。</p>
-<h2 id="circos的安装">12.circos的安装</h2>
+<h2 id="12circos的安装"><a class="markdownIt-Anchor" href="#12circos的安装"></a> 12.circos的安装</h2>
 <p>circos是流行的基因组圈图绘制软件，基于perl，我记得14.04版Ubuntu自带的perl还不是最新版的，所以好像没达到circos的安装要求要自己再装个perl。不过在16.04下面perl已经不是问题了，官网的安装步骤比较详细，直接下载文件解压就可以了。缺失的perl模块可以用cpan装上，但方便起见Ubuntu软件仓库也提供了所有模块的下载，所以可以先运行：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install fonts-circos-symbols fonts-cmu libcarp-always-perl libconfig-general-perl  libdata-dumper-simple-perl libdevel-symdump-perl libfont-ttf-perl libgd-perl  libgetopt-simple-perl libgraphics-colornames-perl  libgraphics-colorobject-perl libio-all-perl liblist-allutils-perl  libmath-bezier-perl libmath-round-perl libmath-vec-perl libmath-vecstat-perl  libmodule-implementation-perl libmodule-runtime-perl libnumber-format-perl  libparams-classify-perl libparams-validate-perl libpod-coverage-perl  libreadonly-perl libregexp-common-perl libset-intspan-perl libspiffy-perl  libstatistics-basic-perl libtest-pod-perl libtext-format-perl  libtry-tiny-perl</span><br></pre></td></tr></table></figure>
 <p>完成所有依赖模块（除SVG模块，需要用cpan install SVG）。</p>
-<h2 id="cufflinks的安装">13.cufflinks的安装</h2>
-<p>从http://cole-trapnell-lab.github.io/cufflinks/install/获取2.2.1版本Linux安装包。
+<h2 id="13cufflinks的安装"><a class="markdownIt-Anchor" href="#13cufflinks的安装"></a> 13.cufflinks的安装</h2>
+<p>从http://cole-trapnell-lab.github.io/cufflinks/install/获取2.2.1版本Linux安装包。<br />
 由于编译安装的过程需要设置boost、eigen和samtools的依赖，之前在14.04上已成功编译，但是由于当时没有记录，现在无法重现，不能通过make步骤，故放弃，采用更为简便的解压直接安装。</p>
-<h2 id="环境变量设置">14.环境变量设置</h2>
-<p>为使命令生效，不要忘记在用户目录下的.bashrc
-文件末尾添加路径，保存后<code>source ~/.bashrc</code></p>
-<h2 id="小结">小结</h2>
+<h2 id="14环境变量设置"><a class="markdownIt-Anchor" href="#14环境变量设置"></a> 14.环境变量设置</h2>
+<p>为使命令生效，不要忘记在用户目录下的.bashrc 文件末尾添加路径，保存后<code>source ~/.bashrc</code></p>
+<h2 id="小结"><a class="markdownIt-Anchor" href="#小结"></a> 小结</h2>
 <p>如果当时好好保存.bash_history的话，重复之前的安装步骤应该不难，遗憾的是等我想到要做这样的记录的时候，原来的计算机已经清除了一部分记录。尽管可以通过观察文件夹结构结合官网的说明推测出当时的命令，但是有些软件的安装已经没法成功。坚持大部分软件编译安装算是我的偏执吧，其实正常来说直接解压binary安装也是可以的。这篇文章在今年四月份就开始记录，但是写到中间便因为各种各样的原因搁置下来，直到现在，觉得做事总应该有始有终，才继续把它完成，其中的内容会有一些错误。这期间我个人的进步简直微不足道，文章的更新也停滞不前，说来也非常惭愧。这段时间无法静下心来学习一门技术，不过在每种技术的领域都见识了不少，感觉不断拓宽知识面也是很有意义的。希望接下来能坚持把本业搞好，争取年内有所突破吧。这些安装的软件其实在服务器上都有装，但是通过安装了解了一些系统的知识，对自己还是有很多帮助的。</p>
 
     </div>
