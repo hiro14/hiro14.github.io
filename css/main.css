@@ -234,7 +234,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Noto Serif SC, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Serif SC Semibold 600, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -1183,7 +1183,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Permanent Marker, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Press Start 2P, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 2.5em;
   font-weight: normal;
   line-height: 1.5;
