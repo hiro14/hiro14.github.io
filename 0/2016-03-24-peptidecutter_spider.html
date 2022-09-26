@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-ema.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-ema.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-ema.ico">
+  <link rel="mask-icon" href="/images/logo-ema.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/css?family=Lato:300,300italic,400,400italic,700,700italic%7CPermanent+Marker:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CLora:300,300italic,400,400italic,700,700italic%7CUbuntu+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.10.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+  <meta name="description" content="因为工作需要，写了一个爬虫爬取Expasy的peptidecutter页面。peptidecutter是一个模拟蛋白质水解的工具，本身使用Perl写成。 本来的计划是自己用Python写，参照它的蛋白水解酶酶切规则，实现序列的读入，模拟水解，输出结果的功能。然而时间有限，涉及的酶实在太多，不管是字典还是正则都很麻烦，为了快点实现功能，就猥琐一点，直接写爬虫请求pepcutter的页面就好了，反正用">
+<meta property="og:type" content="website">
+<meta property="og:title" content="A spider on Expasy Peptide Cutter, by Python">
+<meta property="og:url" content="https://nachtzug.xyz/0/2016-03-24-peptidecutter_spider.html">
+<meta property="og:site_name" content="Nachtzug">
+<meta property="og:description" content="因为工作需要，写了一个爬虫爬取Expasy的peptidecutter页面。peptidecutter是一个模拟蛋白质水解的工具，本身使用Perl写成。 本来的计划是自己用Python写，参照它的蛋白水解酶酶切规则，实现序列的读入，模拟水解，输出结果的功能。然而时间有限，涉及的酶实在太多，不管是字典还是正则都很麻烦，为了快点实现功能，就猥琐一点，直接写爬虫请求pepcutter的页面就好了，反正用">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2016-03-24T03:30:00.000Z">
+<meta property="article:modified_time" content="2020-07-01T12:25:12.295Z">
+<meta property="article:author" content="シズル">
+<meta property="article:tag" content="科研">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://nachtzug.xyz/0/2016-03-24-peptidecutter_spider">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://nachtzug.xyz/0/2016-03-24-peptidecutter_spider.html","path":"0/2016-03-24-peptidecutter_spider.html","title":"A spider on Expasy Peptide Cutter, by Python"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>A spider on Expasy Peptide Cutter, by Python | Nachtzug
+</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Nachtzug" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Nachtzug</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">「夜行列車」</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="シズル"
+      src="/images/avatar2.gif">
+  <p class="site-author-name" itemprop="name">シズル</p>
+  <div class="site-description" itemprop="description">これでいいんだよ。</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">43</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="mailto:shizuru.koiwai@gmail.com" title="E-Mail → mailto:shizuru.koiwai@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://mastodon.online/@shizuru" title="Mastodon → https:&#x2F;&#x2F;mastodon.online&#x2F;@shizuru" rel="noopener" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://sanmeiji.github.io/" title="https:&#x2F;&#x2F;sanmeiji.github.io&#x2F;" rel="noopener" target="_blank">人生的意义在于摸鱼</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://desvl.xyz/" title="https:&#x2F;&#x2F;desvl.xyz&#x2F;" rel="noopener" target="_blank">Desvl's Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://m1dor1.github.io/9.75/" title="https:&#x2F;&#x2F;m1dor1.github.io&#x2F;9.75&#x2F;" rel="noopener" target="_blank">Platform 9.75</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://hweining.online/" title="https:&#x2F;&#x2F;hweining.online&#x2F;" rel="noopener" target="_blank">hweining's garden</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://blog.lycheeee.top/" title="https:&#x2F;&#x2F;blog.lycheeee.top&#x2F;" rel="noopener" target="_blank">Lychee's Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://miyehn.me/blog/" title="https:&#x2F;&#x2F;miyehn.me&#x2F;blog&#x2F;" rel="noopener" target="_blank">槽</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://co5.me/" title="https:&#x2F;&#x2F;co5.me&#x2F;" rel="noopener" target="_blank">†少女癌†</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://boe301.wordpress.com/" title="https:&#x2F;&#x2F;boe301.wordpress.com&#x2F;" rel="noopener" target="_blank">伏波的个站</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://i.nebula.moe/" title="https:&#x2F;&#x2F;i.nebula.moe&#x2F;" rel="noopener" target="_blank">奇想齋</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.starryvoid.com/" title="https:&#x2F;&#x2F;www.starryvoid.com&#x2F;" rel="noopener" target="_blank">StarryVoid</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://ioover.net/" title="https:&#x2F;&#x2F;ioover.net&#x2F;" rel="noopener" target="_blank">读写终子</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.ogura.io/" title="https:&#x2F;&#x2F;www.ogura.io&#x2F;" rel="noopener" target="_blank">xiaocang</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://lanssshelf.home.blog/" title="https:&#x2F;&#x2F;lanssshelf.home.blog&#x2F;" rel="noopener" target="_blank">lanshome</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner page posts-expand">
+  
+  
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">A spider on Expasy Peptide Cutter, by Python
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
+
+      
+      
+      <div class="post-body">
+          <p>因为工作需要，写了一个爬虫爬取Expasy的peptidecutter页面。peptidecutter是一个模拟蛋白质水解的工具，本身使用Perl写成。</p>
+<p>本来的计划是自己用Python写，参照它的蛋白水解酶酶切规则，实现序列的读入，模拟水解，输出结果的功能。然而时间有限，涉及的酶实在太多，不管是字典还是正则都很麻烦，为了快点实现功能，就猥琐一点，直接写爬虫请求pepcutter的页面就好了，反正用同样的算法，输入相同的序列，返回的值肯定是一样的。</p>
+<p>于是开工。</p>
+<p>用到的关键模块不外乎这几个：re, urllib, urllib2。</p>
+<p>访问的url是： <a target="_blank" rel="noopener" href="http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl">http://web.expasy.org/cgi-bin/peptide_cutter&#x2F;peptidecutter.pl</a> 。</p>
+<p>需要post的value通过浏览器F12获取。</p>
+<p>写一个request header模拟浏览器。</p>
+<p>此外还有读取文件的部分，从文件中读取序列的部分。</p>
+<p>本爬虫的亮点应该就在于可以提交多序列，fasta格式，而如果对多序列没有需求，上传的是普通氨基酸序列的话，建议还是直接通过它自己网站预测水解吧，速度会快一点。</p>
+<p>然后是对抓取内容的解读，需要把水解位点和对应的酶的名称抓下来。</p>
+<p>写的时候遇到一点问题。某一个Proline-endopeptidase所在行的html代码和其他酶不一样，而且水解结果另起一行。于是不得不专门对这个酶写一个正则表达式。</p>
+<p>然后要抓的内容分六种类型：</p>
+<p>1.一般的酶，有水解，多酶切位点</p>
+<p>2.一般的酶，有水解，单酶切位点</p>
+<p>3.Proline-endopeptidase，有水解，多酶切位点</p>
+<p>4.Proline-endopeptidase，有水解，单酶切位点</p>
+<p>5.一般的酶，无水解</p>
+<p>6.Proline-endopeptidase，无水解</p>
+<p>time out属于例外。然后写if语句的时候花了不少力气，不停报错，最后写了个不是很简洁的方案，也懒得改了。</p>
+<p>最后将结果输出。运行，成功！</p>
+<p>这个程序还是有不少瑕疵的，比如条件语句太复杂，抓取的内容是纯复制（本来我的目标是根据抓取的内容高亮酶切片段的，因为最终目的是找到酶切片段中有生物活性的肽段。），缩进不够整齐等（两个空格和编辑器自动补全四个空格的混用）。希望能找个时间好好改进一下。</p>
+<p>就这样吧。</p>
+<p>以下是代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding=utf-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line">TEXT = re.<span class="built_in">compile</span>(<span class="string">&#x27;HREF=\&quot;\/peptide_cutter\/peptidecutter_enzymes\.html\#.+&#x27;</span>)</span><br><span class="line">TEXT2 = re.<span class="built_in">compile</span>(<span class="string">&#x27;HREF=\&quot;\/peptide_cutter\/peptidecutter_enzymes\.html\#Pro\&quot;\&gt;.+\n.+&#x27;</span>)</span><br><span class="line">target_file = sys.argv[<span class="number">1</span>]</span><br><span class="line">out_file = <span class="string">&quot;result.txt&quot;</span></span><br><span class="line">out = <span class="built_in">open</span>(out_file,<span class="string">&#x27;w&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">  infile = <span class="built_in">open</span>(target_file,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"><span class="keyword">except</span> IOError:</span><br><span class="line">  sys.stderr.write(<span class="string">&quot;Cannot open fasta format sequence file %s\n&quot;</span>% target_file)</span><br><span class="line">  sys.exit(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">ID = <span class="number">0</span></span><br><span class="line">seq_store = &#123;&#125;</span><br><span class="line">header_map = &#123;&#125; <span class="comment">#store the header</span></span><br><span class="line">seq = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> infile :</span><br><span class="line">  <span class="keyword">if</span> line[<span class="number">0</span>] == <span class="string">&#x27;&gt;&#x27;</span> :</span><br><span class="line">    header = line.split(<span class="string">&quot;|&quot;</span>)[<span class="number">1</span>]</span><br><span class="line">    header_map[ID] = header</span><br><span class="line">    <span class="keyword">if</span> seq != <span class="literal">None</span> :</span><br><span class="line">      seq_store[ID-<span class="number">1</span>] = seq</span><br><span class="line">    seq = <span class="string">&quot;&quot;</span></span><br><span class="line">    ID += <span class="number">1</span></span><br><span class="line">  <span class="keyword">else</span> :</span><br><span class="line">    seq = seq + line</span><br><span class="line"></span><br><span class="line">seq_store[ID-<span class="number">1</span>] = seq</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(seq_store)):</span><br><span class="line">  header = header_map[i]</span><br><span class="line">  seq = seq_store[i]</span><br><span class="line">  <span class="keyword">if</span> <span class="built_in">len</span>(seq_store[i]) &lt; <span class="number">9</span> :</span><br><span class="line">     out.write(header_map[i] + <span class="string">&quot;\t\n&quot;</span>)</span><br><span class="line">     <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">  req_header = &#123;<span class="string">&#x27;User-Agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;Accept&#x27;</span>:<span class="string">&#x27;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;Accept-Charset&#x27;</span>:<span class="string">&#x27;ISO-8859-1,utf-8;q=0.7,*;q=0.3&#x27;</span>,<span class="string">&#x27;Accept-Encoding&#x27;</span>:<span class="string">&#x27;gzip, deflate&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;Connection&#x27;</span>:<span class="string">&#x27;keep-alive&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;Referer&#x27;</span>:<span class="string">&#x27;http://web.expasy.org/peptide_cutter/&#x27;</span></span><br><span class="line">              &#125;</span><br><span class="line">  req_timeout = <span class="number">500</span></span><br><span class="line"></span><br><span class="line">  url = <span class="string">&#x27;http://web.expasy.org/cgi-bin/peptide_cutter/peptidecutter.pl&#x27;</span></span><br><span class="line">  values =  &#123;<span class="string">&#x27;protein&#x27;</span>:seq_store[i],<span class="string">&#x27;enzyme_number&#x27;</span>:<span class="string">&#x27;all_enzymes&#x27;</span>,<span class="string">&#x27;special_enzyme&#x27;</span>:<span class="string">&#x27;Chym&#x27;</span>,<span class="string">&#x27;min_prob&#x27;</span>:<span class="string">&#x27;&#x27;</span>,<span class="string">&#x27;cleavage_map&#x27;</span>:<span class="string">&#x27;cleavage_map&#x27;</span>,<span class="string">&#x27;block_size&#x27;</span>:<span class="string">&#x27;60&#x27;</span>,<span class="string">&#x27;alphtable&#x27;</span>:<span class="string">&#x27;alphtable&#x27;</span>,<span class="string">&#x27;cleave_number&#x27;</span>:<span class="string">&#x27;all&#x27;</span>,<span class="string">&#x27;cleave_exactly&#x27;</span>:<span class="string">&#x27;&#x27;</span>,<span class="string">&#x27;cleave_range_min&#x27;</span>:<span class="string">&#x27;&#x27;</span>,<span class="string">&#x27;cleave_range_max&#x27;</span>:<span class="string">&#x27;&#x27;</span>&#125;</span><br><span class="line">  data = urllib.urlencode(values)</span><br><span class="line">  req = urllib2.Request(url, data, req_header)</span><br><span class="line"></span><br><span class="line">  <span class="keyword">try</span> :</span><br><span class="line">    resp = urllib2.urlopen(req,<span class="literal">None</span>,req_timeout)</span><br><span class="line">    html = resp.read()</span><br><span class="line">    enzymeset = TEXT.findall(html)</span><br><span class="line">    pro = TEXT2.findall(html)</span><br><span class="line">    results = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(enzymeset)):</span><br><span class="line">        firstsplit = enzymeset[i].split(<span class="string">&#x27;&lt;/A&gt;&lt;/td&gt;&lt;td align=center&gt;&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span> firstsplit</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(firstsplit) &gt; <span class="number">1</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">&#x27;&quot;&gt;&#x27;</span>)[<span class="number">1</span>]</span><br><span class="line">            cleave_numbers = firstsplit[<span class="number">1</span>].split(<span class="string">&#x27;&lt;/td&gt;&lt;td&gt;&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">int</span>(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                sites = <span class="string">&#x27;,&#x27;</span>.join(firstsplit[<span class="number">1</span>].split(<span class="string">&#x27;&lt;/td&gt;&lt;td&gt;&#x27;</span>)[<span class="number">1</span>].rstrip(<span class="string">&#x27;&lt;/td&gt;&lt;tr&gt; &#x27;</span>).split(<span class="string">&#x27; &#x27;</span>)[<span class="number">1</span>:])</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                sites = firstsplit[<span class="number">1</span>].split(<span class="string">&#x27;&lt;/td&gt;&lt;td&gt;&#x27;</span>)[<span class="number">1</span>].rstrip(<span class="string">&#x27;&lt;/td&gt;&lt;tr&gt; &#x27;</span>)</span><br><span class="line">            <span class="built_in">print</span> enzyme+<span class="string">&#x27;: &#x27;</span>+sites</span><br><span class="line">            results.append(<span class="string">&#x27;Enzyme: &#x27;</span> + enzyme + <span class="string">&#x27;\tCleavage sites number: &#x27;</span> + cleave_numbers + <span class="string">&#x27;\tSites: &#x27;</span> + sites)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">&#x27;&quot;&gt;&#x27;</span>)[<span class="number">1</span>]</span><br><span class="line">            <span class="built_in">print</span> enzyme</span><br><span class="line">            <span class="keyword">if</span> enzyme == <span class="string">&#x27;Proline-endopeptidase&lt;/A&gt; &lt;A HREF=&quot;#[*] pro_note&#x27;</span>:</span><br><span class="line">                <span class="built_in">print</span> pro</span><br><span class="line">                enzyme = <span class="string">&#x27;Proline-endopeptidase&#x27;</span></span><br><span class="line">                secondsplit = pro[<span class="number">0</span>].split(<span class="string">&#x27;&lt;/td&gt;&lt;td align=center&gt;&#x27;</span>)</span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">len</span>(secondsplit) &gt; <span class="number">1</span>:</span><br><span class="line">                    cleave_numbers = secondsplit[<span class="number">1</span>].split(<span class="string">&#x27;&lt;/td&gt;&lt;td&gt;&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">                    <span class="keyword">if</span> <span class="built_in">int</span>(cleave_numbers) &gt; <span class="number">1</span>:</span><br><span class="line">                        sites = <span class="string">&#x27;,&#x27;</span>.join(secondsplit[<span class="number">1</span>].split(<span class="string">&#x27;&lt;/td&gt;&lt;td&gt;&#x27;</span>)[<span class="number">1</span>].rstrip(<span class="string">&#x27;&lt;/td&gt;&lt;tr&gt; &#x27;</span>).split(<span class="string">&#x27; &#x27;</span>)[<span class="number">1</span>:])</span><br><span class="line">                    <span class="keyword">else</span>:</span><br><span class="line">                        sites = secondsplit[<span class="number">1</span>].split(<span class="string">&#x27;&lt;/td&gt;&lt;td&gt;&#x27;</span>)[<span class="number">1</span>].rstrip(<span class="string">&#x27;&lt;/td&gt;&lt;tr&gt; &#x27;</span>)</span><br><span class="line">                    results.append(<span class="string">&#x27;Enzyme: &#x27;</span> + enzyme + <span class="string">&#x27;\tCleavage sites number: &#x27;</span> + cleave_numbers + <span class="string">&#x27;\tSites: &#x27;</span> + sites)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    sites = <span class="string">&#x27;not cut&#x27;</span></span><br><span class="line">                    results.append(<span class="string">&#x27;Enzyme: &#x27;</span> + enzyme + <span class="string">&#x27;\tSites: &#x27;</span> + sites)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                enzyme = firstsplit[<span class="number">0</span>].split(<span class="string">&#x27;&quot;&gt;&#x27;</span>)[<span class="number">1</span>].rstrip(<span class="string">&#x27;&lt;/A&gt; &lt;/td&gt;&lt;tr&gt;&#x27;</span>)</span><br><span class="line">                sites = <span class="string">&#x27;not cut&#x27;</span></span><br><span class="line">                results.append(<span class="string">&#x27;Enzyme: &#x27;</span> + enzyme + <span class="string">&#x27;\tSites: &#x27;</span> + sites)</span><br><span class="line">                <span class="built_in">print</span> enzyme+<span class="string">&#x27;: &#x27;</span>+sites</span><br><span class="line">  <span class="keyword">except</span> :</span><br><span class="line">    enzyme = <span class="string">&#x27;time_out&#x27;</span></span><br><span class="line">    sites = <span class="string">&#x27;&#x27;</span></span><br><span class="line">    <span class="built_in">print</span> enzyme+<span class="string">&#x27;: &#x27;</span>+sites</span><br><span class="line">    results.append(enzyme+<span class="string">&#x27;: &#x27;</span>+sites)</span><br><span class="line">  result = <span class="string">&#x27;\n&#x27;</span>.join(results[<span class="number">1</span>:])</span><br><span class="line">  <span class="built_in">print</span> result</span><br><span class="line">  out.write(<span class="string">&#x27;&gt;&#x27;</span>+header+<span class="string">&#x27;\n&#x27;</span>+seq+<span class="string">&#x27;\n&#x27;</span>+result+<span class="string">&quot;\n&quot;</span>)</span><br><span class="line"></span><br><span class="line">out.close()</span><br></pre></td></tr></table></figure>
+
+
+
+      </div>
+      
+      
+      
+    </div>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2016 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-pizza-slice"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"><a rel="me noopener" target="_blank" href="https://mastodon.online/@shizuru">シズル</a></span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://unpkg.com/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://unpkg.com/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://unpkg.com/katex@0.15.2/dist/katex.min.css" integrity="sha256-94CNZ/bJtwrBYZrXhCOBvpB4rZUzBnvAsirFv31TMGo=" crossorigin="anonymous">
+
+
+
+</body>
+</html>
