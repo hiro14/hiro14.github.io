@@ -2564,7 +2564,7 @@ Overflow上的一个问答</a>，原来只要在第一张图的位置加上capti
 <p>最终返回的album变量<code>&#123;&#123;steps.program.$return_value.mediaGroup&#125;&#125;</code>就是包含了图片和图注信息的JSON数组，可以直接送给<a
 href="https://i.imgur.com/Vsjh6zA.png">下一步动作📷</a>。</p>
 <p>最终效果：</p>
-<script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="moe2eropic/842" data-width="100%"></script>
+<script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="moe2eropic/1310" data-width="100%"></script>
 <h2 id="pipedream的配额限制">Pipedream的配额限制</h2>
 <p>免费用户每个月可以调用10000次（每天333次），每天使用30分钟的计算时间额度。</p>
 <p>在帐户的<a
