@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-ema.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-ema.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-ema.ico">
+  <link rel="mask-icon" href="/images/logo-ema.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=Josefin+Sans:300,300italic,400,400italic,700,700italic%7CNoto+Sans+SC:300,300italic,400,400italic,700,700italic%7CLXGW+WenKai+Mono+TC:300,300italic,400,400italic,700,700italic%7CJosefin+Slab:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CLXGW+WenKai+TC:300,300italic,400,400italic,700,700italic%7CUbuntu+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.6.0/css/all.min.css" integrity="sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="去年十月写的文章，只发在学校内部，我觉得现在 mastodon 依然有可观的吸引力，是理想的社交平台之一，故发布出来。  什么是 mastodon？  Mastodon（乳齿象），世界最大的免费、开源、去中心化的微博客网络。  mastodon 有什么特点？ 贴近 Twitter 的体验">
+<meta property="og:type" content="article">
+<meta property="og:title" content="拿以前的文章凑数，再次推广一下 mastodon">
+<meta property="og:url" content="https://nachtzug.xyz/2018/08/16/an-old-intro-of-mastodon/index.html">
+<meta property="og:site_name" content="Nachtzug">
+<meta property="og:description" content="去年十月写的文章，只发在学校内部，我觉得现在 mastodon 依然有可观的吸引力，是理想的社交平台之一，故发布出来。  什么是 mastodon？  Mastodon（乳齿象），世界最大的免费、开源、去中心化的微博客网络。  mastodon 有什么特点？ 贴近 Twitter 的体验">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-08-16T05:33:56.000Z">
+<meta property="article:modified_time" content="2020-07-01T12:27:45.909Z">
+<meta property="article:author" content="静流">
+<meta property="article:tag" content="互联网">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://nachtzug.xyz/2018/08/16/an-old-intro-of-mastodon/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nachtzug.xyz/2018/08/16/an-old-intro-of-mastodon/","path":"2018/08/16/an-old-intro-of-mastodon/","title":"拿以前的文章凑数，再次推广一下 mastodon"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>拿以前的文章凑数，再次推广一下 mastodon | Nachtzug</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Nachtzug" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Nachtzug</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">「夜行列車」</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-mastodon"><span class="nav-number">1.</span> <span class="nav-text">什么是 mastodon？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mastodon-%E6%9C%89%E4%BB%80%E4%B9%88%E7%89%B9%E7%82%B9"><span class="nav-number">2.</span> <span class="nav-text">mastodon 有什么特点？</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B4%B4%E8%BF%91-twitter-%E7%9A%84%E4%BD%93%E9%AA%8C"><span class="nav-number">2.1.</span> <span class="nav-text">贴近 Twitter 的体验</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%E5%86%85%E5%AE%B9%E5%8F%96%E5%86%B3%E4%BA%8E%E4%BD%A0%E8%87%AA%E5%B7%B1"><span class="nav-number">2.2.</span> <span class="nav-text">你看到的内容取决于你自己</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E7%BC%9D%E7%9A%84%E4%BA%A4%E6%B5%81%E6%96%B9%E5%BC%8F"><span class="nav-number">2.3.</span> <span class="nav-text">无缝的交流方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%B1%BB%E4%BC%BC%E6%9C%8B%E5%8F%8B%E5%9C%88%E7%9A%84%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4"><span class="nav-number">2.4.</span> <span class="nav-text">类似朋友圈的隐私保护</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mastodon-%E6%98%AF%E6%80%8E%E4%B9%88%E8%BF%90%E8%A1%8C%E7%9A%84"><span class="nav-number">3.</span> <span class="nav-text">mastodon 是怎么运行的？</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96"><span class="nav-number">3.1.</span> <span class="nav-text">去中心化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%92%8C-twitter-%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E5%90%8C"><span class="nav-number">3.2.</span> <span class="nav-text">和 Twitter 有什么不同</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E6%9C%AC%E5%9C%B0%E6%97%B6%E9%97%B4%E7%BA%BF%E5%92%8C%E8%B7%A8%E7%AB%99%E6%97%B6%E9%97%B4%E7%BA%BF"><span class="nav-number">3.3.</span> <span class="nav-text">什么是本地时间线和跨站时间线</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-mastodon"><span class="nav-number">4.</span> <span class="nav-text">如何使用 mastodon</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C"><span class="nav-number">4.1.</span> <span class="nav-text">注册</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BD%91%E9%A1%B5%E7%89%88"><span class="nav-number">4.2.</span> <span class="nav-text">网页版</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#android"><span class="nav-number">4.3.</span> <span class="nav-text">Android</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ios"><span class="nav-number">4.4.</span> <span class="nav-text">iOS</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%AE%9E%E4%BE%8B"><span class="nav-number">5.</span> <span class="nav-text">如何选择实例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mastodon-%E7%9C%9F%E7%9A%84%E8%83%BD%E6%88%90%E4%B8%BA%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E7%9A%84%E6%9C%AA%E6%9D%A5%E5%90%97"><span class="nav-number">6.</span> <span class="nav-text">mastodon
+真的能成为社交网络的未来吗？</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="静流"
+      src="/images/logo-ema.png">
+  <p class="site-author-name" itemprop="name">静流</p>
+  <div class="site-description" itemprop="description">これでいいんだよ。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">34</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://mas.to/@shizuru" title="Mastodon → https:&#x2F;&#x2F;mas.to&#x2F;@shizuru" rel="noopener me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="https://sanmeiji.github.io/" title="https:&#x2F;&#x2F;sanmeiji.github.io&#x2F;" rel="noopener" target="_blank">人生的意义在于摸鱼</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://desvl.xyz/" title="https:&#x2F;&#x2F;desvl.xyz&#x2F;" rel="noopener" target="_blank">Desvl's Blog</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://blog.lycheeee.top/" title="https:&#x2F;&#x2F;blog.lycheeee.top&#x2F;" rel="noopener" target="_blank">Lychee's Blog</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://miyehn.me/blog/" title="https:&#x2F;&#x2F;miyehn.me&#x2F;blog&#x2F;" rel="noopener" target="_blank">槽</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://boe301.wordpress.com/" title="https:&#x2F;&#x2F;boe301.wordpress.com&#x2F;" rel="noopener" target="_blank">伏波的个站</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://blog.mistivia.com/" title="https:&#x2F;&#x2F;blog.mistivia.com&#x2F;" rel="noopener" target="_blank">Scriptum Mistiviae</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://www.starryvoid.com/" title="https:&#x2F;&#x2F;www.starryvoid.com&#x2F;" rel="noopener" target="_blank">StarryVoid</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://ioover.net/" title="https:&#x2F;&#x2F;ioover.net&#x2F;" rel="noopener" target="_blank">读写终子</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://www.ogura.io/" title="https:&#x2F;&#x2F;www.ogura.io&#x2F;" rel="noopener" target="_blank">xiaocang</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://nachtzug.xyz/2018/08/16/an-old-intro-of-mastodon/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/logo-ema.png">
+      <meta itemprop="name" content="静流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nachtzug">
+      <meta itemprop="description" content="これでいいんだよ。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="拿以前的文章凑数，再次推广一下 mastodon | Nachtzug">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          拿以前的文章凑数，再次推广一下 mastodon
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-08-16 13:33:56" itemprop="dateCreated datePublished" datetime="2018-08-16T13:33:56+08:00">2018-08-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2020-07-01 20:27:45" itemprop="dateModified" datetime="2020-07-01T20:27:45+08:00">2020-07-01</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>去年十月写的文章，只发在学校内部，我觉得现在 mastodon
+依然有可观的吸引力，是理想的社交平台之一，故发布出来。</p>
+</blockquote>
+<h3 id="什么是-mastodon">什么是 mastodon？</h3>
+<blockquote>
+<p>Mastodon（乳齿象），世界最大的免费、开源、去中心化的微博客网络。</p>
+</blockquote>
+<h3 id="mastodon-有什么特点">mastodon 有什么特点？</h3>
+<h4 id="贴近-twitter-的体验">贴近 Twitter 的体验</h4>
+<p>乍一看和 Twitter 有诸多相似的 mastodon，
+首页内容严格按照发布时间排序，可以发布图片和动图，每一条嘟文（toot）限制500字，不支持带评论转发，页面不含任何广告。界面
+UI 则与 TweetDeck 的多栏设计相似。</p>
+<h4 id="你看到的内容取决于你自己">你看到的内容取决于你自己</h4>
+<p>mastodon 最重要的特征就是 <strong>去中心化</strong>
+。因此用户更容易看到自己关注的内容，并且内容的发布永远是靠新取胜。不像
+Twitter
+和微博，它们经过调整的时间线将热度作为内容展示的决定性因素，这就导致了首页挤满了大V和各种八竿子打不着的抖机灵式热评，拉大了用户之间的鸿沟。</p>
+<h4 id="无缝的交流方式">无缝的交流方式</h4>
+<p>传统的社交网络在用户管理的思想上比较一致，即让所有用户通过一个固定入口进行登录和注册，带着用户数据脱离比较困难。而
+mastodon 在这一点上的逻辑完全不同。在 mastodon 网络中存在大量的
+<strong>实例</strong>
+，用户可以选择任意实例入驻，遵守该实例的规则，围绕该实例的兴趣点发布内容，也可以利用跨站时间轴机制浏览网络中其他实例的内容，实现跨实例的连接和无缝互动。这样用户只需在一个实例注册，就能看到多个实例用户推送的内容。如果你对当前所在实例有所不满，可以选择删除这个实例的帐号并导出数据，在另一个实例注册，将之前帐号的数据导入，确保原来的关注内容不会丢失。</p>
+<h4 id="类似朋友圈的隐私保护">类似朋友圈的隐私保护</h4>
+<p>mastodon
+设置了多级隐私保护，你发布的内容可以是对全网公开，可以公开而不显示在公共时间线，也可以是仅关注者可见。</p>
+<h3 id="mastodon-是怎么运行的">mastodon 是怎么运行的？</h3>
+<h4 id="去中心化">去中心化</h4>
+<p>去中心化有多种形式，而 mastodon 属于“联邦”型。它更像是 e-mail
+的形式，而非 BitTorrent。就像有多家电子邮件服务器一样， mastodon
+有多个实例（服务器），用户在其中一个实例上拥有帐户，但是不管帐户在哪里，都可以交流并互相关注。</p>
+<h4 id="和-twitter-有什么不同">和 Twitter 有什么不同</h4>
+<p>任何人都可以运行一个 mastodon 服务器，建立他们自己的规则。而 Twitter
+是中心化的，为每个用户制定了统一的规则。</p>
+<h4 id="什么是本地时间线和跨站时间线">什么是本地时间线和跨站时间线</h4>
+<p>本地时间线是你注册的实例的站内用户嘟文的列表，而跨站时间线是你的实例所能知道的所有嘟文的整合，具体来说就是你和其他本地用户所关注的所有用户的嘟文的列表。</p>
+<h3 id="如何使用-mastodon">如何使用 mastodon</h3>
+<h4 id="注册">注册</h4>
+<p>互联网上存在大量的公共 mastodon
+实例，选择一个志趣相投的站，用邮箱注册。</p>
+<h4 id="网页版">网页版</h4>
+<p>每个实例的网页版界面都非常相似，可以在 PC
+或移动端的浏览器进行访问，体验最原生，但是受系统所限可能没有通知推送。</p>
+<h4 id="android">Android</h4>
+<p>mastodon 没有官方客户端，可以尝试 <a
+target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.keylesspalace.tusky"
+title="Tusky">Tusky</a>, <a
+target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=org.mariotaku.twidere"
+title="Twidere">Twidere</a>, <a
+target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=club.tootdon.app"
+title="Tootdon">Tootdon</a>, <a
+target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=jp.pxv.pawoo"
+title="Pawoo">Pawoo</a> 等。</p>
+<h4 id="ios">iOS</h4>
+<p>可以尝试 <a
+target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/amaroq-for-mastodon/id1214116200"
+title="Amaroq">Amaroq</a> 和 <a
+target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/pawoo/id1229070679"
+title="Pawoo">Pawoo</a></p>
+<h3 id="如何选择实例">如何选择实例</h3>
+<p>看着顺眼就行，喜欢就注册，不喜欢就删号走人，要是你所在的实例因为众所周知的原因无法访问，可以迁移到其他实例。</p>
+<p>可以利用 https://instances.social/ 工具进行搜索。</p>
+<p>中文站：</p>
+<p><a target="_blank" rel="noopener" href="https://cmx.im">https://cmx.im</a>
+一个较活跃中文实例，昨天用户突破1000（现在3800+），话题很多，风气是版聊，原则上不鼓励政治话题，比较轻松。自定义表情包很萌。（<em>2018年更新：后来由于各种原因不幸被
+DNS 污染，一度与整个 mastodon
+宇宙断开连接，但是在用户的坚持之下总算度过了废站危机，是一个到现在都生机勃勃的中文站。访问需要设置
+hosts 或者其他抗污染方式</em>）</p>
+<p><a target="_blank" rel="noopener" href="https://mao.daizhige.org">https://mao.daizhige.org</a>
+殆知阁建立的中文实例，原则上只发喵相关的内容。</p>
+<p><a target="_blank" rel="noopener" href="https://acg.mn">https://acg.mn</a> 大概是以 acg
+内容为主的中文实例，但是维护者已经神隐了一个月左右。</p>
+<p>日文站：</p>
+<p><a target="_blank" rel="noopener" href="https://pawoo.net">https://pawoo.net</a> 是 pixiv
+建立的实例，基本上是日文用户，画画产粮型用户的乐园。但是由于上个月涌入不少中文微博用户，可能对气氛有所影响，昨天有较为活跃的日文用户开始学起了中文网络用语……</p>
+<h3 id="mastodon-真的能成为社交网络的未来吗">mastodon
+真的能成为社交网络的未来吗？</h3>
+<p>个人意见，比较难。（<em>2018年更新：目前看来还是能打的</em>）因为去中心化叫了很多年，还是免不了向再中心化发展。mastodon
+仍然是社交网络中的一股清流，它可能无法撼动社交老大哥的统治地位，但是仍然能在全球范围内占据一席之地，随着联合宇宙的扩张，小的服务器无法承受用户数量增长而关闭，而有大企业支撑的大型实例能够吸引越来越多的用户入驻，这种去中心化的发展趋势又能坚持多久呢？</p>
+<p>至少在目前， mastodon 是微博和 Twitter
+的替代方案之一，只要去尝试，你就能发现它的魅力。</p>
+<blockquote>
+<p>这就是一个社交网络版的人口迁移的模型，每个 Mastodon
+实例可以看作是一个城邦，Mastodon
+实例的服务水平类似于城邦的吸引力，每个城邦的公民都有自己的评价模式，当现在的城邦不能满足他的要求时，他就会迁移到另一个城邦了。在
+Mastodon 中则意味着他不再上那个 Mastodon 站点，转而经常使用另一个。</p>
+</blockquote>
+<blockquote>
+<p>可以推测，按照现有的 Mastodon
+形式，最后很有可能会形成全世界只有一部分大城邦（从现在的 toots
+数量上来看，已经有这个趋势了），剩下一些小的城邦（它们要么有着特定的用户，或者忠实的用户，总之会是一个小圈子），还有不少城邦会消失。或许还会产生有不少加入需要收费城邦。</p>
+</blockquote>
+<blockquote>
+<p>Mastodon
+或许会将原来世界里一个巨大的帝国分解，但是按现在的方式，它的结果是产生一部分大型城邦，一部分小圈子城邦。从去中心化的角度来说，它是将一个中心变成了多个主要中心，以及多数零散的点。如果
+Mastodon
+实例的运营者们持乐观或中立态度的话，那么社交网络在可预见的未来的形态大概就是这样吧，这是
+Mastodon 对社交网络作出的回答。</p>
+</blockquote>
+<p>参考文献：</p>
+<p><a
+target="_blank" rel="noopener" href="https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/FAQ.md">https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/FAQ.md</a></p>
+<p><a
+target="_blank" rel="noopener" href="https://blog.0xbbc.com/2017/04/mastodon-whats-the-form-of-social-network-in-the-future/">https://blog.0xbbc.com/2017/04/mastodon-whats-the-form-of-social-network-in-the-future/</a></p>
+<p><a
+target="_blank" rel="noopener" href="http://news.qq.com/original/dujiabianyi/mastdon.html">http://news.qq.com/original/dujiabianyi/mastdon.html</a></p>
+<p><a
+target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/26380590">https://zhuanlan.zhihu.com/p/26380590</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>静流
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://nachtzug.xyz/2018/08/16/an-old-intro-of-mastodon/" title="拿以前的文章凑数，再次推广一下 mastodon">https://nachtzug.xyz/2018/08/16/an-old-intro-of-mastodon/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91/" rel="tag"># 互联网</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2018/07/24/farewell-to-the-bengali/" rel="prev" title="告别一个孟加拉人">
+                  <i class="fa fa-angle-left"></i> 告别一个孟加拉人
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2018/09/07/re-play/" rel="next" title="倒带">
+                  倒带 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2016 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-pizza-slice"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder"><a rel="me noopener" target="_blank" href="https://mas.to/@shizuru">©shizuru</a></span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://unpkg.com/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  <script src="https://unpkg.com/hexo-generator-searchdb@1.4.1/dist/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://unpkg.com/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+
+
+
+</body>
+</html>

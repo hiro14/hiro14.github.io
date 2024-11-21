@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-ema.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-ema.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-ema.ico">
+  <link rel="mask-icon" href="/images/logo-ema.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=Josefin+Sans:300,300italic,400,400italic,700,700italic%7CNoto+Sans+SC:300,300italic,400,400italic,700,700italic%7CLXGW+WenKai+Mono+TC:300,300italic,400,400italic,700,700italic%7CJosefin+Slab:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CLXGW+WenKai+TC:300,300italic,400,400italic,700,700italic%7CUbuntu+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.6.0/css/all.min.css" integrity="sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="准备工作  最新官方镜像 Manjaro - XFCE 18.1.1 轻松创建USB启动盘 Rufus 备份笔记本电脑的全部数据，格式化干烂机械硬盘并删除分区，重置 Windows  开始安装  插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述； 参照 官方用户指南 的 Dual-booting with Microsoft Windows">
+<meta property="og:type" content="article">
+<meta property="og:title" content="9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro">
+<meta property="og:url" content="https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/index.html">
+<meta property="og:site_name" content="Nachtzug">
+<meta property="og:description" content="准备工作  最新官方镜像 Manjaro - XFCE 18.1.1 轻松创建USB启动盘 Rufus 备份笔记本电脑的全部数据，格式化干烂机械硬盘并删除分区，重置 Windows  开始安装  插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述； 参照 官方用户指南 的 Dual-booting with Microsoft Windows">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-10-26T21:27:25.000Z">
+<meta property="article:modified_time" content="2020-07-08T13:58:37.374Z">
+<meta property="article:author" content="静流">
+<meta property="article:tag" content="电子垃圾">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/","path":"2019/10/27/manjaro-installation-zenbook-pro-ux501vw/","title":"9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro | Nachtzug</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Nachtzug" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Nachtzug</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">「夜行列車」</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">开始安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%90%8E%E8%B0%83%E6%95%99"><span class="nav-number">3.</span> <span class="nav-text">安装后调教</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%BA%90"><span class="nav-number">3.1.</span> <span class="nav-text">设置软件源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E6%9C%AC%E5%9C%B0%E5%8C%96%E5%92%8C%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7"><span class="nav-number">3.2.</span> <span class="nav-text">安装本地化和基础工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%90%E5%8D%87%E6%80%A7%E8%83%BD"><span class="nav-number">3.3.</span> <span class="nav-text">提升(?)性能</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="nav-number">4.</span> <span class="nav-text">后记</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="静流"
+      src="/images/logo-ema.png">
+  <p class="site-author-name" itemprop="name">静流</p>
+  <div class="site-description" itemprop="description">これでいいんだよ。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">34</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://mas.to/@shizuru" title="Mastodon → https:&#x2F;&#x2F;mas.to&#x2F;@shizuru" rel="noopener me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="https://sanmeiji.github.io/" title="https:&#x2F;&#x2F;sanmeiji.github.io&#x2F;" rel="noopener" target="_blank">人生的意义在于摸鱼</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://desvl.xyz/" title="https:&#x2F;&#x2F;desvl.xyz&#x2F;" rel="noopener" target="_blank">Desvl's Blog</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://blog.lycheeee.top/" title="https:&#x2F;&#x2F;blog.lycheeee.top&#x2F;" rel="noopener" target="_blank">Lychee's Blog</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://miyehn.me/blog/" title="https:&#x2F;&#x2F;miyehn.me&#x2F;blog&#x2F;" rel="noopener" target="_blank">槽</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://boe301.wordpress.com/" title="https:&#x2F;&#x2F;boe301.wordpress.com&#x2F;" rel="noopener" target="_blank">伏波的个站</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://blog.mistivia.com/" title="https:&#x2F;&#x2F;blog.mistivia.com&#x2F;" rel="noopener" target="_blank">Scriptum Mistiviae</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://www.starryvoid.com/" title="https:&#x2F;&#x2F;www.starryvoid.com&#x2F;" rel="noopener" target="_blank">StarryVoid</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://ioover.net/" title="https:&#x2F;&#x2F;ioover.net&#x2F;" rel="noopener" target="_blank">读写终子</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://www.ogura.io/" title="https:&#x2F;&#x2F;www.ogura.io&#x2F;" rel="noopener" target="_blank">xiaocang</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/logo-ema.png">
+      <meta itemprop="name" content="静流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nachtzug">
+      <meta itemprop="description" content="これでいいんだよ。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro | Nachtzug">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-10-27 05:27:25" itemprop="dateCreated datePublished" datetime="2019-10-27T05:27:25+08:00">2019-10-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2020-07-08 21:58:37" itemprop="dateModified" datetime="2020-07-08T21:58:37+08:00">2020-07-08</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="准备工作">准备工作</h2>
+<ul>
+<li><p>最新官方镜像 <a
+target="_blank" rel="noopener" href="https://manjaro.org/download/official/xfce/">Manjaro - XFCE
+18.1.1</a></p></li>
+<li><p>轻松创建USB启动盘 <a target="_blank" rel="noopener" href="https://rufus.ie/">Rufus</a></p></li>
+<li><p>备份笔记本电脑的全部数据，格式化<del>干烂</del>机械硬盘并删除分区，重置
+Windows</p></li>
+</ul>
+<h2 id="开始安装">开始安装</h2>
+<ul>
+<li>插上 USB 启动盘，开机 F2 进入 BIOS
+设置各种启动选项，不在此赘述；</li>
+<li>参照 <a
+target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/Manjaro-User-Guide.pdf">官方用户指南</a>
+的 <em>Dual-booting with Microsoft Windows 10</em> 一节：
+<ul>
+<li>按步骤设置语言、时区、区域、键盘布局；</li>
+<li>直至分区方式步骤，参照 <em>Erase the disk and let Calamares choose a
+partition scheme</em> 小节：
+<ul>
+<li>选择 Erase disk. 把系统装进128GB SSD, 设置 swap with
+hibernation;</li>
+</ul></li>
+</ul></li>
+<li>设置用户名和密码</li>
+<li>确认你的设置，然后<strong>坐和放宽</strong></li>
+<li>确认是否安装 LibreOffice, 可装可不装，我先不装</li>
+</ul>
+<p>安装期间查看 <a
+target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Hybrid_graphics">混合图形技术</a>，并从中查阅所有与
+NVIDIA 有关的文章，并决定采用哪种方案；</p>
+<p>综合考虑后我选择 <a
+target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Nvidia-xrun">nvidia-xrun</a>.
+（后来发现其实最迟在17年以后就可以不用 nvidia-xrun 实现同样功能）</p>
+<h2 id="安装后调教">安装后调教</h2>
+<h3 id="设置软件源">设置软件源</h3>
+<p>在终端中</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman-mirrors -c China -m rank</span><br><span class="line"><span class="built_in">sudo</span> vi /etc/pacman.conf</span><br></pre></td></tr></table></figure>
+<p>在上述 <code>/etc/pacman.conf</code> 文件最后增加 archlinuxcn
+源，并保存：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[archlinuxcn]</span><br><span class="line">SigLevel = Optional TrustedOnly</span><br><span class="line">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br></pre></td></tr></table></figure>
+<p>继续在终端中</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Syyu</span><br><span class="line"><span class="built_in">sudo</span> pacman -Sy archlinuxcn-keyring</span><br><span class="line"><span class="built_in">sudo</span> pacman -S yay</span><br><span class="line">yay --aururl <span class="string">&quot;https://aur.tuna.tsinghua.edu.cn&quot;</span> --save</span><br></pre></td></tr></table></figure>
+<h3 id="安装本地化和基础工具">安装本地化和基础工具</h3>
+<p>可以且必要但不是全部：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S vim</span><br><span class="line"><span class="built_in">sudo</span> pacman -S fcitx-im fcitx-configtool fcitx-skin-material fcitx-rime fcitx-mozc fcitx-googlepinyin</span><br><span class="line"><span class="built_in">sudo</span> pacman -S wqy-zenhei wqy-bitmapfont wqy-microhei ttf-wps-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts</span><br><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>&quot;</span> <span class="comment">#manjaro 自带 zsh, 所以直接装 oh-my-zsh</span></span><br><span class="line">yay -S powerline-fonts-git <span class="comment">#安装 powerline 字体</span></span><br><span class="line">vim ~/.zshrc <span class="comment">#修改主题和配置</span></span><br></pre></td></tr></table></figure>
+<h3 id="提升性能">提升(?)性能</h3>
+<p>修理一下 <a
+target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501">这台机器</a>
+容易出现的问题，首先遇见的是挂起后再开机会导致耳机爆音：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/modprobe.d/alsa-base.conf <span class="comment">#创建文件</span></span><br></pre></td></tr></table></figure>
+<p>在上述 <code>/etc/modprobe.d/alsa-base.conf</code> 中填入
+<code>options snd-hda-intel model=dell-headset-multi</code></p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> Programs <span class="comment">#随便新建个文件夹放软件，针对有整理癖的用户</span></span><br><span class="line"><span class="built_in">cd</span> Programs</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/dakatapetrov/zenbook-pro-ux501vw-sound-fix.git <span class="comment">#dakatapetrov 制作的修复工具</span></span><br><span class="line"><span class="built_in">cd</span> zenbook-pro-ux501vw-sound-fix/</span><br><span class="line">./install.sh </span><br></pre></td></tr></table></figure>
+<p>要为英特尔显卡启用节能功能，创建
+<code>/etc/modprobe.d/i915.conf</code> 文件并包含以下内容:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">options i915 enable_rc6=1 enable_fbc=1 lvds_downclock=1 semaphores=1</span><br></pre></td></tr></table></figure>
+<p>然而我并不知道如何检查效果，据说甚至会导致屏幕冻结，尽管我还没碰到过这种情况。</p>
+<p><strong>警告：经过两天测试，我认为下面的方案存在不小的问题，或者性能表现不佳，可能完全是错误的，请勿模仿</strong></p>
+<p>接下来要解决的就是N卡切换问题，参照 <a
+target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Nvidia-xrun_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">nvidia-xrun</a>：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">uname</span> -r <span class="comment">#检查内核版本</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S nvidia bbswitch <span class="comment">#在接下来的对话中我选择对应内核版本的最新驱动</span></span><br><span class="line">yay -S nvidia-xrun <span class="comment">#也有其他版本可以选，我最终选了 nvidia-xrun-git</span></span><br><span class="line">lspci | grep -i nvidia | awk <span class="string">&#x27;&#123;print $1&#125;&#x27;</span> <span class="comment">#确认返回值，是不是1:0:0</span></span><br><span class="line"><span class="built_in">sudo</span> vim /etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</span><br></pre></td></tr></table></figure>
+<p>在上述 <code>/etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</code>
+文件中写入</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Section <span class="string">&quot;Device&quot;</span></span><br><span class="line">    Identifier <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    Driver <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    BusID <span class="string">&quot;PCI:1:0:0&quot;</span> <span class="comment">#对应此处1:0:0</span></span><br><span class="line">EndSection</span><br></pre></td></tr></table></figure>
+<p>然后</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Rdd nvidia-utils <span class="comment">#然而这一步在我的电脑没有实际效果，因为 nvidia-utils 并未安装</span></span><br><span class="line">vim ~/.nvidia-xinitrc</span><br></pre></td></tr></table></figure>
+<p>在上述 <code>~/.nvidia-xinitrc</code> 文件中写入</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> -gt 0 ]; <span class="keyword">then</span></span><br><span class="line">  $*</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">  <span class="comment"># openbox-session</span></span><br><span class="line">  <span class="comment"># Alternatively, you can also use xfce4:</span></span><br><span class="line">  xfce4-session <span class="comment">#第一次我可能在这里忘记修改注释的位置，使用了 openbox-session, 重启电脑后只显示 ASUS logo, 风扇狂转，无法进入系统</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+<p>然后</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> -i</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;bbswitch &#x27;</span> &gt; /etc/modules-load.d/bbswitch.conf <span class="comment">#在启动时载入 bbswitch 模块</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;options bbswitch load_state=0 unload_state=1&#x27;</span> &gt; /etc/modprobe.d/bbswitch.conf <span class="comment">#在启动时关闭 nvidia 模块</span></span><br><span class="line">vim /usr/lib/modprobe.d/nvidia-xrun.conf <span class="comment">#将 nvidia 相关模块加入黑名单</span></span><br></pre></td></tr></table></figure>
+<p>第一次，我参照 <a
+target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Nvidia-xrun">英文版</a>
+在上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code> 文件中写入</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#似乎有问题</span></span><br><span class="line">blacklist nvidia</span><br><span class="line">blacklist nvidia-drm</span><br><span class="line">blacklist nvidia-modeset</span><br><span class="line">blacklist nvidia-uvm</span><br><span class="line">blacklist nouveau</span><br></pre></td></tr></table></figure>
+<p>然后重启了，就有了上面所说的重启电脑后只有 ASUS logo,
+风扇狂转的情形。由于无暇确认是 <code>~/.nvidia-xinitrc</code>
+有问题，还是 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code>
+有问题，只好插上 USB 启动盘重新进入 LiveCD, 挂载系统后用 LiveCD
+的命令行还原上述魔改。</p>
+<p>实际上第二次我采用了另一种方法，与之前相比区别在于完成对
+<code>/etc/modprobe.d/bbswitch.conf</code>
+的写入之后，实行以下操作：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">lsmod | grep nvidia | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt; /tmp/nvidia</span><br><span class="line">lsmod | grep  nouveau | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt;&gt; /tmp/nvidia</span><br><span class="line"><span class="built_in">sort</span> -n /tmp/nvidia | <span class="built_in">uniq</span> &gt;  /tmp/nvidia.conf <span class="comment">#去重</span></span><br><span class="line">sed -i <span class="string">&#x27;s/^\w*$/blacklist &amp;/g&#x27;</span> /tmp/nvidia.conf  <span class="comment">#添加blacklist</span></span><br><span class="line"><span class="built_in">cp</span> /tmp/nvidia.conf /etc/modprobe.d/nvidia.conf  <span class="comment">#移动</span></span><br><span class="line"><span class="comment">#👆实际我的操作是 cp /tmp/nvidia.conf /usr/lib/modprobe.d/nvidia-xrun.conf 应该没区别</span></span><br><span class="line"><span class="built_in">cat</span> /proc/acpi/bbswitch <span class="comment">#重启系统后运行该命令检查结果 0000:01:00.0 ON 说明开启成功</span></span><br></pre></td></tr></table></figure>
+<p>而上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code>
+黑名单的内容变成了：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">blacklist agpgart</span><br><span class="line">blacklist drm</span><br><span class="line">blacklist drm_kms_helper</span><br><span class="line">blacklist i2c_algo_bit</span><br><span class="line">blacklist mxm_wmi</span><br><span class="line">blacklist nouveau</span><br><span class="line">blacklist ttm</span><br><span class="line">blacklist wmi</span><br></pre></td></tr></table></figure>
+<p><strong>虽然不知道为什么，反正重启之后是正常了。</strong></p>
+<p>到此为止，就基本解决了安装问题。网上提到的有些操作也没有全部做完，对我来说够用就行，接下来就是慢慢装常用软件了。不过，最后重启几次发现键盘背光突然失效，明明一开始都是好的。不过不要紧，
+<a
+target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/ASUS_N550JV#Keyboard">N550JV
+的介绍</a> 里有提到键盘背光的修复方法，首先安装
+<code>asus-kbd-backlight</code>, 然后在内核模块
+<code>/etc/modules-load.d/modules.conf</code> 中添加
+<code>asus-nb-wmi</code>, 然后让 <code>asus-kbd-backlight.service</code>
+服务开机启动：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yay -S asus-kbd-backlight</span><br><span class="line"><span class="built_in">sudo</span> vim /etc/modules-load.d/modules.conf <span class="comment">#添加 asus-nb-wmi</span></span><br><span class="line">systemctl <span class="built_in">enable</span> --now asus-kbd-backlight.service</span><br></pre></td></tr></table></figure>
+<p>至此完工。</p>
+<h2 id="后记">后记</h2>
+<p>重新回到 Manjaro 怀抱。</p>
+<p>上一台 Manjaro 笔记本是大二时就从我爸那里薅来的昭阳K47A，经历过 Win7,
+Ubuntu, Win10, Chromium OS, CentOS, Feroda, Manjaro
+是我用它折腾的最后一个操作系统，当时无脑装了 GNOME
+版本，也没怎么关注显卡，直接用的开源驱动，即使换了新电池，续航还是一般，硬盘也没换成
+SSD,
+运行效果并不堪用，只能对付轻量的工作。由于各种原因不得不把机器还给我爸了。</p>
+<p>昨天在自己的<strong>曾经的</strong>出差主力笔记本 UX501VW 上安装
+Manjaro
+之前，我一直在物色下一台适合出差的<strong>便携</strong>笔记本，同时要满足<strong>良好支持
+Linux
+发行版</strong>的要求。这么一来市面上有售的品牌新机中，能选的范围就比较少了，然而我穷，看了也是白看。</p>
+<p>即使我最近又清理了自己的数字订阅，再次把信用卡月开支削减到合适的程度，我还是不能下决心去买新的败家玩意儿。</p>
+<p>于是我的目光又落在了2016年购入的 ASUS ZenBook Pro UX501VW,
+这台让我无比后悔的机器。</p>
+<p>官方授权网点购入，非4K屏，店家把内存加到16G。使用不到一年后掉了8G内存，送售后说要换主板，结果换完主板后
+CPU
+发热降频严重，原来中画质流畅玩战地1的水平居然低画质都会掉帧，不过对付日常工作还是绰绰有余，啥都能干。直到今年发现8G内存又掉了，过保以后，再送售后换主板也麻烦，就自己拆机重新涂了硅脂清灰，仔细检查了内存，插拔之后只过几天，又从16G掉到8G……这下傻眼了，我猜平时搬运的时候动作太大，把什么部位撞坏了导致接触不良吧，又或者这块内存条素质真的不行。内存抢救不回来，也懒得修，吃内存的工作放在台式机上一样可以做。最后一次清灰加硅脂，散热还是不错的，只要
+Win10 不抽风，cpu
+可以保持在40～50摄氏度，最高普遍在75～80摄氏度，极限也是低于90摄氏度。电池损耗有点大，持续工作时间2-4小时，不过这段时间不会有很多出差任务，而我已经习惯带着无比轻便的
+Pixel C 出门。</p>
+<p>工作台式机为了和实验室其他人兼容和稳定性，还是选择了 Windows 10 +
+WSL2 的组合。这么一来，如果想要把玩 Linux
+桌面环境，加购新设备显然是最好的选择。而我又想起了 Manjaro,
+它的开箱即用设定和优秀的兼容性对我的吸引力足够充分，而在 UX501VW
+这样一台看似到处是坑的设备上，它也应该可以很好的运行，所以，何乐而不为呢？</p>
+<p>安装 Manjaro,
+完成诸般设置后，发现续航依然能打。更感人的是，并没有显著的性能下降，而
+CPU
+温度甚至可以保持在29-36摄氏度之间，实际可以用手感觉出来，是个很宜人的温度（尽管我在另一台电脑上做过测试，安静状态下
+Ubuntu 的温度的确比 Windows 10
+低上几度，不知道是不是传感器的问题）。</p>
+<p>通过安装新系统让自己的旧笔记本变得焕然一新，也借此机会重新整理一下生活的方方面面吧。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>静流
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/" title="9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro">https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E7%94%B5%E5%AD%90%E5%9E%83%E5%9C%BE/" rel="tag"># 电子垃圾</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2019/10/14/the-forest-of-love-review/" rel="prev" title="《在无爱之森呐喊》观后感">
+                  <i class="fa fa-angle-left"></i> 《在无爱之森呐喊》观后感
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2019/11/11/painting-or-cat-dilemma/" rel="next" title="救世界名画还是救猫？">
+                  救世界名画还是救猫？ <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2016 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-pizza-slice"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder"><a rel="me noopener" target="_blank" href="https://mas.to/@shizuru">©shizuru</a></span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://unpkg.com/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  <script src="https://unpkg.com/hexo-generator-searchdb@1.4.1/dist/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://unpkg.com/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+
+
+
+</body>
+</html>
