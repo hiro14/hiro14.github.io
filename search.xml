@@ -133,46 +133,6 @@ Steam，看新闻，看网球，看电影。</p>
       </tags>
   </entry>
   <entry>
-    <title>复健</title>
-    <url>/2022/06/01/2022-06-01-rehabilitation/</url>
-    <content><![CDATA[<p>形式上看，上海算是解封了。虽然我不在上海，但是还是保持步调一致地再开博客以示纪念。写几个字，权当复健，免得手和脑子都变得笨拙。</p>
-<p>半夜没睡，从2点45分开始硬是撑着看完本届纳达尔打赢德约的四分之一决赛，等到比赛结束，天已大亮，于是补了三四个小时的觉。真是一个难忘的儿童节。</p>
-<p>梅雨季的闷热不断消磨着出门的动力，洗了澡才出门。吃着全家的便当，冷柜里丰富的食物种类也侧面展示着上海的复苏。活着就好。</p>
-<p>这两个月的片单，想得起来的记一笔：</p>
-<ul>
-<li>春季新番动画多部</li>
-<li>新蝙蝠侠</li>
-<li>月光骑士</li>
-<li>花园里的吸血鬼</li>
-<li>亮剑</li>
-<li>成龙历险记</li>
-<li>达伊的大冒险</li>
-<li>圣诞之吻</li>
-<li>爱、死亡和机器人</li>
-<li>请回答1988</li>
-<li>史前星球</li>
-<li>欧比旺</li>
-</ul>
-<p>愚人节时对博客进行了一部分调整，主要是把旧博文先转移到一个主页看不到的地方，再把博客index设置成404页面。今天再次更新，就是为了把原来的博文挑选一些出来重新展示，也顺便把index恢复成正常的主页了。</p>
-<p>NexT使用jsDelivr作为默认的CDN服务提供商。由于该CDN已经被<a
-href="https://www.v2ex.com/t/849894">DNS污染</a>，今天才发现发现有些Font
-Awesome图标无法正常显示。有些人的博客干脆整个页面都不显示……</p>
-<p>查询文本，定位到cdn设置在<code>_config.next.yml</code>中，改成备选的unpkg即可。</p>
-<p>春季新番动画主题曲大赛的冠军估计是《杜鹃的婚约》的OP和ED吧。</p>
-<center>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XWB5xEzIfzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</center>
-<center>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0llzTiAMYY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</center>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不过是一年又结束了的2020年</title>
     <url>/2020/12/31/2020-review/</url>
     <content><![CDATA[<blockquote>
@@ -216,6 +176,46 @@ Horizon 4，沉迷拍照模式。</p>
 ]]></content>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>复健</title>
+    <url>/2022/06/01/2022-06-01-rehabilitation/</url>
+    <content><![CDATA[<p>形式上看，上海算是解封了。虽然我不在上海，但是还是保持步调一致地再开博客以示纪念。写几个字，权当复健，免得手和脑子都变得笨拙。</p>
+<p>半夜没睡，从2点45分开始硬是撑着看完本届纳达尔打赢德约的四分之一决赛，等到比赛结束，天已大亮，于是补了三四个小时的觉。真是一个难忘的儿童节。</p>
+<p>梅雨季的闷热不断消磨着出门的动力，洗了澡才出门。吃着全家的便当，冷柜里丰富的食物种类也侧面展示着上海的复苏。活着就好。</p>
+<p>这两个月的片单，想得起来的记一笔：</p>
+<ul>
+<li>春季新番动画多部</li>
+<li>新蝙蝠侠</li>
+<li>月光骑士</li>
+<li>花园里的吸血鬼</li>
+<li>亮剑</li>
+<li>成龙历险记</li>
+<li>达伊的大冒险</li>
+<li>圣诞之吻</li>
+<li>爱、死亡和机器人</li>
+<li>请回答1988</li>
+<li>史前星球</li>
+<li>欧比旺</li>
+</ul>
+<p>愚人节时对博客进行了一部分调整，主要是把旧博文先转移到一个主页看不到的地方，再把博客index设置成404页面。今天再次更新，就是为了把原来的博文挑选一些出来重新展示，也顺便把index恢复成正常的主页了。</p>
+<p>NexT使用jsDelivr作为默认的CDN服务提供商。由于该CDN已经被<a
+href="https://www.v2ex.com/t/849894">DNS污染</a>，今天才发现发现有些Font
+Awesome图标无法正常显示。有些人的博客干脆整个页面都不显示……</p>
+<p>查询文本，定位到cdn设置在<code>_config.next.yml</code>中，改成备选的unpkg即可。</p>
+<p>春季新番动画主题曲大赛的冠军估计是《杜鹃的婚约》的OP和ED吧。</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XWB5xEzIfzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</center>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0llzTiAMYY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</center>
+]]></content>
+      <tags>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -932,6 +932,66 @@ src="https://nebula.moe/nebula-mstd/media_attachments/files/000/180/881/original
       </tags>
   </entry>
   <entry>
+    <title>兜兜转转</title>
+    <url>/2020/07/01/go-round-and-round/</url>
+    <content><![CDATA[<p>不知不觉进入七月了，这个悲惨而滑稽的世界还在苟延残喘，无知的家伙在自己的坟墓边起舞，我却还在写博客，真是不务正业。</p>
+<p>前几天当我整理订阅制服务的项目时，意识到在其中一些使用频率较低的服务上的开销逐渐成为我日常生活的负担。通常我会隔很久整理一次订阅制服务，因此有些懒得取消的月付项目就拖得较久，空耗好几个月的钱；而有些年付项目钱都已经花出去了，也需要及时取消免得今年再产生未来的扣费。</p>
+<p>经过一番轻松的计算和毫不留恋的断舍离，一些没必要享受或者免费也可享受的项目从我的列表中消失了，这么算来每个月可以省下375元，一年就是4500多元。过去把生活重心放在网络上，可能觉得这样的开销也是值得的，但是随着疫情的不断发展以及自己收入多多少少受到的冲击，这笔省下来的钱就变得相当有分量。总之，互联网逃离计划还是要逐渐推进。</p>
+<p>最后我把目光放在还在运行的 Linode VPS
+上。本来我的博客搭建在这个每月5刀的服务器上，而上面除了一直在跑的
+ehforwarderbot
+和偶尔运行的下载、代理相关等任务外就毫无用武之地。当时选了 CentOS
+可能也限制了发挥，起步环境太差，修修补补勉强撑过来了。</p>
+<p>回想起最初是用着免费的 github
+page，到后来购买域名、配置服务、安装博客和主题、开启
+https、生成证书和启用 HTTP/2
+基本是一气呵成的搭建博客经历，毫无疑问是有意义的，也从他人的文章和推特好友那里学到了不少知识，毕竟也没过去多久，所以印象还比较深。</p>
+<p>为了维护这来之不易的成果，防止博客莫名其妙就挂掉，我通常很小心地调整服务器的配置，基本不会去乱动
+hexo
+和主题的版本，也不想去调试里面一些过于复杂的内容。久而久之博客的一些功能就显得比较落后。</p>
+<p>加之不久前手抽把 ehforwarderbot
+的给更新坏了，实在是懒得修复。这么一来这台服务器持续运行的意义就只剩开博客。于是我想，还是迁移吧。</p>
+<p>昨天在本地重建了博客并部署到自己的 github page.
+在部署之前测试了不少新主题，包括 typography、aomori 和 quark.
+每个主题都各自有吸引我之处，但也有我不能忍受的配置缺陷。当然有些主题还在开发中，所以是可以体谅的，单纯就是我不适合去调教它们。最后还是不能免俗地用回了
+next 主题。这玩意就像 iOS
+一样，很多人都在用，用起来就变得索然无味，但是别的又不如它全面和好用。</p>
+<p>之前守着的不知道落后多久的旧版本所自带的 FontaAwesome 字体里还没有
+mastodon
+的符号，更新后终于支持了。另外还发现了一个暗黑模式的开关，会跟随浏览器的模式切换浅色和暗黑主题，非常适合当前主流。最后还打开了搜索功能。评论功能依然选择关闭。导入博文非常方便，其他的主题配置也从原来的文件里恢复。于是最后，博客基本看不出来是升级重装过的。</p>
+<p>接着就是把域名从原来的地址解绑，换成解析到 github page
+上。这些步骤都有官方文档指导或者现成的资料，所以操作起来也很快。唯一需要注意的是我原来因为在
+Linode 上搭了博客，就偷懒干脆用起了它家自带的 DNS
+解析。结果我发现它的文档里有这句话：</p>
+<blockquote>
+<p>要使用 Linode DNS 管理器为您的域名提供服务，您的帐户必须具有活动的
+Linode。如果您删除所有活动的 Linode，则将不再为您的域名提供服务。</p>
+</blockquote>
+<p>Fine. 我是铁了心要删除 VPS
+的，这么搞的话我就换，加之域名商自带的解析速度和稳定性也很感人（这是马后炮，其实我出于天然的怀疑，本来就不想用它），决定换用
+DigitalOcean 的免费解析服务。毕竟我在 DO
+也有现成账号，而且翻了翻文档好像也没说像 Linode 这样非得有个活动 VPS
+才给解析服务，风评似乎还不错。于是马上就试了。没过几分钟，效果立竿见影，除了
+HTTP/2 失效之外其他的应有尽有，没必要再用第三方工具折腾证书什么的。</p>
+<p>最后一步就是恢复除了卖萌并没什么卵用的404页面。对这一步 github
+上也有简洁明了的指导，一下就完成了。</p>
+<p>至此博客迁移完毕。</p>
+<p>步骤就不写了吧，无非是“<a
+href="https://lmgtfy.com/?q=%E5%9C%A8+github+%E4%B8%8A%E6%90%AD%E5%BB%BA+hexo+%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D">在
+github 上搭建 hexo 博客并绑定域名</a>”这种一 google
+就能看到步骤满天飞的内容，多参考靠谱文档，加上不怕失败的尝试，猴子也能搭博客。</p>
+<p>顺便，我没有参考目前 hexo 官网上的教程<a
+href="https://hexo.io/zh-cn/docs/github-pages">将 Hexo 部署到 GitHub
+Pages</a>中关于 Travis CI 的部分，毕竟搭个博客而已，杀鸡焉用牛刀 aka
+我没时间看新文档。</p>
+<p>感想：通过搬迁博客和删除 Linode VPS,
+每月最终省下了411元。我的内心毫无波动，只想省下订阅的钱，好让我在其他兴趣上败家。</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>说要写2018年末总结其实是骗人的</title>
     <url>/2018/12/31/hello-2019/</url>
     <content><![CDATA[<h2 id="记录2018">记录2018</h2>
@@ -993,66 +1053,6 @@ src="https://nebula.moe/nebula-mstd/media_attachments/files/000/180/881/original
 ]]></content>
       <tags>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>兜兜转转</title>
-    <url>/2020/07/01/go-round-and-round/</url>
-    <content><![CDATA[<p>不知不觉进入七月了，这个悲惨而滑稽的世界还在苟延残喘，无知的家伙在自己的坟墓边起舞，我却还在写博客，真是不务正业。</p>
-<p>前几天当我整理订阅制服务的项目时，意识到在其中一些使用频率较低的服务上的开销逐渐成为我日常生活的负担。通常我会隔很久整理一次订阅制服务，因此有些懒得取消的月付项目就拖得较久，空耗好几个月的钱；而有些年付项目钱都已经花出去了，也需要及时取消免得今年再产生未来的扣费。</p>
-<p>经过一番轻松的计算和毫不留恋的断舍离，一些没必要享受或者免费也可享受的项目从我的列表中消失了，这么算来每个月可以省下375元，一年就是4500多元。过去把生活重心放在网络上，可能觉得这样的开销也是值得的，但是随着疫情的不断发展以及自己收入多多少少受到的冲击，这笔省下来的钱就变得相当有分量。总之，互联网逃离计划还是要逐渐推进。</p>
-<p>最后我把目光放在还在运行的 Linode VPS
-上。本来我的博客搭建在这个每月5刀的服务器上，而上面除了一直在跑的
-ehforwarderbot
-和偶尔运行的下载、代理相关等任务外就毫无用武之地。当时选了 CentOS
-可能也限制了发挥，起步环境太差，修修补补勉强撑过来了。</p>
-<p>回想起最初是用着免费的 github
-page，到后来购买域名、配置服务、安装博客和主题、开启
-https、生成证书和启用 HTTP/2
-基本是一气呵成的搭建博客经历，毫无疑问是有意义的，也从他人的文章和推特好友那里学到了不少知识，毕竟也没过去多久，所以印象还比较深。</p>
-<p>为了维护这来之不易的成果，防止博客莫名其妙就挂掉，我通常很小心地调整服务器的配置，基本不会去乱动
-hexo
-和主题的版本，也不想去调试里面一些过于复杂的内容。久而久之博客的一些功能就显得比较落后。</p>
-<p>加之不久前手抽把 ehforwarderbot
-的给更新坏了，实在是懒得修复。这么一来这台服务器持续运行的意义就只剩开博客。于是我想，还是迁移吧。</p>
-<p>昨天在本地重建了博客并部署到自己的 github page.
-在部署之前测试了不少新主题，包括 typography、aomori 和 quark.
-每个主题都各自有吸引我之处，但也有我不能忍受的配置缺陷。当然有些主题还在开发中，所以是可以体谅的，单纯就是我不适合去调教它们。最后还是不能免俗地用回了
-next 主题。这玩意就像 iOS
-一样，很多人都在用，用起来就变得索然无味，但是别的又不如它全面和好用。</p>
-<p>之前守着的不知道落后多久的旧版本所自带的 FontaAwesome 字体里还没有
-mastodon
-的符号，更新后终于支持了。另外还发现了一个暗黑模式的开关，会跟随浏览器的模式切换浅色和暗黑主题，非常适合当前主流。最后还打开了搜索功能。评论功能依然选择关闭。导入博文非常方便，其他的主题配置也从原来的文件里恢复。于是最后，博客基本看不出来是升级重装过的。</p>
-<p>接着就是把域名从原来的地址解绑，换成解析到 github page
-上。这些步骤都有官方文档指导或者现成的资料，所以操作起来也很快。唯一需要注意的是我原来因为在
-Linode 上搭了博客，就偷懒干脆用起了它家自带的 DNS
-解析。结果我发现它的文档里有这句话：</p>
-<blockquote>
-<p>要使用 Linode DNS 管理器为您的域名提供服务，您的帐户必须具有活动的
-Linode。如果您删除所有活动的 Linode，则将不再为您的域名提供服务。</p>
-</blockquote>
-<p>Fine. 我是铁了心要删除 VPS
-的，这么搞的话我就换，加之域名商自带的解析速度和稳定性也很感人（这是马后炮，其实我出于天然的怀疑，本来就不想用它），决定换用
-DigitalOcean 的免费解析服务。毕竟我在 DO
-也有现成账号，而且翻了翻文档好像也没说像 Linode 这样非得有个活动 VPS
-才给解析服务，风评似乎还不错。于是马上就试了。没过几分钟，效果立竿见影，除了
-HTTP/2 失效之外其他的应有尽有，没必要再用第三方工具折腾证书什么的。</p>
-<p>最后一步就是恢复除了卖萌并没什么卵用的404页面。对这一步 github
-上也有简洁明了的指导，一下就完成了。</p>
-<p>至此博客迁移完毕。</p>
-<p>步骤就不写了吧，无非是“<a
-href="https://lmgtfy.com/?q=%E5%9C%A8+github+%E4%B8%8A%E6%90%AD%E5%BB%BA+hexo+%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D">在
-github 上搭建 hexo 博客并绑定域名</a>”这种一 google
-就能看到步骤满天飞的内容，多参考靠谱文档，加上不怕失败的尝试，猴子也能搭博客。</p>
-<p>顺便，我没有参考目前 hexo 官网上的教程<a
-href="https://hexo.io/zh-cn/docs/github-pages">将 Hexo 部署到 GitHub
-Pages</a>中关于 Travis CI 的部分，毕竟搭个博客而已，杀鸡焉用牛刀 aka
-我没时间看新文档。</p>
-<p>感想：通过搬迁博客和删除 Linode VPS,
-每月最终省下了411元。我的内心毫无波动，只想省下订阅的钱，好让我在其他兴趣上败家。</p>
-]]></content>
-      <tags>
-        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -1121,144 +1121,81 @@ Pages</a>中关于 Travis CI 的部分，毕竟搭个博客而已，杀鸡焉用
       </tags>
   </entry>
   <entry>
-    <title>9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro</title>
-    <url>/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/</url>
-    <content><![CDATA[<h2 id="准备工作">准备工作</h2>
-<ul>
-<li><p>最新官方镜像 <a
-href="https://manjaro.org/download/official/xfce/">Manjaro - XFCE
-18.1.1</a></p></li>
-<li><p>轻松创建USB启动盘 <a href="https://rufus.ie/">Rufus</a></p></li>
-<li><p>备份笔记本电脑的全部数据，格式化<del>干烂</del>机械硬盘并删除分区，重置
-Windows</p></li>
-</ul>
-<h2 id="开始安装">开始安装</h2>
-<ul>
-<li>插上 USB 启动盘，开机 F2 进入 BIOS
-设置各种启动选项，不在此赘述；</li>
-<li>参照 <a
-href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/Manjaro-User-Guide.pdf">官方用户指南</a>
-的 <em>Dual-booting with Microsoft Windows 10</em> 一节：
-<ul>
-<li>按步骤设置语言、时区、区域、键盘布局；</li>
-<li>直至分区方式步骤，参照 <em>Erase the disk and let Calamares choose a
-partition scheme</em> 小节：
-<ul>
-<li>选择 Erase disk. 把系统装进128GB SSD, 设置 swap with
-hibernation;</li>
-</ul></li>
-</ul></li>
-<li>设置用户名和密码</li>
-<li>确认你的设置，然后<strong>坐和放宽</strong></li>
-<li>确认是否安装 LibreOffice, 可装可不装，我先不装</li>
-</ul>
-<p>安装期间查看 <a
-href="https://wiki.archlinux.org/index.php/Hybrid_graphics">混合图形技术</a>，并从中查阅所有与
-NVIDIA 有关的文章，并决定采用哪种方案；</p>
-<p>综合考虑后我选择 <a
-href="https://wiki.archlinux.org/index.php/Nvidia-xrun">nvidia-xrun</a>.
-（后来发现其实最迟在17年以后就可以不用 nvidia-xrun 实现同样功能）</p>
-<h2 id="安装后调教">安装后调教</h2>
-<h3 id="设置软件源">设置软件源</h3>
-<p>在终端中</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman-mirrors -c China -m rank</span><br><span class="line"><span class="built_in">sudo</span> vi /etc/pacman.conf</span><br></pre></td></tr></table></figure>
-<p>在上述 <code>/etc/pacman.conf</code> 文件最后增加 archlinuxcn
-源，并保存：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[archlinuxcn]</span><br><span class="line">SigLevel = Optional TrustedOnly</span><br><span class="line">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br></pre></td></tr></table></figure>
-<p>继续在终端中</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Syyu</span><br><span class="line"><span class="built_in">sudo</span> pacman -Sy archlinuxcn-keyring</span><br><span class="line"><span class="built_in">sudo</span> pacman -S yay</span><br><span class="line">yay --aururl <span class="string">&quot;https://aur.tuna.tsinghua.edu.cn&quot;</span> --save</span><br></pre></td></tr></table></figure>
-<h3 id="安装本地化和基础工具">安装本地化和基础工具</h3>
-<p>可以且必要但不是全部：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S vim</span><br><span class="line"><span class="built_in">sudo</span> pacman -S fcitx-im fcitx-configtool fcitx-skin-material fcitx-rime fcitx-mozc fcitx-googlepinyin</span><br><span class="line"><span class="built_in">sudo</span> pacman -S wqy-zenhei wqy-bitmapfont wqy-microhei ttf-wps-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts</span><br><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>&quot;</span> <span class="comment">#manjaro 自带 zsh, 所以直接装 oh-my-zsh</span></span><br><span class="line">yay -S powerline-fonts-git <span class="comment">#安装 powerline 字体</span></span><br><span class="line">vim ~/.zshrc <span class="comment">#修改主题和配置</span></span><br></pre></td></tr></table></figure>
-<h3 id="提升性能">提升(?)性能</h3>
-<p>修理一下 <a
-href="https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501">这台机器</a>
-容易出现的问题，首先遇见的是挂起后再开机会导致耳机爆音：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/modprobe.d/alsa-base.conf <span class="comment">#创建文件</span></span><br></pre></td></tr></table></figure>
-<p>在上述 <code>/etc/modprobe.d/alsa-base.conf</code> 中填入
-<code>options snd-hda-intel model=dell-headset-multi</code></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> Programs <span class="comment">#随便新建个文件夹放软件，针对有整理癖的用户</span></span><br><span class="line"><span class="built_in">cd</span> Programs</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/dakatapetrov/zenbook-pro-ux501vw-sound-fix.git <span class="comment">#dakatapetrov 制作的修复工具</span></span><br><span class="line"><span class="built_in">cd</span> zenbook-pro-ux501vw-sound-fix/</span><br><span class="line">./install.sh </span><br></pre></td></tr></table></figure>
-<p>要为英特尔显卡启用节能功能，创建
-<code>/etc/modprobe.d/i915.conf</code> 文件并包含以下内容:</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">options i915 enable_rc6=1 enable_fbc=1 lvds_downclock=1 semaphores=1</span><br></pre></td></tr></table></figure>
-<p>然而我并不知道如何检查效果，据说甚至会导致屏幕冻结，尽管我还没碰到过这种情况。</p>
-<p><strong>警告：经过两天测试，我认为下面的方案存在不小的问题，或者性能表现不佳，可能完全是错误的，请勿模仿</strong></p>
-<p>接下来要解决的就是N卡切换问题，参照 <a
-href="https://wiki.archlinux.org/index.php/Nvidia-xrun_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">nvidia-xrun</a>：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">uname</span> -r <span class="comment">#检查内核版本</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S nvidia bbswitch <span class="comment">#在接下来的对话中我选择对应内核版本的最新驱动</span></span><br><span class="line">yay -S nvidia-xrun <span class="comment">#也有其他版本可以选，我最终选了 nvidia-xrun-git</span></span><br><span class="line">lspci | grep -i nvidia | awk <span class="string">&#x27;&#123;print $1&#125;&#x27;</span> <span class="comment">#确认返回值，是不是1:0:0</span></span><br><span class="line"><span class="built_in">sudo</span> vim /etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</span><br></pre></td></tr></table></figure>
-<p>在上述 <code>/etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</code>
-文件中写入</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">Section <span class="string">&quot;Device&quot;</span></span><br><span class="line">    Identifier <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    Driver <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    BusID <span class="string">&quot;PCI:1:0:0&quot;</span> <span class="comment">#对应此处1:0:0</span></span><br><span class="line">EndSection</span><br></pre></td></tr></table></figure>
-<p>然后</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Rdd nvidia-utils <span class="comment">#然而这一步在我的电脑没有实际效果，因为 nvidia-utils 并未安装</span></span><br><span class="line">vim ~/.nvidia-xinitrc</span><br></pre></td></tr></table></figure>
-<p>在上述 <code>~/.nvidia-xinitrc</code> 文件中写入</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> -gt 0 ]; <span class="keyword">then</span></span><br><span class="line">  $*</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">  <span class="comment"># openbox-session</span></span><br><span class="line">  <span class="comment"># Alternatively, you can also use xfce4:</span></span><br><span class="line">  xfce4-session <span class="comment">#第一次我可能在这里忘记修改注释的位置，使用了 openbox-session, 重启电脑后只显示 ASUS logo, 风扇狂转，无法进入系统</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
-<p>然后</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> -i</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;bbswitch &#x27;</span> &gt; /etc/modules-load.d/bbswitch.conf <span class="comment">#在启动时载入 bbswitch 模块</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;options bbswitch load_state=0 unload_state=1&#x27;</span> &gt; /etc/modprobe.d/bbswitch.conf <span class="comment">#在启动时关闭 nvidia 模块</span></span><br><span class="line">vim /usr/lib/modprobe.d/nvidia-xrun.conf <span class="comment">#将 nvidia 相关模块加入黑名单</span></span><br></pre></td></tr></table></figure>
-<p>第一次，我参照 <a
-href="https://wiki.archlinux.org/index.php/Nvidia-xrun">英文版</a>
-在上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code> 文件中写入</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment">#似乎有问题</span></span><br><span class="line">blacklist nvidia</span><br><span class="line">blacklist nvidia-drm</span><br><span class="line">blacklist nvidia-modeset</span><br><span class="line">blacklist nvidia-uvm</span><br><span class="line">blacklist nouveau</span><br></pre></td></tr></table></figure>
-<p>然后重启了，就有了上面所说的重启电脑后只有 ASUS logo,
-风扇狂转的情形。由于无暇确认是 <code>~/.nvidia-xinitrc</code>
-有问题，还是 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code>
-有问题，只好插上 USB 启动盘重新进入 LiveCD, 挂载系统后用 LiveCD
-的命令行还原上述魔改。</p>
-<p>实际上第二次我采用了另一种方法，与之前相比区别在于完成对
-<code>/etc/modprobe.d/bbswitch.conf</code>
-的写入之后，实行以下操作：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">lsmod | grep nvidia | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt; /tmp/nvidia</span><br><span class="line">lsmod | grep  nouveau | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt;&gt; /tmp/nvidia</span><br><span class="line"><span class="built_in">sort</span> -n /tmp/nvidia | <span class="built_in">uniq</span> &gt;  /tmp/nvidia.conf <span class="comment">#去重</span></span><br><span class="line">sed -i <span class="string">&#x27;s/^\w*$/blacklist &amp;/g&#x27;</span> /tmp/nvidia.conf  <span class="comment">#添加blacklist</span></span><br><span class="line"><span class="built_in">cp</span> /tmp/nvidia.conf /etc/modprobe.d/nvidia.conf  <span class="comment">#移动</span></span><br><span class="line"><span class="comment">#👆实际我的操作是 cp /tmp/nvidia.conf /usr/lib/modprobe.d/nvidia-xrun.conf 应该没区别</span></span><br><span class="line"><span class="built_in">cat</span> /proc/acpi/bbswitch <span class="comment">#重启系统后运行该命令检查结果 0000:01:00.0 ON 说明开启成功</span></span><br></pre></td></tr></table></figure>
-<p>而上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code>
-黑名单的内容变成了：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">blacklist agpgart</span><br><span class="line">blacklist drm</span><br><span class="line">blacklist drm_kms_helper</span><br><span class="line">blacklist i2c_algo_bit</span><br><span class="line">blacklist mxm_wmi</span><br><span class="line">blacklist nouveau</span><br><span class="line">blacklist ttm</span><br><span class="line">blacklist wmi</span><br></pre></td></tr></table></figure>
-<p><strong>虽然不知道为什么，反正重启之后是正常了。</strong></p>
-<p>到此为止，就基本解决了安装问题。网上提到的有些操作也没有全部做完，对我来说够用就行，接下来就是慢慢装常用软件了。不过，最后重启几次发现键盘背光突然失效，明明一开始都是好的。不过不要紧，
+    <title>救世界名画还是救猫？</title>
+    <url>/2019/11/11/painting-or-cat-dilemma/</url>
+    <content><![CDATA[<p>我躺在床上，病房没有开灯，十分昏暗，我单侧的视野中只有熟悉到吐的天花板。门外，女人的讲话声慢慢地远去。</p>
+<p>口好渴。我试图呼唤别人来帮我喂水，但是肿胀的喉咙只能发出低微的嘶鸣。身边没有一个人在照看我，没有人知道我的情况。我感到绝望和焦虑，这么一想身上越发难受起来，但实际又感觉不到什么，我的身体就像被厚厚的胶皮包裹着，阻碍了触觉和痛觉。屁股下面空荡荡的，这么一想，原来右腿已经坏死得太厉害，做了截肢手术啊。</p>
+<p>真是悲哀的人生啊。我在心中无奈地叹息。病房角落的的暗影中好像有一个熟悉的轮廓，但是我实在是有点累，便懒得去注意它，闭上了眼睛。</p>
+<p>落得这步田地，也是当时自己选的，好歹我也成了英雄不是吗？</p>
+<p>一切都要从那场震惊世界的美术馆火灾说起。</p>
+<p>那一天，我参加市政厅主办，美术馆布置的展览。因为午餐喝了冷掉的咖啡，我在展览中就感到不适，只得去了厕所。</p>
+<p>不去不要紧。当我走出厕所时，发生了不得了的事情。美术馆陷入火海，其他人早已撤离，而我因为厕所广播线路损坏没有维修而完美地错过了火灾警报。</p>
+<p>我回忆起各种逃生注意事项，尝试找到出口。烟雾太浓，我只好凭本能判断方向。</p>
+<p>结果，我被熊熊大火包围了，无路可逃。吾命休矣！一想到自己的人生就这样结束，我不禁仰天长叹。这时我才发现，背后的墙上正好挂着本次展览最珍贵的世界名画。刚才急着去厕所还没参观，现在才看到它，我一边庆幸自己能一睹名画风采，一边惋惜初次见面就要和它一起葬身火海。</p>
+<p>画面在烈火的熏燎下依然清晰，名画的内容是一对男女在机场深情拥吻，而男子的身后站着另一位沉默的少女。这时我也顾不得即将烈焰焚身了，完全沉浸在画作的情景之中。</p>
+<p>将我拉回现实的是脚边柔软的触感，我低头一看，发现不知哪里跑来的小猫在蹭着我的小腿。原来除我以外还有别的生命困在火海！一股强烈的求生欲从心头激起，我决定同小猫一起找到出口！</p>
+<p>回头看了一眼世界名画，我还是忍不住小心翼翼地把它从墙上摘下来。</p>
+<p>动物的本能果然强大，在小猫的带领下，我发现出口近在咫尺。正当我向前冲刺的时候，楼板塌陷了，我脚下一沉，身体开始下落，在掉下去前，我拼尽全力将世界名画向出口甩去，并伸手悬挂在残留的木板上，小猫落到了地下一层，冲我喵喵地叫着。</p>
+<p>太糟糕了，是把那幅画放着不管，和小猫一起再找出路呢，还是任凭小猫自生自灭，我爬上去带着画逃生？我陷入了两难的境地。</p>
+<p>一番心理斗争后，我沉默着，用力支撑起身体，在木板即将烧断时，一跃而起，抱住了世界名画。喵喵的叫声很快被崩塌的建筑所掩埋，我忍着悲痛的心情，拾起画，坚决地向门外走去，就像电影里的主角，不再回头。</p>
+<p>室外的光非常刺眼，正当我以为安全而放下心来时，我的身后发立刻生了爆炸。我不知道自己怎么来得及反应过来转过头去看的，但我昏迷前最后见到的，是向我冲来的一团巨大的猫形火球。</p>
+<p>随后的情节就像主旋律影片一样按部就班地发生。世界名画完好无损，我被送医院急救，度过了危险期，保住了性命。我以为自己很坚强，总能站起来，但是这一次我在病床上等了太久，也没有站起来。我对文艺作品的热爱与保护和其体现的崇高精神感动了市民、媒体和政府。我的病房一度摆满了鲜花，电视新闻滚动播放我的事迹，而政府部门多次派人员前来慰问，并向我的家人承诺，不但会给我颁发市民荣誉，还将用一大笔奖金和日常的补贴来负担起我的生活和医疗费。</p>
+<p>等我意识完全清醒时，周围的喧闹也不复。医生和护士例行公事，定期来检查我的状况。妻子一般会在病房照顾我，但是最近也不常来。因为我的喉咙受伤，我们无法顺利地交流，我只能用单侧的视野观察她，她并没有好好地回应我。她的表情越来越僵硬了。</p>
+<p>一种似曾相识的被抛弃的感觉持续占据了我的内心。我默默地承受着不安，等待着变化的发生。我时不时会想起美术馆里的那只小猫。就连梦里，它楚楚可怜的样子都让我难受得喘不过气。它到底有没有活下来呢？我的选择是正确的吗？就这样一直纠结着，时间慢慢流逝，我将以这副模样度过余生。</p>
+<p>我睁开眼，只见病房角落的暗影中的轮廓晃动了一下。</p>
+<p>我又眨了一下眼睛，那个物体不知怎么地瞬间移动到我的身边，假如我的喉咙没有损坏的话，我一定会放声尖叫。但我现在只想晕过去，我太累了。</p>
+<p>是一只猫！我没能如愿晕过去，它让我一个激灵清醒过来。</p>
+<p>“现在后悔吗？当时选择了这条路。”猫开口说话了。</p>
+<p>被问到这个问题，我彻底崩溃了。心跳急促起来，泪水慢慢从眼角滑落，滴在枕头上。</p>
+<p>“你的时间不多了。</p>
+<p>“你能活下来，绝不是万幸，毕竟这一切都是剧本的安排，剧本是不会让你这样窝囊地死去的。</p>
+<p>“你明明读过剧本，却忘记了自己的使命，被区区一幅世界名画蒙蔽了心灵。你这样还能算正义的伙伴吗？</p>
+<p>“你搞砸了，丧失了宝贵的机会，现在基本无法挽回。来吧，告诉我，剧本是怎么说的？”</p>
+<p>剧本……</p>
+<p>想起来了。</p>
+<p>我的角色是正义的伙伴，我在人类世界的重要使命就是拯救猫。</p>
+<p>不论猫的品种是什么，状况有多么危险，造成的副作用有多么严重，我必须救下在我眼前受到伤害的任何一只猫。</p>
+<p>哪怕是付出自己的生命，救猫。二选一的紧急情况下，救猫。把一只猫和一架飞机上的旅客放在天平的两头，救猫。</p>
+<p>这一切都是因为某一只猫对这个世界的意义非常重大。如果没有救下那一只，世界就会完蛋。</p>
+<p>问题在于剧本也无法确定具体是哪只猫，只知道那只猫必定出现在我面前。而只要能救下那只猫，其他的一切都可以牺牲。</p>
+<p>原来，那只猫是联系这个世界与另一侧的名为“薛定谔的猫娘宇宙”的传送使者。因为身份不明，它可能是任何一只猫。薛定谔的猫娘宇宙是我们所在宇宙的镜像宇宙的异构体。那一侧的智慧生命全是猫娘。如果你没有见过猫娘的话，建议你查一下互联网
 <a
-href="https://wiki.archlinux.org/index.php/ASUS_N550JV#Keyboard">N550JV
-的介绍</a> 里有提到键盘背光的修复方法，首先安装
-<code>asus-kbd-backlight</code>, 然后在内核模块
-<code>/etc/modules-load.d/modules.conf</code> 中添加
-<code>asus-nb-wmi</code>, 然后让 <code>asus-kbd-backlight.service</code>
-服务开机启动：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yay -S asus-kbd-backlight</span><br><span class="line"><span class="built_in">sudo</span> vim /etc/modules-load.d/modules.conf <span class="comment">#添加 asus-nb-wmi</span></span><br><span class="line">systemctl <span class="built_in">enable</span> --now asus-kbd-backlight.service</span><br></pre></td></tr></table></figure>
-<p>至此完工。</p>
-<h2 id="后记">后记</h2>
-<p>重新回到 Manjaro 怀抱。</p>
-<p>上一台 Manjaro 笔记本是大二时就从我爸那里薅来的昭阳K47A，经历过 Win7,
-Ubuntu, Win10, Chromium OS, CentOS, Feroda, Manjaro
-是我用它折腾的最后一个操作系统，当时无脑装了 GNOME
-版本，也没怎么关注显卡，直接用的开源驱动，即使换了新电池，续航还是一般，硬盘也没换成
-SSD,
-运行效果并不堪用，只能对付轻量的工作。由于各种原因不得不把机器还给我爸了。</p>
-<p>昨天在自己的<strong>曾经的</strong>出差主力笔记本 UX501VW 上安装
-Manjaro
-之前，我一直在物色下一台适合出差的<strong>便携</strong>笔记本，同时要满足<strong>良好支持
-Linux
-发行版</strong>的要求。这么一来市面上有售的品牌新机中，能选的范围就比较少了，然而我穷，看了也是白看。</p>
-<p>即使我最近又清理了自己的数字订阅，再次把信用卡月开支削减到合适的程度，我还是不能下决心去买新的败家玩意儿。</p>
-<p>于是我的目光又落在了2016年购入的 ASUS ZenBook Pro UX501VW,
-这台让我无比后悔的机器。</p>
-<p>官方授权网点购入，非4K屏，店家把内存加到16G。使用不到一年后掉了8G内存，送售后说要换主板，结果换完主板后
-CPU
-发热降频严重，原来中画质流畅玩战地1的水平居然低画质都会掉帧，不过对付日常工作还是绰绰有余，啥都能干。直到今年发现8G内存又掉了，过保以后，再送售后换主板也麻烦，就自己拆机重新涂了硅脂清灰，仔细检查了内存，插拔之后只过几天，又从16G掉到8G……这下傻眼了，我猜平时搬运的时候动作太大，把什么部位撞坏了导致接触不良吧，又或者这块内存条素质真的不行。内存抢救不回来，也懒得修，吃内存的工作放在台式机上一样可以做。最后一次清灰加硅脂，散热还是不错的，只要
-Win10 不抽风，cpu
-可以保持在40～50摄氏度，最高普遍在75～80摄氏度，极限也是低于90摄氏度。电池损耗有点大，持续工作时间2-4小时，不过这段时间不会有很多出差任务，而我已经习惯带着无比轻便的
-Pixel C 出门。</p>
-<p>工作台式机为了和实验室其他人兼容和稳定性，还是选择了 Windows 10 +
-WSL2 的组合。这么一来，如果想要把玩 Linux
-桌面环境，加购新设备显然是最好的选择。而我又想起了 Manjaro,
-它的开箱即用设定和优秀的兼容性对我的吸引力足够充分，而在 UX501VW
-这样一台看似到处是坑的设备上，它也应该可以很好的运行，所以，何乐而不为呢？</p>
-<p>安装 Manjaro,
-完成诸般设置后，发现续航依然能打。更感人的是，并没有显著的性能下降，而
-CPU
-温度甚至可以保持在29-36摄氏度之间，实际可以用手感觉出来，是个很宜人的温度（尽管我在另一台电脑上做过测试，安静状态下
-Ubuntu 的温度的确比 Windows 10
-低上几度，不知道是不是传感器的问题）。</p>
-<p>通过安装新系统让自己的旧笔记本变得焕然一新，也借此机会重新整理一下生活的方方面面吧。</p>
+href="https://zh.moegirl.org/zh-hans/%E7%8C%AB%E5%A8%98">猫娘</a>。不过互联网五十年前就已经崩溃了，所以查了也是白查。</p>
+<p>薛定谔的猫娘宇宙本来和我们的世界隔绝，相安无事。但是有一天，跨次元侵略者塔努基大魔王和它的军团选择了侵略薛定谔的猫娘宇宙。猫娘们并没有足够的力量抵抗，因此，薛定谔的猫娘宇宙陷落成为了塔努基殖民地，民不聊生。塔努基大魔王甚至不断扩张它的势力范围，它的跨次元力量终于影响到了我们的世界。七十年前，它们灭绝了所有北美浣熊，在美国人短暂的快乐之后迅速取代了浣熊的生态位，造成了更严重的破坏。五十年前，全球重要的几个互联网数据节点沦陷了，所有网站媒体资源和用户数据都被替换成了塔努基的迷因素材。没过多久，世界就回到了彼此隔绝的落后状态。</p>
+<p>三十年前，也就是我出生的那一年，人类和猫娘在各自的宇宙同时出土了一块泥板，上面刻有解除塔努基危机的剧本。剧本说猫娘只有通过从我们这个世界召唤正义的伙伴，打败塔努基大魔王，一切才能恢复如初。</p>
+<p>而和泥板同年同月同日问世的我，就这样悄然成为了正义的伙伴人选，并时刻铭记剧本的指导。</p>
+<p>然而故事并不圆满。我救下了许多猫，最终被召唤到薛定谔的猫娘宇宙。在那里我没能打败塔努基大魔王，直接被塔努基的爪子拍成了灰。在猫娘们的嘘声中我的灵魂穿过莫比乌斯环，重新回归到刚出生的我身上。原来这是一种循环，我必须通过不断轮回的试炼，才能累积经验，找到打败塔努基大魔王的方法。</p>
+<p>不知道从哪一次轮回开始，我不禁想要逃避。既然注定会见到传送使者猫，那只要尽量降低日常生活中见到猫的频率，就能省去很多麻烦。然而这样也没有让打败塔努基的效率变得更高，一切在循环往复中持续着。而世人并不理解我经历的一切，只认为我是一个因为猫而惹麻烦的怪人。</p>
+<p>然后在这一次轮回，我应该也读过剧本。剧本上说这次极有可能成功，打败塔努基大魔王，让世界恢复和平。剧本上也说这次的挑战主要在人世，并叮嘱我一定要万事谨慎。但是轮回的次数太多，过往的记忆残片影响了我现在的记忆。面对世界名画，我松懈了，退缩了，选择做普通的人。结果我刚好错失了救下传送使者的机会。</p>
+<p>“按照剧本，你这次本应该在大火中救下那只猫，你的死状会很惨烈，但那不是真正的死亡。你救下的那只猫应该正是这次轮回的传送使者，它很快会让你在薛定谔的猫娘世界转生，让你再次成为勇者，彻底打败塔努基大魔王。然后，你和猫娘们可以继续展开惊心动魄的冒险，在那个宇宙度过幸福的一生。</p>
+<p>“但是你选择了另一条路。你拯救了那幅画，你活了下来，但是身受重伤，只能领着政府的补贴躺在病床上度过余生。你的妻子对你的感情并没有你以为的那样深厚，她会悄悄挥霍你的奖金，并私自将补贴挪用到其他地方。她想等你断气，但是发现你一直顽强地坚持着。最终她感到守着你也没意义，于是同你离婚了。你除了一个人类文明的守护者的称号，什么也没有得到，也无法再成就事业，只能麻木地迎接世界的终结。</p>
+<p>“而我现在则不得不同你告别，因为最后的时刻已经来到，我再也帮不了你了，大雄。我是薛定谔的猫娘宇宙2000年以后的科技结晶，穿过莫比乌斯环来到你的世界，从小陪伴你，照顾你，监督你成为正义的伙伴。现在的你再也无法拯救薛定谔的猫娘宇宙，这注定了薛定谔的猫娘宇宙未来创造的我也不复存在。另外，我刚刚得知，传送使者猫也是我的直系祖先。因为悖论，我在这个时代的一切信息应该被抹消，只不过我自从你出事后就一直低调行事，只在黑暗中行动，只要不被任何人观察到，我就能维持现在这个样子，直到悖论完全发挥效果。”</p>
+<p>猫娘说完了，月光倾泻进房间，微微照亮了她蓝色的布偶头套。我忍受着痛苦，想呼唤她的名字。</p>
+<p>“哆……”</p>
+<p>“别叫那个名字！”她立刻激动地打断了我。“这不光是侵权的问题了。你只要喊出我的名字，我就会立即被悖论抹消。”</p>
+<p>现在该怎么办？</p>
+<p>“怎么办？”猫娘冷笑道。“大雄，你总是这样。每次出了岔子，你除了朝我哭诉怎么办，一点儿也不会思考，只知道逃避，也难为你这样的人被选为正义的伙伴。静香虽然和我们一起长大，但是成年后也忍不住怀疑我们的关系，这也是你们夫妻嫌隙的矛盾点之一，这方面我也有错。说起来，我已经受够了从四次元短裙下帮你掏出神奇工具了。受到悖论的影响，现在大多数工具都无法运作，不过我最近倒是在公园和一个小伙伴搭上了话，它是一团很可爱的黑泥，它说只要扔出一把菜刀就能解决世界上的所有问题……看吧，大雄，这把菜刀就是它送给我的，你要不要试一试呀……”</p>
+<p>猫娘逐渐变得邪恶的声音慢慢地听不见了，我如坠冰窟，感觉不到周围。已经完蛋了。若不是因为那幅画，我怎么会付出这么大的代价！</p>
+<p>“喂，大雄，你别睡过去了，振作一点！喂！”猫娘的喊声再次把我拉回现实。我怒上心头，恶狠狠地瞪着她，艰难地挤出一句话：“你不让我活，也不让我死。”</p>
+<p>猫娘被我的气势吓住了，她怔怔地回答：“但是世界需要你。”</p>
+<p>我冷哼了一声，继续沙哑地说：“那需不需要你呢？哆啦……”</p>
+<p>“等等等等等别叫那个名字，求求你了！”猫娘慌了神，吓得连身体都快变透明了，于是赶紧制止我。“我只是想教训一下你，不是来真的。解决方法还是有的，但我只希望你能有自己的想法，独立做决定。”</p>
+<p>我平息了心情，缓慢地从床边的小推车上拾起一枚硬币。硬币的两面分别刻着“九磅”和“十五便士”。这是一枚神奇的错版硬币，我受伤住院以后它突然就在我病房的小推车上出现了。我把它当作我人生的新希望，珍藏起来。我决定用它来做决策。</p>
+<p>“省省吧，大雄……”猫娘用有气无力的声音制止我。“就算再怎么像那个人，他也只是烧掉了半边脸，而你是全身只剩下半边脸了，而且抛硬币这个梗也很没创意。我是要你独立做决定！”</p>
+<p>就这样度过余生？还是去救猫？</p>
+<p>当然是救猫啦！什么世界名画，什么守护人类文明的英雄，这稀巴烂的世界，我再也不想管了！让我去猫娘宇宙吧！</p>
+<p>“非常好。”猫娘终于露出了满意的神色，并把手里的菜刀丢在一边。</p>
+<p>“你通过了试炼，为了奖励你，我会帮你重新开放时光机。但是受到悖论的影响，时光机已经不能前往任何想去的时间了，它只有你观测到传送使者猫那个时刻之后的存档。因此，你会直接回到火灾现场，再度做出选择。这段旅程依然充满危险，但只要达成目标，你就能改变命运。去吧，大雄，成为出色的正义的伙伴！</p>
+<p>“要记住，那幅世界名画会对你产生极大的诱惑。但说到底，如果不是互联网崩溃，只剩下这幅图画没有被塔努基篡改，它本来并没有成为世界名画的资格。毕竟过去在互联网上，这幅图到处都是，它的迷因素材过于泛滥，甚至超过了作品的本质。因此，只要你修复了世界，就没必要再拯救这样一幅无聊的世界名画了。”</p>
+<p>猫娘的话更加坚定了我的信念。我的灵魂逐渐离开了残破的肉体，朝着过去移动。只要能成功，我就能拯救这个世界，并在异世界开始新的生活。</p>
+<p>“再见了，大雄，希望这是最后一次在这个世界同你相见。”猫娘的身影消失了。</p>
+<p>我眼含泪水，与她告别。</p>
+<p>这一次，一定要让猫娘们幸福。</p>
 ]]></content>
       <tags>
-        <tag>电子垃圾</tag>
+        <tag>写作</tag>
+        <tag>原创</tag>
+        <tag>幻想</tag>
       </tags>
   </entry>
   <entry>
@@ -1425,81 +1362,144 @@ API在服务器上运行就好了。</p>
       </tags>
   </entry>
   <entry>
-    <title>救世界名画还是救猫？</title>
-    <url>/2019/11/11/painting-or-cat-dilemma/</url>
-    <content><![CDATA[<p>我躺在床上，病房没有开灯，十分昏暗，我单侧的视野中只有熟悉到吐的天花板。门外，女人的讲话声慢慢地远去。</p>
-<p>口好渴。我试图呼唤别人来帮我喂水，但是肿胀的喉咙只能发出低微的嘶鸣。身边没有一个人在照看我，没有人知道我的情况。我感到绝望和焦虑，这么一想身上越发难受起来，但实际又感觉不到什么，我的身体就像被厚厚的胶皮包裹着，阻碍了触觉和痛觉。屁股下面空荡荡的，这么一想，原来右腿已经坏死得太厉害，做了截肢手术啊。</p>
-<p>真是悲哀的人生啊。我在心中无奈地叹息。病房角落的的暗影中好像有一个熟悉的轮廓，但是我实在是有点累，便懒得去注意它，闭上了眼睛。</p>
-<p>落得这步田地，也是当时自己选的，好歹我也成了英雄不是吗？</p>
-<p>一切都要从那场震惊世界的美术馆火灾说起。</p>
-<p>那一天，我参加市政厅主办，美术馆布置的展览。因为午餐喝了冷掉的咖啡，我在展览中就感到不适，只得去了厕所。</p>
-<p>不去不要紧。当我走出厕所时，发生了不得了的事情。美术馆陷入火海，其他人早已撤离，而我因为厕所广播线路损坏没有维修而完美地错过了火灾警报。</p>
-<p>我回忆起各种逃生注意事项，尝试找到出口。烟雾太浓，我只好凭本能判断方向。</p>
-<p>结果，我被熊熊大火包围了，无路可逃。吾命休矣！一想到自己的人生就这样结束，我不禁仰天长叹。这时我才发现，背后的墙上正好挂着本次展览最珍贵的世界名画。刚才急着去厕所还没参观，现在才看到它，我一边庆幸自己能一睹名画风采，一边惋惜初次见面就要和它一起葬身火海。</p>
-<p>画面在烈火的熏燎下依然清晰，名画的内容是一对男女在机场深情拥吻，而男子的身后站着另一位沉默的少女。这时我也顾不得即将烈焰焚身了，完全沉浸在画作的情景之中。</p>
-<p>将我拉回现实的是脚边柔软的触感，我低头一看，发现不知哪里跑来的小猫在蹭着我的小腿。原来除我以外还有别的生命困在火海！一股强烈的求生欲从心头激起，我决定同小猫一起找到出口！</p>
-<p>回头看了一眼世界名画，我还是忍不住小心翼翼地把它从墙上摘下来。</p>
-<p>动物的本能果然强大，在小猫的带领下，我发现出口近在咫尺。正当我向前冲刺的时候，楼板塌陷了，我脚下一沉，身体开始下落，在掉下去前，我拼尽全力将世界名画向出口甩去，并伸手悬挂在残留的木板上，小猫落到了地下一层，冲我喵喵地叫着。</p>
-<p>太糟糕了，是把那幅画放着不管，和小猫一起再找出路呢，还是任凭小猫自生自灭，我爬上去带着画逃生？我陷入了两难的境地。</p>
-<p>一番心理斗争后，我沉默着，用力支撑起身体，在木板即将烧断时，一跃而起，抱住了世界名画。喵喵的叫声很快被崩塌的建筑所掩埋，我忍着悲痛的心情，拾起画，坚决地向门外走去，就像电影里的主角，不再回头。</p>
-<p>室外的光非常刺眼，正当我以为安全而放下心来时，我的身后发立刻生了爆炸。我不知道自己怎么来得及反应过来转过头去看的，但我昏迷前最后见到的，是向我冲来的一团巨大的猫形火球。</p>
-<p>随后的情节就像主旋律影片一样按部就班地发生。世界名画完好无损，我被送医院急救，度过了危险期，保住了性命。我以为自己很坚强，总能站起来，但是这一次我在病床上等了太久，也没有站起来。我对文艺作品的热爱与保护和其体现的崇高精神感动了市民、媒体和政府。我的病房一度摆满了鲜花，电视新闻滚动播放我的事迹，而政府部门多次派人员前来慰问，并向我的家人承诺，不但会给我颁发市民荣誉，还将用一大笔奖金和日常的补贴来负担起我的生活和医疗费。</p>
-<p>等我意识完全清醒时，周围的喧闹也不复。医生和护士例行公事，定期来检查我的状况。妻子一般会在病房照顾我，但是最近也不常来。因为我的喉咙受伤，我们无法顺利地交流，我只能用单侧的视野观察她，她并没有好好地回应我。她的表情越来越僵硬了。</p>
-<p>一种似曾相识的被抛弃的感觉持续占据了我的内心。我默默地承受着不安，等待着变化的发生。我时不时会想起美术馆里的那只小猫。就连梦里，它楚楚可怜的样子都让我难受得喘不过气。它到底有没有活下来呢？我的选择是正确的吗？就这样一直纠结着，时间慢慢流逝，我将以这副模样度过余生。</p>
-<p>我睁开眼，只见病房角落的暗影中的轮廓晃动了一下。</p>
-<p>我又眨了一下眼睛，那个物体不知怎么地瞬间移动到我的身边，假如我的喉咙没有损坏的话，我一定会放声尖叫。但我现在只想晕过去，我太累了。</p>
-<p>是一只猫！我没能如愿晕过去，它让我一个激灵清醒过来。</p>
-<p>“现在后悔吗？当时选择了这条路。”猫开口说话了。</p>
-<p>被问到这个问题，我彻底崩溃了。心跳急促起来，泪水慢慢从眼角滑落，滴在枕头上。</p>
-<p>“你的时间不多了。</p>
-<p>“你能活下来，绝不是万幸，毕竟这一切都是剧本的安排，剧本是不会让你这样窝囊地死去的。</p>
-<p>“你明明读过剧本，却忘记了自己的使命，被区区一幅世界名画蒙蔽了心灵。你这样还能算正义的伙伴吗？</p>
-<p>“你搞砸了，丧失了宝贵的机会，现在基本无法挽回。来吧，告诉我，剧本是怎么说的？”</p>
-<p>剧本……</p>
-<p>想起来了。</p>
-<p>我的角色是正义的伙伴，我在人类世界的重要使命就是拯救猫。</p>
-<p>不论猫的品种是什么，状况有多么危险，造成的副作用有多么严重，我必须救下在我眼前受到伤害的任何一只猫。</p>
-<p>哪怕是付出自己的生命，救猫。二选一的紧急情况下，救猫。把一只猫和一架飞机上的旅客放在天平的两头，救猫。</p>
-<p>这一切都是因为某一只猫对这个世界的意义非常重大。如果没有救下那一只，世界就会完蛋。</p>
-<p>问题在于剧本也无法确定具体是哪只猫，只知道那只猫必定出现在我面前。而只要能救下那只猫，其他的一切都可以牺牲。</p>
-<p>原来，那只猫是联系这个世界与另一侧的名为“薛定谔的猫娘宇宙”的传送使者。因为身份不明，它可能是任何一只猫。薛定谔的猫娘宇宙是我们所在宇宙的镜像宇宙的异构体。那一侧的智慧生命全是猫娘。如果你没有见过猫娘的话，建议你查一下互联网
+    <title>9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro</title>
+    <url>/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/</url>
+    <content><![CDATA[<h2 id="准备工作">准备工作</h2>
+<ul>
+<li><p>最新官方镜像 <a
+href="https://manjaro.org/download/official/xfce/">Manjaro - XFCE
+18.1.1</a></p></li>
+<li><p>轻松创建USB启动盘 <a href="https://rufus.ie/">Rufus</a></p></li>
+<li><p>备份笔记本电脑的全部数据，格式化<del>干烂</del>机械硬盘并删除分区，重置
+Windows</p></li>
+</ul>
+<h2 id="开始安装">开始安装</h2>
+<ul>
+<li>插上 USB 启动盘，开机 F2 进入 BIOS
+设置各种启动选项，不在此赘述；</li>
+<li>参照 <a
+href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/Manjaro-User-Guide.pdf">官方用户指南</a>
+的 <em>Dual-booting with Microsoft Windows 10</em> 一节：
+<ul>
+<li>按步骤设置语言、时区、区域、键盘布局；</li>
+<li>直至分区方式步骤，参照 <em>Erase the disk and let Calamares choose a
+partition scheme</em> 小节：
+<ul>
+<li>选择 Erase disk. 把系统装进128GB SSD, 设置 swap with
+hibernation;</li>
+</ul></li>
+</ul></li>
+<li>设置用户名和密码</li>
+<li>确认你的设置，然后<strong>坐和放宽</strong></li>
+<li>确认是否安装 LibreOffice, 可装可不装，我先不装</li>
+</ul>
+<p>安装期间查看 <a
+href="https://wiki.archlinux.org/index.php/Hybrid_graphics">混合图形技术</a>，并从中查阅所有与
+NVIDIA 有关的文章，并决定采用哪种方案；</p>
+<p>综合考虑后我选择 <a
+href="https://wiki.archlinux.org/index.php/Nvidia-xrun">nvidia-xrun</a>.
+（后来发现其实最迟在17年以后就可以不用 nvidia-xrun 实现同样功能）</p>
+<h2 id="安装后调教">安装后调教</h2>
+<h3 id="设置软件源">设置软件源</h3>
+<p>在终端中</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman-mirrors -c China -m rank</span><br><span class="line"><span class="built_in">sudo</span> vi /etc/pacman.conf</span><br></pre></td></tr></table></figure>
+<p>在上述 <code>/etc/pacman.conf</code> 文件最后增加 archlinuxcn
+源，并保存：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[archlinuxcn]</span><br><span class="line">SigLevel = Optional TrustedOnly</span><br><span class="line">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br></pre></td></tr></table></figure>
+<p>继续在终端中</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Syyu</span><br><span class="line"><span class="built_in">sudo</span> pacman -Sy archlinuxcn-keyring</span><br><span class="line"><span class="built_in">sudo</span> pacman -S yay</span><br><span class="line">yay --aururl <span class="string">&quot;https://aur.tuna.tsinghua.edu.cn&quot;</span> --save</span><br></pre></td></tr></table></figure>
+<h3 id="安装本地化和基础工具">安装本地化和基础工具</h3>
+<p>可以且必要但不是全部：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S vim</span><br><span class="line"><span class="built_in">sudo</span> pacman -S fcitx-im fcitx-configtool fcitx-skin-material fcitx-rime fcitx-mozc fcitx-googlepinyin</span><br><span class="line"><span class="built_in">sudo</span> pacman -S wqy-zenhei wqy-bitmapfont wqy-microhei ttf-wps-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts</span><br><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>&quot;</span> <span class="comment">#manjaro 自带 zsh, 所以直接装 oh-my-zsh</span></span><br><span class="line">yay -S powerline-fonts-git <span class="comment">#安装 powerline 字体</span></span><br><span class="line">vim ~/.zshrc <span class="comment">#修改主题和配置</span></span><br></pre></td></tr></table></figure>
+<h3 id="提升性能">提升(?)性能</h3>
+<p>修理一下 <a
+href="https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501">这台机器</a>
+容易出现的问题，首先遇见的是挂起后再开机会导致耳机爆音：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/modprobe.d/alsa-base.conf <span class="comment">#创建文件</span></span><br></pre></td></tr></table></figure>
+<p>在上述 <code>/etc/modprobe.d/alsa-base.conf</code> 中填入
+<code>options snd-hda-intel model=dell-headset-multi</code></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> Programs <span class="comment">#随便新建个文件夹放软件，针对有整理癖的用户</span></span><br><span class="line"><span class="built_in">cd</span> Programs</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/dakatapetrov/zenbook-pro-ux501vw-sound-fix.git <span class="comment">#dakatapetrov 制作的修复工具</span></span><br><span class="line"><span class="built_in">cd</span> zenbook-pro-ux501vw-sound-fix/</span><br><span class="line">./install.sh </span><br></pre></td></tr></table></figure>
+<p>要为英特尔显卡启用节能功能，创建
+<code>/etc/modprobe.d/i915.conf</code> 文件并包含以下内容:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">options i915 enable_rc6=1 enable_fbc=1 lvds_downclock=1 semaphores=1</span><br></pre></td></tr></table></figure>
+<p>然而我并不知道如何检查效果，据说甚至会导致屏幕冻结，尽管我还没碰到过这种情况。</p>
+<p><strong>警告：经过两天测试，我认为下面的方案存在不小的问题，或者性能表现不佳，可能完全是错误的，请勿模仿</strong></p>
+<p>接下来要解决的就是N卡切换问题，参照 <a
+href="https://wiki.archlinux.org/index.php/Nvidia-xrun_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">nvidia-xrun</a>：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">uname</span> -r <span class="comment">#检查内核版本</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S nvidia bbswitch <span class="comment">#在接下来的对话中我选择对应内核版本的最新驱动</span></span><br><span class="line">yay -S nvidia-xrun <span class="comment">#也有其他版本可以选，我最终选了 nvidia-xrun-git</span></span><br><span class="line">lspci | grep -i nvidia | awk <span class="string">&#x27;&#123;print $1&#125;&#x27;</span> <span class="comment">#确认返回值，是不是1:0:0</span></span><br><span class="line"><span class="built_in">sudo</span> vim /etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</span><br></pre></td></tr></table></figure>
+<p>在上述 <code>/etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</code>
+文件中写入</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">Section <span class="string">&quot;Device&quot;</span></span><br><span class="line">    Identifier <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    Driver <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    BusID <span class="string">&quot;PCI:1:0:0&quot;</span> <span class="comment">#对应此处1:0:0</span></span><br><span class="line">EndSection</span><br></pre></td></tr></table></figure>
+<p>然后</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Rdd nvidia-utils <span class="comment">#然而这一步在我的电脑没有实际效果，因为 nvidia-utils 并未安装</span></span><br><span class="line">vim ~/.nvidia-xinitrc</span><br></pre></td></tr></table></figure>
+<p>在上述 <code>~/.nvidia-xinitrc</code> 文件中写入</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> -gt 0 ]; <span class="keyword">then</span></span><br><span class="line">  $*</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">  <span class="comment"># openbox-session</span></span><br><span class="line">  <span class="comment"># Alternatively, you can also use xfce4:</span></span><br><span class="line">  xfce4-session <span class="comment">#第一次我可能在这里忘记修改注释的位置，使用了 openbox-session, 重启电脑后只显示 ASUS logo, 风扇狂转，无法进入系统</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+<p>然后</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> -i</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;bbswitch &#x27;</span> &gt; /etc/modules-load.d/bbswitch.conf <span class="comment">#在启动时载入 bbswitch 模块</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;options bbswitch load_state=0 unload_state=1&#x27;</span> &gt; /etc/modprobe.d/bbswitch.conf <span class="comment">#在启动时关闭 nvidia 模块</span></span><br><span class="line">vim /usr/lib/modprobe.d/nvidia-xrun.conf <span class="comment">#将 nvidia 相关模块加入黑名单</span></span><br></pre></td></tr></table></figure>
+<p>第一次，我参照 <a
+href="https://wiki.archlinux.org/index.php/Nvidia-xrun">英文版</a>
+在上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code> 文件中写入</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment">#似乎有问题</span></span><br><span class="line">blacklist nvidia</span><br><span class="line">blacklist nvidia-drm</span><br><span class="line">blacklist nvidia-modeset</span><br><span class="line">blacklist nvidia-uvm</span><br><span class="line">blacklist nouveau</span><br></pre></td></tr></table></figure>
+<p>然后重启了，就有了上面所说的重启电脑后只有 ASUS logo,
+风扇狂转的情形。由于无暇确认是 <code>~/.nvidia-xinitrc</code>
+有问题，还是 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code>
+有问题，只好插上 USB 启动盘重新进入 LiveCD, 挂载系统后用 LiveCD
+的命令行还原上述魔改。</p>
+<p>实际上第二次我采用了另一种方法，与之前相比区别在于完成对
+<code>/etc/modprobe.d/bbswitch.conf</code>
+的写入之后，实行以下操作：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">lsmod | grep nvidia | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt; /tmp/nvidia</span><br><span class="line">lsmod | grep  nouveau | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt;&gt; /tmp/nvidia</span><br><span class="line"><span class="built_in">sort</span> -n /tmp/nvidia | <span class="built_in">uniq</span> &gt;  /tmp/nvidia.conf <span class="comment">#去重</span></span><br><span class="line">sed -i <span class="string">&#x27;s/^\w*$/blacklist &amp;/g&#x27;</span> /tmp/nvidia.conf  <span class="comment">#添加blacklist</span></span><br><span class="line"><span class="built_in">cp</span> /tmp/nvidia.conf /etc/modprobe.d/nvidia.conf  <span class="comment">#移动</span></span><br><span class="line"><span class="comment">#👆实际我的操作是 cp /tmp/nvidia.conf /usr/lib/modprobe.d/nvidia-xrun.conf 应该没区别</span></span><br><span class="line"><span class="built_in">cat</span> /proc/acpi/bbswitch <span class="comment">#重启系统后运行该命令检查结果 0000:01:00.0 ON 说明开启成功</span></span><br></pre></td></tr></table></figure>
+<p>而上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code>
+黑名单的内容变成了：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">blacklist agpgart</span><br><span class="line">blacklist drm</span><br><span class="line">blacklist drm_kms_helper</span><br><span class="line">blacklist i2c_algo_bit</span><br><span class="line">blacklist mxm_wmi</span><br><span class="line">blacklist nouveau</span><br><span class="line">blacklist ttm</span><br><span class="line">blacklist wmi</span><br></pre></td></tr></table></figure>
+<p><strong>虽然不知道为什么，反正重启之后是正常了。</strong></p>
+<p>到此为止，就基本解决了安装问题。网上提到的有些操作也没有全部做完，对我来说够用就行，接下来就是慢慢装常用软件了。不过，最后重启几次发现键盘背光突然失效，明明一开始都是好的。不过不要紧，
 <a
-href="https://zh.moegirl.org/zh-hans/%E7%8C%AB%E5%A8%98">猫娘</a>。不过互联网五十年前就已经崩溃了，所以查了也是白查。</p>
-<p>薛定谔的猫娘宇宙本来和我们的世界隔绝，相安无事。但是有一天，跨次元侵略者塔努基大魔王和它的军团选择了侵略薛定谔的猫娘宇宙。猫娘们并没有足够的力量抵抗，因此，薛定谔的猫娘宇宙陷落成为了塔努基殖民地，民不聊生。塔努基大魔王甚至不断扩张它的势力范围，它的跨次元力量终于影响到了我们的世界。七十年前，它们灭绝了所有北美浣熊，在美国人短暂的快乐之后迅速取代了浣熊的生态位，造成了更严重的破坏。五十年前，全球重要的几个互联网数据节点沦陷了，所有网站媒体资源和用户数据都被替换成了塔努基的迷因素材。没过多久，世界就回到了彼此隔绝的落后状态。</p>
-<p>三十年前，也就是我出生的那一年，人类和猫娘在各自的宇宙同时出土了一块泥板，上面刻有解除塔努基危机的剧本。剧本说猫娘只有通过从我们这个世界召唤正义的伙伴，打败塔努基大魔王，一切才能恢复如初。</p>
-<p>而和泥板同年同月同日问世的我，就这样悄然成为了正义的伙伴人选，并时刻铭记剧本的指导。</p>
-<p>然而故事并不圆满。我救下了许多猫，最终被召唤到薛定谔的猫娘宇宙。在那里我没能打败塔努基大魔王，直接被塔努基的爪子拍成了灰。在猫娘们的嘘声中我的灵魂穿过莫比乌斯环，重新回归到刚出生的我身上。原来这是一种循环，我必须通过不断轮回的试炼，才能累积经验，找到打败塔努基大魔王的方法。</p>
-<p>不知道从哪一次轮回开始，我不禁想要逃避。既然注定会见到传送使者猫，那只要尽量降低日常生活中见到猫的频率，就能省去很多麻烦。然而这样也没有让打败塔努基的效率变得更高，一切在循环往复中持续着。而世人并不理解我经历的一切，只认为我是一个因为猫而惹麻烦的怪人。</p>
-<p>然后在这一次轮回，我应该也读过剧本。剧本上说这次极有可能成功，打败塔努基大魔王，让世界恢复和平。剧本上也说这次的挑战主要在人世，并叮嘱我一定要万事谨慎。但是轮回的次数太多，过往的记忆残片影响了我现在的记忆。面对世界名画，我松懈了，退缩了，选择做普通的人。结果我刚好错失了救下传送使者的机会。</p>
-<p>“按照剧本，你这次本应该在大火中救下那只猫，你的死状会很惨烈，但那不是真正的死亡。你救下的那只猫应该正是这次轮回的传送使者，它很快会让你在薛定谔的猫娘世界转生，让你再次成为勇者，彻底打败塔努基大魔王。然后，你和猫娘们可以继续展开惊心动魄的冒险，在那个宇宙度过幸福的一生。</p>
-<p>“但是你选择了另一条路。你拯救了那幅画，你活了下来，但是身受重伤，只能领着政府的补贴躺在病床上度过余生。你的妻子对你的感情并没有你以为的那样深厚，她会悄悄挥霍你的奖金，并私自将补贴挪用到其他地方。她想等你断气，但是发现你一直顽强地坚持着。最终她感到守着你也没意义，于是同你离婚了。你除了一个人类文明的守护者的称号，什么也没有得到，也无法再成就事业，只能麻木地迎接世界的终结。</p>
-<p>“而我现在则不得不同你告别，因为最后的时刻已经来到，我再也帮不了你了，大雄。我是薛定谔的猫娘宇宙2000年以后的科技结晶，穿过莫比乌斯环来到你的世界，从小陪伴你，照顾你，监督你成为正义的伙伴。现在的你再也无法拯救薛定谔的猫娘宇宙，这注定了薛定谔的猫娘宇宙未来创造的我也不复存在。另外，我刚刚得知，传送使者猫也是我的直系祖先。因为悖论，我在这个时代的一切信息应该被抹消，只不过我自从你出事后就一直低调行事，只在黑暗中行动，只要不被任何人观察到，我就能维持现在这个样子，直到悖论完全发挥效果。”</p>
-<p>猫娘说完了，月光倾泻进房间，微微照亮了她蓝色的布偶头套。我忍受着痛苦，想呼唤她的名字。</p>
-<p>“哆……”</p>
-<p>“别叫那个名字！”她立刻激动地打断了我。“这不光是侵权的问题了。你只要喊出我的名字，我就会立即被悖论抹消。”</p>
-<p>现在该怎么办？</p>
-<p>“怎么办？”猫娘冷笑道。“大雄，你总是这样。每次出了岔子，你除了朝我哭诉怎么办，一点儿也不会思考，只知道逃避，也难为你这样的人被选为正义的伙伴。静香虽然和我们一起长大，但是成年后也忍不住怀疑我们的关系，这也是你们夫妻嫌隙的矛盾点之一，这方面我也有错。说起来，我已经受够了从四次元短裙下帮你掏出神奇工具了。受到悖论的影响，现在大多数工具都无法运作，不过我最近倒是在公园和一个小伙伴搭上了话，它是一团很可爱的黑泥，它说只要扔出一把菜刀就能解决世界上的所有问题……看吧，大雄，这把菜刀就是它送给我的，你要不要试一试呀……”</p>
-<p>猫娘逐渐变得邪恶的声音慢慢地听不见了，我如坠冰窟，感觉不到周围。已经完蛋了。若不是因为那幅画，我怎么会付出这么大的代价！</p>
-<p>“喂，大雄，你别睡过去了，振作一点！喂！”猫娘的喊声再次把我拉回现实。我怒上心头，恶狠狠地瞪着她，艰难地挤出一句话：“你不让我活，也不让我死。”</p>
-<p>猫娘被我的气势吓住了，她怔怔地回答：“但是世界需要你。”</p>
-<p>我冷哼了一声，继续沙哑地说：“那需不需要你呢？哆啦……”</p>
-<p>“等等等等等别叫那个名字，求求你了！”猫娘慌了神，吓得连身体都快变透明了，于是赶紧制止我。“我只是想教训一下你，不是来真的。解决方法还是有的，但我只希望你能有自己的想法，独立做决定。”</p>
-<p>我平息了心情，缓慢地从床边的小推车上拾起一枚硬币。硬币的两面分别刻着“九磅”和“十五便士”。这是一枚神奇的错版硬币，我受伤住院以后它突然就在我病房的小推车上出现了。我把它当作我人生的新希望，珍藏起来。我决定用它来做决策。</p>
-<p>“省省吧，大雄……”猫娘用有气无力的声音制止我。“就算再怎么像那个人，他也只是烧掉了半边脸，而你是全身只剩下半边脸了，而且抛硬币这个梗也很没创意。我是要你独立做决定！”</p>
-<p>就这样度过余生？还是去救猫？</p>
-<p>当然是救猫啦！什么世界名画，什么守护人类文明的英雄，这稀巴烂的世界，我再也不想管了！让我去猫娘宇宙吧！</p>
-<p>“非常好。”猫娘终于露出了满意的神色，并把手里的菜刀丢在一边。</p>
-<p>“你通过了试炼，为了奖励你，我会帮你重新开放时光机。但是受到悖论的影响，时光机已经不能前往任何想去的时间了，它只有你观测到传送使者猫那个时刻之后的存档。因此，你会直接回到火灾现场，再度做出选择。这段旅程依然充满危险，但只要达成目标，你就能改变命运。去吧，大雄，成为出色的正义的伙伴！</p>
-<p>“要记住，那幅世界名画会对你产生极大的诱惑。但说到底，如果不是互联网崩溃，只剩下这幅图画没有被塔努基篡改，它本来并没有成为世界名画的资格。毕竟过去在互联网上，这幅图到处都是，它的迷因素材过于泛滥，甚至超过了作品的本质。因此，只要你修复了世界，就没必要再拯救这样一幅无聊的世界名画了。”</p>
-<p>猫娘的话更加坚定了我的信念。我的灵魂逐渐离开了残破的肉体，朝着过去移动。只要能成功，我就能拯救这个世界，并在异世界开始新的生活。</p>
-<p>“再见了，大雄，希望这是最后一次在这个世界同你相见。”猫娘的身影消失了。</p>
-<p>我眼含泪水，与她告别。</p>
-<p>这一次，一定要让猫娘们幸福。</p>
+href="https://wiki.archlinux.org/index.php/ASUS_N550JV#Keyboard">N550JV
+的介绍</a> 里有提到键盘背光的修复方法，首先安装
+<code>asus-kbd-backlight</code>, 然后在内核模块
+<code>/etc/modules-load.d/modules.conf</code> 中添加
+<code>asus-nb-wmi</code>, 然后让 <code>asus-kbd-backlight.service</code>
+服务开机启动：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yay -S asus-kbd-backlight</span><br><span class="line"><span class="built_in">sudo</span> vim /etc/modules-load.d/modules.conf <span class="comment">#添加 asus-nb-wmi</span></span><br><span class="line">systemctl <span class="built_in">enable</span> --now asus-kbd-backlight.service</span><br></pre></td></tr></table></figure>
+<p>至此完工。</p>
+<h2 id="后记">后记</h2>
+<p>重新回到 Manjaro 怀抱。</p>
+<p>上一台 Manjaro 笔记本是大二时就从我爸那里薅来的昭阳K47A，经历过 Win7,
+Ubuntu, Win10, Chromium OS, CentOS, Feroda, Manjaro
+是我用它折腾的最后一个操作系统，当时无脑装了 GNOME
+版本，也没怎么关注显卡，直接用的开源驱动，即使换了新电池，续航还是一般，硬盘也没换成
+SSD,
+运行效果并不堪用，只能对付轻量的工作。由于各种原因不得不把机器还给我爸了。</p>
+<p>昨天在自己的<strong>曾经的</strong>出差主力笔记本 UX501VW 上安装
+Manjaro
+之前，我一直在物色下一台适合出差的<strong>便携</strong>笔记本，同时要满足<strong>良好支持
+Linux
+发行版</strong>的要求。这么一来市面上有售的品牌新机中，能选的范围就比较少了，然而我穷，看了也是白看。</p>
+<p>即使我最近又清理了自己的数字订阅，再次把信用卡月开支削减到合适的程度，我还是不能下决心去买新的败家玩意儿。</p>
+<p>于是我的目光又落在了2016年购入的 ASUS ZenBook Pro UX501VW,
+这台让我无比后悔的机器。</p>
+<p>官方授权网点购入，非4K屏，店家把内存加到16G。使用不到一年后掉了8G内存，送售后说要换主板，结果换完主板后
+CPU
+发热降频严重，原来中画质流畅玩战地1的水平居然低画质都会掉帧，不过对付日常工作还是绰绰有余，啥都能干。直到今年发现8G内存又掉了，过保以后，再送售后换主板也麻烦，就自己拆机重新涂了硅脂清灰，仔细检查了内存，插拔之后只过几天，又从16G掉到8G……这下傻眼了，我猜平时搬运的时候动作太大，把什么部位撞坏了导致接触不良吧，又或者这块内存条素质真的不行。内存抢救不回来，也懒得修，吃内存的工作放在台式机上一样可以做。最后一次清灰加硅脂，散热还是不错的，只要
+Win10 不抽风，cpu
+可以保持在40～50摄氏度，最高普遍在75～80摄氏度，极限也是低于90摄氏度。电池损耗有点大，持续工作时间2-4小时，不过这段时间不会有很多出差任务，而我已经习惯带着无比轻便的
+Pixel C 出门。</p>
+<p>工作台式机为了和实验室其他人兼容和稳定性，还是选择了 Windows 10 +
+WSL2 的组合。这么一来，如果想要把玩 Linux
+桌面环境，加购新设备显然是最好的选择。而我又想起了 Manjaro,
+它的开箱即用设定和优秀的兼容性对我的吸引力足够充分，而在 UX501VW
+这样一台看似到处是坑的设备上，它也应该可以很好的运行，所以，何乐而不为呢？</p>
+<p>安装 Manjaro,
+完成诸般设置后，发现续航依然能打。更感人的是，并没有显著的性能下降，而
+CPU
+温度甚至可以保持在29-36摄氏度之间，实际可以用手感觉出来，是个很宜人的温度（尽管我在另一台电脑上做过测试，安静状态下
+Ubuntu 的温度的确比 Windows 10
+低上几度，不知道是不是传感器的问题）。</p>
+<p>通过安装新系统让自己的旧笔记本变得焕然一新，也借此机会重新整理一下生活的方方面面吧。</p>
 ]]></content>
       <tags>
-        <tag>写作</tag>
-        <tag>原创</tag>
-        <tag>幻想</tag>
+        <tag>电子垃圾</tag>
       </tags>
   </entry>
   <entry>
@@ -1752,6 +1752,37 @@ blah
       </tags>
   </entry>
   <entry>
+    <title>《在无爱之森呐喊》观后感</title>
+    <url>/2019/10/14/the-forest-of-love-review/</url>
+    <content><![CDATA[<p><strong>注意：本文任何一句话都可能包含剧透，或者直到最后都没有。</strong></p>
+<p>10月13日凌晨在 Netflix 看了园子温监督的<a
+href="https://www.netflix.com/jp/title/81133621">《在无爱之森呐喊》</a>。</p>
+<p>其实我并未深入了解园子温，看过的上一部也是我看的第一部他的作品，叫《我们都是超能力者》，全程欢乐恶搞。对于其电影风格的了解仅限于一些剪辑。因此，我也不在此详细述说这部电影哪一部分和哪部作品是如何地相似了。反正都没看过，日后再补。</p>
+<p>总而言之，这是一部帮助新观众快速了解园子温风格的懒人包电影，这是一部让园子温粉丝巩固记忆的作品，而对于别的观众来说，喜欢不喜欢这部电影的理由都能列出很多。</p>
+<p>152分钟的片长，可能还是装不下三条故事线的信息量，也有可能是有意而为之，电影通过篇章分割，而叙事支离破碎，对理解剧情可能有一点影响。由于情节的设计，观众必须有足够的耐心。</p>
+<p>部分摇晃的镜头毫无疑问会让观众产生强烈的代入感与临场感，这与本片角色之一“阿信”亲身经历案件的体验是一致的。</p>
+<p>本片具有残酷的美感和风格强烈的色调表现。就欣赏画面这个层次来评价，是令人非常满足的。除了少女美好的胴体外，没有刺激感官的点。也许是我不够理解，总觉得性的表现缺乏美感，介于枯燥和克制之间，反正这两个形容词拼音缩写一下都是
+KZ（？）。至于暴力，有自杀、谋杀和虐待的场面，出血量还是挺大的，还有两段
+Not safe for anywhere 的分尸镜头，如果无法承受，可以跳过。</p>
+<p>故事是根据真实案件改编的，即使如此，情节也严肃不起来，多数时候角色都在放飞自我，仿佛真的深陷在他们自己拍摄的疯狂的电影中。真相与谎言的界限变得模糊，而一旦有人恢复清醒，陷得浅可以逃离，陷得深就只能迎接死亡。我为了在观影过程中保持俯瞰的姿态以免被剧情带着走，便把它当作推理小说来看，尝试在一连串非理性的混乱中找出线索。尽管如此，在答案揭晓前，我已经判断这群人都是疯子，而无人能胜任英雄（侦探）的角色。当全片最精彩的部分以排山倒海之势呼应主题时，电影最大的谜团就此揭晓，让我精神为之振奋，内心十分过瘾。尘埃落定后的发展又极度讽刺，留下一个温情的结尾。总的来说是个好玩的故事，细节和逻辑不太经得起推敲。不过管他呢，不要想，只要爽。</p>
+<p>看完电影后去查了相关资料，多看了几眼园子温，也查了本片的原型案件——<a
+href="https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B9%9D%E5%B7%9E%E7%9B%A3%E7%A6%81%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6">北九州监禁杀人事件</a>。不看不要紧，看了之后，本案已超过女子高中生水泥埋尸案，成为我心目中最恶心的日本谋杀案例。而和本案相关人员的真实经历比起来，这部电影应该温柔了许多才是。阿信在片头告诉小电影二人组，自己来自爱知县丰川市。实际上园子温的<a
+href="https://zh.wikipedia.org/wiki/%E5%9C%92%E5%AD%90%E6%BA%AB">出身</a>正是爱知县丰川市，不难理解片中的阿信是园子温的化身，导演借由这部电影和这个角色，畅快地致敬自己的作品，重新演绎案件，对剧中的杀人凶手指点一番，实则指桑骂槐嘲讽现实中的案犯“不敢亲手杀人”。</p>
+<p>本片中的罗密欧与朱丽叶舞台剧故事表现了一种极致的爱情，确实不赖。果然世上只有百合好。</p>
+<p>演员演得很拼，颜值和妆容也很能打。椎名桔平的村田丈戏份多也很卖力，最具戏剧性；満島真之介的阿信还真的挺突破认知的，看到后面才体会到；日南響子的妙子富有个人魅力；鎌滝えり的美津子则活生生地展现出来，并通过逼真的演技奉献了全片最大的惊喜。</p>
+<p>说起来，我过去对满岛真之介有印象完全是靠动画《只有我不存在的城市》，当时我对于TV动画男主的成年音和少儿音都没选专职声优，而是俳优（满岛真之介、土屋太凤）这一点就很好奇了，实际听起来还是有明显棒读现象，但是习惯了声线之后又感觉还不错。</p>
+<p>Netflix
+搞这种变态气质的剧集影片，还真的不会厌啊，但是观众可能会厌。</p>
+<p>这是第一部我全程观看没开字幕的日语电影。过去总想尝试看电影，却没这个耐心，所以仅仅局限于动画无字幕。这次观看后发现还是能理解很多台词，而不影响对细节的注意。决定下次再用无字幕看一遍，第三遍开字幕检查自己的听力。</p>
+<p>最后，我还是挺后悔这部电影占用了我宝贵的睡眠时间的，白天看不好吗？更何况这篇影评也是在半夜完成最后几段的，我更感觉有点浪费。</p>
+<p><a
+href="https://movie.douban.com/subject/30337760/comments?sort=time&amp;status=P">豆瓣</a>上本片备受争议，褒贬不一，想知道为什么的，看过一遍电影就能懂了。</p>
+]]></content>
+      <tags>
+        <tag>电影</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>个人翻译 ~ 来自北方的恶龙（爱沙尼亚童话）</title>
     <url>/2019/07/13/the-dragon-of-the-north/</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -1949,117 +1980,6 @@ role="doc-backlink">↩︎</a></p></li>
       </tags>
   </entry>
   <entry>
-    <title>《在无爱之森呐喊》观后感</title>
-    <url>/2019/10/14/the-forest-of-love-review/</url>
-    <content><![CDATA[<p><strong>注意：本文任何一句话都可能包含剧透，或者直到最后都没有。</strong></p>
-<p>10月13日凌晨在 Netflix 看了园子温监督的<a
-href="https://www.netflix.com/jp/title/81133621">《在无爱之森呐喊》</a>。</p>
-<p>其实我并未深入了解园子温，看过的上一部也是我看的第一部他的作品，叫《我们都是超能力者》，全程欢乐恶搞。对于其电影风格的了解仅限于一些剪辑。因此，我也不在此详细述说这部电影哪一部分和哪部作品是如何地相似了。反正都没看过，日后再补。</p>
-<p>总而言之，这是一部帮助新观众快速了解园子温风格的懒人包电影，这是一部让园子温粉丝巩固记忆的作品，而对于别的观众来说，喜欢不喜欢这部电影的理由都能列出很多。</p>
-<p>152分钟的片长，可能还是装不下三条故事线的信息量，也有可能是有意而为之，电影通过篇章分割，而叙事支离破碎，对理解剧情可能有一点影响。由于情节的设计，观众必须有足够的耐心。</p>
-<p>部分摇晃的镜头毫无疑问会让观众产生强烈的代入感与临场感，这与本片角色之一“阿信”亲身经历案件的体验是一致的。</p>
-<p>本片具有残酷的美感和风格强烈的色调表现。就欣赏画面这个层次来评价，是令人非常满足的。除了少女美好的胴体外，没有刺激感官的点。也许是我不够理解，总觉得性的表现缺乏美感，介于枯燥和克制之间，反正这两个形容词拼音缩写一下都是
-KZ（？）。至于暴力，有自杀、谋杀和虐待的场面，出血量还是挺大的，还有两段
-Not safe for anywhere 的分尸镜头，如果无法承受，可以跳过。</p>
-<p>故事是根据真实案件改编的，即使如此，情节也严肃不起来，多数时候角色都在放飞自我，仿佛真的深陷在他们自己拍摄的疯狂的电影中。真相与谎言的界限变得模糊，而一旦有人恢复清醒，陷得浅可以逃离，陷得深就只能迎接死亡。我为了在观影过程中保持俯瞰的姿态以免被剧情带着走，便把它当作推理小说来看，尝试在一连串非理性的混乱中找出线索。尽管如此，在答案揭晓前，我已经判断这群人都是疯子，而无人能胜任英雄（侦探）的角色。当全片最精彩的部分以排山倒海之势呼应主题时，电影最大的谜团就此揭晓，让我精神为之振奋，内心十分过瘾。尘埃落定后的发展又极度讽刺，留下一个温情的结尾。总的来说是个好玩的故事，细节和逻辑不太经得起推敲。不过管他呢，不要想，只要爽。</p>
-<p>看完电影后去查了相关资料，多看了几眼园子温，也查了本片的原型案件——<a
-href="https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B9%9D%E5%B7%9E%E7%9B%A3%E7%A6%81%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6">北九州监禁杀人事件</a>。不看不要紧，看了之后，本案已超过女子高中生水泥埋尸案，成为我心目中最恶心的日本谋杀案例。而和本案相关人员的真实经历比起来，这部电影应该温柔了许多才是。阿信在片头告诉小电影二人组，自己来自爱知县丰川市。实际上园子温的<a
-href="https://zh.wikipedia.org/wiki/%E5%9C%92%E5%AD%90%E6%BA%AB">出身</a>正是爱知县丰川市，不难理解片中的阿信是园子温的化身，导演借由这部电影和这个角色，畅快地致敬自己的作品，重新演绎案件，对剧中的杀人凶手指点一番，实则指桑骂槐嘲讽现实中的案犯“不敢亲手杀人”。</p>
-<p>本片中的罗密欧与朱丽叶舞台剧故事表现了一种极致的爱情，确实不赖。果然世上只有百合好。</p>
-<p>演员演得很拼，颜值和妆容也很能打。椎名桔平的村田丈戏份多也很卖力，最具戏剧性；満島真之介的阿信还真的挺突破认知的，看到后面才体会到；日南響子的妙子富有个人魅力；鎌滝えり的美津子则活生生地展现出来，并通过逼真的演技奉献了全片最大的惊喜。</p>
-<p>说起来，我过去对满岛真之介有印象完全是靠动画《只有我不存在的城市》，当时我对于TV动画男主的成年音和少儿音都没选专职声优，而是俳优（满岛真之介、土屋太凤）这一点就很好奇了，实际听起来还是有明显棒读现象，但是习惯了声线之后又感觉还不错。</p>
-<p>Netflix
-搞这种变态气质的剧集影片，还真的不会厌啊，但是观众可能会厌。</p>
-<p>这是第一部我全程观看没开字幕的日语电影。过去总想尝试看电影，却没这个耐心，所以仅仅局限于动画无字幕。这次观看后发现还是能理解很多台词，而不影响对细节的注意。决定下次再用无字幕看一遍，第三遍开字幕检查自己的听力。</p>
-<p>最后，我还是挺后悔这部电影占用了我宝贵的睡眠时间的，白天看不好吗？更何况这篇影评也是在半夜完成最后几段的，我更感觉有点浪费。</p>
-<p><a
-href="https://movie.douban.com/subject/30337760/comments?sort=time&amp;status=P">豆瓣</a>上本片备受争议，褒贬不一，想知道为什么的，看过一遍电影就能懂了。</p>
-]]></content>
-      <tags>
-        <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无所胃</title>
-    <url>/2022/07/09/this-is-called-peptic-ulcer-disease/</url>
-    <content><![CDATA[<blockquote>
-<p>警告：本文含有描述排泄物的文字。</p>
-</blockquote>
-<p>要说现在的我与之前的我有什么不一样，那就是，从不被发现就不算生病的亚健康变成了真正的病人。</p>
-<p>确诊了胃溃疡，告别了生活习惯的荒唐，和美食的邂逅也泡了汤。</p>
-<h2 id="就诊前">就诊前</h2>
-<p>6月26日晚10点第一次发现异常。坐完马桶的我这辈子第一次意识到到大便的颜色黑得有些过分，色号可能介于煤球和黑咖啡之间。</p>
-<p>尽管以前也偶然注意到类似的现象，彼时基本可以断定排便前吃过黑色的东西。现在回想起来，以前的判断可能过于轻率了吧？</p>
-<p>马上Google了一通，很多寻医问药的网站都指出了同一个可能：”黑便=消化道出血“。只是说有可能，但对我来说怎么可能呢？怀着坚强的侥幸心理，我慢悠悠地走了回去。</p>
-<p>正值出梅的猛暑，就算在夜里还是走出一身汗，燥热感冲击着躯干。</p>
-<p>权衡了一下消化道出血死和热死的难受程度，然后决定去便利店买一根雪糕和一罐ほろよい冷却一下。</p>
-<p>我并非没有考虑风险。出了事的话，这就是最后一根雪糕，还可以怪罪到酒精头上。</p>
-<p>于是晚上大概确实是出事了。</p>
-<p>洗完澡，睡前又排了一次黑便，并且这次更加严重，完全符合黑色柏油样，并且不成形。用手机拍了几张照片准备用来咨询医生。</p>
-<p>站起身时发生了比往常还要严重的体位性低血压，不得不蹲下缓缓。在密闭的卫生间中浑身冒汗，但是走出卫生间拿毛巾擦身子的话又要顶着一身汗去吹空调的冷风，我的头顶似乎有一个不断缩短的血条。</p>
-<p>几分钟后状态有所好转，我也没有任何胃痛的感觉。晚上急诊恐怕看不了什么，连胃镜都做不了。但是如果不去医院，我预估最大的风险可能是睡觉的时候持续失血发生休克。可毕竟折腾到了半夜，实在困了，最终还是决定先睡觉观察情况。</p>
-<p>一睡就是九个多小时，醒来时已经接近6月27日的中午。又排了一次典型的黑便，意识到得赶紧去医院。早上还收到了工作相关的邮件，但那时候已经完全顾不上工作，匆匆把事情交代给了别人，预约上当天的消化内科，打了车就奔向村里最好的医院。</p>
-<h2 id="就诊">就诊</h2>
-<p>大医院人满为患，好在我有提前预约，等号排队的时间在出租车程中就消耗掉了，没过多久就叫了我的号。</p>
-<p>给我看病的医生是个冷酷的美女，看不出年龄是比我大还是小。她虽然一开始持怀疑态度，但是通过我留下的照片，确认了黑便状况属实，并且询问了我神志是否清楚。我确认我这段时间从来没晕过，即使是体位性低血压我也没失去意识。</p>
-<p>为了进一步描述清楚自身状态，我还告诉医生我的心率已经升到到110以上。感觉医生的眉毛似乎都快挑到天上了。</p>
-<p>然后医生给我开了血检（血常规+CRP+凝血谱）和粪检（粪常规+隐血）。这辈子第一次要做粪检，有一种很神圣的感觉。或者可能只是我回归了看阿拉蕾的初心吧。</p>
-<p>抽了血，去急诊楼做粪检，因为之前在别的楼层瞥到标志，我以为我也有专用厕所可以用。结果急诊的医生随手指了最近的厕所，让我看一下没有人就进去。</p>
-<p>大概是上一个使用者按冲水开关过猛，我进厕所时，坑位在汨汨地漏水，实在不像是可以满足不污染样本的条件。</p>
-<p>于是我一直等到水停下来才开始操作，用那个精巧的瓶盖带挖勺的粪检瓶采集了自己的粪便。总之全过程干净卫生。</p>
-<p>检测结果都出来了。血红蛋白、红细胞压积偏低，以及大便隐血。这个结果连我都知道是怎么回事了，于是我带着报告找医生复查宣判。</p>
-<p>医生说，这个毫无疑问是消化道内有出血状况，一般是上消化道出血，建议立即做胃镜。她问我有没有48小时核酸阴性证明。</p>
-<p>我：没有。</p>
-<p>医生：你没有？！</p>
-<p>她咄咄逼人，仿佛下一秒就要怒拍桌子让我跪下。但是没有的东西就是没有，何况已经是七天做一次核酸的的时代了，我只是刚刚超过了48小时而已。</p>
-<p>最后的方案是预约第二天早上的普通胃镜，然后就是一些谨遵医嘱的事宜。此时我的内心反而十分平静，体能状态也渐渐恢复。走出诊室，朝预约胃镜的方向慢慢前进，我一边晃悠一边用手机和人聊天告知自己的情况。</p>
-<p>不过在我仍然在晃悠，还未走到胃镜预约分诊台的时候，医生似乎因为什么事情而走出来了，正好碰见了我。</p>
-<p>她问我有没有预约上胃镜，一听没有，她直接让我快点跟着她走，还说晚了都不一定能约上。被如此关照，我忍不住道了歉，毕竟普通门诊必然忙得要死，实在是不想给她添麻烦。</p>
-<p>医生走到分诊台，直接跟分诊医生打招呼，说让我尽早做上第二天的胃镜，于是我顺利地填好了相关材料，领到了说明。此时内心有一种被天使帮助的感动。</p>
-<p>材料上只提示要自带干毛巾，似乎没看到别的有意义的说明了。作为胃镜初心者，我对此真的有点忐忑不安。</p>
-<p>取了胃镜需要用到的两种药，二甲硅油+达己苏。晚上住在医院旁边的酒店，确保得到充分休息。上午的胃镜，因此前一晚十点后就得断食空腹。</p>
-<h2 id="胃镜">胃镜</h2>
-<p>第二天，去内镜中心，签到，付钱挂上内镜医生的号，进准备室等待。</p>
-<p>身边大多是年长的人，基本都在往手臂中输液注入药品，还不断有些被移动病床推出来的人，这些都是做无痛胃镜的病人。无痛胃镜需要全身麻醉，所以需要有人陪同来做。</p>
-<p>干净明亮的内镜中心十分忙碌，似乎并不是约了几点就能在指定时间做上。也有声称七点就来等到现在都没做上的人在大声抱怨（实际上根据他输液量和坐下来的时间判断，估计是很晚才进准备室）。这时候就有一个手拿文件的医生过来安抚他。</p>
-<p>看这个负责安抚的医生，好像动画公司里现场的制作进行。</p>
-<p>终于轮到我了，医生指导我把前一天取的两种药喝下去准备。先喝白色的二甲硅油，消除胃里的泡沫，再喝达己苏，麻醉喉咙消除反射。大概就是这么个顺序，听说也有只喝一种药的。如果有人要做胃镜的话还是听医生的。</p>
-<p>走入内镜室，医生让我除下身上多余物品，包括眼镜，松开裤腰，左侧卧于床上，头枕在自带的干毛巾上，毛巾下垫着纸。</p>
-<p>医生给我一个牙垫咬住，并保持头部微曲的姿势，一切就准备就绪了。医生说：很快就好，坚持一下。</p>
-<p>我并不感到害怕，但也没有任何心理准备，因为：我根本不知道要做什么，也不知道要坚持什么……</p>
-<p>一根手指粗的缆线通过嘴巴探入食道，大概是麻醉的作用，我并不能判断这玩意在我体内的探进深度。</p>
-<p>起初还算好，但是很快我就发生了咽反射，干呕起来，引起了医生焦虑和不耐烦的哀叹，诸如“这样根本看不清”、“大概连幽门都下不去”、“你不要忍着”等等。</p>
-<p>等一下，不要忍着是什么意思？我可是第做胃镜，啥都不知道啊，不忍着岂不是呕得更厉害。</p>
-<p>然后不知是护士还是助理医师帮我解了围，帮助我双手交握，并指导我坚持用鼻子吸气，嘴巴呼气，放轻松。我这才意识到刚才我并没有很好地在呼吸，而出现咽反射时为了抵抗憋着气，反而无法抑制干呕。</p>
-<p>如何呼吸这种事，医生居然一开始没告诉我。此时脑海中已经完完全全冒出“你个瘪三算计我”的台词，可惜嘴里咬着东西讲不出口，况且也不文明。</p>
-<p>当然，我也没有明确表示我是第一次做胃镜，也许本来应该说清楚的。</p>
-<p>学成了胃之呼吸以后，身体确实平静了下来，咽反射也停止了。医生说，就趁现在赶紧做掉吧。因为有认识相关的医学研究人员，我比较清楚胃肠镜操作为了把消化道内的景像拍清楚，是必须要走一个过程，所以听到这句话的时候，我猜测大概是打算趁反应不剧烈的时候把关键的病灶拍到就算完事了吧。</p>
-<p>“这么大一个溃疡”，医生感叹道。我只得认命。</p>
-<p>可惜，因为一开始的干呕，涕泗横流，鼻腔里塞着分泌物，我逐渐失去控制胃之呼吸的体力，呼吸又紊乱起来，咽反射也随之而来。医生又重复哀叹起来。</p>
-<p>最终，精神上比肉体更痛苦的普通胃镜做完了，我清理好自己的面部，把沾着口水和鼻咽分泌物的毛巾扔进垃圾袋。</p>
-<p>医生的临别话语是：下次记得预约无痛胃镜吧。</p>
-<p>额，下次我会练好胃之呼吸的，做普通胃镜吧。</p>
-<h2 id="诊断">诊断</h2>
-<p>做胃镜前，手背上留了个条形码贴纸，用机器扫码取了胃镜报告。</p>
-<p>预约过当天的消化内科，于是去找了医生。医生指着报告说胃窦处有一个0.4
-cm * 0.6
-cm的溃疡，就是出血的原因。另外还指出十二指肠处有一个溃疡愈合留下的疤痕组织。</p>
-<p>可怜我的胃，大概早就有问题了。话又说回来，十二指肠也拍得比较清楚，说明胃镜成功通过幽门了，这次胃镜不算失败。医生也指出胃镜显示出可能存在幽门螺旋杆菌（HP）感染，要等五天后的病理报告正式确认。</p>
-<p>于是医生给我开了两种药：雷贝拉唑钠肠溶片和硫糖铝口服混悬液，都是饭前吃。</p>
-<p>做完胃镜两小时内不能进食，之后先喝温水，无不适的话可以吃流食，第二天恢复正常饮食，避免刺激。</p>
-<p>五天后，病理报告出来了，胃窦粘膜慢性炎+幽门螺旋杆菌感染，医生让我继续服药，吃两个月，药不够了自己去开，然后停药两周后再来治疗，除去幽门螺旋杆菌。并要我一辈子注意饮食，三餐规律，细嚼慢咽。</p>
-<h2 id="写在最后">写在最后</h2>
-<p>这就是两个星期以来我经历的个人健康最大危机。随着年龄的增长，类似的毛病肯定会接二连三地杀过来，如果不及时准备的话，下次也可能像这次一样碰到问题。不过胃溃疡还是很常见的，其他方面健康的人可以不用紧张。</p>
-<p>自己的身体自己负责，落到这步田地也跟我过去几年高强度搬砖，并且最后这一两年作息严重紊乱有关，尽管睡眠勉强维持在睡够的水平，不过胃先受不了了。</p>
-<p>刚做完胃镜，就要搬家，好在并不麻烦，而且搬家后的生活也一下子变得舒服许多，趁现在稍微回归一下正常的节奏也不错。特别是吃饭细嚼慢咽似乎还有助于减少卡路里摄入，当然重点还是吃一顿饭时能看的动画时长增加了。</p>
-<p>消化道出血的事情并没有告诉父母，我只是暗中提醒他们我们一家都已经是HP感染者，还是要注意护理和及时检查的。但没想到他俩都觉得没太大关系，毕竟我爸是抗菌治疗失败的，而我妈现在并没有表现出症状。还是以后再提醒吧。</p>
-<p>话说回来，我该什么时候告诉医生和我的相关亲朋，我小学的时候大概也许可能不小心把一根不尖的铁钉吞了下去，当时有点害怕，也从来没有确认到底有没有顺利排出异物，但是直到今天，好像什么事也没有发生呢？</p>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《声之形》观后感</title>
     <url>/2018/12/18/the-shape-of-voice-review/</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -2202,6 +2122,86 @@ href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       <tags>
         <tag>电影</tag>
         <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无所胃</title>
+    <url>/2022/07/09/this-is-called-peptic-ulcer-disease/</url>
+    <content><![CDATA[<blockquote>
+<p>警告：本文含有描述排泄物的文字。</p>
+</blockquote>
+<p>要说现在的我与之前的我有什么不一样，那就是，从不被发现就不算生病的亚健康变成了真正的病人。</p>
+<p>确诊了胃溃疡，告别了生活习惯的荒唐，和美食的邂逅也泡了汤。</p>
+<h2 id="就诊前">就诊前</h2>
+<p>6月26日晚10点第一次发现异常。坐完马桶的我这辈子第一次意识到到大便的颜色黑得有些过分，色号可能介于煤球和黑咖啡之间。</p>
+<p>尽管以前也偶然注意到类似的现象，彼时基本可以断定排便前吃过黑色的东西。现在回想起来，以前的判断可能过于轻率了吧？</p>
+<p>马上Google了一通，很多寻医问药的网站都指出了同一个可能：”黑便=消化道出血“。只是说有可能，但对我来说怎么可能呢？怀着坚强的侥幸心理，我慢悠悠地走了回去。</p>
+<p>正值出梅的猛暑，就算在夜里还是走出一身汗，燥热感冲击着躯干。</p>
+<p>权衡了一下消化道出血死和热死的难受程度，然后决定去便利店买一根雪糕和一罐ほろよい冷却一下。</p>
+<p>我并非没有考虑风险。出了事的话，这就是最后一根雪糕，还可以怪罪到酒精头上。</p>
+<p>于是晚上大概确实是出事了。</p>
+<p>洗完澡，睡前又排了一次黑便，并且这次更加严重，完全符合黑色柏油样，并且不成形。用手机拍了几张照片准备用来咨询医生。</p>
+<p>站起身时发生了比往常还要严重的体位性低血压，不得不蹲下缓缓。在密闭的卫生间中浑身冒汗，但是走出卫生间拿毛巾擦身子的话又要顶着一身汗去吹空调的冷风，我的头顶似乎有一个不断缩短的血条。</p>
+<p>几分钟后状态有所好转，我也没有任何胃痛的感觉。晚上急诊恐怕看不了什么，连胃镜都做不了。但是如果不去医院，我预估最大的风险可能是睡觉的时候持续失血发生休克。可毕竟折腾到了半夜，实在困了，最终还是决定先睡觉观察情况。</p>
+<p>一睡就是九个多小时，醒来时已经接近6月27日的中午。又排了一次典型的黑便，意识到得赶紧去医院。早上还收到了工作相关的邮件，但那时候已经完全顾不上工作，匆匆把事情交代给了别人，预约上当天的消化内科，打了车就奔向村里最好的医院。</p>
+<h2 id="就诊">就诊</h2>
+<p>大医院人满为患，好在我有提前预约，等号排队的时间在出租车程中就消耗掉了，没过多久就叫了我的号。</p>
+<p>给我看病的医生是个冷酷的美女，看不出年龄是比我大还是小。她虽然一开始持怀疑态度，但是通过我留下的照片，确认了黑便状况属实，并且询问了我神志是否清楚。我确认我这段时间从来没晕过，即使是体位性低血压我也没失去意识。</p>
+<p>为了进一步描述清楚自身状态，我还告诉医生我的心率已经升到到110以上。感觉医生的眉毛似乎都快挑到天上了。</p>
+<p>然后医生给我开了血检（血常规+CRP+凝血谱）和粪检（粪常规+隐血）。这辈子第一次要做粪检，有一种很神圣的感觉。或者可能只是我回归了看阿拉蕾的初心吧。</p>
+<p>抽了血，去急诊楼做粪检，因为之前在别的楼层瞥到标志，我以为我也有专用厕所可以用。结果急诊的医生随手指了最近的厕所，让我看一下没有人就进去。</p>
+<p>大概是上一个使用者按冲水开关过猛，我进厕所时，坑位在汨汨地漏水，实在不像是可以满足不污染样本的条件。</p>
+<p>于是我一直等到水停下来才开始操作，用那个精巧的瓶盖带挖勺的粪检瓶采集了自己的粪便。总之全过程干净卫生。</p>
+<p>检测结果都出来了。血红蛋白、红细胞压积偏低，以及大便隐血。这个结果连我都知道是怎么回事了，于是我带着报告找医生复查宣判。</p>
+<p>医生说，这个毫无疑问是消化道内有出血状况，一般是上消化道出血，建议立即做胃镜。她问我有没有48小时核酸阴性证明。</p>
+<p>我：没有。</p>
+<p>医生：你没有？！</p>
+<p>她咄咄逼人，仿佛下一秒就要怒拍桌子让我跪下。但是没有的东西就是没有，何况已经是七天做一次核酸的的时代了，我只是刚刚超过了48小时而已。</p>
+<p>最后的方案是预约第二天早上的普通胃镜，然后就是一些谨遵医嘱的事宜。此时我的内心反而十分平静，体能状态也渐渐恢复。走出诊室，朝预约胃镜的方向慢慢前进，我一边晃悠一边用手机和人聊天告知自己的情况。</p>
+<p>不过在我仍然在晃悠，还未走到胃镜预约分诊台的时候，医生似乎因为什么事情而走出来了，正好碰见了我。</p>
+<p>她问我有没有预约上胃镜，一听没有，她直接让我快点跟着她走，还说晚了都不一定能约上。被如此关照，我忍不住道了歉，毕竟普通门诊必然忙得要死，实在是不想给她添麻烦。</p>
+<p>医生走到分诊台，直接跟分诊医生打招呼，说让我尽早做上第二天的胃镜，于是我顺利地填好了相关材料，领到了说明。此时内心有一种被天使帮助的感动。</p>
+<p>材料上只提示要自带干毛巾，似乎没看到别的有意义的说明了。作为胃镜初心者，我对此真的有点忐忑不安。</p>
+<p>取了胃镜需要用到的两种药，二甲硅油+达己苏。晚上住在医院旁边的酒店，确保得到充分休息。上午的胃镜，因此前一晚十点后就得断食空腹。</p>
+<h2 id="胃镜">胃镜</h2>
+<p>第二天，去内镜中心，签到，付钱挂上内镜医生的号，进准备室等待。</p>
+<p>身边大多是年长的人，基本都在往手臂中输液注入药品，还不断有些被移动病床推出来的人，这些都是做无痛胃镜的病人。无痛胃镜需要全身麻醉，所以需要有人陪同来做。</p>
+<p>干净明亮的内镜中心十分忙碌，似乎并不是约了几点就能在指定时间做上。也有声称七点就来等到现在都没做上的人在大声抱怨（实际上根据他输液量和坐下来的时间判断，估计是很晚才进准备室）。这时候就有一个手拿文件的医生过来安抚他。</p>
+<p>看这个负责安抚的医生，好像动画公司里现场的制作进行。</p>
+<p>终于轮到我了，医生指导我把前一天取的两种药喝下去准备。先喝白色的二甲硅油，消除胃里的泡沫，再喝达己苏，麻醉喉咙消除反射。大概就是这么个顺序，听说也有只喝一种药的。如果有人要做胃镜的话还是听医生的。</p>
+<p>走入内镜室，医生让我除下身上多余物品，包括眼镜，松开裤腰，左侧卧于床上，头枕在自带的干毛巾上，毛巾下垫着纸。</p>
+<p>医生给我一个牙垫咬住，并保持头部微曲的姿势，一切就准备就绪了。医生说：很快就好，坚持一下。</p>
+<p>我并不感到害怕，但也没有任何心理准备，因为：我根本不知道要做什么，也不知道要坚持什么……</p>
+<p>一根手指粗的缆线通过嘴巴探入食道，大概是麻醉的作用，我并不能判断这玩意在我体内的探进深度。</p>
+<p>起初还算好，但是很快我就发生了咽反射，干呕起来，引起了医生焦虑和不耐烦的哀叹，诸如“这样根本看不清”、“大概连幽门都下不去”、“你不要忍着”等等。</p>
+<p>等一下，不要忍着是什么意思？我可是第做胃镜，啥都不知道啊，不忍着岂不是呕得更厉害。</p>
+<p>然后不知是护士还是助理医师帮我解了围，帮助我双手交握，并指导我坚持用鼻子吸气，嘴巴呼气，放轻松。我这才意识到刚才我并没有很好地在呼吸，而出现咽反射时为了抵抗憋着气，反而无法抑制干呕。</p>
+<p>如何呼吸这种事，医生居然一开始没告诉我。此时脑海中已经完完全全冒出“你个瘪三算计我”的台词，可惜嘴里咬着东西讲不出口，况且也不文明。</p>
+<p>当然，我也没有明确表示我是第一次做胃镜，也许本来应该说清楚的。</p>
+<p>学成了胃之呼吸以后，身体确实平静了下来，咽反射也停止了。医生说，就趁现在赶紧做掉吧。因为有认识相关的医学研究人员，我比较清楚胃肠镜操作为了把消化道内的景像拍清楚，是必须要走一个过程，所以听到这句话的时候，我猜测大概是打算趁反应不剧烈的时候把关键的病灶拍到就算完事了吧。</p>
+<p>“这么大一个溃疡”，医生感叹道。我只得认命。</p>
+<p>可惜，因为一开始的干呕，涕泗横流，鼻腔里塞着分泌物，我逐渐失去控制胃之呼吸的体力，呼吸又紊乱起来，咽反射也随之而来。医生又重复哀叹起来。</p>
+<p>最终，精神上比肉体更痛苦的普通胃镜做完了，我清理好自己的面部，把沾着口水和鼻咽分泌物的毛巾扔进垃圾袋。</p>
+<p>医生的临别话语是：下次记得预约无痛胃镜吧。</p>
+<p>额，下次我会练好胃之呼吸的，做普通胃镜吧。</p>
+<h2 id="诊断">诊断</h2>
+<p>做胃镜前，手背上留了个条形码贴纸，用机器扫码取了胃镜报告。</p>
+<p>预约过当天的消化内科，于是去找了医生。医生指着报告说胃窦处有一个0.4
+cm * 0.6
+cm的溃疡，就是出血的原因。另外还指出十二指肠处有一个溃疡愈合留下的疤痕组织。</p>
+<p>可怜我的胃，大概早就有问题了。话又说回来，十二指肠也拍得比较清楚，说明胃镜成功通过幽门了，这次胃镜不算失败。医生也指出胃镜显示出可能存在幽门螺旋杆菌（HP）感染，要等五天后的病理报告正式确认。</p>
+<p>于是医生给我开了两种药：雷贝拉唑钠肠溶片和硫糖铝口服混悬液，都是饭前吃。</p>
+<p>做完胃镜两小时内不能进食，之后先喝温水，无不适的话可以吃流食，第二天恢复正常饮食，避免刺激。</p>
+<p>五天后，病理报告出来了，胃窦粘膜慢性炎+幽门螺旋杆菌感染，医生让我继续服药，吃两个月，药不够了自己去开，然后停药两周后再来治疗，除去幽门螺旋杆菌。并要我一辈子注意饮食，三餐规律，细嚼慢咽。</p>
+<h2 id="写在最后">写在最后</h2>
+<p>这就是两个星期以来我经历的个人健康最大危机。随着年龄的增长，类似的毛病肯定会接二连三地杀过来，如果不及时准备的话，下次也可能像这次一样碰到问题。不过胃溃疡还是很常见的，其他方面健康的人可以不用紧张。</p>
+<p>自己的身体自己负责，落到这步田地也跟我过去几年高强度搬砖，并且最后这一两年作息严重紊乱有关，尽管睡眠勉强维持在睡够的水平，不过胃先受不了了。</p>
+<p>刚做完胃镜，就要搬家，好在并不麻烦，而且搬家后的生活也一下子变得舒服许多，趁现在稍微回归一下正常的节奏也不错。特别是吃饭细嚼慢咽似乎还有助于减少卡路里摄入，当然重点还是吃一顿饭时能看的动画时长增加了。</p>
+<p>消化道出血的事情并没有告诉父母，我只是暗中提醒他们我们一家都已经是HP感染者，还是要注意护理和及时检查的。但没想到他俩都觉得没太大关系，毕竟我爸是抗菌治疗失败的，而我妈现在并没有表现出症状。还是以后再提醒吧。</p>
+<p>话说回来，我该什么时候告诉医生和我的相关亲朋，我小学的时候大概也许可能不小心把一根不尖的铁钉吞了下去，当时有点害怕，也从来没有确认到底有没有顺利排出异物，但是直到今天，好像什么事也没有发生呢？</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
