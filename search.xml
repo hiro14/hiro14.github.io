@@ -2513,15 +2513,19 @@ href="https://theme-next.js.org/docs/advanced-settings/custom-files.html">修改
 <li>在站点配置文件（或主题配置文件，正常来说是博客根目录下的<code>_config.next.yml</code>）中去掉注释，启用这个修改：</li>
 </ol>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme_config:</span></span><br><span class="line">  <span class="attr">custom_file_path:</span></span><br><span class="line">    <span class="attr">head:</span> <span class="string">source/_data/head.njk</span></span><br></pre></td></tr></table></figure>
-<p>这样做的好处是： - 不直接修改主题文件，便于维护 -
-在主题更新时不会丢失自定义内容 - 符合 NexT 推荐的自定义方式</p>
+<p>这样做的好处是：</p>
+<ul>
+<li>不直接修改主题文件，便于维护</li>
+<li>在主题更新时不会丢失自定义内容</li>
+<li>符合NexT推荐的自定义方式</li>
+</ul>
 <p>如果你想针对不同文章设置不同的content值（针对多个作者和/或多个账号），还可以：</p>
 <ol type="1">
-<li>在文章的 Front-matter 中添加自定义变量：</li>
+<li>在文章的front-matter中添加自定义变量：</li>
 </ol>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章标题</span></span><br><span class="line"><span class="attr">fediverse_creator:</span> <span class="string">your_custom_value</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
 <ol start="2" type="1">
-<li>然后修改 head.njk 的内容为：</li>
+<li>然后修改<code>head.njk</code>的内容为：</li>
 </ol>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if page.fediverse_creator %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;fediverse:creator&quot;</span> <span class="attr">content</span>=<span class="string">&quot;&#123;&#123; page.fediverse_creator &#125;&#125;&quot;</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 <p>这样就可以在需要的文章中自定义fediverse:creator的值了。</p>
