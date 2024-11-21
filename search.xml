@@ -2489,8 +2489,9 @@ bug report. 我还没有仔细研究过 bug report 的内容，看起来是桌�
   <entry>
     <title>在使用NexT主题的Hexo博客中加入Mastodon创作者归属</title>
     <url>/2024/11/21/custom-head-fediverse-creator/</url>
-    <content><![CDATA[<p>一句话概括：用NexT自定义文件模板更改主题配置，加入<code>&lt;meta name="fediverse:creator" content="..."&gt;</code>Mastodon创作者归属的代码。</p>
-<p>Mastodon对作者归属的描述：</p>
+    <content><![CDATA[<p>一句话概括：用NexT自定义文件模板更改主题配置，加入“Mastodon创作者归属”的代码：<code>&lt;meta name="fediverse:creator" content="..."&gt;</code>
+。</p>
+<p>Mastodon对“作者归属”的描述：</p>
 <blockquote>
 <p>作者归属</p>
 <p>你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon
