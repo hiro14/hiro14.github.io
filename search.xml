@@ -2486,4 +2486,50 @@ bug report. 我还没有仔细研究过 bug report 的内容，看起来是桌�
         <tag>电子垃圾</tag>
       </tags>
   </entry>
+  <entry>
+    <title>在使用NexT主题的Hexo博客中加入Mastodon创作者归属</title>
+    <url>/2024/11/21/custom-head-fediverse-creator/</url>
+    <content><![CDATA[<p>一句话概括：用NexT自定义文件模板更改主题配置，加入<code>&lt;meta name="fediverse:creator" content="..."&gt;</code>Mastodon创作者归属的代码。</p>
+<p>Mastodon对作者归属的描述：</p>
+<blockquote>
+<p>作者归属</p>
+<p>你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon
+时的署名方式。</p>
+</blockquote>
+<p>效果就是当一篇署名是你本人的文章被分享到Mastodon的时候，它能够和那些非你本人署名的文章区分开来，指向你的Mastodon账号，也能避免你被不明链接错误署名。</p>
+<p>要获得<strong>该代码</strong>，Mastodon用户可以访问<code>修改个人资料&gt;验证</code>，拉到下面查看创作者归属。</p>
+<p>NexT主题已经有很成熟的<a
+href="https://theme-next.js.org/docs/advanced-settings/custom-files.html">修改教程</a>。建议直接参考。</p>
+<p>以下是消化后的简易步骤：</p>
+<ol type="1">
+<li>首先在你的Hexo博客根目录下创建空白文件：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source/_data/head.njk</span><br></pre></td></tr></table></figure>
+<ol start="2" type="1">
+<li>在 head.njk 文件中添加以下内容（使用你自己的代码）：</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;fediverse:creator&quot;</span> <span class="attr">content</span>=<span class="string">&quot;...&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<ol start="3" type="1">
+<li>在站点配置文件（或主题配置文件，正常来说是博客根目录下的<code>_config.next.yml</code>）中去掉注释，启用这个修改：</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme_config:</span></span><br><span class="line">  <span class="attr">custom_file_path:</span></span><br><span class="line">    <span class="attr">head:</span> <span class="string">source/_data/head.njk</span></span><br></pre></td></tr></table></figure>
+<p>这样做的好处是： - 不直接修改主题文件，便于维护 -
+在主题更新时不会丢失自定义内容 - 符合 NexT 推荐的自定义方式</p>
+<p>如果你想针对不同文章设置不同的content值（针对多个作者和/或多个账号），还可以：</p>
+<ol type="1">
+<li>在文章的 Front-matter 中添加自定义变量：</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章标题</span></span><br><span class="line"><span class="attr">fediverse_creator:</span> <span class="string">your_custom_value</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<ol start="2" type="1">
+<li>然后修改 head.njk 的内容为：</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if page.fediverse_creator %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;fediverse:creator&quot;</span> <span class="attr">content</span>=<span class="string">&quot;&#123;&#123; page.fediverse_creator &#125;&#125;&quot;</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<p>这样就可以在需要的文章中自定义fediverse:creator的值了。</p>
+<p>以上内容有Claude加笔，故可用性无法100%保证。</p>
+]]></content>
+      <tags>
+        <tag>互联网</tag>
+        <tag>mastodon</tag>
+      </tags>
+  </entry>
 </search>
