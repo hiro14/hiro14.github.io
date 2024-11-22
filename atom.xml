@@ -3,6 +3,7 @@
   <title>Nachtzug</title>
   
   <subtitle>「夜行列車」</subtitle>
+  <subtitle>feedId:55178476304234588+userId:82700460194025472</subtitle>
   <link href="https://nachtzug.xyz/atom.xml" rel="self"/>
   
   <link href="https://nachtzug.xyz/"/>
@@ -14,7 +15,6 @@
     
   </author>
   
-  <description>feedId:55178476304234588+userId:82700460194025472</description>
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
