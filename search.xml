@@ -1880,4 +1880,49 @@
         <tag>日记</tag>
       </tags>
   </entry>
+  <entry>
+    <title>在Follow上完成你的博客RSS的所有权认证</title>
+    <url>/2024/11/22/claim-your-verified-feed-to-follow-is-app/</url>
+    <content><![CDATA[<p><a href="https://follow.is/">Follow应用</a>好像开始公测了，我是从少数派的<a href="https://sspai.com/post/94104">文章</a>得知的。如果不知道Follow是什么，那看过上面这篇文章就一定能明白。</p>
+<p>如果刚好在使用Follow，而你本人又恰好是一个订阅源的所有者。那么Follow刚好提供了一个在它的平台上<strong>认证自己的订阅源所有权</strong>的功能。</p>
+<p>按照它的说明，认证分为三种方法。</p>
+<h2 id="方法一：发布文本内容到自己的订阅源"><a href="#方法一：发布文本内容到自己的订阅源" class="headerlink" title="方法一：发布文本内容到自己的订阅源"></a>方法一：发布文本内容到自己的订阅源</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This message is used to verify that this feed (feedId:XXXXXXXXXX) belongs to me (userId:XXXXXXXXXX). Join me in enjoying the next generation information browser https://follow.is.</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>feedId:XXXXXXXXXX</code> 这个对应你要认证的订阅源在follow.is上显示的数字ID。在认证模块里是直接显示的。</li>
+<li><code>userId:XXXXXXXXXX</code> 这个对应你这个用户在follow.is上显示的数字ID。在认证模块里也是直接显示的。</li>
+</ul>
+<p>该方法最为简单直白，没有技术含量，把上述文本发布到自己的博客、社交平台动态，预计都能够实现认证。为了方便，请参照官方说明使用此方法。</p>
+<p>当然，我都说<strong>预计</strong>，正是因为我没有用这个方法啦。</p>
+<h2 id="方法二：把一段代码添加到自己的订阅源的字段内"><a href="#方法二：把一段代码添加到自己的订阅源的字段内" class="headerlink" title="方法二：把一段代码添加到自己的订阅源的&lt;description /&gt;字段内"></a>方法二：把一段代码添加到自己的订阅源的<code>&lt;description /&gt;</code>字段内</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">feedId:XXXXXXXXXX+userId:XXXXXXXXXX</span><br></pre></td></tr></table></figure>
+
+<p>同理，feedId和userId就是订阅源和你的用户ID，这个在复制的时候都可以看到，所以不再赘述，关键是你得会改动自己的订阅源。</p>
+<p>以本博客采用<a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a>生成的<code>atom.xml</code>格式为例，让我直接硬改<code>&lt;description /&gt;</code>简直是丈二和尚摸不着头脑。因为<code>Atom</code>和<code>RSS 2.0</code>的<a href="https://zh.wikipedia.org/wiki/Atom_(%E6%A8%99%E6%BA%96)#Atom%E8%88%87RSS_2.0%E7%9A%84%E6%AF%94%E8%BC%83">标准有所不同</a>。</p>
+<p>这样也导致了Follow会把我的订阅源里的<code>&lt;subtitle&gt;</code>字段识别为<code>description</code>。</p>
+<p>也就是说，我应该想办法把原来的<code>&lt;subtitle&gt;</code>字段覆盖掉，或者采用<code>&lt;summary&gt;</code>字段之类符合规范的做法。</p>
+<p>那么我的步骤是：</p>
+<ol>
+<li>在hexo的source目录中创建<code>_custom.xml</code>文件，开头的<code>_</code>是为了防止被hexo识别到而生成public文件。此xml文件模板请参照hexo-generator-feed的<a href="https://github.com/hexojs/hexo-generator-feed/blob/master/atom.xml">官方模板</a>。</li>
+<li>把<code>_custom.xml</code>文件里的<code>&lt;subtitle&gt;</code>字段这一行直接修改为：</li>
+</ol>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">subtitle</span>&gt;</span>feedId:XXXXXXXXXX+userId:XXXXXXXXXX<span class="tag">&lt;/<span class="name">subtitle</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>请记住feedId、userId都对应的是你的订阅源和用户ID。<br>3. 再修改博客根目录下的<code>_config.yml</code>文件里的部分：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugin:</span> <span class="string">hexo-generator-feed</span></span><br><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">template:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">./source/_custom.xml</span></span><br></pre></td></tr></table></figure>
+<p><code>template</code>字段引用了你的自定义模板。</p>
+<p>修改好之后生成发布一下博客，产生新的atom.xml订阅链接，然后你就可以到Follow上进行认证了。</p>
+<p>认证完以后，你应该还可以把对应的订阅链接恢复原状，去除这个字段带来的任何影响。</p>
+<h2 id="方法三：把相应内容复制到对应的RSS生成工具"><a href="#方法三：把相应内容复制到对应的RSS生成工具" class="headerlink" title="方法三：把相应内容复制到对应的RSS生成工具"></a>方法三：把相应内容复制到对应的RSS生成工具</h2><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">follow_challenge</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">feedId</span>&gt;</span>XXXXXXXXXX<span class="tag">&lt;/<span class="name">feedId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">userId</span>&gt;</span>XXXXXXXXXX<span class="tag">&lt;/<span class="name">userId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">follow_challenge</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;follow_challenge&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feed_id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;XXXXXXXXXX&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;user_id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;XXXXXXXXXX&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>同样这里的id也要从你的Follow界面中直接复制。如果你是RSS生成器的用户，这个方法显然会很直观。</p>
+<p>最终，我也在Follow上拥有了一个橙色的勾勾。也很感谢之前就把我的博客订阅加到Follow里的朋友，我感到非常意外（</p>
+]]></content>
+      <tags>
+        <tag>互联网</tag>
+        <tag>RSS</tag>
+        <tag>Follow</tag>
+      </tags>
+  </entry>
 </search>
