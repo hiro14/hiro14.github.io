@@ -226,7 +226,7 @@ body {
   box-sizing: border-box;
   color: var(--text-color);
   font-family: Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -238,28 +238,28 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Josefin Slab, LXGW WenKai Mono TC, Noto Serif SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Josefin Slab, Noto Serif SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
 }
 h1 {
-  font-size: 1.475em;
+  font-size: 1.5em;
 }
 h2 {
-  font-size: 1.35em;
+  font-size: 1.375em;
 }
 h3 {
-  font-size: 1.225em;
+  font-size: 1.25em;
 }
 h4 {
-  font-size: 1.1em;
+  font-size: 1.125em;
 }
 h5 {
-  font-size: 0.975em;
+  font-size: 1em;
 }
 h6 {
-  font-size: 0.85em;
+  font-size: 0.875em;
 }
 p {
   margin: 0 0 20px;
@@ -1408,8 +1408,8 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Josefin Sans, LXGW WenKai Mono TC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.8em;
+  font-family: Josefin Sans, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
   margin: 0;
@@ -1550,7 +1550,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #f1de41;
+    background: #c32dff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2165,7 +2165,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Josefin Sans, LXGW WenKai TC, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Josefin Sans, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2351,7 +2351,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Josefin Sans, LXGW WenKai TC, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Josefin Sans, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
