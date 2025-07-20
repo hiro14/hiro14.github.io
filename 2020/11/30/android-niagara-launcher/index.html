@@ -20,12 +20,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="索尼 Xperia 手机自带的启动器已经彻底拥抱原生 Android，而在过去使用了 Nova Launcher, Lawnchair 和微软桌面后，我却终于对“搜索栏+Dock+网格排布图标”的类 Pixel 式桌面布局产生了视觉疲劳。 iOS 14 更新带来了“应用抽屉” App 资源库，也支持了桌面小部件，总算给我眼前一亮的感觉。当然与其说苹果终于开窍学习 Android，我更愿">
+    <meta name="description" content="索尼 Xperia 手机自带的启动器已经彻底拥抱原生 Android，而在过去使用了 Nova Launcher, Lawnchair 和微软桌面后，我却终于对“搜索栏+Dock+网格排布图标”的类 Pixel 式桌面布局产生了视觉疲劳。 iOS 14 更新带来了“应用抽屉” App 资源库，也支持了桌面小部件，总算给我眼前一亮的感觉。当然与其说苹果终于开窍学习 Android，我更愿意认为 iO">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Niagara Launcher + Diffuse + 流体手势导航，组成清爽简约又美观的沉浸式桌面">
 <meta property="og:url" content="https://nachtzug.xyz/2020/11/30/android-niagara-launcher/index.html">
 <meta property="og:site_name" content="Nachtzug">
-<meta property="og:description" content="索尼 Xperia 手机自带的启动器已经彻底拥抱原生 Android，而在过去使用了 Nova Launcher, Lawnchair 和微软桌面后，我却终于对“搜索栏+Dock+网格排布图标”的类 Pixel 式桌面布局产生了视觉疲劳。 iOS 14 更新带来了“应用抽屉” App 资源库，也支持了桌面小部件，总算给我眼前一亮的感觉。当然与其说苹果终于开窍学习 Android，我更愿">
+<meta property="og:description" content="索尼 Xperia 手机自带的启动器已经彻底拥抱原生 Android，而在过去使用了 Nova Launcher, Lawnchair 和微软桌面后，我却终于对“搜索栏+Dock+网格排布图标”的类 Pixel 式桌面布局产生了视觉疲劳。 iOS 14 更新带来了“应用抽屉” App 资源库，也支持了桌面小部件，总算给我眼前一亮的感觉。当然与其说苹果终于开窍学习 Android，我更愿意认为 iO">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-11-30T11:19:11.000Z">
 <meta property="article:modified_time" content="2020-11-30T11:19:11.432Z">
@@ -141,7 +141,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#niagara-launcher"><span class="nav-number">1.</span> <span class="nav-text">Niagara Launcher</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#pro-%E7%89%88%E7%89%B9%E6%80%A7"><span class="nav-number">1.1.</span> <span class="nav-text">Pro 版特性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%A9%E6%B0%94"><span class="nav-number">1.1.1.</span> <span class="nav-text">天气</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%87%E7%BA%A7%E8%BD%BB%E6%89%AB%E6%89%8B%E5%8A%BF%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.1.2.</span> <span class="nav-text">升级轻扫手势，支持自定义文件夹</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93"><span class="nav-number">1.1.3.</span> <span class="nav-text">自定义字体</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F"><span class="nav-number">1.1.4.</span> <span class="nav-text">隐藏状态栏</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%80%B3%E6%9C%BA%E8%AF%86%E5%88%AB"><span class="nav-number">1.1.5.</span> <span class="nav-text">耳机识别</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8D%E7%84%B6%E5%AD%98%E5%9C%A8%E9%97%AE%E9%A2%98"><span class="nav-number">1.2.</span> <span class="nav-text">仍然存在问题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%81%E4%BD%93%E6%89%8B%E5%8A%BF%E5%AF%BC%E8%88%AA"><span class="nav-number">2.</span> <span class="nav-text">流体手势导航</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#diffuse"><span class="nav-number">3.</span> <span class="nav-text">Diffuse</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#niagara-launcher"><span class="nav-number">1.</span> <span class="nav-text"> Niagara Launcher</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#pro-%E7%89%88%E7%89%B9%E6%80%A7"><span class="nav-number">1.1.</span> <span class="nav-text"> Pro 版特性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%A9%E6%B0%94"><span class="nav-number">1.1.1.</span> <span class="nav-text"> 天气</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%87%E7%BA%A7%E8%BD%BB%E6%89%AB%E6%89%8B%E5%8A%BF%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.1.2.</span> <span class="nav-text"> 升级轻扫手势，支持自定义文件夹</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93"><span class="nav-number">1.1.3.</span> <span class="nav-text"> 自定义字体</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F"><span class="nav-number">1.1.4.</span> <span class="nav-text"> 隐藏状态栏</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%80%B3%E6%9C%BA%E8%AF%86%E5%88%AB"><span class="nav-number">1.1.5.</span> <span class="nav-text"> 耳机识别</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8D%E7%84%B6%E5%AD%98%E5%9C%A8%E9%97%AE%E9%A2%98"><span class="nav-number">1.2.</span> <span class="nav-text"> 仍然存在问题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%81%E4%BD%93%E6%89%8B%E5%8A%BF%E5%AF%BC%E8%88%AA"><span class="nav-number">2.</span> <span class="nav-text"> 流体手势导航</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#diffuse"><span class="nav-number">3.</span> <span class="nav-text"> Diffuse</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -273,138 +273,87 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>索尼 Xperia 手机自带的启动器已经彻底拥抱原生 Android，而在过去使用了
-Nova Launcher, Lawnchair
-和微软桌面后，我却终于对“搜索栏+Dock+网格排布图标”的类 Pixel
-式桌面布局产生了视觉疲劳。</p>
-<p>iOS 14 更新带来了“应用抽屉” App
-资源库，也支持了桌面小部件，总算给我眼前一亮的感觉。当然与其说苹果终于开窍学习
-Android，我更愿意认为 iOS 14 的视觉感受更像当年的 Windows Phone.</p>
-<p>受这种审美的影响，购入 Xperia 10 II
-后，我总是没法找到视觉和实用的平衡。何况索尼从 XZ3 起便不再支持 Xperia
-主题，而我之前付费下载的 XPERIA™ - DUALSHOCK™4 Theme
-也就无法继续兼容手里的新设备，我连一点点美化的心思都动不了，<strong>索尼罪大滔天</strong>。</p>
-<p>因此为了找回这种平衡，我把目光转向了其他没试过的第三方启动器上。首选就是曾经关注过的
-Niagara Launcher.</p>
-<h2 id="niagara-launcher">Niagara Launcher</h2>
-<p>Niagara Launcher 在 Google Play
-商店仍是抢先体验状态，和我第一次见它时并没有变化，这代表开发者还没有正式发布的打算。不过事到如今，这并不妨碍我试用它。</p>
-<p>顾名思义，与尼亚加拉瀑布同名的它主打的是瀑布流的主屏幕体验<a
-href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a>，设置完成后，屏幕上只有自带的时间·日程·天气微件<a
-href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a>（当播放音乐时还会显示出媒体微件）和至多8个——当然更多也没关系，只是官方推荐至多8个——的常用应用列表（收藏夹）。无独有偶，iOS
-中的 “Siri
-建议”组件也会用户动态列出基于使用情况的8个app，我就常用这个桌面组件代替钉死在桌面上的app图标。总之，这个模式非常符合我的个人习惯。</p>
-<p>瀑布流的另一个特色是：只要你触摸或滑动屏幕左右任意一侧，就能唤出按照首字母排列的全部应用列表<a
-href="#fn3" class="footnote-ref" id="fnref3"
-role="doc-noteref"><sup>3</sup></a>，上下滑动即可快速检索应用<a
-href="#fn4" class="footnote-ref" id="fnref4"
-role="doc-noteref"><sup>4</sup></a>，也可以在搜索框中找到想要打开的应用。应用排序已经于2019年<a
-target="_blank" rel="noopener" href="https://twitter.com/NiagaraLauncher/status/1189458055408295936">支持中文</a>。</p>
+    <div class="post-body" itemprop="articleBody"><p>索尼 Xperia 手机自带的启动器已经彻底拥抱原生 Android，而在过去使用了 Nova Launcher, Lawnchair 和微软桌面后，我却终于对“搜索栏+Dock+网格排布图标”的类 Pixel 式桌面布局产生了视觉疲劳。</p>
+<p>iOS 14 更新带来了“应用抽屉” App 资源库，也支持了桌面小部件，总算给我眼前一亮的感觉。当然与其说苹果终于开窍学习 Android，我更愿意认为 iOS 14 的视觉感受更像当年的 Windows Phone.</p>
+<p>受这种审美的影响，购入 Xperia 10 II 后，我总是没法找到视觉和实用的平衡。何况索尼从 XZ3 起便不再支持 Xperia 主题，而我之前付费下载的 XPERIA™ - DUALSHOCK™4 Theme 也就无法继续兼容手里的新设备，我连一点点美化的心思都动不了，<strong>索尼罪大滔天</strong>。</p>
+<p>因此为了找回这种平衡，我把目光转向了其他没试过的第三方启动器上。首选就是曾经关注过的 Niagara Launcher.</p>
+<h2 id="niagara-launcher"><a class="markdownIt-Anchor" href="#niagara-launcher"></a> Niagara Launcher</h2>
+<p>Niagara Launcher 在 Google Play 商店仍是抢先体验状态，和我第一次见它时并没有变化，这代表开发者还没有正式发布的打算。不过事到如今，这并不妨碍我试用它。</p>
+<p>顾名思义，与尼亚加拉瀑布同名的它主打的是瀑布流的主屏幕体验<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，设置完成后，屏幕上只有自带的时间·日程·天气微件<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>（当播放音乐时还会显示出媒体微件）和至多8个——当然更多也没关系，只是官方推荐至多8个——的常用应用列表（收藏夹）。无独有偶，iOS 中的 “Siri 建议”组件也会用户动态列出基于使用情况的8个app，我就常用这个桌面组件代替钉死在桌面上的app图标。总之，这个模式非常符合我的个人习惯。</p>
+<p>瀑布流的另一个特色是：只要你触摸或滑动屏幕左右任意一侧，就能唤出按照首字母排列的全部应用列表<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>，上下滑动即可快速检索应用<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>，也可以在搜索框中找到想要打开的应用。应用排序已经于2019年<a target="_blank" rel="noopener" href="https://twitter.com/NiagaraLauncher/status/1189458055408295936">支持中文</a>。</p>
 <p>值得注意的是，因为其桌面布局，应用的通知会直接显示在图标和文字的右侧空间，更加便捷直观。启动器也结合了手势操作，在一个应用上向右滑动可以展开快捷操作抽屉，并能预览和回复通知，向左滑动可以消除通知。</p>
-<p>当进入启动器的设置页面时，就可以找到更多功能，比如在桌面右下角安放一个简洁的
-Google 搜索按钮，这个按钮也支持上滑展开快速搜索。</p>
-<p>也可以在收藏夹下方显示常用应用，在原来8个 app
-基础上再动态显示一两个最近打开频率高的。对于 Xperia
-系列新机21:9的长屏幕来说，塞下十个应用也不在话下。</p>
-<p>如果觉得自带的微件不够好用，也支持增加其他微件。不过 Niagara
-对微件有不少限制，它不能在自带微件的上方，也不能在收藏夹的下方，而是固定在两者之间。可以调整微件上下缘来更改屏幕上各个组件的的高度。或者，也可以在设置里用自定义的微件取代自带微件。但是我猜多数不支持透明化的微件很难和
-Niagara 的风格相容。</p>
-<p>其他功能包括：第三方图标包支持、Sesame
-集成、双击字母表快速锁屏等。</p>
-<h3 id="pro-版特性">Pro 版特性</h3>
+<p>当进入启动器的设置页面时，就可以找到更多功能，比如在桌面右下角安放一个简洁的 Google 搜索按钮，这个按钮也支持上滑展开快速搜索。</p>
+<p>也可以在收藏夹下方显示常用应用，在原来8个 app 基础上再动态显示一两个最近打开频率高的。对于 Xperia 系列新机21:9的长屏幕来说，塞下十个应用也不在话下。</p>
+<p>如果觉得自带的微件不够好用，也支持增加其他微件。不过 Niagara 对微件有不少限制，它不能在自带微件的上方，也不能在收藏夹的下方，而是固定在两者之间。可以调整微件上下缘来更改屏幕上各个组件的的高度。或者，也可以在设置里用自定义的微件取代自带微件。但是我猜多数不支持透明化的微件很难和 Niagara 的风格相容。</p>
+<p>其他功能包括：第三方图标包支持、Sesame 集成、双击字母表快速锁屏等。</p>
+<h3 id="pro-版特性"><a class="markdownIt-Anchor" href="#pro-版特性"></a> Pro 版特性</h3>
 <p>付费方案有两种：一种是七天试用，年付订阅，另一种是一次性买断，我推荐前者，理由：1.要体验全部功能还是付费好；2.如果觉得不喜欢可以一周内取消。</p>
-<h4 id="天气">天气</h4>
-<p>换掉了 Google Awareness API, 改用 Dark
-Sky，可以自定义位置而无须申请位置权限。</p>
-<h4
-id="升级轻扫手势支持自定义文件夹">升级轻扫手势，支持自定义文件夹</h4>
-<p>轻扫手势快捷操作并不稀奇，其他启动器都有，不过现在你可以在轻扫手势中<a
-href="#fn5" class="footnote-ref" id="fnref5"
-role="doc-noteref"><sup>5</sup></a>绑定别的
-app（相当于应用文件夹），比如轻扫“相机”，可以在菜单中选择打开其他高级相机app，或者轻扫“设置”，直接唤出绿色守护休眠快捷按钮。</p>
-<h4 id="自定义字体">自定义字体</h4>
-<p>默认字体 Work Sans, 自带字体 Josefin Sans,
-你可以替换成自己心仪的字体。</p>
-<h4 id="隐藏状态栏">隐藏状态栏</h4>
+<h4 id="天气"><a class="markdownIt-Anchor" href="#天气"></a> 天气</h4>
+<p>换掉了 Google Awareness API, 改用 Dark Sky，可以自定义位置而无须申请位置权限。</p>
+<h4 id="升级轻扫手势支持自定义文件夹"><a class="markdownIt-Anchor" href="#升级轻扫手势支持自定义文件夹"></a> 升级轻扫手势，支持自定义文件夹</h4>
+<p>轻扫手势快捷操作并不稀奇，其他启动器都有，不过现在你可以在轻扫手势中<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>绑定别的 app（相当于应用文件夹），比如轻扫“相机”，可以在菜单中选择打开其他高级相机app，或者轻扫“设置”，直接唤出绿色守护休眠快捷按钮。</p>
+<h4 id="自定义字体"><a class="markdownIt-Anchor" href="#自定义字体"></a> 自定义字体</h4>
+<p>默认字体 Work Sans, 自带字体 Josefin Sans, 你可以替换成自己心仪的字体。</p>
+<h4 id="隐藏状态栏"><a class="markdownIt-Anchor" href="#隐藏状态栏"></a> 隐藏状态栏</h4>
 <p>打造沉浸式桌面的最重要特性——虽然这也不稀奇，其他启动器多少也可以做到。可以通过向下轻滑桌面的手势预览状态栏，动作大一点就是下拉通知栏。此外如果担心隐藏状态栏后看不到电量，桌面自带的微件也支持显示电量。</p>
-<h4 id="耳机识别">耳机识别</h4>
-<p>非常有趣的特性，当连接耳机后，设备的默认音乐app就会置顶显示在主屏幕的应用列表中，方便用户访问。可以手动添加其他音乐app让它们一起显示出来。曾今索尼的
-Smart Connect 是连耳机自动打开音乐 app 的神器，但是因为 Android 10
-的限制，它不再支持直接唤起其他应用，而只能在通知栏让用户交互点击打开音乐——毫无美感的鸡肋。让我们忘掉通知栏吧。</p>
-<h3 id="仍然存在问题">仍然存在问题</h3>
+<h4 id="耳机识别"><a class="markdownIt-Anchor" href="#耳机识别"></a> 耳机识别</h4>
+<p>非常有趣的特性，当连接耳机后，设备的默认音乐app就会置顶显示在主屏幕的应用列表中，方便用户访问。可以手动添加其他音乐app让它们一起显示出来。曾今索尼的 Smart Connect 是连耳机自动打开音乐 app 的神器，但是因为 Android 10 的限制，它不再支持直接唤起其他应用，而只能在通知栏让用户交互点击打开音乐——毫无美感的鸡肋。让我们忘掉通知栏吧。</p>
+<h3 id="仍然存在问题"><a class="markdownIt-Anchor" href="#仍然存在问题"></a> 仍然存在问题</h3>
 <ul>
-<li>Google 上划操作闪退，可能是因为我的 Google 是 beta 版，但是 Xperia
-原生启动器并无此问题。</li>
+<li>Google 上划操作闪退，可能是因为我的 Google 是 beta 版，但是 Xperia 原生启动器并无此问题。</li>
 <li>不支持添加PWA到桌面/快捷操作菜单，也不支持添加微信小程序。</li>
 <li>双击字母表锁定会立即锁定，与绿色守护这种要求锁屏之前有一段延时的应用有冲突。</li>
 </ul>
-<h2 id="流体手势导航">流体手势导航</h2>
-<p>装上了瀑布流启动器，隐藏了状态栏，大概还得做点什么让屏幕更加沉浸。于是我把目光放在了导航栏上。Android
-10 禁用第三方启动器的手势导航，因此装上 Niagara
-那一刻三大金刚又回到了屏幕上。</p>
-<p>不过没关系，有个通用的方法，如果想要强制非 root
-设备开启第三方启动器支持手势导航，可以用 USB 调试模式执行 adb 命令：</p>
+<h2 id="流体手势导航"><a class="markdownIt-Anchor" href="#流体手势导航"></a> 流体手势导航</h2>
+<p>装上了瀑布流启动器，隐藏了状态栏，大概还得做点什么让屏幕更加沉浸。于是我把目光放在了导航栏上。Android 10 禁用第三方启动器的手势导航，因此装上 Niagara 那一刻三大金刚又回到了屏幕上。</p>
+<p>不过没关系，有个通用的方法，如果想要强制非 root 设备开启第三方启动器支持手势导航，可以用 USB 调试模式执行 adb 命令：</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb shell cmd overlay enable com.android.internal.systemui.navbar.gestural</span><br></pre></td></tr></table></figure>
-<p>但是实测发现，索尼的手势导航和 Niagara
-不能好好相处，体验很差。于是放弃。再次想起了以前在 Xperia Z5
-上用过的流体手势导航。</p>
+<p>但是实测发现，索尼的手势导航和 Niagara 不能好好相处，体验很差。于是放弃。再次想起了以前在 Xperia Z5 上用过的流体手势导航。</p>
 <p>免费版的体验足够好，所以我也没有尝试付费，如果不差钱想体验全部功能的话可以支持一下。</p>
-<p>流体手势导航也支持屏幕左右边缘的手势，不过 Xperia
-也自带一个侧感手势条，可以取代前者的手势。</p>
+<p>流体手势导航也支持屏幕左右边缘的手势，不过 Xperia 也自带一个侧感手势条，可以取代前者的手势。</p>
 <p>安装完成后，三大金刚就隐藏了，但是仍然可以通过丰富的手势实现三大金刚式操作。</p>
-<h2 id="diffuse">Diffuse</h2>
+<h2 id="diffuse"><a class="markdownIt-Anchor" href="#diffuse"></a> Diffuse</h2>
 <p>最后到了琢磨壁纸美化的时候了。</p>
-<p>网上有很多与 Niagara
-对应的美化方案，毛玻璃模糊效果的壁纸和一些第三方图标包、天气微件可以让桌面更好看。也可以用一些特别设计的撞色壁纸，突出图标部分和空白部分的视觉辨识度。</p>
+<p>网上有很多与 Niagara 对应的美化方案，毛玻璃模糊效果的壁纸和一些第三方图标包、天气微件可以让桌面更好看。也可以用一些特别设计的撞色壁纸，突出图标部分和空白部分的视觉辨识度。</p>
 <p>直至我发现了有人用 Niagara + Diffuse 的方案，顿觉相见恨晚。</p>
-<p>Diffuse 分为免费版和收费版。它是一款模拟 Apple Music
-动态歌词背景可视化效果的 Live Wallpaper
-应用。它利用媒体播放通知栏以及麦克风权限（可选），模糊当前播放的音乐专辑封面，采用其色调，并以抽象的实时流动的形态显示在桌面上<a
-href="#fn6" class="footnote-ref" id="fnref6"
-role="doc-noteref"><sup>6</sup></a>，还会随着音乐的节拍而运动。这个应用支持大部分自带音乐以及国际主流的流媒体音乐。为了体验全部特性我购入了收费版。</p>
-<p>安装后，为了配合 Niagara 的显示，务必打开 Diffuse
-中的“启动器自适应着色”和 Niagara
-外观设置中能选中“基于壁纸”的所有选项，否则当壁纸主色调和启动器字体颜色差不多的时候会看不清字让人非常难受。</p>
-<p>考虑到动态壁纸的耗电，以及麦克风权限泄露隐私的风险，Diffuse
-也只是个锦上添花的选择，除了让桌面变得炫酷美观，并没有什么实用性，也就没有特意与启动器搭配的必要。</p>
+<p>Diffuse 分为免费版和收费版。它是一款模拟 Apple Music 动态歌词背景可视化效果的 Live Wallpaper 应用。它利用媒体播放通知栏以及麦克风权限（可选），模糊当前播放的音乐专辑封面，采用其色调，并以抽象的实时流动的形态显示在桌面上<sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup>，还会随着音乐的节拍而运动。这个应用支持大部分自带音乐以及国际主流的流媒体音乐。为了体验全部特性我购入了收费版。</p>
+<p>安装后，为了配合 Niagara 的显示，务必打开 Diffuse 中的“启动器自适应着色”和 Niagara 外观设置中能选中“基于壁纸”的所有选项，否则当壁纸主色调和启动器字体颜色差不多的时候会看不清字让人非常难受。</p>
+<p>考虑到动态壁纸的耗电，以及麦克风权限泄露隐私的风险，Diffuse 也只是个锦上添花的选择，除了让桌面变得炫酷美观，并没有什么实用性，也就没有特意与启动器搭配的必要。</p>
 <p>介绍结束。当完成以上应用搭配后，一个稍显高级的无刘海无挖孔的全面屏沉浸式桌面就大功告成了。</p>
 <p><strong>（基本没怎么看的）参考文献</strong></p>
-<ol type="1">
-<li><p><a target="_blank" rel="noopener" href="https://sspai.com/post/52692">可能是 Android
-手势的终级解决方案：Fluid Navigation Gestures - 少数派
-(sspai.com)</a></p></li>
-<li><p><a target="_blank" rel="noopener" href="https://sspai.com/post/61406">聊聊 Android 11
-的「桌面逻辑」 - 少数派 (sspai.com)</a></p></li>
-<li><p><a
-target="_blank" rel="noopener" href="https://sspai.com/post/53821">这款布局宛如「瀑布」的启动器，和你以往用过的都不一样：Niagara
-Launcher | App+1 - 少数派 (sspai.com)</a></p></li>
-<li><p><a target="_blank" rel="noopener" href="https://sspai.com/post/53515">Niagara Launcher 🔹 fresh
-&amp; clean 的使用1年的感受 - 少数派 (sspai.com)</a></p></li>
-<li><p><a
-target="_blank" rel="noopener" href="https://www.reddit.com/r/NiagaraLauncher/comments/i0jqye/the_swipe_up_to_search_google_feature_stopped/">The
-"swipe up to search Google" feature stopped working. When I click the
-icon, it works. I don't know why. Any tips?：NiagaraLauncher
-(reddit.com)</a></p></li>
+<ol>
+<li>
+<p><a target="_blank" rel="noopener" href="https://sspai.com/post/52692">可能是 Android 手势的终级解决方案：Fluid Navigation Gestures - 少数派 (sspai.com)</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="https://sspai.com/post/61406">聊聊 Android 11 的「桌面逻辑」 - 少数派 (sspai.com)</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="https://sspai.com/post/53821">这款布局宛如「瀑布」的启动器，和你以往用过的都不一样：Niagara Launcher | App+1 - 少数派 (sspai.com)</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="https://sspai.com/post/53515">Niagara Launcher 🔹 fresh &amp; clean 的使用1年的感受 - 少数派 (sspai.com)</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="https://www.reddit.com/r/NiagaraLauncher/comments/i0jqye/the_swipe_up_to_search_google_feature_stopped/">The “swipe up to search Google” feature stopped working. When I click the icon, it works. I don’t know why. Any tips?：NiagaraLauncher (reddit.com)</a></p>
+</li>
 </ol>
 <p><strong>附图</strong></p>
-<section id="footnotes" class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/EWRC2.jpg">🔗主屏幕.jpg</a><a
-href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/dXh4j.gif">🔗日程微件.gif</a><a
-href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/qK2qf.gif">🔗滑动列表.gif</a><a
-href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/DmznL.jpg">🔗应用检索.jpg</a><a
-href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/4f4nr.gif">🔗快捷操作.gif</a><a
-href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/jLT2i.gif">🔗Diffuse.gif</a><a
-href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/EWRC2.jpg">🔗主屏幕.jpg</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/dXh4j.gif">🔗日程微件.gif</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/qK2qf.gif">🔗滑动列表.gif</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/DmznL.jpg">🔗应用检索.jpg</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/4f4nr.gif">🔗快捷操作.gif</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p><a target="_blank" rel="noopener" href="https://i.ma.ga/jLT2i.gif">🔗Diffuse.gif</a> <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
 </ol>
 </section>
 

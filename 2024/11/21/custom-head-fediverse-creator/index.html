@@ -20,12 +20,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="一句话概括：用NexT自定义文件模板更改主题配置，加入“Mastodon创作者归属”的代码：&lt;meta name&#x3D;&quot;fediverse:creator&quot; content&#x3D;&quot;...&quot;&gt; 。 Mastodon对“作者归属”的描述：  作者归属 你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon 时的署名方式。  效果就是当一篇署名是你本人">
+    <meta name="description" content="一句话概括：用NexT自定义文件模板更改主题配置，加入“Mastodon创作者归属”的代码：&lt;meta name&#x3D;&quot;fediverse:creator&quot; content&#x3D;&quot;...&quot;&gt; 。 Mastodon对“作者归属”的描述：  作者归属 你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon 时的署名方式。  效">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在使用NexT主题的Hexo博客中加入Mastodon创作者归属">
 <meta property="og:url" content="https://nachtzug.xyz/2024/11/21/custom-head-fediverse-creator/index.html">
 <meta property="og:site_name" content="Nachtzug">
-<meta property="og:description" content="一句话概括：用NexT自定义文件模板更改主题配置，加入“Mastodon创作者归属”的代码：&lt;meta name&#x3D;&quot;fediverse:creator&quot; content&#x3D;&quot;...&quot;&gt; 。 Mastodon对“作者归属”的描述：  作者归属 你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon 时的署名方式。  效果就是当一篇署名是你本人">
+<meta property="og:description" content="一句话概括：用NexT自定义文件模板更改主题配置，加入“Mastodon创作者归属”的代码：&lt;meta name&#x3D;&quot;fediverse:creator&quot; content&#x3D;&quot;...&quot;&gt; 。 Mastodon对“作者归属”的描述：  作者归属 你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon 时的署名方式。  效">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-21T09:32:43.000Z">
 <meta property="article:modified_time" content="2024-11-21T09:48:43.314Z">
@@ -274,28 +274,25 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>一句话概括：用NexT自定义文件模板更改主题配置，加入“Mastodon创作者归属”的代码：<code>&lt;meta name="fediverse:creator" content="..."&gt;</code>
-。</p>
+    <div class="post-body" itemprop="articleBody"><p>一句话概括：用NexT自定义文件模板更改主题配置，加入“Mastodon创作者归属”的代码：<code>&lt;meta name=&quot;fediverse:creator&quot; content=&quot;...&quot;&gt;</code> 。</p>
 <p>Mastodon对“作者归属”的描述：</p>
 <blockquote>
 <p>作者归属</p>
-<p>你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon
-时的署名方式。</p>
+<p>你是否在 Mastodon 之外撰写新闻或博客文章？控制它们被分享到 Mastodon 时的署名方式。</p>
 </blockquote>
 <p>效果就是当一篇署名是你本人的文章被分享到Mastodon的时候，它能够和那些非你本人署名的文章区分开来，指向你的Mastodon账号，也能避免你被不明链接错误署名。</p>
 <p>要获得<strong>该代码</strong>，Mastodon用户可以访问<code>修改个人资料&gt;验证</code>，拉到下面查看创作者归属。</p>
-<p>NexT主题已经有很成熟的<a
-target="_blank" rel="noopener" href="https://theme-next.js.org/docs/advanced-settings/custom-files.html">修改教程</a>。建议直接参考。</p>
+<p>NexT主题已经有很成熟的<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/advanced-settings/custom-files.html">修改教程</a>。建议直接参考。</p>
 <p>以下是消化后的简易步骤：</p>
-<ol type="1">
+<ol>
 <li>首先在你的Hexo博客根目录下创建空白文件：</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source/_data/head.njk</span><br></pre></td></tr></table></figure>
-<ol start="2" type="1">
+<ol start="2">
 <li>在 head.njk 文件中添加以下内容（使用你自己的代码）：</li>
 </ol>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;fediverse:creator&quot;</span> <span class="attr">content</span>=<span class="string">&quot;...&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<ol start="3" type="1">
+<ol start="3">
 <li>在站点配置文件（或主题配置文件，正常来说是博客根目录下的<code>_config.next.yml</code>）中去掉注释，启用这个修改：</li>
 </ol>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme_config:</span></span><br><span class="line">  <span class="attr">custom_file_path:</span></span><br><span class="line">    <span class="attr">head:</span> <span class="string">source/_data/head.njk</span></span><br></pre></td></tr></table></figure>
@@ -306,11 +303,11 @@ target="_blank" rel="noopener" href="https://theme-next.js.org/docs/advanced-set
 <li>符合NexT推荐的自定义方式</li>
 </ul>
 <p>如果你想针对不同文章设置不同的content值（针对多个作者和/或多个账号），还可以：</p>
-<ol type="1">
+<ol>
 <li>在文章的front-matter中添加自定义变量：</li>
 </ol>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章标题</span></span><br><span class="line"><span class="attr">fediverse_creator:</span> <span class="string">your_custom_value</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-<ol start="2" type="1">
+<ol start="2">
 <li>然后修改<code>head.njk</code>的内容为：</li>
 </ol>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if page.fediverse_creator %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;fediverse:creator&quot;</span> <span class="attr">content</span>=<span class="string">&quot;&#123;&#123; page.fediverse_creator &#125;&#125;&quot;</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
