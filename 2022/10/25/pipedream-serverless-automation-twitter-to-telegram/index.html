@@ -20,12 +20,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="开车也要一本正经地开。 本文的产出：一个新的、包含激烈的NSFW R18二次元插画内容的、自动发布的、支持媒体组消息的 Telegram频道 未成年的人、自认为未成年的人或对R-18内容没有兴趣的人，千万不要手贱点进去。 该频道中的内容均已署名和给出源链接，图片版权归原作者所有。   简介 Pipedream是一个自动化工具，可以在这篇中文文章中进一步了解其特性。 有了前人的介绍，本文其实无需大">
+    <meta name="description" content="开车也要一本正经地开。 本文的产出：一个新的、包含激烈的NSFW R18二次元插画内容的、自动发布的、支持媒体组消息的 Telegram频道 未成年的人、自认为未成年的人或对R-18内容没有兴趣的人，千万不要手贱点进去。 该频道中的内容均已署名和给出源链接，图片版权归原作者所有。  简介 Pipedream是一个自动化工具，可以在这篇中文文章中进一步了解其特性。 有了前人的介">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用Pipedream自动化实现Twitter多媒体数据到Telegram的自动转发">
 <meta property="og:url" content="https://nachtzug.xyz/2022/10/25/pipedream-serverless-automation-twitter-to-telegram/index.html">
 <meta property="og:site_name" content="Nachtzug">
-<meta property="og:description" content="开车也要一本正经地开。 本文的产出：一个新的、包含激烈的NSFW R18二次元插画内容的、自动发布的、支持媒体组消息的 Telegram频道 未成年的人、自认为未成年的人或对R-18内容没有兴趣的人，千万不要手贱点进去。 该频道中的内容均已署名和给出源链接，图片版权归原作者所有。   简介 Pipedream是一个自动化工具，可以在这篇中文文章中进一步了解其特性。 有了前人的介绍，本文其实无需大">
+<meta property="og:description" content="开车也要一本正经地开。 本文的产出：一个新的、包含激烈的NSFW R18二次元插画内容的、自动发布的、支持媒体组消息的 Telegram频道 未成年的人、自认为未成年的人或对R-18内容没有兴趣的人，千万不要手贱点进去。 该频道中的内容均已署名和给出源链接，图片版权归原作者所有。  简介 Pipedream是一个自动化工具，可以在这篇中文文章中进一步了解其特性。 有了前人的介">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-10-25T09:42:25.000Z">
 <meta property="article:modified_time" content="2022-10-28T13:53:43.041Z">
@@ -143,7 +143,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text"> 简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%91%E7%8E%B0pipedream%E7%9A%84%E5%8E%9F%E5%9B%A0"><span class="nav-number">2.</span> <span class="nav-text"> 发现Pipedream的原因</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%9A%84%E6%9E%84%E5%BB%BA"><span class="nav-number">3.</span> <span class="nav-text"> 个人工作流的构建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81"><span class="nav-number">4.</span> <span class="nav-text"> 自定义代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86%E5%A4%9A%E5%BC%A0%E5%AA%92%E4%BD%93%E7%9A%84%E6%8E%A8%E6%96%87%E8%BD%AC%E5%8F%91%E5%88%B0telegram%E7%9A%84mediagroup"><span class="nav-number">5.</span> <span class="nav-text"> 将多张媒体的推文转发到Telegram的MediaGroup</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pipedream%E7%9A%84%E9%85%8D%E9%A2%9D%E9%99%90%E5%88%B6"><span class="nav-number">6.</span> <span class="nav-text"> Pipedream的配额限制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%95%E6%9C%9B"><span class="nav-number">7.</span> <span class="nav-text"> 展望</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%91%E7%8E%B0pipedream%E7%9A%84%E5%8E%9F%E5%9B%A0"><span class="nav-number">2.</span> <span class="nav-text">发现Pipedream的原因</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%9A%84%E6%9E%84%E5%BB%BA"><span class="nav-number">3.</span> <span class="nav-text">个人工作流的构建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81"><span class="nav-number">4.</span> <span class="nav-text">自定义代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86%E5%A4%9A%E5%BC%A0%E5%AA%92%E4%BD%93%E7%9A%84%E6%8E%A8%E6%96%87%E8%BD%AC%E5%8F%91%E5%88%B0telegram%E7%9A%84mediagroup"><span class="nav-number">5.</span> <span class="nav-text">将多张媒体的推文转发到Telegram的MediaGroup</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pipedream%E7%9A%84%E9%85%8D%E9%A2%9D%E9%99%90%E5%88%B6"><span class="nav-number">6.</span> <span class="nav-text">Pipedream的配额限制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%95%E6%9C%9B"><span class="nav-number">7.</span> <span class="nav-text">展望</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -284,91 +284,144 @@
     
     <div class="post-body" itemprop="articleBody"><blockquote>
 <p>开车也要一本正经地开。</p>
-<p>本文的产出：一个新的、包含激烈的NSFW R18二次元插画内容的、自动发布的、支持媒体组消息的<a target="_blank" rel="noopener" href="https://t.me/s/moe2eropic"><i class="fab fa-telegram"></i> Telegram频道</a></p>
+<p>本文的产出：一个新的、包含激烈的NSFW
+R18二次元插画内容的、自动发布的、支持媒体组消息的<a
+target="_blank" rel="noopener" href="https://t.me/s/moe2eropic"><i class="fab fa-telegram"></i>
+Telegram频道</a></p>
 <p>未成年的人、自认为未成年的人或对R-18内容没有兴趣的人，千万不要手贱点进去。</p>
 <p>该频道中的内容均已署名和给出源链接，图片版权归原作者所有。</p>
 </blockquote>
-<h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2>
-<p><a target="_blank" rel="noopener" href="https://pipedream.com/">Pipedream</a>是一个自动化工具，可以在这篇<a target="_blank" rel="noopener" href="https://www.aafeng.uk/pipedream/">中文文章</a>中进一步了解其特性。</p>
+<h2 id="简介">简介</h2>
+<p><a
+target="_blank" rel="noopener" href="https://pipedream.com/">Pipedream</a>是一个自动化工具，可以在这篇<a
+target="_blank" rel="noopener" href="https://www.aafeng.uk/pipedream/">中文文章</a>中进一步了解其特性。</p>
 <p>有了前人的介绍，本文其实无需大书特书，毕竟最终实现的东西并没有什么技术难度，权当记录一下探索的过程。</p>
 <p>该工具的相关竞品中，比较出名的有：</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://ifttt.com">IFTTT</a></li>
-<li><a target="_blank" rel="noopener" href="https://make.powerautomate.com">Microsoft Power Automate</a></li>
+<li><a target="_blank" rel="noopener" href="https://make.powerautomate.com">Microsoft Power
+Automate</a></li>
 <li><a target="_blank" rel="noopener" href="https://zapier.com/">Zapier</a></li>
 </ul>
-<p>根据<a target="_blank" rel="noopener" href="https://pipedream.com/docs/">官方文档</a>的介绍，Pipedream的特性包括：</p>
+<p>根据<a
+target="_blank" rel="noopener" href="https://pipedream.com/docs/">官方文档</a>的介绍，Pipedream的特性包括：</p>
 <ul>
 <li>无服务器运行时和工作流服务</li>
 <li>开源触发器和操作数百个集成应用程序</li>
 <li>一键式OAuth和基于密钥的身份验证，适用于数百个API（直接在代码中使用令牌或与预构建的操作一起使用）</li>
 </ul>
 <p>而且，官方宣称免费用户每个月可以调用10000次（每天333次），每天使用30分钟的计算时间额度。这个限额对于不是太频繁的操作来说，其实挺好的。</p>
-<h2 id="发现pipedream的原因"><a class="markdownIt-Anchor" href="#发现pipedream的原因"></a> 发现Pipedream的原因</h2>
+<h2 id="发现pipedream的原因">发现Pipedream的原因</h2>
 <p>首先，IFTTT免费版无法满足我。</p>
-<p>我曾经构建了几个自动化流程，把Twitter上插图画师的作品全自动转发到一个Telegram频道。IFTTT原生接入的Twitter触发器似乎比较<a target="_blank" rel="noopener" href="https://i.imgur.com/AaMMvok.png">简陋📷</a>，获取不到完整的推文数据。于是只能把默认的数据项喂进触发条件中，用来激活Telegram Bot转发的行为。转发后的图片消息在Telegram里展示的效果勉强过得去（转发的媒体似乎是低清画质，且因为Twitter搜索的限制，不支持敏感内容），因此频道运行了一段时间，在一年多的时间里积累了上万张图片或图链资源。</p>
+<p>我曾经构建了几个自动化流程，把Twitter上插图画师的作品全自动转发到一个Telegram频道。IFTTT原生接入的Twitter触发器似乎比较<a
+target="_blank" rel="noopener" href="https://i.imgur.com/AaMMvok.png">简陋📷</a>，获取不到完整的推文数据。于是只能把默认的数据项喂进触发条件中，用来激活Telegram
+Bot转发的行为。转发后的图片消息在Telegram里展示的效果勉强过得去（转发的媒体似乎是低清画质，且因为Twitter搜索的限制，不支持敏感内容），因此频道运行了一段时间，在一年多的时间里积累了上万张图片或图链资源。</p>
 <p>我的IFTTT工作流的触发逻辑就是“我自己构建的Twitter画师列表里，收到<strong>高赞</strong>和<strong>高转发</strong>的图片”，实际上这个机制并不严谨，因为粉丝数目非常大的大触画师随便发张午饭的拉面照片，也可能会被点很多赞。Twitter列表机制有点问题，维护Twitter列表也比较浪费时间，前后攒了接近900个画师，现在很少增加了。</p>
-<p>何况，众所周知IFTTT后来<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=4CSZgm1bi64" title="记得这个视频好像被踩了很多">推出了订阅制方案</a>，免费用户无法无限制构建自己的流程，我即使为此付了一小段时间的费用，但是效果依然差强人意。包括其他自动化，比如根据天气情况自动发推、在Google Sheet里预排期未来十几年的推文等等，也因为IFTTT的限制而停用了。去年我决定把那个图片频道废弃掉，一时间也不再考虑自动化的事。留下的IFTTT自动化只剩下一个从Telegram频道发布内容到Twitter。</p>
+<p>何况，众所周知IFTTT后来<a
+target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=4CSZgm1bi64"
+title="记得这个视频好像被踩了很多">推出了订阅制方案</a>，免费用户无法无限制构建自己的流程，我即使为此付了一小段时间的费用，但是效果依然差强人意。包括其他自动化，比如根据天气情况自动发推、在Google
+Sheet里预排期未来十几年的推文等等，也因为IFTTT的限制而停用了。去年我决定把那个图片频道废弃掉，一时间也不再考虑自动化的事。留下的IFTTT自动化只剩下一个从Telegram频道发布内容到Twitter。</p>
 <p>但是今年我又开了个Twitter分号，尽可能多地把我知道的画师全部关注起来。并且在这个帐户上，别的什么都不做，只点赞插画；更让Twitter的推荐算法给我的首页时间线疯狂投喂推荐的作品。因此，半年期间已经攒下了7000个点赞内容。</p>
 <p>Twitter本身想要批量获取图片是比较困难的，想获取原画质图片的话，要么就手动在网址后加参数，要么用自动化脚本、油猴插件代替你的鼠标完成这件事。而在手机上，上述操作显然就没这么方便。点赞操作也不能自动保存图片，而Twitter经常性封禁R-18画师，一旦画师帐户消失，点赞的那些图也会消失，不及时保存的话就只能在第三方图站上检索到。</p>
-<p>我曾想利用IFTTT的RSS触发器，结合<a target="_blank" rel="noopener" href="https://rsshub.app/">RSSHub</a>的功能把我Twitter帐号的点赞时间流给RSS化，然后构建自动化流程，但是试验之后，效果依然差强人意。是时候走出IFTTT这个低门槛的舒适圈了。</p>
+<p>我曾想利用IFTTT的RSS触发器，结合<a
+target="_blank" rel="noopener" href="https://rsshub.app/">RSSHub</a>的功能把我Twitter帐号的点赞时间流给RSS化，然后构建自动化流程，但是试验之后，效果依然差强人意。是时候走出IFTTT这个低门槛的舒适圈了。</p>
 <p>打开Google搜索<code>send a photo with telegram bot api on new item in feed from RSS</code>，正所谓得来全不费功夫，仿佛量身定制一般，Pipedream出现在检索结果第一条。</p>
-<p>点进去研究了一下，发现根本不需要用RSS触发，Pipedream自身便接入了<a target="_blank" rel="noopener" href="https://i.imgur.com/7ZFS0Xq.png">非常完整的Twitter API📷</a>，令人觉得起步便有了一些信心。</p>
-<h2 id="个人工作流的构建"><a class="markdownIt-Anchor" href="#个人工作流的构建"></a> 个人工作流的构建</h2>
-<p>以下为个人从头构建工作流的步骤记录，如果有人看不懂，可以参照官方的<a target="_blank" rel="noopener" href="https://pipedream.com/apps/twitter/integrations/telegram-bot-api/">Twitter-Telgram整合</a>和<a target="_blank" rel="noopener" href="https://pipedream.com/apps/twitter/triggers/my-liked-tweets">我的Twitter点赞触发</a>中预设好的工作流进行模仿学习，我相信那样上手速度会更快。</p>
-<ol>
-<li>使用GitHub帐户授权登录（还支持<a target="_blank" rel="noopener" href="https://i.imgur.com/IOiSEpK.png">Google授权登录、邮箱注册📷</a>）</li>
+<p>点进去研究了一下，发现根本不需要用RSS触发，Pipedream自身便接入了<a
+target="_blank" rel="noopener" href="https://i.imgur.com/7ZFS0Xq.png">非常完整的Twitter
+API📷</a>，令人觉得起步便有了一些信心。</p>
+<h2 id="个人工作流的构建">个人工作流的构建</h2>
+<p>以下为个人从头构建工作流的步骤记录，如果有人看不懂，可以参照官方的<a
+target="_blank" rel="noopener" href="https://pipedream.com/apps/twitter/integrations/telegram-bot-api/">Twitter-Telgram整合</a>和<a
+target="_blank" rel="noopener" href="https://pipedream.com/apps/twitter/triggers/my-liked-tweets">我的Twitter点赞触发</a>中预设好的工作流进行模仿学习，我相信那样上手速度会更快。</p>
+<ol type="1">
+<li>使用GitHub帐户授权登录（还支持<a
+target="_blank" rel="noopener" href="https://i.imgur.com/IOiSEpK.png">Google授权登录、邮箱注册📷</a>）</li>
 <li>在面板中<code>new</code>一个workflow以构建工作流</li>
-<li>在第一个<a target="_blank" rel="noopener" href="https://i.imgur.com/zAEPBtr.png">框体📷</a>中选择触发器trigger来开启工作流的第一个步骤step，选择Twitter；也可以继续在这个框中继续增加新的trigger</li>
-<li>在列表中选中选择第一个<a target="_blank" rel="noopener" href="https://i.imgur.com/McAPn6w.png">My Liked Tweet📷</a>作为数据源，并绑定Twitter帐户，需要进行一次授权；其实下面还有个操作，是读取其他用户点赞的数据源，可以访问想要观察的其他用户的点赞操作
+<li>在第一个<a
+target="_blank" rel="noopener" href="https://i.imgur.com/zAEPBtr.png">框体📷</a>中选择触发器trigger来开启工作流的第一个步骤step，选择Twitter；也可以继续在这个框中继续增加新的trigger</li>
+<li>在列表中选中选择第一个<a target="_blank" rel="noopener" href="https://i.imgur.com/McAPn6w.png">My
+Liked
+Tweet📷</a>作为数据源，并绑定Twitter帐户，需要进行一次授权；其实下面还有个操作，是读取其他用户点赞的数据源，可以访问想要观察的其他用户的点赞操作
 <ul>
 <li>默认的两次读取数据间隔是15分钟，是有考虑到API的请求限制；视需求可以改为30分钟或更久，也可以改成以天、星期、月为周期的定期计划，更支持CRON</li>
 <li>选时区Timezone对于以天、星期、月份为周期定时执行的是有必要的，这样可以让你选择正确的执行时间</li>
 <li>但是我不确定时区服务是否还有点问题，其实这个时区选了也白选，会跳回UTC，可能是临时性问题</li>
-</ul>
-</li>
-<li>出现了触发器的<a target="_blank" rel="noopener" href="https://i.imgur.com/VzlyiuT.png">配置界面📷</a>，可以在其中选择要运行的示例事件；第一次它会自动读取新事件，也可以手动在Twitter上执行一些点赞操作；然后回到触发器界面，点一下<code>Try Now</code>，在列表中把每条被点赞的推文事件显示出来，展示出该推文数据格式化的数组，可以选一个事件来测试</li>
+</ul></li>
+<li>出现了触发器的<a
+target="_blank" rel="noopener" href="https://i.imgur.com/VzlyiuT.png">配置界面📷</a>，可以在其中选择要运行的示例事件；第一次它会自动读取新事件，也可以手动在Twitter上执行一些点赞操作；然后回到触发器界面，点一下<code>Try Now</code>，在列表中把每条被点赞的推文事件显示出来，展示出该推文数据格式化的数组，可以选一个事件来测试</li>
 <li>将鼠标移到数据上方，会出现<code>Copy Path</code>和<code>Copy Value</code>的选择，点击前者，就能自动复制变量字段，这个变量可以用来传递到下面的步骤中，比如<code>steps.trigger.event.extended_entities.media[0].media_url_https</code>正是这条推文的第一个图片媒体的传统链接，也是我需要直接获取的数据</li>
-<li>点击&quot;+&quot;号，add a step继续新建下一步骤；前面能够获取到Twitter的数据，实际上已经万事具备了；简单来说，在这一步骤中可以直接选<a target="_blank" rel="noopener" href="https://pipedream.com/apps/telegram-bot-api">Telegram Bot</a></li>
-<li>要绑定对应的机器人，如果没有Telegram Bot，找<a target="_blank" rel="noopener" href="https://t.me/BotFather">@BotFather</a>用<code>/newbot</code>命令新建一个，复制好回传的token进行绑定，并且也需要邀请bot以管理员身份加入需要自动发布消息的Telegram频道或群组</li>
-<li>在接下来的Action行为中选择<code>Send a Photo with Telegram Bot API</code>，在<a target="_blank" rel="noopener" href="https://i.imgur.com/9Jd0cgL.png">该步骤📷</a>中，选择需要调用的Telegram Bot，并输入对应频道、群组的公开ID或者群号，在数据栏中，将上一步获取的数据传递进去；因为尽可能希望以原图画质进行上传（但是其实存在<a target="_blank" rel="noopener" href="https://core.telegram.org/bots/api#sending-files">文件大小限制</a>，也肯定会被Telegram压缩），所以我在之前获取的<code>&#123;&#123;steps.trigger.event.extended_entities.media[0].media_url_https&#125;&#125;</code>，也就是默认传统图片链接之后加上<code>?name=orig</code>（其实改成<code>:orig</code>也生效），并输入到相应的数据栏中</li>
-<li>这个Action还支持填入Caption图注的数据，并且根据Telegram Bot API，它支持HTML格式的Caption，更改一下parse mode即可，因此可以为图注加上原图链接、标签等特殊效果</li>
+<li>点击"+"号，add a
+step继续新建下一步骤；前面能够获取到Twitter的数据，实际上已经万事具备了；简单来说，在这一步骤中可以直接选<a
+target="_blank" rel="noopener" href="https://pipedream.com/apps/telegram-bot-api">Telegram Bot</a></li>
+<li>要绑定对应的机器人，如果没有Telegram Bot，找<a
+target="_blank" rel="noopener" href="https://t.me/BotFather"><span class="citation"
+data-cites="BotFather">@BotFather</span></a>用<code>/newbot</code>命令新建一个，复制好回传的token进行绑定，并且也需要邀请bot以管理员身份加入需要自动发布消息的Telegram频道或群组</li>
+<li>在接下来的Action行为中选择<code>Send a Photo with Telegram Bot API</code>，在<a
+target="_blank" rel="noopener" href="https://i.imgur.com/9Jd0cgL.png">该步骤📷</a>中，选择需要调用的Telegram
+Bot，并输入对应频道、群组的公开ID或者群号，在数据栏中，将上一步获取的数据传递进去；因为尽可能希望以原图画质进行上传（但是其实存在<a
+target="_blank" rel="noopener" href="https://core.telegram.org/bots/api#sending-files">文件大小限制</a>，也肯定会被Telegram压缩），所以我在之前获取的<code>&#123;&#123;steps.trigger.event.extended_entities.media[0].media_url_https&#125;&#125;</code>，也就是默认传统图片链接之后加上<code>?name=orig</code>（其实改成<code>:orig</code>也生效），并输入到相应的数据栏中</li>
+<li>这个Action还支持填入Caption图注的数据，并且根据Telegram Bot
+API，它支持HTML格式的Caption，更改一下parse
+mode即可，因此可以为图注加上原图链接、标签等特殊效果</li>
 <li>构建完成后，可以利用事件选择器里的相关推文事件进行几次测试，如果运行正常，那就可以部署了</li>
 </ol>
 <p>初步效果：</p>
 <script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="moe2eropic/579" data-width="100%"></script>
-<h2 id="自定义代码"><a class="markdownIt-Anchor" href="#自定义代码"></a> 自定义代码</h2>
-<p>根据上述工作流的思路，可以构建更复杂的工作流，比如推送<a target="_blank" rel="noopener" href="https://yande.re">yande.re</a>的每日/周/月/年热图。当然，yande.re官方似乎只提供了<a target="_blank" rel="noopener" href="https://yande.re/post/atom">post的RSS</a>，或者叫做<a target="_blank" rel="noopener" href="https://yande.re/post/piclens?tags=">piclens</a>，没有popular的RSS. 所以这里借助需要借助<a target="_blank" rel="noopener" href="https://rsshub.app/">RSSHub</a>来实现。</p>
-<p>举个例子，获取五张最近24小时内的热图，RSS地址是<a target="_blank" rel="noopener" href="https://rsshub.app/yande.re/post/popular_recent/1d?limit=5%EF%BC%8C%E5%85%B7%E4%BD%93%E8%AF%B7%E5%8F%82%E7%85%A7RSSHub%E7%9A%84%E6%96%87%E6%A1%A3%E3%80%82">https://rsshub.app/yande.re/post/popular_recent/1d?limit=5，具体请参照RSSHub的文档。</a></p>
+<h2 id="自定义代码">自定义代码</h2>
+<p>根据上述工作流的思路，可以构建更复杂的工作流，比如推送<a
+target="_blank" rel="noopener" href="https://yande.re">yande.re</a>的每日/周/月/年热图。当然，yande.re官方似乎只提供了<a
+target="_blank" rel="noopener" href="https://yande.re/post/atom">post的RSS</a>，或者叫做<a
+target="_blank" rel="noopener" href="https://yande.re/post/piclens?tags=">piclens</a>，没有popular的RSS.
+所以这里借助需要借助<a target="_blank" rel="noopener" href="https://rsshub.app/">RSSHub</a>来实现。</p>
+<p>举个例子，获取五张最近24小时内的热图，RSS地址是https://rsshub.app/yande.re/post/popular_recent/1d?limit=5，具体请参照RSSHub的文档。</p>
 <p>然后举一反三，在Pipedream中新建一个工作流，触发器是RSS中的新项目<code>New Item in Feed from RSS API</code>，填入上面的RSS地址，设置成每天运行一次。</p>
-<p>接下来，本来也可以进行Telegram Bot发图操作的，但是我一时兴起，希望把yande.re图片的标签数据输入到图片消息的图注中，并给每个标签加上&quot;#&quot;符号。展示太多标签也不行，所以当一张图被打了太多标签时，还要随机挑选5个标签。</p>
-<p>Telegram Bot的步骤框中只能填入一点点字符串内容，不支持这么复杂的格式化操作，因此在这之前可以增加一步<code>Run custom code</code>来处理触发器的数据，并把数据传递给下一步，在这个工作流中我选择了比较方便的<a target="_blank" rel="noopener" href="https://i.imgur.com/tmGqbvu.png">Python📷</a>。</p>
+<p>接下来，本来也可以进行Telegram
+Bot发图操作的，但是我一时兴起，希望把yande.re图片的标签数据输入到图片消息的图注中，并给每个标签加上"#"符号。展示太多标签也不行，所以当一张图被打了太多标签时，还要随机挑选5个标签。</p>
+<p>Telegram
+Bot的步骤框中只能填入一点点字符串内容，不支持这么复杂的格式化操作，因此在这之前可以增加一步<code>Run custom code</code>来处理触发器的数据，并把数据传递给下一步，在这个工作流中我选择了比较方便的<a
+target="_blank" rel="noopener" href="https://i.imgur.com/tmGqbvu.png">Python📷</a>。</p>
 <p>代码：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">handler</span>(<span class="params">pd: <span class="string">&quot;pipedream&quot;</span></span>):</span><br><span class="line">  <span class="comment"># Reference data from previous steps</span></span><br><span class="line">  cat = pd.steps[<span class="string">&quot;trigger&quot;</span>][<span class="string">&quot;event&quot;</span>][<span class="string">&quot;categories&quot;</span>]</span><br><span class="line">  <span class="keyword">if</span> <span class="built_in">len</span>(cat) &gt; <span class="number">5</span>:</span><br><span class="line">    cat = random.sample(cat, <span class="number">5</span>)</span><br><span class="line">  tags = <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="keyword">for</span> c <span class="keyword">in</span> cat:</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&#x27;/&#x27;</span> <span class="keyword">in</span> c:</span><br><span class="line">      c = <span class="string">&#x27;_&#x27;</span>.join(c.split(<span class="string">&#x27;/&#x27;</span>))</span><br><span class="line">    tags += <span class="string">&#x27;#&#x27;</span>+c+<span class="string">&#x27; &#x27;</span> </span><br><span class="line">  <span class="comment"># Return data for use in future steps</span></span><br><span class="line">  <span class="keyword">return</span> &#123;<span class="string">&quot;foo&quot;</span>: &#123;<span class="string">&quot;test&quot;</span>:<span class="literal">True</span>&#125;, <span class="string">&#x27;tags&#x27;</span>: tags&#125;</span><br></pre></td></tr></table></figure>
-<p>最后，这段代码返回的tags变量<code>&#123;&#123;steps.python.$return_value.tags&#125;&#125;</code>就是我要传递给Telegram Bot的额外数据了。</p>
+<p>最后，这段代码返回的tags变量<code>&#123;&#123;steps.python.$return_value.tags&#125;&#125;</code>就是我要传递给Telegram
+Bot的额外数据了。</p>
 <blockquote>
-<p>注意：yande.re的一些图片体积<strong>非常大</strong>，根据上面提到的<a target="_blank" rel="noopener" href="https://core.telegram.org/bots/api#sending-files">文件大小限制</a>，如果选择Send Photo这个工作流，则执行失败的概率较高。所以，理论上用Send Document可以支持更大的文件；而直接发文字消息，把链接附上，是最稳定的做法。当然，完全可以在自定义代码里执行一段将图片压缩的操作，当然我没有亲自尝试过，而且这样操作很可能会过多消耗每天的计算时间额度，不推荐。</p>
+<p>注意：yande.re的一些图片体积<strong>非常大</strong>，根据上面提到的<a
+target="_blank" rel="noopener" href="https://core.telegram.org/bots/api#sending-files">文件大小限制</a>，如果选择Send
+Photo这个工作流，则执行失败的概率较高。所以，理论上用Send
+Document可以支持更大的文件；而直接发文字消息，把链接附上，是最稳定的做法。当然，完全可以在自定义代码里执行一段将图片压缩的操作，当然我没有亲自尝试过，而且这样操作很可能会过多消耗每天的计算时间额度，不推荐。</p>
 </blockquote>
-<h2 id="将多张媒体的推文转发到telegram的mediagroup"><a class="markdownIt-Anchor" href="#将多张媒体的推文转发到telegram的mediagroup"></a> 将多张媒体的推文转发到Telegram的MediaGroup</h2>
-<p>回头审视一开始的Twitter→Telegram工作流。有些推文里带了四张图，而Send Photo操作只能发一张图，难道没有更好一点的方法，把多图塞进一条消息里吗？</p>
-<p>当然有，那就是<code>Send an Album</code>，又称为<a target="_blank" rel="noopener" href="https://pipedream.com/apps/telegram-bot-api/actions/send-album">Media Group</a>，媒体组。 可以在Telegram的<a target="_blank" rel="noopener" href="https://core.telegram.org/bots/api#sendmediagroup">文档</a>找到这一功能的相关参数。</p>
+<h2
+id="将多张媒体的推文转发到telegram的mediagroup">将多张媒体的推文转发到Telegram的MediaGroup</h2>
+<p>回头审视一开始的Twitter→Telegram工作流。有些推文里带了四张图，而Send
+Photo操作只能发一张图，难道没有更好一点的方法，把多图塞进一条消息里吗？</p>
+<p>当然有，那就是<code>Send an Album</code>，又称为<a
+target="_blank" rel="noopener" href="https://pipedream.com/apps/telegram-bot-api/actions/send-album">Media
+Group</a>，媒体组。 可以在Telegram的<a
+target="_blank" rel="noopener" href="https://core.telegram.org/bots/api#sendmediagroup">文档</a>找到这一功能的相关参数。</p>
 <p>因此我需要将之前的工作流的最后一步改成<code>Send an Album</code>，随之而来的问题就是：媒体组的API输入参数要求是一段JSON数组，而我输入的推文的图片数量是不固定的（1张到4张，现在甚至可以视频图片混着发），肯定没法直接手动编辑这个数组，所以这里需要再次增加一段自定义代码来处理。</p>
-<p>为媒体组增加Caption参照了<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/58893142/how-to-send-telegram-mediagroup-with-caption-text">Stack Overflow上的一个问答</a>，原来只要在第一张图的位置加上caption和parse_mode就好。</p>
-<p>但是当我写完Python代码后，我发现这个工作流执行几乎每次都会在Python运行这一步出错，导致大量的自动转发失败，但是<strong>偶尔也会成功</strong>。报错内容主要是<code>read ECONNRESET</code>或<code>read ECONNREFUSED</code>. 相同思路的代码，代码内容也没有错误，在yande.re的工作流上就从来不会失败。令人百思不得其解，查了一堆资料，都说是服务器关闭了连接，但是我的Python代码仅仅是字符串拼接和构建数组而已，并没有任何网络请求。</p>
+<p>为媒体组增加Caption参照了<a
+target="_blank" rel="noopener" href="https://stackoverflow.com/questions/58893142/how-to-send-telegram-mediagroup-with-caption-text">Stack
+Overflow上的一个问答</a>，原来只要在第一张图的位置加上caption和parse_mode就好。</p>
+<p>但是当我写完Python代码后，我发现这个工作流执行几乎每次都会在Python运行这一步出错，导致大量的自动转发失败，但是<strong>偶尔也会成功</strong>。报错内容主要是<code>read ECONNRESET</code>或<code>read ECONNREFUSED</code>.
+相同思路的代码，代码内容也没有错误，在yande.re的工作流上就从来不会失败。令人百思不得其解，查了一堆资料，都说是服务器关闭了连接，但是我的Python代码仅仅是字符串拼接和构建数组而已，并没有任何网络请求。</p>
 <p>最终，在消耗了大量额度进行测试后，我猜测Pipedream上执行Python还不够稳定……</p>
 <p>而Pipedream对Node.js的支持好像更成熟，因此我随手替换为JavaScript代码。这回终于能100%成功执行了。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// To use previous step data, pass the `steps` object to the run() function</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="title function_">defineComponent</span>(&#123;</span><br><span class="line">    <span class="keyword">async</span> <span class="title function_">run</span>(<span class="params">&#123; steps, $ &#125;</span>) &#123;</span><br><span class="line">      <span class="comment">// Return data to use it in future steps</span></span><br><span class="line">      <span class="keyword">var</span> triggerEvent = steps.<span class="property">trigger</span>.<span class="property">event</span>;</span><br><span class="line">      <span class="keyword">var</span> userName = triggerEvent.<span class="property">user</span>.<span class="property">name</span>;</span><br><span class="line">      <span class="keyword">var</span> screenName = triggerEvent.<span class="property">user</span>.<span class="property">screen_name</span>;</span><br><span class="line">      <span class="keyword">var</span> fullText = triggerEvent.<span class="property">full_text</span>;</span><br><span class="line">      <span class="keyword">var</span> extMedias = triggerEvent.<span class="property">extended_entities</span>.<span class="property">media</span>;</span><br><span class="line">      <span class="keyword">var</span> sauceLink = triggerEvent.<span class="property">url</span>;</span><br><span class="line">      <span class="keyword">var</span> origUrls = [];</span><br><span class="line">      <span class="keyword">var</span> mediaGroup = [];</span><br><span class="line">      <span class="keyword">function</span> <span class="title function_">getVideo</span>(<span class="params">videoVariants</span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> maxRes = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">let</span> j = <span class="number">0</span>; j &lt; videoVariants.<span class="property">length</span>; j++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (videoVariants[j].<span class="property">bitrate</span> &gt;= maxRes) &#123;</span><br><span class="line">                <span class="keyword">var</span> targetUrl = videoVariants[j].<span class="property">url</span>;</span><br><span class="line">                maxRes = videoVariants[j].<span class="property">bitrate</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> targetUrl;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; extMedias.<span class="property">length</span>; i++) &#123;</span><br><span class="line">          <span class="keyword">var</span> mediaType = extMedias[i][<span class="string">&#x27;type&#x27;</span>];</span><br><span class="line">          <span class="keyword">switch</span> (mediaType) &#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&#x27;video&#x27;</span>:</span><br><span class="line">                origUrls[i] = <span class="title function_">getVideo</span>(extMedias[i].<span class="property">video_info</span>.<span class="property">variants</span>)</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&#x27;animated_gif&#x27;</span>:</span><br><span class="line">                origUrls[i] = <span class="title function_">getVideo</span>(extMedias[i].<span class="property">video_info</span>.<span class="property">variants</span>)</span><br><span class="line">                mediaType = <span class="string">&#x27;video&#x27;</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="attr">default</span>:</span><br><span class="line">                origUrls[i] = extMedias[i][<span class="string">&#x27;media_url_https&#x27;</span>]+<span class="string">&#x27;?name=orig&#x27;</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">          &#125;</span><br><span class="line">          mediaGroup[i] = &#123;</span><br><span class="line">              <span class="string">&quot;type&quot;</span>: mediaType,</span><br><span class="line">              <span class="string">&quot;media&quot;</span>: origUrls[i]</span><br><span class="line">          &#125;;</span><br><span class="line">      &#125;;</span><br><span class="line">      <span class="keyword">var</span> mediaCaption = <span class="string">&quot;&lt;b&gt;&quot;</span> + userName + <span class="string">&quot;&lt;/b&gt; ( #&quot;</span> + screenName + <span class="string">&quot; ) &quot;</span> + fullText + <span class="string">&quot;\n\n&lt;a href=&#x27;&quot;</span>+ sauceLink +<span class="string">&quot;&#x27;&gt;⚡Sauce&lt;/a&gt;&quot;</span> + <span class="string">&quot; | Load Original: &quot;</span>;</span><br><span class="line">      <span class="keyword">var</span> imgSerial = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; origUrls.<span class="property">length</span>; i++) &#123;</span><br><span class="line">          <span class="keyword">var</span> imgNum = (i+<span class="number">1</span>).<span class="title function_">toString</span>();</span><br><span class="line">          imgSerial = imgSerial + <span class="string">&quot;&lt;a href=&#x27;&quot;</span>+origUrls[i]+<span class="string">&quot;&#x27;&gt;▶Media_&quot;</span>+ imgNum +<span class="string">&quot;&lt;/a&gt; &quot;</span>;</span><br><span class="line">      &#125;;</span><br><span class="line">      mediaCaption += imgSerial;</span><br><span class="line">      mediaGroup[<span class="number">0</span>][<span class="string">&#x27;caption&#x27;</span>] = mediaCaption;</span><br><span class="line">      mediaGroup[<span class="number">0</span>][<span class="string">&#x27;parse_mode&#x27;</span>] = <span class="string">&quot;html&quot;</span>;</span><br><span class="line">      </span><br><span class="line">      <span class="keyword">return</span> &#123;<span class="string">&quot;mediaGroup&quot;</span>: mediaGroup&#125;;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;)</span><br></pre></td></tr></table></figure>
-<p>最终返回的album变量<code>&#123;&#123;steps.program.$return_value.mediaGroup&#125;&#125;</code>就是包含了图片和图注信息的JSON数组，可以直接送给<a target="_blank" rel="noopener" href="https://i.imgur.com/Vsjh6zA.png">下一步动作📷</a>。</p>
+<p>最终返回的album变量<code>&#123;&#123;steps.program.$return_value.mediaGroup&#125;&#125;</code>就是包含了图片和图注信息的JSON数组，可以直接送给<a
+target="_blank" rel="noopener" href="https://i.imgur.com/Vsjh6zA.png">下一步动作📷</a>。</p>
 <p>最终效果：</p>
 <script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="moe2eropic/1310" data-width="100%"></script>
-<h2 id="pipedream的配额限制"><a class="markdownIt-Anchor" href="#pipedream的配额限制"></a> Pipedream的配额限制</h2>
+<h2 id="pipedream的配额限制">Pipedream的配额限制</h2>
 <p>免费用户每个月可以调用10000次（每天333次），每天使用30分钟的计算时间额度。</p>
-<p>在帐户的<a target="_blank" rel="noopener" href="https://pipedream.com/settings/billing">账单界面</a>会显示当天的调用次数以及计算时间的<a target="_blank" rel="noopener" href="https://i.imgur.com/gpO7U7D.png">消耗量📷</a>。</p>
-<p>在每个工作流的设置界面里，可以<a target="_blank" rel="noopener" href="https://i.imgur.com/P96VrQr.png">人为调整📷</a>默认的执行频率和超时时间，以达到防止超过第三方API请求频率限制、节省计算调用预算或增加计算消耗的目的。</p>
+<p>在帐户的<a
+target="_blank" rel="noopener" href="https://pipedream.com/settings/billing">账单界面</a>会显示当天的调用次数以及计算时间的<a
+target="_blank" rel="noopener" href="https://i.imgur.com/gpO7U7D.png">消耗量📷</a>。</p>
+<p>在每个工作流的设置界面里，可以<a
+target="_blank" rel="noopener" href="https://i.imgur.com/P96VrQr.png">人为调整📷</a>默认的执行频率和超时时间，以达到防止超过第三方API请求频率限制、节省计算调用预算或增加计算消耗的目的。</p>
 <p>每天的额度会在UTC时间的0点重置，对于东八区来说还是挺友好的，毕竟在晚上提前把额度用完了，睡一觉醒来就正好重置。我在最初几天高频率操作，还是很容易被限额，今后只要正常操作的话，作为免费的开发者套餐，这样的额度还是够用的。</p>
 <p>如果不想被限额，官方提供了每月19美元的Pro套餐（几乎相当于一个Netflix的UHD大会员），每月99美元的团队套餐，以及自由定价的企业套餐。看了一下，如果有人有极为强烈的个人需求或者商业需求，可以考虑一下他家的套餐。也许是因为他家好像还不是很有名，以后要是用户变得更多了，后续的资费和服务会如何发生变化，我暂且持观望态度。</p>
 <p>因此我的建议依然是不付费，以及用其他的自动化工具分摊自己的自动化需求。</p>
-<h2 id="展望"><a class="markdownIt-Anchor" href="#展望"></a> 展望</h2>
+<h2 id="展望">展望</h2>
 <p>我构建的Twitter→Telegram转发的工作流还不算全自动化，因为每个事件都是我在Twitter上手动点赞触发的，当然，这是为了人为筛选图片质量，确保无关的图片不要混进来。</p>
 <p>理论上，全自动点赞收图机可以这么设置：</p>
 <ul>
@@ -379,7 +432,8 @@
 <li>动作：将想要的推文数据转发到Telegram</li>
 </ul>
 <p>其实思路和我当初用IFTTT一致，而Pipedream的优点在于这个过程可以高度自定义，执行步骤也多。</p>
-<p>或许有人觉得，这么点任务，搞个Telegram Bot配合Twitter API在服务器上运行就好了。</p>
+<p>或许有人觉得，这么点任务，搞个Telegram Bot配合Twitter
+API在服务器上运行就好了。</p>
 <p>但是这些现成的自动化工具的卖点正是无服务器，而且整合的应用接口越多，其所能做的任务就比一台服务器上自己辛苦配置的工具能做的要更丰富。因此这些工具还是有值得一试的价值的。未来也可以继续使用这类工具去自动捕捉我所关注的信息资源，趁着互联网还活着的时候，尝试一下也没有什么损失吧。</p>
 
     </div>
