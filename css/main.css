@@ -225,7 +225,7 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Alegreya Sans, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -238,7 +238,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Josefin Slab, Noto Serif SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Marcellus, Noto Serif SC, Alegreya Sans, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -726,7 +726,7 @@ pre figcaption a:hover {
 }
 pre,
 code {
-  font-family: Ubuntu Mono, Noto Sans SC, consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
+  font-family: JetBrains Mono, Noto Sans SC, consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
 }
 code {
   border-radius: 3px;
@@ -965,6 +965,10 @@ pre code {
   100% {
     transform: translate(1pt, -2pt) rotate(-1deg);
   }
+}
+.mermaid {
+  margin-bottom: 20px;
+  text-align: center;
 }
 .post-body .note {
   border-radius: 3px;
@@ -1408,7 +1412,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Josefin Sans, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Marcellus, Noto Serif SC, Alegreya Sans, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1550,7 +1554,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #1ce7d2;
+    background: #214fc2;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2165,7 +2169,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Josefin Sans, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Alegreya Sans, Noto Serif SC, Alegreya Sans, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2351,7 +2355,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Josefin Sans, Noto Sans SC, Josefin Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Alegreya Sans, Noto Serif SC, Alegreya Sans, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -3096,7 +3100,6 @@ header.header {
     color: var(--text-color);
     margin-top: 12px;
     max-height: calc(100vh - 24px);
-    visibility: hidden;
   }
   .site-state-item {
     padding: 0 10px;

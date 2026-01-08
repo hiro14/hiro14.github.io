@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
-
+<link rel="preconnect" href="https://fonts.loli.net" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-ema.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-ema.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-ema.ico">
@@ -13,12 +14,12 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-<link rel="stylesheet" href="https://fonts.loli.net/css?family=Josefin+Sans:300,300italic,400,400italic,700,700italic%7CNoto+Sans+SC:300,300italic,400,400italic,700,700italic%7CJosefin+Slab:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CUbuntu+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=Alegreya+Sans:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CMarcellus:300,300italic,400,400italic,700,700italic%7CJetBrains+Mono:300,300italic,400,400italic,700,700italic%7CNoto+Sans+SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.6.0/css/all.min.css" integrity="sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="これでいいんだよ。">
 <meta property="og:type" content="website">
@@ -54,7 +55,7 @@
 <link rel="alternate" href="/atom.xml" title="Nachtzug" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+<body itemscope itemtype="http://schema.org/WebPage">
   <div class="headband"></div>
 
   <main class="main">
@@ -277,9 +278,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如何画 Venn 图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读 venn 包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
-<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以 venn 图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差[^1]。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
-<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2>
+          <h2 id="前言">前言</h2>
+<p>如何画 Venn
+图（温氏图、维恩图、维恩图解、范氏图、韦恩图）是老生常谈了，但是对于初学者上手还是有一定门槛，熟读
+venn
+包的文档进行实操后觉得其实还是比较简单，实现了一下基础的功能，把实战过程记录在此。</p>
+<h2 id="需求">需求</h2>
+<p>我手里有几组研究相关的数据，分别来自八个不同的数据库，彼此有重叠的部分，想统计数据库之间重叠数据的量并以
+venn
+图的方式进行可视化。本来想直接扔八组数据作图的，上网查了n组数据作图的方案，发现可读性实在是太差<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。正好经过统计发现其中四组数据各自的量偏少，合起来倒是能和其他四组数据的量相当，于是干脆做了合并处理，就变成了传统的五组数据作图了。</p>
+<h2 id="准备">准备</h2>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2019/01/19/venn-diagram-with-R-venn-package/#more" rel="contents">
@@ -362,40 +370,27 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="记录2018"><a href="#记录2018" class="headerlink" title="记录2018"></a>记录2018</h2><ul>
-<li><p>看了几部2018年出品的动画 <code>27</code></p>
-</li>
-<li><p>看过几部新上映的真人电影 <code>7</code></p>
-</li>
-<li><p>新游戏 <code>3</code></p>
-</li>
-<li><p>记下了几场梦 <code>54</code></p>
-</li>
-<li><p>参加的婚礼 <code>1</code></p>
-</li>
-<li><p>拍过几部 vlog <code>3</code></p>
-</li>
-<li><p>写过的坑 <code>3</code></p>
-</li>
-<li><p>公开的坑 <code>1</code></p>
-</li>
-<li><p>完成的坑 <code>0</code></p>
-</li>
+          <h2 id="记录2018">记录2018</h2>
+<ul>
+<li><p>看了几部2018年出品的动画 <code>27</code></p></li>
+<li><p>看过几部新上映的真人电影 <code>7</code></p></li>
+<li><p>新游戏 <code>3</code></p></li>
+<li><p>记下了几场梦 <code>54</code></p></li>
+<li><p>参加的婚礼 <code>1</code></p></li>
+<li><p>拍过几部 vlog <code>3</code></p></li>
+<li><p>写过的坑 <code>3</code></p></li>
+<li><p>公开的坑 <code>1</code></p></li>
+<li><p>完成的坑 <code>0</code></p></li>
 </ul>
 <p>去年大概有以上这些内容值得纪念，具体就不展开了。</p>
-<h2 id="展望2019"><a href="#展望2019" class="headerlink" title="展望2019"></a>展望2019</h2><ul>
-<li><p>把坑填完</p>
-</li>
-<li><p>把白色相簿2剩下几条线推完</p>
-</li>
-<li><p>挣到很多钱</p>
-</li>
-<li><p>惯例的，希望早日实现不老不死不灭</p>
-</li>
-<li><p>顺便获得几种超能力就更好了</p>
-</li>
-<li><p>多学几门语言</p>
-</li>
+<h2 id="展望2019">展望2019</h2>
+<ul>
+<li><p>把坑填完</p></li>
+<li><p>把白色相簿2剩下几条线推完</p></li>
+<li><p>挣到很多钱</p></li>
+<li><p>惯例的，希望早日实现不老不死不灭</p></li>
+<li><p>顺便获得几种超能力就更好了</p></li>
+<li><p>多学几门语言</p></li>
 </ul>
           <!--noindex-->
             <div class="post-button">
@@ -566,9 +561,13 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h4 id="重返十七歲"><a href="#重返十七歲" class="headerlink" title="重返十七歲"></a>重返十七歲</h4><p>最近看了這部電影。設定和日本動畫“重返十七歲”（ReLIFE）類似，都是 <del>被坑吃了黑衣組織小藥丸</del> 變回十七歲的樣子去再上一遍高中。只不過日本動畫的劇情更嚴肅，人設也更青春，美國的高中那種浪勁兒我還是不適應。儘管講了個完整的故事，演員的顏值和演技也在線，魔戒梗更是讓人激動不已，最後也好好地告訴你人生道理，但是鑑於劇情結構有太多經不起推敲的部分，還是不推薦要求高的朋友去看了，閒時看一遍放鬆一下就好。</p>
-<h4 id="綠燈俠"><a href="#綠燈俠" class="headerlink" title="綠燈俠"></a>綠燈俠</h4><p>還看了這部電影。好失敗的起源故事，我很慶幸不是在死侍之前看這部電影，不然我可能痛苦好多年。至少看完之後好多天都難忘那抹鮮豔的綠色。前幾天華納祝賀瑞安·雷诺兹生日快樂的時候似乎還用了這部電影的圖？應該是高級黑。</p>
-<h4 id="無敵破壞王"><a href="#無敵破壞王" class="headerlink" title="無敵破壞王"></a>無敵破壞王</h4>
+          <h4 id="重返十七歲">重返十七歲</h4>
+<p>最近看了這部電影。設定和日本動畫“重返十七歲”（ReLIFE）類似，都是
+<del>被坑吃了黑衣組織小藥丸</del>
+變回十七歲的樣子去再上一遍高中。只不過日本動畫的劇情更嚴肅，人設也更青春，美國的高中那種浪勁兒我還是不適應。儘管講了個完整的故事，演員的顏值和演技也在線，魔戒梗更是讓人激動不已，最後也好好地告訴你人生道理，但是鑑於劇情結構有太多經不起推敲的部分，還是不推薦要求高的朋友去看了，閒時看一遍放鬆一下就好。</p>
+<h4 id="綠燈俠">綠燈俠</h4>
+<p>還看了這部電影。好失敗的起源故事，我很慶幸不是在死侍之前看這部電影，不然我可能痛苦好多年。至少看完之後好多天都難忘那抹鮮豔的綠色。前幾天華納祝賀瑞安·雷诺兹生日快樂的時候似乎還用了這部電影的圖？應該是高級黑。</p>
+<h4 id="無敵破壞王">無敵破壞王</h4>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2018/10/29/2018oct-zaji/#more" rel="contents">
@@ -652,12 +651,15 @@
     
     <div class="post-body" itemprop="articleBody">
           <blockquote>
-<p>去年十月写的文章，只发在学校内部，我觉得现在 mastodon 依然有可观的吸引力，是理想的社交平台之一，故发布出来。</p>
+<p>去年十月写的文章，只发在学校内部，我觉得现在 mastodon
+依然有可观的吸引力，是理想的社交平台之一，故发布出来。</p>
 </blockquote>
-<h3 id="什么是-mastodon？"><a href="#什么是-mastodon？" class="headerlink" title="什么是 mastodon？"></a>什么是 mastodon？</h3><blockquote>
+<h3 id="什么是-mastodon">什么是 mastodon？</h3>
+<blockquote>
 <p>Mastodon（乳齿象），世界最大的免费、开源、去中心化的微博客网络。</p>
 </blockquote>
-<h3 id="mastodon-有什么特点？"><a href="#mastodon-有什么特点？" class="headerlink" title="mastodon 有什么特点？"></a>mastodon 有什么特点？</h3><h4 id="贴近-Twitter-的体验"><a href="#贴近-Twitter-的体验" class="headerlink" title="贴近 Twitter 的体验"></a>贴近 Twitter 的体验</h4>
+<h3 id="mastodon-有什么特点">mastodon 有什么特点？</h3>
+<h4 id="贴近-twitter-的体验">贴近 Twitter 的体验</h4>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2018/08/16/an-old-intro-of-mastodon/#more" rel="contents">
@@ -814,14 +816,18 @@
 
   
   <script src="https://unpkg.com/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+  <script src="https://unpkg.com/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
 
   <script src="https://unpkg.com/hexo-generator-searchdb@1.4.1/dist/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
 
 
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://unpkg.com/mermaid@11.4.0/dist/mermaid.min.js","integrity":"sha256-G8ouPAnw4zzMbnAenHnVz6h9XpKbNdOkrqTh7AadyHs="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
 
 
+  <script src="/js/third-party/fancybox.js"></script>
 
 
 
@@ -832,7 +838,9 @@
 
   
 
-  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://unpkg.com/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://unpkg.com/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://unpkg.com/katex@0.16.9/dist/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js"></script>
 
 
 
