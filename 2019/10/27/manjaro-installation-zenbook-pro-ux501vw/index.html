@@ -20,12 +20,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nachtzug.xyz","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="准备工作   最新官方镜像 Manjaro - XFCE 18.1.1   轻松创建USB启动盘 Rufus   备份笔记本电脑的全部数据，格式化干烂机械硬盘并删除分区，重置 Windows    开始安装  插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述； 参照 官方用户指南 的 Dual-booting with Microsoft Windows 10 一节">
+    <meta name="description" content="准备工作 最新官方镜像 Manjaro - XFCE 18.1.1   轻松创建USB启动盘 Rufus  备份笔记本电脑的全部数据，格式化干烂机械硬盘并删除分区，重置 Windows   开始安装 插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述； 参照 官方用户指南 的 Dual-booting with Microsoft Windows 10 一节： 按步骤设">
 <meta property="og:type" content="article">
 <meta property="og:title" content="9012年在 ASUS ZenBook Pro UX501VW 上安装 manjaro">
 <meta property="og:url" content="https://nachtzug.xyz/2019/10/27/manjaro-installation-zenbook-pro-ux501vw/index.html">
 <meta property="og:site_name" content="Nachtzug">
-<meta property="og:description" content="准备工作   最新官方镜像 Manjaro - XFCE 18.1.1   轻松创建USB启动盘 Rufus   备份笔记本电脑的全部数据，格式化干烂机械硬盘并删除分区，重置 Windows    开始安装  插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述； 参照 官方用户指南 的 Dual-booting with Microsoft Windows 10 一节">
+<meta property="og:description" content="准备工作 最新官方镜像 Manjaro - XFCE 18.1.1   轻松创建USB启动盘 Rufus  备份笔记本电脑的全部数据，格式化干烂机械硬盘并删除分区，重置 Windows   开始安装 插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述； 参照 官方用户指南 的 Dual-booting with Microsoft Windows 10 一节： 按步骤设">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-10-26T21:27:25.000Z">
 <meta property="article:modified_time" content="2020-07-08T13:58:37.374Z">
@@ -141,7 +141,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text"> 准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text"> 开始安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%90%8E%E8%B0%83%E6%95%99"><span class="nav-number">3.</span> <span class="nav-text"> 安装后调教</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%BA%90"><span class="nav-number">3.1.</span> <span class="nav-text"> 设置软件源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E6%9C%AC%E5%9C%B0%E5%8C%96%E5%92%8C%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7"><span class="nav-number">3.2.</span> <span class="nav-text"> 安装本地化和基础工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%90%E5%8D%87%E6%80%A7%E8%83%BD"><span class="nav-number">3.3.</span> <span class="nav-text"> 提升(?)性能</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="nav-number">4.</span> <span class="nav-text"> 后记</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">开始安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%90%8E%E8%B0%83%E6%95%99"><span class="nav-number">3.</span> <span class="nav-text">安装后调教</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%BA%90"><span class="nav-number">3.1.</span> <span class="nav-text">设置软件源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E6%9C%AC%E5%9C%B0%E5%8C%96%E5%92%8C%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7"><span class="nav-number">3.2.</span> <span class="nav-text">安装本地化和基础工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%90%E5%8D%87-%E6%80%A7%E8%83%BD"><span class="nav-number">3.3.</span> <span class="nav-text">提升(?)性能</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="nav-number">4.</span> <span class="nav-text">后记</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -156,12 +156,12 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">37</span>
+          <span class="site-state-item-count">26</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">17</span>
+        <span class="site-state-item-count">15</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -280,26 +280,19 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="准备工作"><a class="markdownIt-Anchor" href="#准备工作"></a> 准备工作</h2>
-<ul>
-<li>
-<p>最新官方镜像 <a target="_blank" rel="noopener" href="https://manjaro.org/download/official/xfce/">Manjaro - XFCE 18.1.1</a></p>
+    <div class="post-body" itemprop="articleBody"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
+<li><p>最新官方镜像 <a target="_blank" rel="noopener" href="https://manjaro.org/download/official/xfce/">Manjaro - XFCE 18.1.1</a> </p>
 </li>
-<li>
-<p>轻松创建USB启动盘 <a target="_blank" rel="noopener" href="https://rufus.ie/">Rufus</a></p>
+<li><p>轻松创建USB启动盘 <a target="_blank" rel="noopener" href="https://rufus.ie/">Rufus</a></p>
 </li>
-<li>
-<p>备份笔记本电脑的全部数据，格式化<s>干烂</s>机械硬盘并删除分区，重置 Windows</p>
+<li><p>备份笔记本电脑的全部数据，格式化<del>干烂</del>机械硬盘并删除分区，重置 Windows</p>
 </li>
 </ul>
-<h2 id="开始安装"><a class="markdownIt-Anchor" href="#开始安装"></a> 开始安装</h2>
-<ul>
+<h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><ul>
 <li>插上 USB 启动盘，开机 F2 进入 BIOS 设置各种启动选项，不在此赘述；</li>
-<li>参照 <a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/Manjaro-User-Guide.pdf">官方用户指南</a> 的 <em>Dual-booting with Microsoft Windows 10</em> 一节：
-<ul>
+<li>参照 <a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/Manjaro-User-Guide.pdf">官方用户指南</a> 的 <em>Dual-booting with Microsoft Windows 10</em> 一节：<ul>
 <li>按步骤设置语言、时区、区域、键盘布局；</li>
-<li>直至分区方式步骤，参照 <em>Erase the disk and let Calamares choose a partition scheme</em> 小节：
-<ul>
+<li>直至分区方式步骤，参照 <em>Erase the disk and let Calamares choose a partition scheme</em> 小节：<ul>
 <li>选择 Erase disk.  把系统装进128GB SSD, 设置 swap with hibernation;</li>
 </ul>
 </li>
@@ -311,49 +304,60 @@
 </ul>
 <p>安装期间查看 <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Hybrid_graphics">混合图形技术</a>，并从中查阅所有与 NVIDIA 有关的文章，并决定采用哪种方案；</p>
 <p>综合考虑后我选择 <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Nvidia-xrun">nvidia-xrun</a>. （后来发现其实最迟在17年以后就可以不用 nvidia-xrun 实现同样功能）</p>
-<h2 id="安装后调教"><a class="markdownIt-Anchor" href="#安装后调教"></a> 安装后调教</h2>
-<h3 id="设置软件源"><a class="markdownIt-Anchor" href="#设置软件源"></a> 设置软件源</h3>
-<p>在终端中</p>
+<h2 id="安装后调教"><a href="#安装后调教" class="headerlink" title="安装后调教"></a>安装后调教</h2><h3 id="设置软件源"><a href="#设置软件源" class="headerlink" title="设置软件源"></a>设置软件源</h3><p>在终端中</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman-mirrors -c China -m rank</span><br><span class="line"><span class="built_in">sudo</span> vi /etc/pacman.conf</span><br></pre></td></tr></table></figure>
+
 <p>在上述 <code>/etc/pacman.conf</code> 文件最后增加 archlinuxcn 源，并保存：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[archlinuxcn]</span><br><span class="line">SigLevel = Optional TrustedOnly</span><br><span class="line">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br></pre></td></tr></table></figure>
+
 <p>继续在终端中</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Syyu</span><br><span class="line"><span class="built_in">sudo</span> pacman -Sy archlinuxcn-keyring</span><br><span class="line"><span class="built_in">sudo</span> pacman -S yay</span><br><span class="line">yay --aururl <span class="string">&quot;https://aur.tuna.tsinghua.edu.cn&quot;</span> --save</span><br></pre></td></tr></table></figure>
-<h3 id="安装本地化和基础工具"><a class="markdownIt-Anchor" href="#安装本地化和基础工具"></a> 安装本地化和基础工具</h3>
-<p>可以且必要但不是全部：</p>
+
+<h3 id="安装本地化和基础工具"><a href="#安装本地化和基础工具" class="headerlink" title="安装本地化和基础工具"></a>安装本地化和基础工具</h3><p>可以且必要但不是全部：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S vim</span><br><span class="line"><span class="built_in">sudo</span> pacman -S fcitx-im fcitx-configtool fcitx-skin-material fcitx-rime fcitx-mozc fcitx-googlepinyin</span><br><span class="line"><span class="built_in">sudo</span> pacman -S wqy-zenhei wqy-bitmapfont wqy-microhei ttf-wps-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts</span><br><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>&quot;</span> <span class="comment">#manjaro 自带 zsh, 所以直接装 oh-my-zsh</span></span><br><span class="line">yay -S powerline-fonts-git <span class="comment">#安装 powerline 字体</span></span><br><span class="line">vim ~/.zshrc <span class="comment">#修改主题和配置</span></span><br></pre></td></tr></table></figure>
-<h3 id="提升性能"><a class="markdownIt-Anchor" href="#提升性能"></a> 提升(?)性能</h3>
-<p>修理一下 <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501">这台机器</a> 容易出现的问题，首先遇见的是挂起后再开机会导致耳机爆音：</p>
+
+<h3 id="提升-性能"><a href="#提升-性能" class="headerlink" title="提升(?)性能"></a>提升(?)性能</h3><p>修理一下 <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501">这台机器</a> 容易出现的问题，首先遇见的是挂起后再开机会导致耳机爆音：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/modprobe.d/alsa-base.conf <span class="comment">#创建文件</span></span><br></pre></td></tr></table></figure>
+
 <p>在上述 <code>/etc/modprobe.d/alsa-base.conf</code> 中填入 <code>options snd-hda-intel model=dell-headset-multi</code></p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> Programs <span class="comment">#随便新建个文件夹放软件，针对有整理癖的用户</span></span><br><span class="line"><span class="built_in">cd</span> Programs</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/dakatapetrov/zenbook-pro-ux501vw-sound-fix.git <span class="comment">#dakatapetrov 制作的修复工具</span></span><br><span class="line"><span class="built_in">cd</span> zenbook-pro-ux501vw-sound-fix/</span><br><span class="line">./install.sh </span><br></pre></td></tr></table></figure>
+
 <p>要为英特尔显卡启用节能功能，创建 <code>/etc/modprobe.d/i915.conf</code> 文件并包含以下内容:</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">options i915 enable_rc6=1 enable_fbc=1 lvds_downclock=1 semaphores=1</span><br></pre></td></tr></table></figure>
+
 <p>然而我并不知道如何检查效果，据说甚至会导致屏幕冻结，尽管我还没碰到过这种情况。</p>
 <p><strong>警告：经过两天测试，我认为下面的方案存在不小的问题，或者性能表现不佳，可能完全是错误的，请勿模仿</strong></p>
 <p>接下来要解决的就是N卡切换问题，参照 <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Nvidia-xrun_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">nvidia-xrun</a>：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">uname</span> -r <span class="comment">#检查内核版本</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S nvidia bbswitch <span class="comment">#在接下来的对话中我选择对应内核版本的最新驱动</span></span><br><span class="line">yay -S nvidia-xrun <span class="comment">#也有其他版本可以选，我最终选了 nvidia-xrun-git</span></span><br><span class="line">lspci | grep -i nvidia | awk <span class="string">&#x27;&#123;print $1&#125;&#x27;</span> <span class="comment">#确认返回值，是不是1:0:0</span></span><br><span class="line"><span class="built_in">sudo</span> vim /etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</span><br></pre></td></tr></table></figure>
+
 <p>在上述 <code>/etc/X11/nvidia-xorg.conf.d/30-nvidia.conf</code> 文件中写入</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Section <span class="string">&quot;Device&quot;</span></span><br><span class="line">    Identifier <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    Driver <span class="string">&quot;nvidia&quot;</span></span><br><span class="line">    BusID <span class="string">&quot;PCI:1:0:0&quot;</span> <span class="comment">#对应此处1:0:0</span></span><br><span class="line">EndSection</span><br></pre></td></tr></table></figure>
+
 <p>然后</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Rdd nvidia-utils <span class="comment">#然而这一步在我的电脑没有实际效果，因为 nvidia-utils 并未安装</span></span><br><span class="line">vim ~/.nvidia-xinitrc</span><br></pre></td></tr></table></figure>
+
 <p>在上述 <code>~/.nvidia-xinitrc</code> 文件中写入</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> -gt 0 ]; <span class="keyword">then</span></span><br><span class="line">  $*</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">  <span class="comment"># openbox-session</span></span><br><span class="line">  <span class="comment"># Alternatively, you can also use xfce4:</span></span><br><span class="line">  xfce4-session <span class="comment">#第一次我可能在这里忘记修改注释的位置，使用了 openbox-session, 重启电脑后只显示 ASUS logo, 风扇狂转，无法进入系统</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+
 <p>然后</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> -i</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;bbswitch &#x27;</span> &gt; /etc/modules-load.d/bbswitch.conf <span class="comment">#在启动时载入 bbswitch 模块</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;options bbswitch load_state=0 unload_state=1&#x27;</span> &gt; /etc/modprobe.d/bbswitch.conf <span class="comment">#在启动时关闭 nvidia 模块</span></span><br><span class="line">vim /usr/lib/modprobe.d/nvidia-xrun.conf <span class="comment">#将 nvidia 相关模块加入黑名单</span></span><br></pre></td></tr></table></figure>
+
 <p>第一次，我参照 <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Nvidia-xrun">英文版</a> 在上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code> 文件中写入</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#似乎有问题</span></span><br><span class="line">blacklist nvidia</span><br><span class="line">blacklist nvidia-drm</span><br><span class="line">blacklist nvidia-modeset</span><br><span class="line">blacklist nvidia-uvm</span><br><span class="line">blacklist nouveau</span><br></pre></td></tr></table></figure>
+
 <p>然后重启了，就有了上面所说的重启电脑后只有 ASUS logo, 风扇狂转的情形。由于无暇确认是 <code>~/.nvidia-xinitrc</code> 有问题，还是 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code> 有问题，只好插上 USB 启动盘重新进入 LiveCD, 挂载系统后用 LiveCD 的命令行还原上述魔改。</p>
 <p>实际上第二次我采用了另一种方法，与之前相比区别在于完成对 <code>/etc/modprobe.d/bbswitch.conf</code> 的写入之后，实行以下操作：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">lsmod | grep nvidia | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt; /tmp/nvidia</span><br><span class="line">lsmod | grep  nouveau | <span class="built_in">cut</span> -d <span class="string">&#x27; &#x27;</span> -f 1 &gt;&gt; /tmp/nvidia</span><br><span class="line"><span class="built_in">sort</span> -n /tmp/nvidia | <span class="built_in">uniq</span> &gt;  /tmp/nvidia.conf <span class="comment">#去重</span></span><br><span class="line">sed -i <span class="string">&#x27;s/^\w*$/blacklist &amp;/g&#x27;</span> /tmp/nvidia.conf  <span class="comment">#添加blacklist</span></span><br><span class="line"><span class="built_in">cp</span> /tmp/nvidia.conf /etc/modprobe.d/nvidia.conf  <span class="comment">#移动</span></span><br><span class="line"><span class="comment">#👆实际我的操作是 cp /tmp/nvidia.conf /usr/lib/modprobe.d/nvidia-xrun.conf 应该没区别</span></span><br><span class="line"><span class="built_in">cat</span> /proc/acpi/bbswitch <span class="comment">#重启系统后运行该命令检查结果 0000:01:00.0 ON 说明开启成功</span></span><br></pre></td></tr></table></figure>
+
 <p>而上述 <code>/usr/lib/modprobe.d/nvidia-xrun.conf</code> 黑名单的内容变成了：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">blacklist agpgart</span><br><span class="line">blacklist drm</span><br><span class="line">blacklist drm_kms_helper</span><br><span class="line">blacklist i2c_algo_bit</span><br><span class="line">blacklist mxm_wmi</span><br><span class="line">blacklist nouveau</span><br><span class="line">blacklist ttm</span><br><span class="line">blacklist wmi</span><br></pre></td></tr></table></figure>
+
 <p><strong>虽然不知道为什么，反正重启之后是正常了。</strong></p>
 <p>到此为止，就基本解决了安装问题。网上提到的有些操作也没有全部做完，对我来说够用就行，接下来就是慢慢装常用软件了。不过，最后重启几次发现键盘背光突然失效，明明一开始都是好的。不过不要紧， <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/ASUS_N550JV#Keyboard">N550JV 的介绍</a> 里有提到键盘背光的修复方法，首先安装 <code>asus-kbd-backlight</code>, 然后在内核模块 <code>/etc/modules-load.d/modules.conf</code> 中添加 <code>asus-nb-wmi</code>, 然后让 <code>asus-kbd-backlight.service</code> 服务开机启动：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yay -S asus-kbd-backlight</span><br><span class="line"><span class="built_in">sudo</span> vim /etc/modules-load.d/modules.conf <span class="comment">#添加 asus-nb-wmi</span></span><br><span class="line">systemctl <span class="built_in">enable</span> --now asus-kbd-backlight.service</span><br></pre></td></tr></table></figure>
+
 <p>至此完工。</p>
-<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
-<p>重新回到 Manjaro 怀抱。</p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>重新回到 Manjaro 怀抱。</p>
 <p>上一台 Manjaro 笔记本是大二时就从我爸那里薅来的昭阳K47A，经历过 Win7, Ubuntu, Win10, Chromium OS, CentOS, Feroda, Manjaro 是我用它折腾的最后一个操作系统，当时无脑装了 GNOME 版本，也没怎么关注显卡，直接用的开源驱动，即使换了新电池，续航还是一般，硬盘也没换成 SSD, 运行效果并不堪用，只能对付轻量的工作。由于各种原因不得不把机器还给我爸了。</p>
 <p>昨天在自己的<strong>曾经的</strong>出差主力笔记本 UX501VW 上安装 Manjaro 之前，我一直在物色下一台适合出差的<strong>便携</strong>笔记本，同时要满足<strong>良好支持 Linux 发行版</strong>的要求。这么一来市面上有售的品牌新机中，能选的范围就比较少了，然而我穷，看了也是白看。</p>
 <p>即使我最近又清理了自己的数字订阅，再次把信用卡月开支削减到合适的程度，我还是不能下决心去买新的败家玩意儿。</p>
@@ -417,8 +421,8 @@
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2019/11/11/painting-or-cat-dilemma/" rel="next" title="救世界名画还是救猫？">
-                  救世界名画还是救猫？ <i class="fa fa-angle-right"></i>
+                <a href="/2019/12/29/fuck-2019/" rel="next" title="去你妈的2019">
+                  去你妈的2019 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -439,7 +443,7 @@
 
   <div class="copyright">
     &copy; 2016 – 
-    <span itemprop="copyrightYear">2025</span>
+    <span itemprop="copyrightYear">2026</span>
     <span class="with-love">
       <i class="fa fa-pizza-slice"></i>
     </span>
